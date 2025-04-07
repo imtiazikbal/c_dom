@@ -1,0 +1,196 @@
+.Register{
+    background: #894BCA;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RegisterForm{
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.RegisterFormLogo{
+    height: 80px;
+}
+
+.RegisterForm .text {
+    margin-top: 10px;
+}
+
+.RegisterForm .text h3{
+    font-size: 32px;
+    line-height: 45px;
+    color: var(--text_color);
+    font-weight: 600;
+}
+
+.RegisterForm .text p {
+    margin: 0 auto;
+    margin-top: 5px;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 70%;
+}
+
+.CustomerInput{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.CustomerInput label{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #6f6f6f;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.CustomerInputField{
+    width: 100% !important;
+    background: #F5F5F5 !important;
+    padding: 12px 20px !important;
+    border-radius: 10px !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.CustomerInputButton{
+    width: 100%;
+    background: #894BCA;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    transition: all linear .2s;
+    border: none !important;
+}
+.CustomerInputButton:hover {
+    background: #fb8c00 !important;
+    color: #fff;
+}
+
+
+.CustomerInputPara{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.CustomerInputLink{
+    font-weight: 600 !important;
+    color: #894BCA;
+}
+
+.CustomerInput p a:hover{
+    color: #fb8c00;
+}
+
+
+/* width */
+
+.Register ::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.Register ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* Handle */
+.Register ::-webkit-scrollbar-thumb {
+    background: #fb8c00;
+}
+
+/* Handle on hover */
+.Register ::-webkit-scrollbar-thumb:hover {
+    background: #fb8c00;
+}
+
+
+.ValidationError {
+    border: 2px solid #894BCA!important;
+}
+.ValidationErrorLabel {
+    color: #894BCA !important;
+}
+
+
+@media (max-width: 1440px) {
+
+    .RegisterForm .Overflow {
+        max-height: 580px;
+        width: 550px;
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .RegisterForm .Overflow {
+        max-height: 450px;
+        width: 550px;
+    }
+
+    .RegisterForm{
+        padding: 20px 30px;
+        padding-top: 15px;
+    }
+
+    .RegisterFormLogo {
+        height: 70px;
+    }
+
+    .CustomerInputButton {
+        padding: 6px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+}
+
+@media (max-width: 767.9px) {
+
+    .RegisterForm .Overflow {
+        max-height: 450px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .RegisterForm {
+        padding: 20px;
+        padding-right: 15px;
+        padding-top: 15px;
+        margin: 0 20px;
+    }
+
+    .RegisterForm h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .RegisterForm p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 5px;
+    }
+
+    
+
+}

@@ -1,0 +1,568 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__37 {
+  --bg-color: #2a3a8a;
+  --bg-color2: #d9edf4;
+  --text-color: #590707;
+  --text-color2: #2a3a8a;
+  --white-color: #fff;
+  --yellow-color: #ffc300;
+  overflow-x: hidden;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+.Landing__37 h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--white-color);
+  border-radius: 32px 0px;
+  padding: 24px;
+}
+
+.Landing__37 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.Landing__37 p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--header-color);
+}
+
+.Landing__37 :where(.Order, .Price) a,
+.Landing__37 :where(.Order, .Price) button {
+  background: linear-gradient(to right, #f2d468 0%, #f2d468 51%, #e0bd3e 100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  padding: 15px 40px;
+  font-weight: 700;
+  display: inline-block;
+  width: auto;
+  margin-top: 30px;
+  border: 3px solid #f2441d;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 6px solid #f82d6f;
+}
+
+.Landing__37 :where(.Order, .Price) a:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Landing__37 :where(.Order, .Price) img {
+  height: 34px;
+  padding: 0px 10px;
+}
+
+.Landing__37 .Price button {
+  font-size: 35px;
+  line-height: 55px;
+  border-radius: 16px 0px;
+}
+
+.Landing__37 .Section__Gaps {
+  margin-top: 80px;
+}
+
+/* ============================================================
+Start Landing__35__Banner
+==============================================================*/
+
+.Landing__37__Banner {
+  padding: 15px 0px 60px 0px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg-color2);
+}
+
+.Landing__37__Menubar {
+  text-align: center;
+}
+
+.Landing__37__Banner__logo {
+  max-height: 80px;
+}
+
+.Landing__37__Banner__Text {
+  text-align: center;
+}
+
+.Landing__37__Banner__Text h4 {
+  color: #0f1113;
+  padding: 20px 0%;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  background-color: #f2d468;
+  font-weight: 600;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.Landing__37__Banner__ImgMain {
+  max-height: 671px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.Landing__37__ImgDiv {
+  padding: 27px;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0px -1px 24px 0px #1e85d6;
+  margin: 60px 0px;
+}
+
+.Landing__37__Banner__Texth1 {
+  background-color: var(--bg-color);
+  margin-top: 15px;
+  text-align: center;
+}
+
+.Landing__37__Banner__PriceDiv {
+  border-radius: 16px;
+  padding: 46px;
+  border: 3px solid #2a3a8a;
+  display: inline-block;
+}
+
+.Landing__37__Banner__PriceDiv h5 {
+  color: #f82d6f;
+  text-align: center;
+  text-decoration: line-through;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.Landing__37__Banner__PriceDiv h6 {
+  color: #2a3a8a;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* ============================================================
+ Card
+==============================================================*/
+
+.Landing__37__Cardh2__div {
+  display: flex;
+  border-radius: 24px;
+  background-color: #2a3a8a;
+  box-shadow: 0px -1px 24px 0px #1e85d6;
+  padding: 50px;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+.Landing__37__Cardh2__div img {
+  padding: 0px 10px;
+  max-height: 40px;
+}
+
+.Landing__37__CardMain {
+  padding: 50px 70px;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0px -1px 24px 0px #1e85d6;
+  margin-bottom: 40px;
+}
+
+.Landing__37__CardMain img {
+  max-height: 392px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.Landing__37__CardMain h4 {
+  color: #2a3a8a;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.Landing__37__Hr {
+  border-bottom: 1px dashed #2a3a8a;
+  margin-bottom: 35px;
+}
+
+.Landing__37__CardMain h5 {
+  color: #0f1537;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.Landing__37__CardMain ul li p {
+  color: #7a7a7a;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.Landing__37 .order_center {
+  text-align: center;
+}
+
+/* =========================Video========================== */
+
+.Landing__37__Video_Sec {
+  padding: 60px 0px;
+  background-color: var(--bg-color);
+}
+
+.Landing__37__VideoH2 h4 {
+  color: #e8a878;
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.Landing__37__Video {
+  padding: 40px;
+  background-color: var(--white-color);
+}
+
+/* =========================Why Buy========================== */
+
+.Landing__37__Whybuy_Sec {
+  padding: 80px 0px;
+  background: linear-gradient(180deg, #ffe1ca 0%, rgba(255, 225, 202, 0) 100%);
+}
+
+.Landing__37__UlDiv {
+  background-color: var(--white-color);
+  border-radius: 16px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Landing__37__UlDiv ul li {
+  border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  padding: 30px;
+}
+
+.Landing__37__UlDiv ul li:last-child {
+  border-bottom: none;
+}
+
+.Landing__37__UlDiv ul li img {
+  margin-left: 43px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  height: 33px;
+}
+
+.Landing__37__UlDiv ul li p {
+  color: #2a3a8a;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.Landing__37__UlDiv {
+  background-color: var(--white-color);
+}
+
+/* =======================Offer======================= */
+
+.Landing__37__OffferMain {
+  text-align: center;
+}
+
+.Landing__37__Offfer {
+  padding: 45px 248px;
+  display: inline-block;
+  border-radius: 16px;
+  border: 6px solid #2a3a8a;
+  background-color: #f2f4ff;
+  margin: auto;
+}
+
+.Landing__37__Offfer h4 {
+  color: #2a3a8a;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+}
+.Landing__37__Offfer h5 {
+  color: #f82d6f;
+  font-size: 41px;
+  line-height: 55px;
+  font-weight: 700;
+  padding: 12px 0px;
+}
+
+.Landing__37__Offfer h6 {
+  color: #0f1537;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+/* ======================== nattural================== */
+
+.Landing__37__Natural {
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0px -1px 24px 0px #1e85d6;
+  padding-bottom: 100px;
+}
+
+.Landing__37__Natural__txtDiv {
+  margin-top: 70px;
+  text-align: center;
+}
+.Landing__37__Natural__txtDiv ul li p {
+  border-radius: 16px;
+  color: #2a3a8a;
+  background-color: #fdfdfd;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  display: inline-block;
+  padding: 15px 50px;
+}
+
+.Landing__37__OrderPosition {
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
+
+.Landing__37__Cardh2__div2 {
+  margin-bottom: 0px;
+}
+
+#CustomerReviewContent h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #000;
+}
+
+.Landing__37 #OrderConfirmRight button {
+  background-color: #f2d335;
+  border: 6px solid #f82d6f;
+}
+
+@media (max-width: 1399.99px) {
+  .Landing__37 h1 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .Landing__37 h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .Landing__37__CardMain h4 {
+    color: #2a3a8a;
+    font-size: 30px;
+  }
+
+  .Landing__37__CardMain h5 {
+    color: #0f1537;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .Landing__37 :where(.Order, .Price) a,
+  .Landing__37 :where(.Order, .Price) button {
+    font-size: 22px;
+    padding: 10px 32px;
+  }
+
+  .Landing__37__Offfer {
+    padding: 45px 8px;
+  }
+
+  .Landing__37__Cardh2__div {
+    padding: 30px;
+  }
+
+  .Landing__37__Natural__txtDiv ul li p {
+    border-radius: 16px;
+    padding: 15px 10px;
+  }
+
+  .Landing__37__Natural__txtDiv {
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+  }
+  .Landing__37__Cardh2__div {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 667px) {
+  .Landing__37 h1 {
+    font-size: 24px;
+    line-height: 34px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .Landing__37__Banner__logo {
+    max-height: 60px;
+  }
+  .Landing__37__Banner__Text h4 {
+    padding: 12px 0%;
+    font-size: 18px;
+  }
+
+  .Landing__37__ImgDiv {
+    padding: 14px;
+  }
+
+  .Landing__37__Banner__PriceDiv {
+    padding: 20px 15px;
+  }
+  .Landing__37 :where(.Order, .Price) a,
+  .Landing__37 :where(.Order, .Price) button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .Landing__37 :where(.Order, .Price) img {
+    height: 24px;
+  }
+
+  .Landing__37__Cardh2__div img {
+    padding: 0px 5px;
+    max-height: 25px;
+  }
+
+  .Landing__37 h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .Landing__37__CardMain {
+    padding: 30px 20px;
+  }
+
+  .Landing__37__CardMain h4 {
+    color: #2a3a8a;
+    font-size: 22px;
+  }
+
+  .Landing__37__CardMain h5 {
+    color: #0f1537;
+    font-size: 22px;
+  }
+  .Landing__37__CardMain ul li p {
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+
+  .Landing__37__VideoH2 h4 {
+    font-size: 22px;
+  }
+  .Landing__37__Video {
+    padding: 15px;
+  }
+
+  .Landing__37__UlDiv ul li p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .Landing__37__UlDiv ul li {
+    padding: 10px;
+  }
+
+  .Landing__37__UlDiv ul li img {
+    margin-left: 5px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .Landing__37__Offfer h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .Landing__37__Offfer h5 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .Landing__37__Banner__PriceDiv h5 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .Landing__37__Banner__PriceDiv h6 {
+    font-size: 24px;
+  }
+
+  .Landing__37 .Section__Gaps {
+    margin-top: 50px;
+  }
+  .Landing__37__Cardh2__div {
+    padding: 20px 15px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  .Landing__37__CardMain img {
+    max-height: unset;
+    margin-bottom: 30px;
+  }
+  .Landing__37__CardMain h4 {
+    margin-bottom: 15px;
+  }
+  .Landing__37__Hr {
+    margin-bottom: 25px;
+  }
+  .Landing__37__CardMain h5 {
+    margin-bottom: 15px;
+  }
+  .Landing__37__CardMain ul li p {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .Landing__37__Video_Sec {
+    padding: 30px 0px;
+  }
+  .Landing__37__UlDiv ul li p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .Landing__37__Offfer {
+    padding: 20px 15px;
+  }
+  .Landing__37 :where(.Order, .Price) a,
+  .Landing__37 :where(.Order, .Price) button {
+    margin-top: 20px;
+  }
+  .Landing__37__OrderPosition a {
+    margin-top: 40px;
+  }
+  .Landing__37__Natural__txtDiv {
+    margin-top: 30px;
+  }
+  .Landing__37__Natural__txtDiv ul li p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .Landing__37__Natural {
+    padding-bottom: 40px;
+  }
+}

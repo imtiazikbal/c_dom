@@ -1,0 +1,1903 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandiTwelve {
+    --header_color: #080422;
+    --bg_color1: #6001D3;
+    --bg_color2: #FCDC00;
+    --bg_color3: #FD346E;
+    --white_color: #fff;
+  }
+  
+  .container{
+      max-width: 100%;
+      padding: 0 150px;
+  }
+  
+  .LandingTwelve{
+      font-family: 'Noto Sans Bengali', sans-serif !important;
+  }
+  
+  .LandingTwelve h2{
+      font-size: 48px;
+      line-height: 50px;
+      color: var(--header_color);
+      font-weight: 700;
+      text-align: center;
+  }
+  
+  .LandingTwelve h3{
+      font-size: 24px;
+      line-height: 35px;
+      color: var(--header_color);
+      font-weight: 600;
+  }
+  
+  .LandingTwelve p{
+      color: var(--text_color);
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-top: 15px;
+  }
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .LandingTwelve .bg {
+      transition: 0.5s;
+      display: block;
+      font-size: 32px;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+  .LandingTwelve a.bg{
+      /* margin-top: 30px; */
+      padding: 24px 48px;
+      color: var(--white_color); 
+      background-image: linear-gradient(to right, #fb6801 0%, #FFBF0B 51%, #fb6801 100%);
+      background-size: 180% auto;
+      border-radius: 10px;
+      display: inline-block;
+      color: #172D4C;
+  }
+
+  .LandingTwelve a svg{
+      font-size: 32px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #172D4C;
+  }
+  
+  .LandingTwelve a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+  }
+   
+  .LandingTwelve .section_gaps{
+      margin-top: 100px;
+  }
+  .LandingTwelve{
+      list-style-type: none;
+  }
+  
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART 1
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .BannerCon{
+    padding: 0;
+  }
+
+  .Banner{
+    background: url('../../public/images/landing_12/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.BannerTxtBox h1{
+    font-size: 46px;
+    line-height: 63px;
+    color:#E1E1DF;
+    margin-top: 55px;
+    margin-bottom: 65px;
+    font-weight: 700;
+}
+
+.ColorCng{
+     color:#FFBF0B;
+}
+
+.BannerpadBtm{
+    padding-bottom: 90px;
+}
+
+/* Col--------------------------2--- */
+.vertmove {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.vertmove {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+/* errrow Img animation */
+
+.ErrowImg{
+  -webkit-animation: mover2 1s infinite  alternate;
+  animation: mover2 1s infinite  alternate;
+}
+.ErrowImg {
+  -webkit-animation: mover2 1s infinite  alternate;
+  animation: mover2 1s infinite  alternate;
+}
+@-webkit-keyframes mover2 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-10px); }
+}
+@keyframes mover2 {
+  0% { transform: translateX(0); }
+  50%{opacity: .2;}
+  100% { transform: translateX(-10px); }
+}
+
+
+
+
+.LogoSD{
+  display: none;
+}
+
+.BannerDiv{
+    margin-top: 110px;
+}
+.BannerDiv img{
+    width:155%;
+    margin-left: -45%; 
+}
+
+.ErrowImg{
+ 
+    margin-left: 30px;
+}
+
+.BannerTxtBox2{
+    padding-top: 8px;
+    position: relative;
+    top:0;
+    left: 0;
+}
+
+.BannerRelBox{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.BannerAbsBox{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART ----2
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  
+
+  .Banner2Relative{
+    position: relative;
+    top:0;
+    left:0;
+  }
+  .Banner2Abs1{
+    position: absolute;
+    top:0;
+    left:0;
+  }
+
+  .Banner2Abs2{
+   position: absolute;
+    top:0;
+    right:0;
+  }
+
+  .Banner2MainDiv{
+    padding: 10%;
+    background:#E9F9DB ;
+  }
+
+  .Banner2Relative{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    float: right;
+  }
+ 
+
+
+  .Banner2ImgAbs{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+
+  }
+ .Banner2ImgAbs1 img{
+    margin-top: -28%;
+    width: 100%;
+   text-align: center;
+  }
+  
+  .Banner2ImgAbs2{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: -52%;
+    padding-left: 17%;
+    padding-right: 17%;
+    
+  }
+ 
+  .Banner2ImgAbs2 img{
+    width: 100%;
+   
+  }
+
+  .Banner2MidTxt{
+    width: 55%;
+    margin-top: -37%;
+    position: absolute;
+    /* background-color: #6001D3; */
+  
+  }
+
+  .Banner2MidBox2{
+   text-align: center;
+   display: inline-block;
+}
+
+  .Banner2MidTxt2{
+    font-size: 50px;
+    line-height: 75px;
+    color:#FFBF0B;
+    font-weight: 700;
+    border:2px dotted #FFBF0B;  
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .Banner2MidTxt .Banner2MidTxt3{
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFBF9;
+    font-weight: 500;
+    letter-spacing:-2px ;
+
+  }
+  .Banner2MidTxt .Banner2MidTxt4{
+            font-size: 48px;
+            line-height: 70px;
+            color: #F5101A;
+            font-weight: 700;
+           
+  }
+
+
+
+.Banner2MidTxt2{
+   
+      background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #FFBF0B 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART -3
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .CardDiv{
+    min-height: 383px;
+    transition: .5s;
+  }
+  
+  /* .CardDiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transform: scale(1.05);
+  } */
+  
+ 
+  .OverflowH{
+  overflow: hidden;
+  border-radius: 20px;
+  }
+
+
+
+  .Banner3TxtDiv{
+    margin-top: 15%;
+  
+  }
+  .Banner3TxtDiv h2{
+    color:#172D4C;
+    padding: 0 10% 0 10%;
+  }
+  .CardBox{
+   margin-top: 100px;
+  }
+
+  .CardDiv{
+    padding: 56px 45px;
+    color: #172D4C;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .CardCol{
+    padding-bottom: 30px;
+  
+  }
+
+  .CardCol p{
+    color: #172D4C;
+  }
+ 
+
+/* hover card */
+.CardDiv {
+
+  --c: #e5e7eb;
+  background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0)
+      0 var(--p, 0%),
+    conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100%
+      var(--p, 0%);
+  background-size: var(--s, 0%) 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s ease-in, background-position 0s;
+
+}
+
+.CardDiv:hover {
+  --p: 100%;
+  --s: calc(
+    100% + 0.61em
+  );
+  color: #fff;
+}
+
+.Card1{
+  background-color: #E4F5FF;
+
+}
+.Card2{
+  background-color: #FFE1E2;
+
+}
+.Card3{
+  background-color: #E9F9DB;
+
+}
+.Card4{
+  background-color: #E9F9DB;
+
+}
+.Card5{
+  background-color: #E4F5FF;
+
+}
+.Card6{
+  background-color: #FFE1E2;
+
+}
+
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART -4
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .ImgVideoBanner{
+    margin-top: 70px;
+    margin-bottom:95px;
+  }
+  .ImgVideoBanner img{
+    width: 100%;
+  
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART 5
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Anim3{
+    -webkit-animation: mover3 1s infinite  alternate;
+    animation: mover3 1s infinite  alternate;
+  }
+  .Anim3 {
+    -webkit-animation: mover3 1s infinite  alternate;
+    animation: mover3 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover3 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
+  }
+  @keyframes mover3 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
+  }
+
+  /* anim ------------4 */
+  .Anim4{
+    -webkit-animation: mover4 1s infinite  alternate;
+    animation: mover4 1s infinite  alternate;
+  }
+  .Anim4 {
+    -webkit-animation: mover4 1s infinite  alternate;
+    animation: mover4 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover4 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
+  }
+  @keyframes mover4 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
+  }
+
+
+
+
+  .banner5mainImg{
+   text-align: center;
+   padding-left: 30%;
+   padding-right: 30%;
+   transition: .5s;
+  }
+
+ /* .banner5mainImg:hover {
+    transform: scale(1.02);
+  }  */
+
+
+
+  .banner5mainImg img{
+    width: 100%;
+  }
+
+  .banner5bgRltv{
+    position: relative;
+    top:0;
+    left: 0;
+    overflow: hidden;
+  }
+
+  .banner5bgAbst1{
+    position: absolute;
+    bottom:50%;
+    left: 10%;
+
+  }
+  .banner5bgAbst2{
+    position: absolute;
+    top: 17%;
+    right: 0;
+  }
+
+  .banner5bgAbstTxt{
+    position: absolute;
+    top: 21%;
+    left: 35%;
+  }
+
+  .banner5bgAbstTxt h4{
+    color:#FFBF0B;
+    font-size: 50px;
+    font-weight: 700;
+   line-height: 80px;
+   margin-bottom: 15px;
+  }
+
+
+  .banner5bgAbstTxt h5{
+    font-size: 32px;
+    color:#FFFBF9;
+    letter-spacing: -2px;
+    margin-bottom: 35px;
+
+  }
+  .banner5bgAbstTxt .bg {
+    border-radius:50px !important;
+  }
+
+/* txt anim---------- */
+
+.banner5bgAbstTxt h4
+{
+   
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART --6
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  .Banner6Abs3  {
+    -webkit-animation: mover4 1s infinite  alternate;
+    animation: mover4 1s infinite  alternate;
+  }
+  .Banner6Abs3 {
+    -webkit-animation: mover4 1s infinite  alternate;
+    animation: mover4 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover4 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(10px); }
+  }
+  @keyframes mover4 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(10px); }
+  }
+  
+  .Banner6Abs5  {
+    -webkit-animation: mover4 1s infinite  alternate;
+    animation: mover4 1s infinite  alternate;
+  }
+  .Banner6Abs5 {
+    -webkit-animation: mover4 1s infinite  alternate;
+    animation: mover4 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover4 {
+    0% { transform: translateY(0); }
+    50%{opacity: .7;}
+    100% { transform: translateY(10px); }
+  }
+  @keyframes mover4 {
+    0% { transform: translateY(0); }
+    50%{opacity: .7;}
+    100% { transform: translateY(10px); }
+  }
+  
+  
+  
+  
+  .Banner6Rel{
+       position: relative;
+       top:0;
+       left:0;
+  }
+  .Banner6Abs1{
+        position: absolute;
+        top:-80px;
+        left:60px;
+  }
+  
+  .Banner6Abs2{
+        position: absolute;
+        top:140px;
+        left:30px;
+  }
+  
+  .Banner6Abs3{
+        position: absolute;
+        top:100px;
+        left:100px;
+  }
+  
+  .Banner6Abs4{
+        position: absolute;
+        top:-85px;
+        right:100px;
+  }
+  
+  .Banner6Abs5{
+        position: absolute;
+        top:70px;
+        right:50px;
+  }
+  
+
+
+  
+  
+  .Banner6TxtBox {
+       padding: 128px 0px 128px 0px;
+       background-color: #172D4C;     
+       border-radius: 20px;  
+
+  }
+  .Banner6TxtBox h2 {
+       color: #FFFBF9;      
+  }
+
+  .Banner6TxtBox li{
+         text-align: center;
+         margin-top: 17px;   
+  }
+
+
+
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART Footer--1
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Footertxt1 span{
+         color:#AAAAAA;
+    
+  }
+  .Footertxt2 a{
+        color:#AAAAAA;
+        text-decoration: none;
+        font-size: 16px;
+  }
+  .Footertxt2 a:hover{
+        text-decoration: underline;
+        text-decoration-color: #FFBF0B;
+      
+  }
+
+
+
+
+
+
+
+  .Footertxt1 li, .Footertxt2 li{
+    margin-bottom: 17px;
+    font-size: 16px;
+  }
+
+ .Footertxt1 ul li h4{
+         color: #172D4C;
+         font-size: 21px;
+         font-weight: 700;
+  }
+ .Footertxt2 ul li h4{
+        color: #172D4C;
+        font-size: 21px;
+        font-weight: 700;
+  }
+  .Footertxt1{
+        margin-left: 65%;
+  }
+
+  /* .Footertxtd{
+ 
+  } */
+
+  .Footertxt2{
+    /* text-align: right; */
+        margin-left: 30px;
+  }
+
+  .hr{
+    border-top:2px solid #F1F1F1;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART Footer-2
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Footer2Abs1:hover, .Footer2Abs2:hover{
+             transform: scale(1.1);          
+  }
+  
+  .Footer2{
+        position: relative;
+        top:0;
+        left: 0;
+  }
+
+  .Footer2iconBox{
+      text-align: center;
+      padding-bottom: 60px;
+
+  }
+
+  .Footer2iconBox a {
+        padding:12px 3px 12px 5px;
+        border: 2px solid #F8CD53;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 24px;
+
+  }
+  .Footer2iconBox a svg{
+    box-sizing: border-box;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 10px;
+  }
+
+  .Footer2iconBox a:hover{
+         background-color: #FFBF0B;
+         box-shadow: 0px 1px 2px 0px rgba(255, 79, 125,0.7),
+         1px 2px 4px 0px rgba(255, 79, 125,0.7),
+         2px 4px 8px 0px rgba(255, 79, 125,0.7),
+         2px 4px 16px 0px rgba(255, 79, 125,0.7);
+  }
+
+
+
+
+
+  
+  .Footer2Abs1{
+        position: absolute;
+        bottom:0;
+        right: 0;
+        transition: 1s;
+  }
+  .Footer2Abs2{
+        position: absolute;
+        bottom:0;
+        left:0;
+        transition: 1s;
+  }
+
+ 
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner Media quari------------
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+ 
+
+  @media (min-width: 1700px) {
+    .BannerTxtBox h1{
+      font-size: 50px;
+      line-height: 73px;
+    
+  }
+
+  .banner5bgAbstTxt{
+    position: absolute;
+    top: 28%;
+    left: -2%;
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+  .Banner2MidTxt2{
+    font-size: 55px;
+    line-height: 75px;
+    color:#FFBF0B;
+    font-weight: 700;
+    border:2px dotted #FFBF0B;  
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .Banner2MidTxt .Banner2MidTxt3{
+    font-size: 28px;
+    line-height: 60px;
+    color: #FFFBF9;
+    font-weight: 500;
+    letter-spacing:-2px ;
+
+  }
+  .Banner2MidTxt .Banner2MidTxt4{
+            font-size: 48px;
+            line-height: 70px;
+            color: #F5101A;
+            font-weight: 700;
+           
+  }
+
+
+
+
+
+
+
+
+  }
+  
+
+
+
+ 
+   @media (max-width: 1440px) {
+  
+  
+  }
+  
+  
+  @media (max-width: 1280px) {
+    .BannerAbsBox{
+       height: 300px;
+    }
+    .BannerTxtBox h1{
+        font-size: 35px;
+        line-height: 53px;
+    }
+
+    .LandingTwelve .bg1 {
+        font-size: 25px; 
+    }
+    
+    .LandingTwelve a.bg1{
+        /* margin-top: 30px; */
+        padding: 18px 38px;  
+    }
+  
+    .LandingTwelve .bg1 svg{
+        font-size: 32px;
+        margin-top: -5px;
+        margin-right: 10px;
+        color: #172D4C;
+    }
+    
+    .BannerDiv img{
+        width:155%;
+        margin-left: -45%; 
+    }
+    .BannerDiv{
+        margin-top: 200px;
+    }
+
+    /* banner---------2 */
+    .Banner2Abs1{
+        height: 100px;
+    }
+    .Banner2Abs2{
+        height: 100px;
+    }
+
+    /* ban----2 */
+
+    .Banner2MidTxt{
+        margin-top: -33%;
+        margin-left: 0px;
+      
+      }
+    
+      .Banner2MidBox2{
+       text-align: center;
+       display: inline-block;
+    }
+    
+      .Banner2MidTxt2{
+        font-size: 30px;
+        line-height:40px;
+        margin-top: -20px;
+       
+      }
+    
+      .Banner2MidTxt .Banner2MidTxt3{
+        font-size: 22px;
+        line-height: 40px;
+        letter-spacing: -.5px;
+        margin-top: 5px;
+    
+      }
+      .Banner2MidTxt .Banner2MidTxt4{
+            font-size: 25px;
+            line-height: 40px;       
+      }
+    
+      .Banner2Abs1{
+        height: 100px;
+      }
+      .Banner2Abs2{
+        height: 100px;
+      }
+    
+    .Banner2MainDiv{
+        padding:10% 10% 10% 10%;
+        background:#E9F9DB ;
+      }
+
+
+
+
+      /*  ban-------------5---*/
+
+.banner5mainImg{
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-left: 7%;
+   }
+ 
+
+   .banner5bgAbst2{
+     position: absolute;
+     top: 17%;
+     right: 0;
+   }
+ 
+   .banner5bgAbstTxt{
+     position: absolute;
+     top: 28%;
+     left: 0px;
+     text-align: center;
+     width: 100%;
+   }
+ 
+   .banner5bgAbstTxt h4{
+     color:#FFBF0B;
+     font-size: 50px;
+     font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 15px;
+   }
+ 
+ 
+   .banner5bgAbstTxt h5{
+     font-size: 40px;
+     color:#FFFBF9;
+     letter-spacing: -1px;
+     margin-bottom: 15px;
+     line-height:80px;
+ 
+   }
+
+   .banner5bgAbst1{
+    position: absolute;
+    bottom:50%;
+    left: 2%;
+  }
+
+   .banner5bgAbst1 img{
+    height: 20px;
+  
+   }
+   .banner5bgAbst2 img{
+    height: 200px;
+   }
+
+/* btn----------- */
+.LandingTwelve .bg2 {
+    font-size: 35px; 
+}
+
+.LandingTwelve a.bg2{
+    /* margin-top: 30px; */
+    padding: 15px 32px;  
+}
+
+.LandingTwelve .bg2 svg{
+    font-size: 35px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+.CardDiv{
+  min-height: 450px;
+}
+
+  }
+  
+  @media (max-width: 990px) {
+    .Banner{
+        padding-bottom: 50px;
+    }
+
+    .ErrowImg{
+        height: 50px;
+
+    }
+    .BannerAbsBox{
+        height: 200px;
+     }
+     .BannerTxtBox h1{
+         font-size: 30px;
+         line-height: 43px;
+     }
+ 
+     .LandingTwelve .bg1 {
+         font-size: 25px; 
+     }
+     
+     .LandingTwelve a.bg1{
+         /* margin-top: 30px; */
+         padding: 18px 28px;  
+     }
+   
+     .LandingTwelve .bg1 svg{
+         font-size: 32px;
+         margin-top: -5px;
+         margin-right: 10px;
+         color: #172D4C;
+     }
+     
+     .BannerDiv img{
+         width:155%;
+         margin-left: -35%; 
+     }
+     .BannerDiv{
+         margin-top: 170px;
+     }
+
+
+
+     /* ban---2 */
+
+     .Banner2MidTxt{
+        margin-top: -33%;
+        margin-left: 0px;
+      
+      }
+    
+      .Banner2MidBox2{
+       text-align: center;
+       display: inline-block;
+    }
+    
+      .Banner2MidTxt2{
+        font-size: 25px;
+        line-height:25px;
+        margin-top: -20px;
+       
+      }
+    
+      .Banner2MidTxt .Banner2MidTxt3{
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: -.5px;
+        margin-top: 5px;
+    
+      }
+      .Banner2MidTxt .Banner2MidTxt4{
+            font-size: 20px;
+            line-height: 25px;       
+      }
+    
+      .Banner2Abs1{
+        height: 100px;
+      }
+      .Banner2Abs2{
+        height: 100px;
+      }
+    
+    .Banner2MainDiv{
+        padding:10% 10% 10% 10%;
+        background:#E9F9DB ;
+      }
+
+
+
+
+/*  ban-------------5---*/
+
+.banner5mainImg{
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 7%;
+   }
+ 
+
+   .banner5bgAbst2{
+     position: absolute;
+     top: 17%;
+     right: 0;
+   }
+ 
+   .banner5bgAbstTxt{
+     position: absolute;
+     top: 28%;
+     left: 0px;
+     text-align: center;
+     width: 100%;
+   }
+ 
+   .banner5bgAbstTxt h4{
+     color:#FFBF0B;
+     font-size: 42px;
+     font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 15px;
+   }
+ 
+ 
+   .banner5bgAbstTxt h5{
+     font-size: 35px;
+     color:#FFFBF9;
+     letter-spacing: -1px;
+     margin-bottom: 15px;
+     line-height:80px;
+ 
+   }
+
+   .banner5bgAbst1{
+    position: absolute;
+    bottom:50%;
+    left: 2%;
+  }
+
+   .banner5bgAbst1 img{
+    height: 20px;
+  
+   }
+   .banner5bgAbst2 img{
+    height: 200px;
+   }
+
+/* btn----------- */
+.LandingTwelve .bg2 {
+    font-size: 35px; 
+}
+
+.LandingTwelve a.bg2{
+    /* margin-top: 30px; */
+    padding: 15px 32px;  
+}
+
+.LandingTwelve .bg2 svg{
+    font-size: 35px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+
+.Footertxt1{
+    margin-left: 25%;
+}
+
+.CardDiv{
+  min-height: 390px;
+}
+
+.Banner3TxtDiv h2{
+  font-size: 30px;
+}
+
+.Banner6TxtBox h2{
+  font-size: 30px;
+}
+
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Banner{
+        padding-bottom: 0px;
+    }
+
+    .ErrowImg{
+        height: 30px;
+
+    }
+    .BannerAbsBox{
+        height: 200px;
+     }
+     .BannerTxtBox h1{
+         font-size: 25px;
+         line-height: 33px;
+     }
+ 
+     .LandingTwelve .bg1 {
+         font-size: 20px; 
+     }
+     
+     .LandingTwelve a.bg1{
+         /* margin-top: 30px; */
+         padding: 10px 20px;  
+     }
+   
+     .LandingTwelve .bg1 svg{
+         font-size: 20px;
+         margin-top: -5px;
+         margin-right: 10px;
+         color: #172D4C;
+     }
+     
+     .BannerDiv img{
+         width:155%;
+         margin-left: -35%; 
+     }
+     .BannerDiv{
+         margin-top: 230px;
+     }
+
+     .BannerTxtBox img{
+        height: 40px;
+
+     }
+
+     .BannerTxtBox h1{
+        line-height:40px;
+        margin-top: 30px;
+    }
+  
+    /* ban  --2 */
+
+    .Banner2MidTxt{
+        margin-top: -33%;
+        margin-left: 0px;
+      
+      }
+    
+      .Banner2MidBox2{
+       text-align: center;
+       display: inline-block;
+    }
+    
+      .Banner2MidTxt2{
+        font-size: 16px;
+        line-height:20px;
+        margin-top: -20px;
+       
+      }
+    
+      .Banner2MidTxt .Banner2MidTxt3{
+        font-size: 12px;
+        line-height: 25px;
+        letter-spacing: -.5px;
+        margin-top: 5px;
+    
+      }
+      .Banner2MidTxt .Banner2MidTxt4{
+            font-size: 16px;
+            line-height: 25px;       
+      }
+    
+      .Banner2Abs1{
+        height: 100px;
+      }
+      .Banner2Abs2{
+        height: 100px;
+      }
+    
+    .Banner2MainDiv{
+        padding:10% 10% 10% 10%;
+        background:#E9F9DB ;
+      }
+
+
+/*  ban-------------5---*/
+
+.banner5mainImg{
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 7%;
+   }
+ 
+
+   .banner5bgAbst2{
+     position: absolute;
+     top: 17%;
+     right: 0;
+   }
+ 
+   .banner5bgAbstTxt{
+     position: absolute;
+     top: 28%;
+     left: 0px;
+     text-align: center;
+     width: 100%;
+   }
+ 
+   .banner5bgAbstTxt h4{
+     color:#FFBF0B;
+     font-size: 32px;
+     font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+   }
+ 
+ 
+   .banner5bgAbstTxt h5{
+     font-size: 25px;
+     color:#FFFBF9;
+     letter-spacing: -1px;
+     margin-bottom: 15px;
+     line-height:50px;
+ 
+   }
+
+   .banner5bgAbst1{
+    position: absolute;
+    bottom:50%;
+    left: 2%;
+  }
+
+   .banner5bgAbst1 img{
+    height: 15px;
+  
+   }
+   .banner5bgAbst2 img{
+    height: 150px;
+   }
+
+/* btn----------- */
+.LandingTwelve .bg2 {
+    font-size: 25px; 
+}
+
+.LandingTwelve a.bg2{
+    /* margin-top: 30px; */
+    padding: 10px 22px;  
+}
+
+.LandingTwelve .bg2 svg{
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+/* ban----------6 */
+/* btn--------3--- */
+.LandingTwelve .bg3 {
+    font-size: 22px; 
+}
+
+.LandingTwelve a.bg3{
+    /* margin-top: 30px; */
+    padding: 10px 24px;  
+}
+
+.LandingTwelve .bg3 svg{
+    font-size: 16px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+.Banner6Abs1{
+    height: 50px;
+}
+.Banner6Abs2{
+    height: 50px;
+}
+.Banner6Abs3{
+    height: 50px;
+}
+.Banner6Abs4{
+    width: 70px;
+}
+.Banner6Abs5{
+    height: 50px;
+}
+
+
+/* footer---------- */
+
+.Footertxt1{
+        margin-left: 25%;
+  }
+
+  .Footer2Abs1 img{
+    height: 50px;
+}
+.Footer2Abs2 img{
+    height: 50px;
+}
+
+.CardDiv{
+  min-height: 500px;
+}
+
+
+.Banner3TxtDiv h2{
+  font-size: 30px;
+}
+
+  }
+  
+  
+  @media (max-width: 575px) {
+  
+    .myColP{
+        padding: 0;
+    }
+     
+    .Banner{
+        padding-bottom: 50px;
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    .ErrowImg{
+        height: 40px;
+
+    }
+    .BannerAbsBox{
+        height: 100px;
+        margin-top: 10px;
+     }
+     .BannerTxtBox h1{
+         font-size: 28px;
+         line-height: 43px;
+         margin-top: 30px;
+     }
+ 
+     .LandingTwelve .bg1 {
+         font-size: 22px; 
+     }
+     
+     .LandingTwelve a.bg1{
+         /* margin-top: 30px; */
+         padding: 10px 34px;  
+     }
+   
+     .LandingTwelve .bg1 svg{
+         font-size: 22px;
+         margin-top: -5px;
+         margin-right: 10px;
+         color: #172D4C;
+     }
+     
+     .BannerDiv img{
+         width:100%;
+         margin-left: 0%; 
+     }
+     .BannerDiv{
+         margin-top: 50px;
+     }
+
+     .BannerTxtBox img{
+        height: 50px;
+      
+
+     }
+     .BannerpadBtm{
+        padding-bottom: 30px;
+    }
+
+ /* -----banner2----- */
+ .LandingTwelve h2{
+    font-size: 22px;
+    line-height: 30px; 
+}
+
+ 
+ 
+.Banner2MidTxt{
+    margin-top: -33%;
+    margin-left: 0px;
+  
+  }
+
+  .Banner2MidBox2{
+   text-align: center;
+   display: inline-block;
+}
+
+  .Banner2MidTxt2{
+    font-size: 16px;
+    line-height:20px;
+    margin-top: -20px;
+   
+  }
+
+  .Banner2MidTxt .Banner2MidTxt3{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -.5px;
+    margin-top: 5px;
+
+  }
+  .Banner2MidTxt .Banner2MidTxt4{
+        font-size: 16px;
+        line-height: 20px;       
+  }
+
+  .Banner2Abs1{
+    height: 100px;
+  }
+  .Banner2Abs2{
+    height: 100px;
+  }
+
+.Banner2MainDiv{
+    padding:10% 0% 10% 0%;
+    background:#E9F9DB ;
+  }
+
+
+/* another sec */
+.banner5bgAbstTxt h4{
+    font-size: 30px;
+   line-height: 84px;
+  }
+
+
+/* footer---- */
+        .Footertxt1{
+            margin-left: 10%;
+        }
+
+  /*  ban-------------5---*/
+
+  .banner5mainImg{
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 7%;
+   }
+ 
+
+   .banner5bgAbst2{
+     position: absolute;
+     top: 17%;
+     right: 0;
+   }
+ 
+   .banner5bgAbstTxt{
+     position: absolute;
+     top: 21%;
+     left: 0px;
+     text-align: center;
+     width: 100%;
+   }
+ 
+   .banner5bgAbstTxt h4{
+     color:#FFBF0B;
+     font-size: 25px;
+     font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+   }
+ 
+ 
+   .banner5bgAbstTxt h5{
+     font-size: 22px;
+     color:#FFFBF9;
+     letter-spacing: -1px;
+     margin-bottom: 15px;
+     line-height:50px;
+ 
+   }
+
+   .banner5bgAbst1{
+    position: absolute;
+    bottom:50%;
+    left: 2%;
+  }
+
+   .banner5bgAbst1 img{
+    height: 10px;
+  
+   }
+   .banner5bgAbst2 img{
+    height: 100px;
+   }
+
+/* btn----------- */
+.LandingTwelve .bg2 {
+    font-size: 22px; 
+}
+
+.LandingTwelve a.bg2{
+    /* margin-top: 30px; */
+    padding: 5px 10px;  
+}
+
+.LandingTwelve .bg2 svg{
+    font-size: 22px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+
+/* ban----------6 */
+/* btn--------3--- */
+.LandingTwelve .bg3 {
+    font-size: 22px; 
+}
+
+.LandingTwelve a.bg3{
+    /* margin-top: 30px; */
+    padding: 10px 24px;  
+}
+
+.LandingTwelve .bg3 svg{
+    font-size: 16px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+.Banner6Abs1{
+    height: 50px;
+}
+.Banner6Abs2{
+    height: 50px;
+}
+.Banner6Abs3{
+    height: 50px;
+}
+.Banner6Abs4{
+    width: 70px;
+}
+.Banner6Abs5{
+    height: 50px;
+}
+
+/* footer---------- */
+.Footertxt1{
+    padding-bottom: 50px;
+}
+
+.Footertxt1 ,.Footertxt2{
+    text-align: center;
+}
+
+
+.CardDiv{
+  min-height: 300px;
+}
+
+.CardDiv p{
+  font-size: 16px;
+}
+.CardDiv Img{
+height: 50px;
+}
+
+
+.BannerCon1{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.LogoLD{
+  display: none;
+}
+
+.LogoSD{
+  display: block;
+  margin-top: -30px;
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+
+.Banner6Abs3{
+  position: absolute;
+  top:100px;
+  left:100px;
+}
+
+.Banner6Abs5{
+  position: absolute;
+  top:70px;
+  right:50px;
+}
+
+
+
+
+      }
+
+
+
+
+
+ @media (max-width: 450px){
+
+    
+  .Banner2MidTxt{
+    margin-top: -37%;
+    margin-left: 0px;
+  
+  }
+
+  .Banner2MidBox2{
+   text-align: center;
+   display: inline-block;
+}
+
+  .Banner2MidTxt2{
+    font-size: 14px;
+    line-height:20px;
+    margin-top: -20px;
+   
+  }
+
+  .Banner2MidTxt .Banner2MidTxt3{
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: -1px;
+    margin-top: 5px;
+
+  }
+  .Banner2MidTxt .Banner2MidTxt4{
+        font-size: 14px;
+        line-height: 15px;       
+  }
+
+  .Banner2Abs1{
+    height: 50px;
+  }
+  .Banner2Abs2{
+    height: 50px;
+  }
+
+.Banner2MainDiv{
+    padding:10% 0% 10% 0%;
+    background:#E9F9DB ;
+  }
+
+
+  /*  ban-------------5---*/
+
+  .banner5mainImg{
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 7%;
+   }
+ 
+
+   .banner5bgAbst2{
+     position: absolute;
+     top: 17%;
+     right: 0;
+   }
+ 
+   .banner5bgAbstTxt{
+     position: absolute;
+     top: 21%;
+     left: 0px;
+     text-align: center;
+     width: 100%;
+   }
+ 
+   .banner5bgAbstTxt h4{
+     color:#FFBF0B;
+     font-size: 18px;
+     font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0px;
+   }
+ 
+ 
+   .banner5bgAbstTxt h5{
+     font-size: 16px;
+     color:#FFFBF9;
+     letter-spacing: -1px;
+     margin-bottom: 0px;
+ 
+   }
+
+   .banner5bgAbst1{
+    position: absolute;
+    bottom:50%;
+    left: 2%;
+  }
+
+   .banner5bgAbst1 img{
+    height: 10px;
+  
+   }
+   .banner5bgAbst2 img{
+    height: 100px;
+   }
+
+/* btn----------2- */
+.LandingTwelve .bg2 {
+    font-size: 16px; 
+}
+
+.LandingTwelve a.bg2{
+    /* margin-top: 30px; */
+    padding: 5px 15px;  
+}
+
+.LandingTwelve .bg2 svg{
+    font-size: 22;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+
+/* ban----------6 */
+/* btn--------3--- */
+.LandingTwelve .bg3 {
+    font-size: 22px; 
+}
+
+.LandingTwelve a.bg3{
+    /* margin-top: 30px; */
+    padding: 10px 24px;  
+}
+
+.LandingTwelve .bg3 svg{
+    font-size: 16px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #172D4C;
+}
+
+.Banner6Abs1{
+    height: 30px;
+}
+.Banner6Abs2{
+    height: 30px;
+}
+.Banner6Abs3{
+    height: 30px;
+    position: absolute;
+    top:130px;
+    left:100px;
+}
+.Banner6Abs4{
+    width: 50px;
+}
+.Banner6Abs5{
+    height: 30px;
+    position: absolute;
+    top:70px;
+    right:20px;
+}
+
+
+
+ }
+
+
+
+
+
+
+
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART 1
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */

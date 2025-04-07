@@ -1,0 +1,716 @@
+
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.Landing__3 {
+    --header_color: #071C1F;
+    --bg_color: #FEC827;
+    --bg_color2: #FF0D51;
+    --bg_color3: #05A503;
+    --text_color: #64607D;
+    --white_color: #fff;
+  }
+  
+  
+  
+  .Landing__3{
+      font-family: 'Noto Sans Bengali', sans-serif ;
+  }
+  
+  .Landing__3 h1{
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 70px;
+      color: var(--white_color);
+  }
+  
+  .Landing__3 h2{
+      font-size: 40px;
+      line-height: 50px;
+      color: var(--header_color);
+      font-weight: 700;
+  }
+  
+  .Landing__3 h3{
+      font-size: 24px;
+      line-height: 35px;
+      color: var(--header_color);
+      font-weight: 600;
+  }
+  
+  .Landing__3 p{
+      color: var(--text_color);
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-top: 15px;
+  }
+  
+           
+  .Landing__3 a {
+      transition: 0.5s;
+      display: block;
+      font-size: 20px;
+      line-height: 35px;
+      font-weight: 600;
+  }
+  
+  .Landing__3 a.bg{
+      margin-top: 30px;
+      padding: 12px 50px;
+      padding-top: 15px;
+      color: var(--white_color); 
+      background-image: linear-gradient(to right, #FEC827 0%, #e9b005  51%, #FEC827  100%);
+      background-size: 200% auto;
+      border-radius: 10px;
+      display: inline-block;
+  }
+  
+  .Landing__3 a svg{
+      font-size: 25px;
+      margin-top: -5px;
+      margin-right: 10px;
+  }
+  
+  .Landing__3 a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+  }
+   
+  .Landing__3 .section_gaps{
+      margin-top: 100px;
+  }
+  
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  
+  .Landing__3 .Banner{
+      background: url('../../public/images/landing-3/banner.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 50px;
+      padding-bottom: 100px;
+  }
+  
+  .Landing__3 .Banner .text{
+      margin-top: 50px;
+  }
+  
+  .Landing__3 .Banner .text h3{
+      color: #FEC827;
+      margin-top: 20px;
+  }
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START About PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  
+  .Landing__3 .About{
+      position: relative;
+  }
+  
+  .Landing__3 .About  .AboutText_left{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+  .Landing__3 .About .AboutText_right{
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+  .Landing__3 .AboutLogo {
+      position: relative;
+  }
+  
+  .Landing__3 .AboutLogo img{
+      width: 100%;
+  }
+  
+  .Landing__3 .AboutOverlay{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: max-content;
+      text-align: center;
+  }
+  
+  .Landing__3 .AboutOverlay h3{
+      font-size: 50px;
+      font-weight: 900;
+      line-height: 60px;
+  }
+  
+  .Landing__3 .AboutOverlay h4{
+      font-size: 35px;
+      font-weight: 800;
+      line-height: 45px;
+      color: var(--bg_color3);
+      margin: 15px 0;
+  }
+  
+  .Landing__3 .AboutOverlay h2{
+      font-size: 50px;
+      font-weight: 900;
+      line-height: 60px;
+      color: var(--bg_color2);
+  }
+  
+  .Landing__3 .AboutText{
+      text-align: center;
+      margin-top: 60px;
+  }
+  
+  
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START WhyUs PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Landing__3 .WhyUs{
+      position: relative;
+  }
+  
+  .Landing__3 .WhyUsImg img{
+      width: 100%;
+      z-index: 1;
+  }
+  
+  .Landing__3 .WhyUsImg .WhyOverlay{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      z-index: 99;
+      text-align: center;
+  }
+  
+  .Landing__3 .WhyUsImg .WhyOverlay h2 {
+      margin-bottom: 30px;
+      margin-top: 50px;
+  }
+  
+  .Landing__3 .WhyUsImg .WhyOverlay .WhyUsItem{
+      background: var(--white_color);
+      border-radius: 20px;
+      padding: 50px;
+      margin-top: 30px;
+      height: 292px;
+  }
+  
+  
+  .Landing__3 .WhyUsImg .WhyOverlay  .WhyUsItem img{
+      height: 50px;
+      width: auto;
+  }
+  
+  .Landing__3 .WhyUsImg .WhyOverlay .WhyUsItem p{
+      margin-top: 30px;
+  }
+  
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START FreeDelivary PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Landing__3 .FreeDelivaryText ul li{
+      font-size: 16px;
+      line-height: 28px;
+      color: var(--text_color);
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      font-weight: 500;
+  }
+  
+  .Landing__3 .FreeDelivaryText ul li img{
+      margin-right: 10px;
+      height: 20px;
+  }
+  
+  .Landing__3 .FreeDelivaryText h3{
+      margin-top: 30px;
+  }
+  
+
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Client PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Landing__3 .ClientContent img{
+      width: 100%;
+  }
+  
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START OrderNow PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  
+  .Landing__3 .OrderNow{
+      position: relative;
+  }
+  
+  .Landing__3 .OrderLeft{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+  .Landing__3 .OrderRight{
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+  .Landing__3 .OrderNowtext{
+      text-align: center;
+  }
+  
+  .Landing__3 .OrderNowtext a{
+      font-size: 30px;
+  }
+  
+  .Landing__3 .OrderNowtext a:nth-child(2){
+      color: var(--bg_color2);
+      margin: 30px 0;
+      margin-bottom: 20px;
+  }
+  
+  .Landing__3 .OrderNowtext h3{
+      font-size: 20px;
+  }
+  
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__3 #OrderConfirmLeft #Payment #ArrowBg{
+    background: #FEC827;
+}
+
+.Landing__3 #OrderConfirmRight button {
+    background: #FEC827;
+}
+
+.Landing__3 #OrderConfirmLeft #Payment #ArrowBg p {
+    color: #ffffff;
+}
+
+.Landing__3 #OrderConfirmLeft #Payment #ArrowBg::after {
+    border-bottom: solid 15px #FEC827;
+}
+
+.Landing__3 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+    background: #FEC827;
+}
+
+
+.Landing__3 #OrderConfirmLeft #Payment #ArrowBg p {
+    font-size: 18px;
+  }
+  
+  .Landing__3 #OrderConfirmLeft #Payment #ArrowBg {
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Footer PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+ 
+  .Landing__3 #tinyFooter p a {
+    color: #FEC827;
+ }
+
+
+.Landing__3 .Footer{
+      position: relative;
+      padding-bottom: 50px;
+  }
+  
+  .Landing__3 .FooterLeft{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+  }
+  
+  .Landing__3 .FooterRight{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+  
+  .Landing__3 .Footer .FooterItem img{
+      height: 60px;
+  }
+  
+  .Landing__3 .Footer .FooterItem .SocialLink{
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+  }
+  
+  .Landing__3 .Footer .FooterItem .SocialLink a{
+      margin-right: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid var(--bg_color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .Landing__3 .Footer .FooterItem .SocialLink a:hover{
+      background: var(--bg_color);
+      color: var(--header_color);
+  }
+  
+  .Landing__3 .Footer .FooterItem .SocialLink a svg{
+      font-size: 20px;
+      margin: 0; 
+  }
+  
+  .Landing__3 .Footer .FooterItem ul li{
+      margin-top: 20px;
+  }
+  
+  .Landing__3 .Footer .FooterItem a{
+      font-weight: 400;
+      color: var(--text_color);
+      font-size: 16px;
+      line-height: 28px;
+  }
+  
+  
+  /* Ibrahim -- */
+  
+
+    
+  .Landing__3 .FromH2{
+      text-align: center;
+      padding-bottom: 50px !important; 
+    }
+   
+    .Landing__3 #SocialMediaContent {
+        text-align: center;
+        padding: 20px 0;
+        display: flex ;
+    }
+  
+  /* ------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------
+      Media
+  ------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------*/
+  /* // XX-Large devices (larger desktops, 1400px and up) */
+  @media (max-width: 1440px) {
+  
+      .Landing__3 h1{
+          font-size: 40px;
+          line-height: 50px;
+      }
+      .Landing__3 h2{
+          font-size: 30px;
+          line-height: 40px;
+      }
+      .Landing__3 h3{
+          font-size: 22px;
+          line-height: 35px;
+      }
+      .Landing__3 p{
+          font-size: 16px;
+      }
+      .Landing__3 a {
+          font-size: 18px;
+          line-height: 30px;
+      }
+      .Landing__3 .WhyUsImg img{
+          height: 1200px;
+      }
+      .Landing__3 .FooterLeft img{
+          height: 100px;
+      }
+      .Landing__3 .FooterRight img{
+          height: 150px;
+      }
+  
+      .Landing__3 h1 {
+          font-size: 36px;
+          line-height: 50px;
+      }
+  
+  
+      .Landing__3 .WhyUsImg .WhyOverlay .WhyUsItem{
+          background: var(--white_color);
+          border-radius: 20px;
+          padding: 30px;
+          margin-top: 30px;
+          height: 292px;
+      }
+      
+      
+  
+  }
+  
+  @media (max-width: 1024px) {
+  
+     
+    .Landing__3 .Footer .FooterItem img {
+          height: 40px;
+      }
+      .Landing__3 .Footer .FooterItem .SocialLink a {
+          margin-right: 15px;
+          width: 35px;
+          height: 35px;
+      }
+      .Landing__3 .Footer .FooterItem .SocialLink a:last-child{
+          margin-right: 0;
+      }
+      .Landing__3 .Footer .FooterItem .SocialLink a svg{
+          font-size: 16px;
+          margin: 0; 
+      }
+      .Landing__3 .FooterRight img{
+          height: 120px;
+      }
+  
+  
+      .Landing__3 .WhyUsImg .WhyOverlay .WhyUsItem{
+          background: var(--white_color);
+          border-radius: 20px;
+          padding: 30px;
+          margin-top: 40px;
+          height: 292px;
+      }
+      
+  
+  
+  }
+  
+  
+  @media (max-width: 900px) {
+  
+    .Landing__3 .Banner{
+          position: relative;
+          text-align: center;
+      }
+      .Landing__3 .Banner::after{
+          position: absolute;
+          content: '';
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, .4);
+      }
+      .Landing__3 .BannerContent{
+          position: relative;
+          z-index: 9;
+      }
+      .Landing__3  .AboutText_left img{
+          height: 400px;
+      }
+      .Landing__3 .AboutText_right img{
+          height: 400px;
+      }
+      .Landing__3 .WhyUs{
+          background: var(--bg_color);
+          position: unset;
+          margin-top: 80px;
+      }
+      .Landing__3 .WhyUsImg img{
+          display: none;
+      }
+      .Landing__3 .WhyUs .WhyOverlay{
+          position: unset;
+          transform: unset;
+          text-align: center;
+          padding-bottom: 80px;
+      }
+      .Landing__3 .WhyUs .WhyOverlay img{
+          display: block;
+          margin: 0 auto;
+      }
+      .Landing__3 .WhyUs .WhyOverlay  .WhyUsItem{
+          padding: 30px;
+      }
+      .Landing__3 .FreeDelivary .first_child{
+          order: 2;
+      }
+      .FreeDelivaryImg{
+          margin-bottom: 50px;
+      }
+      .Landing__3 .OrderLeft img{
+          height: 400px;
+      }
+      .Landing__3 .Footer .FooterItem img {
+          height: 35px;
+      }
+      .Landing__3 .Footer .FooterItem .SocialLink a {
+          margin-right: 10px;
+          width: 30px;
+          height: 30px;
+      }
+      .Landing__3 .Footer .FooterItem .SocialLink a svg{
+          font-size: 14px;
+      }
+      .Landing__3 .Footer .FooterItem ul li{
+          margin-top: 10px;
+      }
+      .Landing__3 .Footer .FooterItem ul li a{
+          font-size: 14px;
+      }
+      .Landing__3 .Footer .FooterItem ul li a svg{
+          font-size: 16px;
+          margin-right: 5px;
+      }
+      .Landing__3 .FooterLeft img{
+          height: 80px;
+      }
+      .Landing__3 .FooterRight img{
+          height: 100px;
+      }
+       .Landing__3 .section_gaps{
+          margin-top: 60px;
+      }
+  
+      .Landing__3 .WhyUsImg .WhyOverlay  .WhyUsItem{
+          background: var(--white_color);
+          border-radius: 20px;
+          padding: 30px;
+          margin-top: 30px;
+          height: 320px;
+      }
+      
+      
+      .Landing__3 #MenubarContent img {
+        z-index: 5;
+    }
+
+  
+  
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+  
+    .Landing__3 .Logo img{
+          height: 45px;
+      }
+      .Landing__3 h1{
+          font-size: 30px;
+          line-height: 40px;
+      }
+      .Landing__3 h2{
+          font-size: 25px;
+          line-height: 35px;
+      }
+      .Landing__3 h3{
+          font-size: 20px;
+          line-height: 30px;
+      }
+
+      .Landing__3 .AboutOverlay h2{
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 30px;
+        color: var(--bg_color2);
+    }
+
+      .Landing__3 .AboutOverlay h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+      .Landing__3 .AboutContent h4 {
+          font-size: 20px;
+          line-height: 30px;
+          margin: 5px 0;
+      }
+      .Landing__3 .AboutText_left img{
+          height: 300px;
+      }
+      .Landing__3 .AboutText_right img{
+          height: 300px;
+      }
+      .Landing__3 .OrderLeft img{
+          height: 100px;
+      }
+      .Landing__3 .OrderRight img{
+          height: 80px;
+      }
+      .Landing__3 .Footer .FooterItem{
+          margin-bottom: 20px;
+      }
+  
+      .Landing__3 .Footer{
+          text-align: center;
+        }
+        .Landing__3 .SocialLink{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          text-align: center;
+        }
+  
+  
+        .Landing__3 .WhyUsImg .WhyOverlay .WhyUsItem{
+          background: var(--white_color);
+          border-radius: 20px;
+          padding: 23px;
+          margin-top: 30px;
+          height: 292px;
+      }
+  
+  
+      .Landing__3 .Banner{
+          padding-top: 20px;
+          padding-bottom: 100px;
+      }
+
+      .Landing__3 #MenubarContent img {
+        height: 50px;
+        max-width: 200px;
+        z-index: 5;
+    }
+  
+  }
+  
+  
+  @media (max-width: 450px){
+  
+      .Landing__3 h1{
+          font-size: 23px;
+          line-height: 40px;
+      }
+      .Landing__3 h2{
+          font-size: 25px;
+          line-height: 35px;
+      }
+      .Landing__3 h3{
+          font-size: 15px;
+          line-height: 30px;
+      }
+  
+      .Landing__3 .BannerText h2 {
+          font-size: 24px;
+      }
+  
+      
+  }
+  
+  

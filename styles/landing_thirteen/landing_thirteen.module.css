@@ -1,0 +1,1005 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandingThirteen {
+    --header_color: #ffffff;
+    --bg_color: #93CA41;
+    --bg_color2: #FFF7E3;
+    --bg_color3: #F2371D;
+    --bg_color4: #f22512;
+    --text_color: #111811;
+    --white_color: #fff;
+    --primary_text: #93CA41;
+  }
+
+  .LandingThirteen .container {
+    max-width: 100%;
+    padding: 0 250px;
+  }
+
+  .LandingThirteen {
+    font-family: "Noto Sans Bengali", sans-serif !important;
+  }
+
+  .LandingThirteen h1 {
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 80px;
+    margin-top: 40px;
+    color: var(--text_color);
+  }
+
+  .LandingThirteen h1 span {
+    color: var(--bg_color);
+    text-align: center;
+  }
+
+  .LandingThirteen h2 {
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--text_color);
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .LandingThirteen h3 {
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--primary_text);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .LandingThirteen .Title h2 {
+    line-height: 70px;
+  }
+  .LandingThirteen .Title p {
+    color: var(--primary_text);
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .LandingThirteen h4 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .LandingThirteen h4 span {
+    text-decoration: line-through;
+    color: var(--bg_color3);
+  }
+
+  .LandingThirteen h5 {
+    font-size: 24px;
+    line-height: 20px;
+    color: var(--primary_text);
+    font-weight: 600;
+  }
+
+  .LandingThirteen h6 {
+    font-size: 21px;
+    line-height: 28px;
+    color: var(--bg_color3);
+    font-weight: 700;
+  }
+
+  .LandingThirteen p {
+    color: #5b5858;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .LandingThirteen a {
+    transition: 0.5s;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+
+  .LandingThirteen a.bg {
+    margin-top: 30px;
+    padding: 12px 50px;
+    padding-top: 15px;
+    color: var(--text_color);
+    background: #FFDB22;
+    font-size: 26px;
+    font-weight: 700;
+    background-size: 200% auto;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 0px 43.4259px 46.8519px rgba(117, 107, 238, 0.1931),
+    0px 25.8074px 25.4815px rgba(117, 107, 238, 0.0425185),
+    0px 13.4px 13px rgba(117, 107, 238, 0.035),
+    0px 5.45926px 6.51852px rgba(117, 107, 238, 0.0274815),
+    0px 1.24074px 3.14815px rgba(117, 107, 238, 0.0168519);
+  }
+
+  .LandingThirteen .headerTitle {
+    position: relative;
+    z-index: 5;
+    margin-bottom: 40px;
+  }
+
+  .LandingThirteen a.bg:hover {
+    transform: scale(1.02);
+  }
+
+  .LandingThirteen a svg {
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+  }
+
+  .LandingThirteen .hLine {
+    margin-top: 10px;
+    height: 2px;
+    width: 300px;
+    background: var(--primary_text);
+  }
+
+  .LandingThirteen a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .LandingThirteen .section_gaps {
+    margin-top: 50px;
+  }
+  .LandingThirteen .LogoDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LandingThirteen .btnBox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+  }
+
+  .LandingThirteen .text h2 {
+    color: var(--text_color);
+    margin-top: 40px;
+    font-size: 44px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .LandingThirteen .text h5 {
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+  }
+
+  .LandingThirteen .LeftImage, .LandingThirteen .RightImage{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    display: flex;
+  }
+
+  .LandingThirteen .LeftImage{
+    left: 0;
+    justify-content: left;
+  }
+
+  .LandingThirteen .RightImage{
+    right: 0;
+    justify-content: right;
+  }
+
+
+  /* ======================== topBar ====================================
+  ======================================================================= */
+  .topBar{
+    background: url(../../public/images/landing_13/bgTop.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+   /* ======================== Banner ====================================
+  ======================================================================= */
+
+.Banner{
+  background: url(../../public/images/landing_13/bg_top.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.Banner h1{
+  text-align: center;
+}
+
+.Banner img{
+  width: 100%;
+}
+
+.Banner .LogoDiv img{
+  animation: moveupDown 4s linear infinite;
+}
+
+@keyframes moveupDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+
+}
+
+ /* ======================== DiscountPrice ====================================
+  ======================================================================= */
+
+.DiscountPrice{
+
+}
+
+
+.DiscountPrice .bluebg{
+  overflow: hidden;
+  /* background: url(../../public/images/landing_13/bubble.svg); */
+  background-color: #1949C9;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.DiscountPrice .bluebg .imageBox{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.DiscountPrice .bluebg .imageBox img{
+  width: 100%;
+  height:100%;
+  opacity: 0.3;
+}
+
+.DiscountPrice .bluebg .text{
+  z-index: 5;
+  position: relative;
+}
+
+.DiscountPrice .bluebg .text h1{
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+}
+
+.DiscountPrice .bluebg .text h2{
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+ /* ======================== Importance ====================================
+  ======================================================================= */
+
+.Importance{
+  padding: 80px 0;
+}
+
+.Importance .headerTitle{
+  text-align: center;
+}
+
+.Importance .headerTitle h1{
+  margin-top: 0;
+}
+.Importance .cardBox{
+  width: 100%;
+  height:200px;
+  border: 2px dashed #838383;
+  border-top: 0;
+  border-right: 0;
+  margin: 25px 10px;
+  position: relative;
+}
+
+.Importance .cardBox .iconCard{
+  width: 95%;
+  height: 200px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  padding: 0 24px;
+  padding-top: 25px;
+  background: #FFFFFF;
+  box-shadow: 0px -75px 96.2656px rgba(0, 0, 0, 0.03), 0px 77.9929px 56.3777px rgba(0, 0, 0, 0.0227778), 0px 46.3501px 30.6624px rgba(0, 0, 0, 0.0182222), 0px 24.0664px 15.6432px rgba(0, 0, 0, 0.015), 0px 9.80483px 7.84386px rgba(0, 0, 0, 0.0117778), 0px 2.22837px 3.78823px rgba(0, 0, 0, 0.00722222);
+}
+
+.Importance .cardBox .icon{
+  display: flex;
+  justify-content: center;
+}
+
+.Importance .cardBox .icon svg {
+  vertical-align: middle;
+  font-size: 50px;
+  color: #93CA41;
+}
+
+.Importance .cardBox .text h3{
+  color: var(--text_color);
+  font-weight: 500;
+  margin-top: 15px;
+  font-size: 22px;
+
+}
+
+ /* ======================== imgCan ====================================
+  ======================================================================= */
+
+.imgCan{
+  padding: 60px 0;
+  background: url(../../public/images/landing_13/bubbleBG.png);
+}
+
+.imgCan .imageBox{
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  border: 5px solid #FDF7F0;
+}
+
+.imgCan .imageBox img{
+  width: 100%;
+}
+
+.imgCan .text h2{
+  color: var(--bg_color4);
+}
+
+.imgCan .text h5{
+  color: var(--text_color);
+}
+
+.imgCan a.bg {
+
+  color: #fff;
+  background: var(--primary_text);
+}
+
+
+ /* ======================== Nutrients ====================================
+  ======================================================================= */
+
+.Nutrients{
+  padding: 60px 0;
+  position: relative;
+}
+.Nutrients .headerTitle{
+  margin-bottom: 20px;
+}
+
+.Nutrients h1{
+  text-align: center;
+}
+
+.Nutrients p{
+  line-height: 42px;
+}
+
+ /* ======================== Call Us ====================================
+  ======================================================================= */
+
+.CallUs{
+  margin: 30px 0;
+
+}
+
+.CallUs .imageBox{
+  background: url(../../public/images/landing_13/boxFrame.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 100px 0;
+  width: 100%;
+}
+
+.CallUs .imageBox .text h2,
+.CallUs .imageBox .text h5{
+  color: #fff;
+}
+
+/* ======================== Video====================================
+  ======================================================================= */
+
+.Video{
+  margin: 100px 0;
+
+}
+.Video .imageBox{
+  display: flex;
+  justify-content: center;
+}
+.Video .imageBox img{
+  width: 100%;
+}
+
+  /* ======================== Our Clients====================================
+  ======================================================================= */
+
+.Clients{
+  margin: 50px 0;
+}
+
+.Clients .clientBox{
+  border: 1px solid #1949C9;
+  border-radius: 20px;
+  padding: 14px;
+  margin-top: 40px;
+}
+
+.Clients .clientBox .imageBox{
+  display: flex;
+  justify-content: center;
+}
+
+.Clients .clientBox .clientInfo h5{
+  text-align: center;
+  color: #111811;
+  margin-top: 10px;
+
+}
+
+.Clients .clientBox .clientInfo p{
+  margin-top: 10px;
+}
+
+.Clients .clientBox .text{
+  padding: 5px;
+  background: #F7F7F7;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.6s ease-in-out;
+}
+.Clients .clientBox:hover .text{
+  background: #f22512;
+
+}
+
+.Clients .clientBox:hover .text p{
+  color: #ffffff;
+}
+
+.Clients .clientBox .text p{
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 0;
+}
+
+/* ======================== Footer   ====================================
+  ======================================================================= */
+.Footer{
+  position: relative;
+
+}
+
+.Footer .imageBox{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Footer .imageBox img{
+  width: 80%;
+  position: relative;
+  z-index: 0;
+}
+
+.Footer .footermenu{
+  position: relative;
+  z-index: 5;
+}
+
+.Footer .footermenu h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #042117;
+}
+
+.Footer .footermenu ul li {
+  margin-top: 10px;
+}
+
+.Footer .footermenu .social {
+  display: flex;
+}
+.Footer .footermenu .social li {
+  margin-right: 20px;
+}
+
+.Footer .footermenu a {
+  color: #5b5858;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.Footer .footermenu a svg {
+  font-size: 20px;
+}
+
+.Footer .copyRight{
+  position: relative;
+  z-index: 5;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/* ***********************************----------------------------------------------------------------------------------------
+    Tablet RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .LandingThirteen h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .LandingThirteen h1 span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h2 span {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+
+  .LandingThirteen h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h5 {
+    font-size: 16px;
+  }
+
+  .LandingThirteen .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingThirteen p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingThirteen a.bg {
+    margin-top: 20px;
+    padding: 12px 20px;
+  }
+
+  .LandingThirteen a {
+    font-size: 16px;
+  }
+
+  .LandingThirteen a svg {
+    font-size: 20px;
+  }
+
+  .LandingThirteen .Logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .LandingThirteen .Logo img {
+    width: 50%;
+  }
+
+  .LandingThirteen .text h2 {
+    font-size: 26px;
+    margin-top: 15px;
+  }
+
+  .Banner {
+    padding:60px 0;
+  }
+
+  .Banner h1{
+    margin-top: 20px;
+    line-height: 42px;
+  }
+
+  .DiscountPrice .bluebg{
+    margin: 60px 0;
+
+  }
+
+  .DiscountPrice .bluebg .imageBox img{
+   height:500px;
+  }
+
+  .DiscountPrice .bluebg .text h1 {
+    font-size: 30px;
+  }
+
+  .DiscountPrice .bluebg .text h2 {
+    font-size: 20px;
+  }
+
+  .Importance {
+    padding: 60px 0;
+  }
+
+  .Importance .cardBox {
+
+    height: 180px;
+  }
+
+  .Importance .cardBox .iconCard {
+    padding: 0 20px;
+    padding-top: 22px;
+    height: 180px;
+    left: 12px;
+    bottom: 12px;
+
+  }
+
+  .Importance .cardBox .icon svg {
+    font-size: 35px;
+
+  }
+
+  .Importance .cardBox .text h3 {
+
+    font-size: 22px;
+  }
+
+  .imgCan {
+    padding: 40px 0;
+
+  }
+
+  .imgCan .imageBox img{
+    width: 100%;
+  }
+
+  .Nutrients {
+    padding: 40px 0;
+
+  }
+
+  .CallUs .imageBox {
+
+    padding: 40px 0;
+  }
+
+  .Video{
+    margin: 40px 0;
+  }
+}
+
+/* ***********************************----------------------------------------------------------------------------------------
+    small Laptop RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .LandingThirteen h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .LandingThirteen h1 span {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .LandingThirteen h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h2 span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h4 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .LandingThirteen h5 {
+    font-size: 16px;
+  }
+
+  .LandingThirteen .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingThirteen p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingThirteen a.bg {
+    margin-top: 20px;
+    padding: 12px 30px;
+  }
+
+  .LandingThirteen a {
+    font-size: 16px;
+  }
+
+  .LandingThirteen a svg {
+    font-size: 10px;
+  }
+
+  .LandingThirteen .Logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .LandingThirteen .Logo img {
+    width: 50%;
+  }
+
+  .LandingThirteen .text h2 {
+    font-size: 26px;
+    margin-top: 15px;
+  }
+
+  .DiscountPrice .bluebg{
+    margin: 70px 0;
+
+  }
+
+  .DiscountPrice .bluebg .imageBox img{
+    height:500px;
+   }
+
+   .DiscountPrice .bluebg .text h1 {
+     font-size: 40px;
+   }
+
+   .DiscountPrice .bluebg .text h2 {
+     font-size: 30px;
+   }
+
+  .Importance{
+  padding: 70px 0;
+  }
+
+  .Importance .cardBox {
+
+    height: 170px;
+  }
+
+
+  .Importance .cardBox .iconCard {
+    padding: 0 16px;
+    padding-top: 18px;
+    height: 170px;
+    left: 12px;
+    bottom: 12px;
+
+  }
+
+  .Importance .cardBox .icon svg {
+    font-size: 35px;
+
+  }
+
+  .Importance .cardBox .text h3 {
+
+    font-size: 16px;
+  }
+
+  .Footer .footermenu .social li {
+    margin-right: 10px;
+  }
+
+  .Footer .footermenu a {
+    font-size: 16px;
+
+  }
+
+  .Footer .footermenu a svg {
+    font-size: 18px;
+  }
+
+}
+
+/* ***********************************----------------------------------------------------------------------------------------
+    Mobile RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 575px) {
+  .LandingThirteen h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .LandingThirteen h1 span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h2 span {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+
+  .LandingThirteen h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .LandingThirteen h5 {
+    font-size: 16px;
+  }
+
+  .LandingThirteen .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingThirteen p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingThirteen a.bg {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 20px;
+  }
+
+  .LandingThirteen a {
+    font-size: 16px;
+  }
+
+  .LandingThirteen a svg {
+    font-size: 20px;
+  }
+
+  .LandingThirteen .Logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LandingThirteen .Logo img {
+    width: 50%;
+  }
+
+  .LandingThirteen .text h2 {
+    font-size: 26px;
+    margin-top: 15px;
+  }
+
+  .topBar .LogoDiv img{
+    width: 50px;
+  }
+
+  .Banner {
+    padding:40px 0;
+  }
+
+  .Banner h1{
+    margin-top: 20px;
+    line-height: 42px;
+  }
+
+  .DiscountPrice .bluebg{
+    margin: 40px 0;
+
+  }
+
+  .DiscountPrice .bluebg .imageBox img{
+   height:350px;
+  }
+
+  .DiscountPrice .bluebg .text h1 {
+    font-size: 26px;
+  }
+
+  .DiscountPrice .bluebg .text h2 {
+    font-size: 20px;
+  }
+
+  .Importance {
+    padding: 40px 0;
+  }
+
+  .Importance .cardBox {
+
+    height: 150px;
+  }
+
+  .Importance .cardBox .iconCard {
+    padding: 0 14px;
+    padding-top: 15px;
+    height: 150px;
+    left: 9px;
+    bottom: 9px;
+
+  }
+
+  .Importance .cardBox .icon svg {
+    font-size: 30px;
+
+  }
+
+  .Importance .cardBox .text h3 {
+
+    font-size: 12px;
+  }
+
+  .imgCan {
+    padding: 40px 0;
+
+  }
+
+  .imgCan .imageBox img{
+    width: 100%;
+  }
+
+  .Nutrients {
+    padding: 40px 0;
+
+  }
+
+  .CallUs .imageBox {
+
+    padding: 40px 0;
+  }
+
+  .Video{
+    margin: 40px 0;
+  }
+
+}
+

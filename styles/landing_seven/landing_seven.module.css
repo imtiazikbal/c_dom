@@ -1,0 +1,1175 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandingSeven {
+    --header_color: #080422;
+    --bg_color1: #6001D3;
+    --bg_color2: #FCDC00;
+    --bg_color3: #FD346E;
+    --white_color: #fff;
+  }
+  
+  .container{
+      max-width: 100%;
+      padding: 0 150px;
+  }
+  
+  .LandingSeven{
+      font-family: 'Noto Sans Bengali', sans-serif !important;
+  }
+  
+  .LandingSeven h2{
+      font-size: 40px;
+      line-height: 50px;
+      color: var(--header_color);
+      font-weight: 700;
+  }
+  
+  .LandingSeven h3{
+      font-size: 24px;
+      line-height: 35px;
+      color: var(--header_color);
+      font-weight: 600;
+  }
+  
+  .LandingSeven p{
+      color: var(--text_color);
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-top: 15px;
+  }
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .LandingSeven .bg {
+      transition: 0.5s;
+      display: block;
+      font-size: 20px;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+  .LandingSeven a.bg{
+      /* margin-top: 30px; */
+      padding: 12px 20px;
+      padding-top: 15px;
+      color: var(--white_color); 
+      background-image: linear-gradient(to right, #9FDA12 0%, #7A7A7A 51%, #9FDA12  100%);
+      background-size: 200% auto;
+      border-radius: 10px;
+      display: inline-block;
+  }
+
+  .LandingSeven a svg{
+      font-size: 25px;
+      margin-top: -5px;
+      margin-right: 10px;
+  }
+  
+  .LandingSeven a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+  }
+   
+  .LandingSeven .section_gaps{
+      margin-top: 100px;
+  }
+  
+ 
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+      START Banner PART
+  --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  .Banner{
+    background: url('../../public/images/landing_7/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 394px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.logoBox{
+text-align: center;
+padding: 20px;
+}
+
+.textBoxBg{
+    margin-left: 15px;
+    padding-top:109px;
+}
+
+.textBoxBg p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 85.5%;
+    color: #000000;
+}
+.textBoxBg h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #000000;
+    padding-bottom: 15px;
+}
+.textBoxBg h1 span{
+color: #fff;
+}
+
+ .bgImgIconBox{
+ position: relative;
+ top:0;
+ left:0;
+
+}
+.textBoxBg .bgImgIcon1{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left:400px;
+    margin-top: -10px;
+}
+.textBoxBg .bgImgIcon2{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left:335px;
+    margin-top: 65px;  
+}
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART -----2
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* .banner2Txt{
+
+} */
+.DronemainBox{
+    position: relative;
+    top:0;
+    left: 0;
+}
+
+.bgImgIcon3{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left:0px;
+    margin-top:-350px; 
+}
+
+.myDroneImg{
+    width: 100%;
+}
+
+.banner2Txt p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.banner2Txt h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 85.5%;
+    color: #9FDA12;
+    margin-bottom: 25px;
+}
+
+.BtnOrderNow2{
+    /* width: 74px; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color:#9FDA12;
+    padding: 18px 32px !important;
+    background: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    outline: 2px solid #9FDA12;
+    border-radius: 10px;
+    margin-left: 15px !important;
+
+}
+.BtnOrderNow2:hover{
+    background-image: linear-gradient(to right, #9FDA12 0%, #7A7A7A 51%, #9FDA12  100%);
+    background-size: 200% auto;
+    color: #fff;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART--3
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.bgImgIcon3Small{
+    display: none;
+}
+
+
+.bannerThree{
+margin-top: 100px;
+
+}
+.banner3TopTxt{
+text-align: center;
+/* margin-bottom: 115px; */
+
+}
+.banner3TopTxt h2{
+text-align: center;
+margin-bottom: -11px;
+font-weight: 700;
+font-size: 40px;
+line-height: 85.5%;
+}
+/* .banner3TopTxt img{
+
+} */
+.Banner3Icon{
+   
+    height: 54px;
+    width: 62px;
+    /* font-size: 80px; */
+    color: #BABABA;
+    padding: 0px;
+    /* box-shadow: -5px -5px 5px 10px red; */
+    border-radius: 0%;
+}
+
+
+.IcodBorderDev{
+    position: relative;
+    top:0;
+    right:0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 1px 2px rgba(128, 128, 128, 0.2);
+    overflow: hidden;
+
+}
+
+
+
+/* .IcodBorderDev:hover{
+    box-shadow: 3px 3px 3px 5px rgba(159, 218, 18,0.5) ;
+} */
+
+
+.icon3SideImg{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-top: 38px;
+    margin-right: -4px;
+  
+
+}
+
+/* .myIcontxtBox{
+    
+} */
+.myIcontxtBox h2{
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 85.5%;
+    color: #9FDA12;
+}
+.myIcontxtBox p{
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7A7A7A;
+}
+
+
+.Columanpading{
+    padding: 80px 80px 0px 30px;
+    text-align: justify;
+    /* shakhawat change some effact---start---------------------------------------------------- */
+    position: relative;
+    overflow: hidden;
+   
+}
+.Columanpading .IcodBorderDev::after{
+    content: "";
+    position: absolute;
+
+    right: 0%; 
+    width: 5%;
+    height: 120%;
+    bottom: 100%;
+    /* background: #9FDA12; */
+    transition: 1s;
+    z-index: -1;
+    /* transform: translateX(100%) ; */
+    /* transform: translate3d(10px , -120px, 10px) skew(30deg) ; */
+    transform: skewX(140deg);
+
+}
+.Columanpading:hover .IcodBorderDev::after{
+    top: 0%;
+    width: 120%;
+    transition: 1s;
+
+    /* transform: translateX(0%) ; */
+    transform: translateX(0%) ;
+    background: #9FDA12;
+}
+/* .IcodBorderDev:hover{
+box-shadow: 3;
+} */
+    /* shakhawat change some effact---end---------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART----4
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.banner4Sec{
+margin-top: 100px;
+}
+
+.borderDev{
+box-sizing: border-box;
+}
+.borderDev img{
+width: 100%;
+}
+
+.vidioBox{
+box-sizing: border-box;
+
+}
+/* .vidioBox iframe{
+border-radius: 10%;
+box-shadow: -10px -10px  rgb(255, 255, 255) , -12px -12px #9FDA12;
+width: 100%;
+
+} */
+
+.banner4Txt{
+    padding-left: 10px;
+    align-items: center;
+   
+}
+.banner4Txt h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.banner4Txt p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+color: #7A7A7A;
+
+}
+.banner4Txt span{
+    color: #9FDA12;
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART--5
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Container5{
+    padding: 0;
+}
+
+.Banner5sec{
+    margin-bottom: 100px;
+}
+.Banner5Padding{
+    margin-top: 85px;
+    padding: 60px 7% 60px 7%;
+    background-color: #9FDA12;
+}
+.imgBorder5{
+outline: 2px solid #fff;
+outline-offset: 16px;
+border-radius: 10px;
+
+}
+.imgBorder5 img{
+width: 100%;
+}
+
+
+.banner3TopTxt2 img{
+    margin-left: 30px;
+}
+.Banner5Padding .Sec5h2{
+      margin-bottom: -15px;
+      font-weight: 700;
+        font-size: 40px;
+        line-height: 120.5%;
+        color: #000000;
+}
+
+/* .banner3TopTxt2{
+    
+} */
+.banner3TopTxt3 {
+    padding-bottom: 20px;
+ 
+}
+.banner3TopTxt3 h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120.5%;
+    color: #FFFFFF;
+}
+
+.Banner5Padding .banner3TopTxt3 .h3span{
+    font-size: 40px;
+    font-weight: 400;
+ }
+
+.banner3TopTxt3 h4{
+    padding: 20px 0px 20px 0px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85.5%;
+    color: #FFFFFF;
+}
+.banner3TopTxt3 h5{
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 85.5%;
+    color: #7A7A7A;
+}
+.banner3TopTxt3 p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+.imgBorder5{
+    overflow: hidden; 
+}
+.imgBorder5 img{
+    transition: 1s; 
+}
+.imgBorder5 img:hover{
+    transform: scale(1.2);
+}
+
+
+.Costombtn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color:#fff;
+    padding: 16px 32px;
+    background: #9FDA12;
+    text-decoration: none;
+    margin-right: 15px;
+    outline: 2px solid #fff;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.BtnOrderNow3{
+    
+        /* width: 74px; */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color:#9FDA12;
+        padding: 18px 20px;
+        background: #fff;
+        text-decoration: none;
+        margin-right: 15px;
+        outline: 2px solid #9FDA12;
+        border-radius: 10px;
+        margin-left: 15px;
+    
+}
+
+
+.Costombtn:hover{
+    background-image: linear-gradient(to right, #9FDA12 0%, #7A7A7A 40%, #9FDA12  100%);
+    background-size: 200% auto;
+    color: #fff;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART--6
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Banner6Img{
+    margin-top: 100px;
+}
+
+
+.section6 .Banner6Img .myImg{
+    padding: 0;
+}
+.Banner6Img img{
+width: 100%;
+}
+.banner3TopTxt6{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.banner3TopTxt6 h2{
+    font-size: 40px;
+    margin-bottom: -13px;
+
+}
+.Banner6Img > div img{
+    transition: 1s;
+}
+.Banner6Img > div {
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.Banner6Img img:hover{
+    transform: scale(1.1);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART - footer
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.imgBoxFooter a{
+    text-decoration: none;
+}
+
+
+/* .imgBoxFooter{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom:45px ;
+}
+.imgBoxFooter img{
+  padding: 25px 55px 55px 55px ;
+} */
+
+
+.banner3TopTxtF{
+    text-align: center;
+}
+.banner3TopTxtF h2{
+    margin-top: 100px;
+  margin-bottom: -13px;
+}
+ .lastlogo{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hovereffect2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* *Icon Hover Effect 2* */
+.hovereffect2 { min-height: 0px; background: #ffffff; text-align: center; }
+.hovereffect2 ul { padding-top: 50px;  }
+.hovereffect2 ul li { display: inline-block; margin-right: 30px; margin-bottom: 15px;}
+.hovereffect2 ul li a { font-size: 40px; color: #9FDA12; margin: 0px 10px; line-height: 100px; display: inline-block; width: 100px; height: 100px; background: rgb(128, 128, 128); border-radius: 50%; -webkit-transition: all .6s ease; -moz-transition: all .6s ease; -ms-transition: all .6s ease; -o-transition: all .6s ease; transition: all .6s ease; }
+.hovereffect2 ul li:hover a { border-radius: 0%; background: #9FDA12; }
+
+
+
+
+
+
+
+
+/* .lastlinks{
+    text-align: center;
+    color: #BABABA;
+}
+.lastlinks a{
+    padding: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 160%;
+}
+.lastlinks a:hover{
+    text-decoration:underline;
+} */
+
+
+
+.imgBoxFooter img{
+    transition: 1s;
+}
+.imgBoxFooter img:hover{
+ transform: scale(1.2);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Media Quari-----------
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 2400px) { 
+  .bgImgIcon1{
+    /* width: 100px;
+    height: 100px; */
+    animation: myAnim 5s linear infinite;
+    transition: 5s;
+  }
+  
+  @keyframes myAnim {
+    0%   {top: 0px;}
+    25%  {left: 25px;}
+    50%  { top: 50}
+    75%  {top: 25px}
+    100% {top: 0px;}
+  }
+}
+
+@media (max-width: 1199.98px) { 
+    
+    .bgImgIcon1{
+        animation: myAnim 5s linear infinite;
+        transition: 5s;
+      }
+      
+      @keyframes myAnim {
+        0%   {top: 0px;}
+        25%  {left: 25px;}
+        50%  { top: 50}
+        75%  {top: 25px}
+        100% {top: 0px;}
+      }
+
+    .myIcontxtBox{
+       padding-left: 10px; 
+    }
+
+    .Columanpading{
+        padding: 80px 0px 0px 30px;
+        text-align: justify; 
+    }
+    
+ }
+
+
+/* ------------------------------------------------------------------991-------------------------------- */
+
+ @media (max-width: 991.98px) { 
+
+    .bgImgIcon1{
+        animation: myAnim 5s linear infinite;
+        transition: 5s;
+      }
+      
+      @keyframes myAnim {
+        0%   {top: 0px;}
+        25%  {left: 0px;}
+        50%  { top: 0px}
+        75%  {top: 0px}
+        100% {top: 0px;}
+      }
+
+    .textBoxBg p{
+        /* font-size: 32px; */
+        font-size: 25px;
+    }
+    .textBoxBg h1{
+        /* font-size: 64px; */
+        font-size: 44px;
+    }
+.textBoxBg .bgImgIcon1{
+    /* margin-left:400px; */
+    margin-left:320px;
+}
+.textBoxBg .bgImgIcon2{
+    /* margin-left:335px; */
+    margin-left:255px;
+}
+
+.LandingSeven a.bg{
+    /* padding: 12px 20px; */
+    padding: 6px 10px;
+    padding-top: 15px;
+}
+
+.LandingSeven a svg{
+    /* font-size: 25px; */
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.BtnOrderNow2{
+    /* width: 74px; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color:#9FDA12;
+    /* padding: 18px 32px; */
+    padding: 18px 28px;
+    vertical-align: 4px;
+    background: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    outline: 2px solid #9FDA12;
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+
+.Costombtn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color:#fff;
+    padding: 16px 22px;
+    background: #9FDA12;
+    text-decoration: none;
+    margin-right: 15px;
+    outline: 2px solid #fff;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.BtnOrderNow3 a{
+    
+    /* width: 74px; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color:#9FDA12;
+    padding: 18px 22px;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    outline: 2px solid #9FDA12;
+    border-radius: 10px;
+    margin-left: 0px;
+
+}
+
+
+/* icon4---------------- */
+
+.myIcontxtBox{
+   padding-left: 20px; 
+}
+
+.Columanpading{
+    padding: 80px 0px 0px 15px;
+    text-align: justify;  
+}
+
+ }
+
+/* ---------------------------------------------767---------- */
+
+@media (max-width: 767.98px) {  
+
+   
+
+    .bgImgIcon3Small{
+        display: block;
+    }
+    .bgImgIcon3Small img{
+        display: block;
+        width: 100%;
+    }
+    .DronemainBox{
+        display: none;
+       
+    }
+    .myColBlank{
+        display: none;
+    }
+    .textBoxBg{
+        text-align: center;
+        margin-left: 15px;
+        padding-top: 109px;
+    }
+    .textBoxBg p{
+     text-align: justify;
+        text-align: center;
+        /* font-size: 32px; */
+        font-size: 25px;
+    }
+    .textBoxBg h1{
+        text-align: center;
+        /* font-size: 64px; */
+        font-size: 44px;
+    }
+    .textBoxBg .bgImgIcon1{
+        /* margin-left:400px; */
+        margin-left:84%;
+    }
+    .textBoxBg .bgImgIcon2{
+        /* margin-left:335px; */
+        margin-left:74%;
+    }
+    .logoBox{
+        text-align: center;
+        padding: 40px;
+        }
+
+        .myButtonBox{
+            text-align: center;
+        }
+        .Banner2 .banner2Txt{
+            text-align: center;
+        }
+        .squareboxDiv{
+            text-align: center;
+        }
+        /* .squareboxDivMain {
+            padding-left:38% ;
+        } */
+      /* aaaaaaaaaaaaaa----------------*/
+     
+
+
+
+
+        /* icon---4------------- */
+       
+            /* footer */
+           
+            .lastlinks a{
+                padding: 5px;
+            
+            }
+           
+            .lastlinks a{
+            display: block;
+           
+            }
+
+            .imgBorder5{
+                margin-top: 50px;
+             }
+
+             .banner4Txt{
+                margin-top: 20px;
+                text-align: center;
+              
+             }
+             .banner3TopTxt2{
+                text-align: center;
+                
+             }
+             .Banner5Padding .Sec5h2{
+                margin-bottom: -10px;
+                font-weight: 700;
+                  font-size: 22px;
+               
+          }
+             .banner3TopTxt3{
+                text-align: center;
+             }
+             .banner3TopTxt3 h4{
+                text-align: center;
+                font-size: 45px;
+                font-weight: 500;
+             }
+             .banner3TopTxt3 h3{
+                text-align: center;
+                font-size: 35px;
+                font-weight: 500;
+             }
+            
+             .Banner6Img img{
+                   padding-left: 15px;
+                   padding-bottom: 15px;
+             }
+
+}
+
+
+/* ------------------------------------------------575---------------- */
+@media (max-width: 575.98px) { 
+    .textBoxBg .bgImgIcon1{
+        /* margin-left:400px; */
+        margin-left:84%;
+    }
+    .textBoxBg .bgImgIcon1 img{
+      /* height: 98px; */
+        height:55px ;
+    }
+
+    .textBoxBg .bgImgIcon2{
+        /* margin-left:335px; */
+        margin-left:74%;
+    }
+    .textBoxBg .bgImgIcon2 img{
+        /* margin-left:335px; */
+        height:50px ;
+    }
+
+    /* aaaaaaaaa------------ */
+
+    .LandingSeven .bg {
+        transition: 0.5s;
+        display: block;
+        /* font-size: 20px; */
+        font-size: 16px;
+        
+    }
+    
+    .LandingSeven a.bg{
+        /* padding: 12px 20px; */
+        padding: 6px 10px;
+        padding-top: 15px;
+    }
+  
+    .LandingSeven a svg{
+        /* font-size: 25px; */
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+    .BtnOrderNow2{
+        /* width: 74px; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color:#9FDA12;
+        /* padding: 18px 32px; */
+        padding: 15px 10px !important;
+        vertical-align: 4px;
+        background: #fff;
+        text-decoration: none;
+        margin-right: 15px;
+        outline: 2px solid #9FDA12;
+        border-radius: 10px;
+        margin-left: 15px;
+    
+    }
+    .myButtonBox{
+        text-align: center;
+    }
+    .Banner2 .banner2Txt{
+        text-align: center;
+    }
+/* aaaaaaaaaaaa -----end*/
+
+
+
+    .banner3TopTxt3 h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 120.5%;
+        color: #FFFFFF;
+    }
+
+    /* .squareboxDivMain {
+        padding-left:35% ;
+    } */
+
+    /* icon------ */
+    .myIcontxtBox{
+        padding-left: 24px; 
+     }
+     
+     .Columanpading{
+         padding: 40px 0px 0px 15px;
+         text-align: justify;  
+     }
+ /* sec-----5 */
+ .imgBorder5{
+    margin-top: 50px;
+ }
+
+ .borderDev {
+    box-sizing: border-box;
+    width: 100%;
+ }
+ .borderDev img{
+    box-sizing: border-box;
+    width: 100%;
+ }
+
+
+/* .borderDev iframe{
+    height: 200px;
+} */
+.textBoxBg p{
+       font-size: 20px;
+   }
+   .textBoxBg h1{
+       font-size: 32px;
+   }
+
+   .banner2Txt p{
+    font-size: 16px;
+    text-align: center;
+    /* text-align: justify; */
+}
+.banner2Txt h2{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+.banner3TopTxt h2{
+    text-align: center;
+    margin-bottom: -11px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 85.5%;
+    }
+    .bannerThree{
+        text-align: center;
+    }
+    .bannerThree .myIcontxtBox{
+        text-align: center;
+    }
+    .bannerThree .IcodBorderDev{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .banner4Txt h2{
+        margin: 10px;
+        font-size: 22px;
+    }
+    .banner4Txt p{
+        font-size: 16px;
+    }
+    .banner3TopTxt2 h2{
+        text-align: center;
+          font-size: 22px;
+  }
+  
+
+.banner3TopTxt3 h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120.5%;
+    color: #FFFFFF;
+}
+
+.banner3TopTxt3 h4{
+    padding: 20px 0px 20px 0px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 85.5%;
+    color: #FFFFFF;
+}
+.banner3TopTxt3 h5{
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 85.5%;
+    color: #7A7A7A;
+}
+.banner3TopTxt3 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+.banner3TopTxt6 h2{
+    font-size: 22px;
+    margin-bottom: -11px;
+    line-height: 20px;
+}
+
+.Banner6Img img{
+    padding-bottom: 20px;
+    width: 100%;
+    }
+
+    .banner3TopTxtF h2{
+        font-size: 20px;
+       margin-top: 100px;
+      margin-bottom: -20px;
+    }
+
+    .banner4Sec{
+        margin-top: 106px;
+        }
+  
+  /* -- */
+  .Costombtn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color:#fff;
+    padding: 15px 10px;
+    background: #9FDA12;
+    text-decoration: none;
+    margin-right: 0px;
+    outline: 2px solid #fff;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+
+}
+
+/* @media (max-width: 500.98px) { 
+   
+
+}
+@media (max-width: 400.98px) { 
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */

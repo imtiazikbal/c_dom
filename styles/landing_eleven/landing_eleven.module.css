@@ -1,0 +1,1206 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandingEleven {
+  --header_color: #ffffff;
+  --bg_color: #f0b54d;
+  --bg_color2: #fff7e3;
+  --bg_color3: #f2371d;
+  --bg_color4: #f22512;
+  --text_color: #0d0f22;
+  --white_color: #fff;
+  --primary_text: #756bee;
+}
+
+.LandingEleven .container {
+  max-width: 100%;
+  padding: 0 250px;
+}
+
+.LandingEleven {
+  font-family: "Noto Sans Bengali", sans-serif !important;
+}
+
+.LandingEleven h1 {
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 80px;
+  margin-top: 40px;
+  color: var(--text_color);
+}
+
+.LandingEleven h1 span {
+  color: var(--bg_color);
+  text-align: center;
+}
+
+.LandingEleven h2 {
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--text_color);
+  text-align: center;
+  font-weight: 600;
+}
+
+.LandingEleven h3 {
+  font-size: 24px;
+  line-height: 35px;
+  color: var(--primary_text);
+  font-weight: 600;
+  text-align: center;
+}
+
+.LandingEleven .Title h2 {
+  line-height: 70px;
+}
+.LandingEleven .Title p {
+  color: var(--primary_text);
+  font-size: 28px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.LandingEleven h4 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 32px;
+}
+.LandingEleven h4 span {
+  text-decoration: line-through;
+  color: var(--bg_color3);
+}
+
+.LandingEleven h5 {
+  font-size: 24px;
+  line-height: 20px;
+  color: var(--primary_text);
+  font-weight: 600;
+}
+
+.LandingEleven h6 {
+  font-size: 21px;
+  line-height: 28px;
+  color: var(--bg_color3);
+  font-weight: 700;
+}
+
+.LandingEleven p {
+  color: #5b5858;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.LandingEleven a {
+  transition: 0.5s;
+  display: block;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.LandingEleven a.bg {
+  margin-top: 30px;
+  padding: 12px 50px;
+  padding-top: 15px;
+  color: #ffffff;
+  background: var(--primary_text);
+  background-size: 200% auto;
+  border-radius: 30px;
+  display: inline-block;
+  box-shadow: 0px 43.4259px 46.8519px rgba(117, 107, 238, 0.1931),
+    0px 25.8074px 25.4815px rgba(117, 107, 238, 0.0425185),
+    0px 13.4px 13px rgba(117, 107, 238, 0.035),
+    0px 5.45926px 6.51852px rgba(117, 107, 238, 0.0274815),
+    0px 1.24074px 3.14815px rgba(117, 107, 238, 0.0168519);
+}
+
+.LandingEleven .headerTitle {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 40px;
+}
+
+.LandingEleven a.bg:hover {
+  transform: scale(1.02);
+}
+
+.LandingEleven a svg {
+  font-size: 25px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.LandingEleven .hLine {
+  margin-top: 10px;
+  height: 2px;
+  width: 300px;
+  background: var(--primary_text);
+}
+
+.LandingEleven a.bg:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.LandingEleven .section_gaps {
+  margin-top: 50px;
+}
+.LandingEleven .LogoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.LandingEleven .btnBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+
+.LandingEleven .text h2 {
+  color: var(--text_color);
+  margin-top: 40px;
+  font-size: 44px;
+  position: relative;
+  z-index: 5;
+}
+
+.LandingEleven .text h5 {
+  margin-top: 20px;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.LandingEleven .LeftImage,
+.LandingEleven .RightImage {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.LandingEleven .LeftImage {
+  left: 0;
+  justify-content: left;
+}
+
+.LandingEleven .RightImage {
+  right: 0;
+  justify-content: right;
+}
+
+/* =================== Banner Section   ==================================================
+  ======================================================================================= */
+
+.Banner {
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.Banner .img_center {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.Banner .img_center img {
+  width: 100%;
+  animation: grow 4s linear infinite;
+}
+.Banner .img_right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.Banner .img_right img {
+  width: 100%;
+  height: 100%;
+}
+
+.Banner .img_bottom_right {
+  position: absolute;
+  bottom: 12%;
+  right: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.Banner .img_bottom_right img {
+  width: 100%;
+  animation: circle 4s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(90deg);
+  }
+  60% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.7);
+  }
+  30% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1) rotate(90deg);
+  }
+  100% {
+    transform: scale(0.7) rotate(0deg);
+  }
+}
+
+.Banner .textBox {
+  display: flex;
+  margin-top: 40px;
+}
+.Banner .textBox h2 {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 39px;
+}
+
+.Banner .textBox .textCircle {
+  margin: 0 10px;
+  position: relative;
+}
+
+.Banner .textBox .textCircle img {
+  width: 100%;
+}
+
+.Banner .textBox .textCircle h2 {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  color: var(--bg_color3);
+}
+
+.Banner .bannerBG {
+  position: relative;
+}
+
+.Banner .bannerBG img.backgroundOne {
+}
+
+.Banner .bannerBG img.wallet {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  animation: MoveUpDown 3s infinite;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    top: 60px;
+  }
+  50% {
+    top: 20px;
+  }
+}
+.Banner .btnBox {
+  justify-content: flex-start;
+  margin-top: 0;
+}
+.Banner .btnBox a.bg {
+  margin-top: 0;
+}
+
+.Banner .btnBox h2 {
+  margin: auto 20px;
+  color: var(--bg_color3);
+}
+
+/* =================== WhyUs Section   ==================================================
+  ======================================================================================= */
+.WhyUs {
+  padding: 60px 0;
+  background: #fff9e7;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.WhyUs .text {
+  position: relative;
+  z-index: 5;
+}
+
+.WhyUs .text p {
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.WhyUs .LeftImage {
+  left: -100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.WhyUs .LeftImage img {
+  width: 100%;
+}
+
+.WhyUs .RightImage {
+  right: -100px;
+}
+
+/* =================== Wallets Section   ==================================================
+  ======================================================================================= */
+
+.Wallets {
+  padding: 40px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.Wallets .Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Wallets img {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.Wallets .Image:hover img {
+  transform: translateY(-20px);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Wallets .RightImage {
+  right: 0px;
+  top: 110%;
+}
+
+/* =================== Specification Section   ==================================================
+  ======================================================================================= */
+
+.Specification {
+  padding: 60px 0;
+  position: relative;
+  background: #fff9e7;
+}
+
+.Specification h1 {
+  text-align: center;
+}
+
+.Specification h1 span {
+  color: var(--primary_text);
+}
+
+.Specification .IconBox {
+  background: #fff;
+  height: 320px;
+  padding: 55px;
+  padding-bottom: 20px;
+  margin: 30px;
+  border-radius: 40px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.Specification .IconBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 0%;
+  transform: rotate(-45deg) translateX(-50%);
+  transform-origin: top left;
+  background: #f8cd53;
+  z-index: -1;
+  transition: height 0.8s ease;
+}
+
+.Specification .IconBox:hover::after {
+  height: 200%;
+  transform: rotate(-45deg) translateX(-50%);
+  color: #fff;
+}
+
+.Specification .IconBox .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff9e7;
+}
+
+.Specification .IconBox .icon svg {
+  margin: 0 auto;
+  font-size: 40px;
+  color: #f8cd53;
+}
+
+.Specification .LeftImage {
+  top: 10%;
+  left: 15%;
+}
+
+.Specification .LeftImage2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Specification .RightImage {
+  top: 100%;
+}
+
+/* =================== PhoneSection  ==================================================
+  ======================================================================================= */
+
+.PhoneSection {
+  padding: 40px 0;
+}
+
+.PhoneSection .text h2 {
+  color: var(--bg_color3);
+}
+
+.PhoneSection .text h5 {
+  color: #0d0f22;
+}
+
+/* =================== PhoneSection  ==================================================
+  ======================================================================================= */
+
+.Info {
+  padding: 40px 0;
+}
+
+.Info .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.Info .text {
+  text-align: center;
+}
+
+/* =================== OrderBtn  ==================================================
+  ======================================================================================= */
+
+.OrderBtn {
+  position: relative;
+  /* background: #F8CD53; */
+  overflow: hidden;
+}
+
+.OrderBtn .DisplayBox {
+  border-radius: 20px;
+  padding: 60px 0;
+  position: relative;
+  text-align: center;
+  background: #f8cd53;
+  overflow: hidden;
+}
+
+.OrderBtn .DisplayBox h2 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.OrderBtn .DisplayBox .RightImage img {
+  transform: rotateY(180deg);
+  width: auto;
+  height: 100%;
+}
+
+/* =================== FooterWidget  ==================================================
+  ======================================================================================= */
+
+.FooterWidget {
+  padding: 20px 0;
+  position: relative;
+}
+
+.FooterWidget .footerMenu h5 {
+  color: var(--text_color);
+  margin: 20px 0;
+}
+
+.FooterWidget .footerMenu h2 {
+  font-size: 50px;
+  color: var(--bg_color3);
+}
+
+.FooterWidget .footerMenu a {
+  color: #939399;
+}
+
+.FooterWidget .footerMenu ul li {
+}
+
+.FooterWidget .footerMenu a svg {
+  color: var(--text_color);
+}
+
+.FooterWidget .socialBox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.FooterWidget .social a {
+  color: var(--text_color);
+}
+
+.FooterWidget ul.social li {
+  display: inline-block;
+}
+
+.FooterWidget ul.social li svg {
+  font-size: 42px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.FooterWidget ul.social li:hover svg {
+  border: 1px solid #f0b54d;
+}
+
+.FooterWidget p {
+  font-size: 16px;
+}
+
+/* ======================= Laptop Display=================
+
+==========================================================*/
+
+@media (max-width: 1200px) {
+  .LandingEleven h1 {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h1 span {
+    line-height: 30px;
+  }
+
+  .LandingEleven h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h2 span {
+    margin-right: 5px;
+  }
+
+  .LandingEleven h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h5 {
+    font-size: 16px;
+  }
+
+  .LandingEleven .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingEleven p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingEleven a.bg {
+    margin-top: 20px;
+    padding: 15px 40px;
+  }
+
+  .LandingEleven a {
+    font-size: 18px;
+  }
+
+  .LandingEleven a svg {
+    font-size: 20px;
+  }
+
+  .LandingEleven .Logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LandingEleven .Logo img {
+    width: 50%;
+  }
+
+  .LandingEleven .text h2 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  .Banner .bannerBG img.backgroundOne {
+    width: 85%;
+  }
+
+  .Banner .bannerBG img.wallet {
+    left: 30px;
+    width: 70%;
+  }
+
+  .Banner .textBox .textCircle {
+    width: 100px;
+  }
+
+  .Banner .textBox .textCircle img {
+    width: 100%;
+  }
+
+  .OrderBtn .DisplayBox {
+    padding: 30px 0;
+  }
+
+  .OrderBtn .DisplayBox h1 {
+    margin-top: 20px;
+  }
+
+  .OrderBtn .DisplayBox h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .WhyUs .text p {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .Specification {
+    padding: 40px 0;
+  }
+
+  .Specification .IconBox {
+    background: #fff;
+    height: 210px;
+    padding: 22px;
+    padding-bottom: 15px;
+    margin: 10px;
+  }
+
+  .Specification .IconBox .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Specification h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .Specification .LeftImage {
+    top: 5%;
+    left: 5%;
+  }
+
+  .PhoneSection {
+    padding: 20px 0;
+  }
+
+  .Info {
+    padding: 10px 0;
+  }
+
+  .FooterWidget .footerMenu h2 {
+    margin-top: 30px;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 992px) {
+  .FooterWidget .socialBox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Banner .bannerBG {
+    display: flex;
+    justify-content: center;
+  }
+  .Banner .bannerBG img.backgroundOne {
+    width: 75%;
+  }
+
+  .Banner .bannerBG img.wallet {
+    left: 20%;
+    width: 60%;
+  }
+}
+
+/* ***********************************----------------------------------------------------------------------------------------
+    Tablet RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .LandingEleven h1 {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h1 span {
+    line-height: 30px;
+  }
+
+  .LandingEleven h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h2 span {
+    margin-right: 5px;
+  }
+
+  .LandingEleven h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h5 {
+    font-size: 16px;
+  }
+
+  .LandingEleven .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingEleven p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingEleven a.bg {
+    margin-top: 20px;
+    padding: 15px 40px;
+  }
+
+  .LandingEleven a {
+    font-size: 18px;
+  }
+
+  .LandingEleven a svg {
+    font-size: 20px;
+  }
+
+  .LandingEleven .Logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LandingEleven .Logo img {
+    width: 50%;
+  }
+
+  .LandingEleven .text h2 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  .Banner {
+    padding: 40px 0;
+  }
+
+  .Banner .btnBox {
+    margin-top: 30px;
+  }
+
+  .Banner .img_center img {
+    width: 60%;
+  }
+
+  .Banner .textBox .textCircle {
+    width: 100px;
+  }
+
+  .Banner .textBox .textCircle img {
+    width: 100%;
+  }
+
+  .Banner .bannerBG {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Banner .btnBox h2 {
+    margin-top: 15px;
+  }
+
+  .Banner .bannerBG img.backgroundOne {
+    width: 75%;
+  }
+
+  .Banner .bannerBG img.wallet {
+    left: 30px;
+    width: 65%;
+  }
+
+  .Banner .textBox {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .Banner .bannerBG img.wallet {
+    left: 24%;
+    width: 55%;
+  }
+
+  .WhyUs.text p {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .Specification {
+    padding: 40px 0;
+  }
+
+  .Specification .IconBox {
+    background: #fff;
+    height: 210px;
+    padding: 30px;
+    padding-bottom: 15px;
+    margin: 10px;
+  }
+
+  .Specification .IconBox .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Specification h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .Specification .LeftImage {
+    top: 5%;
+    left: 5%;
+  }
+
+  .Info {
+    padding: 0;
+  }
+
+  .OrderBtn .DisplayBox {
+    padding: 40px 0;
+  }
+
+  .OrderBtn .DisplayBox .LeftImage img,
+  .OrderBtn .DisplayBox .RightImage img {
+    width: 70%;
+  }
+  .OrderBtn .DisplayBox h1 {
+    font-size: 26px;
+  }
+
+  .OrderBtn .DisplayBox h2 {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+  .FooterWidget .footerMenu h2 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+
+  .FooterWidget ul.social li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .FooterWidget .socialBox {
+    display: flex;
+    justify-content: center;
+  }
+  .FooterWidget p {
+    text-align: center;
+  }
+}
+
+/* ***********************************----------------------------------------------------------------------------------------
+    Mobile RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 575px) {
+  .LandingEleven h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h1 span {
+    line-height: 30px;
+  }
+
+  .LandingEleven h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h2 span {
+    margin-right: 5px;
+  }
+
+  .LandingEleven h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .LandingEleven h5 {
+    font-size: 16px;
+  }
+
+  .LandingEleven .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingEleven p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingEleven a.bg {
+    margin-top: 20px;
+    padding: 12px 20px;
+  }
+
+  .LandingEleven a {
+    font-size: 16px;
+  }
+
+  .LandingEleven a svg {
+    font-size: 20px;
+  }
+
+  .LandingEleven .Logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LandingEleven .Logo img {
+    width: 50%;
+  }
+
+  .LandingEleven .text h2 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  .LandingEleven .headerTitle {
+    margin-bottom: 20px;
+  }
+
+  /* ============Banner Section============ */
+
+  .Banner {
+    padding: 40px 0;
+  }
+
+  .Banner .textBox .textCircle {
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  .Banner .img_center img {
+    width: 80%;
+  }
+
+  .Banner .textBox .textCircle img {
+    width: 80%;
+    margin-top: 10px;
+  }
+  .Banner .textBox .textCircle h2 {
+    left: 25px;
+  }
+
+  .Banner .textBox h2 {
+    font-size: 18px;
+  }
+
+  .Banner .bannerBG img.backgroundOne {
+    width: 95%;
+  }
+
+  .Banner .bannerBG img.wallet {
+    left: 30px;
+    width: 85%;
+  }
+
+  .Banner .btnBox h2 {
+    margin: 0 10px;
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  .Banner .btnBox {
+    margin-top: 30px;
+  }
+
+  .Banner .img_bottom_right {
+    bottom: 7%;
+    right: 10%;
+  }
+
+  .Banner .textBox {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* ============WhyUs Section============ */
+  .WhyUs {
+    padding: 40px 0;
+  }
+
+  .WhyUs .text p {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .WhyUs .LeftImage img,
+  .WhyUs .RightImage img {
+    width: 50%;
+  }
+
+  .WhyUs .LeftImage {
+    left: -60px;
+  }
+
+  .WhyUs .RightImage {
+    right: -60px;
+  }
+
+  /* ============== wallets ================ */
+
+  .Wallets {
+    padding: 30px 0;
+  }
+
+  .Wallets .RightImage img {
+    width: 60%;
+  }
+
+  /* ============== Specification ================ */
+
+  .Specification {
+    padding: 30px 0;
+  }
+
+  .Specification h1 {
+    line-height: 34px;
+  }
+
+  .Specification .LeftImage {
+    top: 8%;
+    left: 6%;
+  }
+
+  .Specification .LeftImage img {
+    width: 60%;
+  }
+
+  .Specification .IconBox {
+    height: 200px;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    position: relative;
+    z-index: 5;
+  }
+  .Specification .IconBox .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .PhoneSection {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .Info {
+    padding: 0;
+  }
+
+  .Info .icon img {
+    width: 90%;
+  }
+
+  .Info h4 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .OrderBtn .DisplayBox {
+    padding: 30px;
+  }
+
+  .OrderBtn .DisplayBox h1 {
+    font-size: 24px;
+  }
+
+  .OrderBtn .DisplayBox h2 {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .OrderBtn .DisplayBox .LeftImage img,
+  .OrderBtn .DisplayBox .RightImage img {
+    width: 70%;
+  }
+
+  .FooterWidget .footerMenu h2 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+
+  .FooterWidget ul.social li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .FooterWidget .socialBox {
+    display: flex;
+    justify-content: center;
+  }
+}

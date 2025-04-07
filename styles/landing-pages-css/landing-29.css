@@ -1,0 +1,1444 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__29 {
+    --bg_color: #E98B23;
+    --bg_color2: #263476;
+    --bg_color3: #DE5478;
+    --bg_color4: #F8406F;
+    --header: #332729;
+    --text_color: #828282;
+    --white: #FFF;
+    --sari_bg : #EC3361;
+    --probashi_bg : #FF0034;
+}
+
+
+.Landing__29 {
+    overflow-x: hidden;
+    font-family: 'Noto Serif Bengali', serif;
+}
+
+.Landing__29 a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    transition: all linear .2s;
+}
+
+ .Landing__29 .overlay_text h5 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    text-transform: capitalize;
+}
+
+.Landing__29 .overlay_text h5 span {
+    font-family: 'Niconne', cursive;
+}
+
+.Landing__29  h1 {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 90px;
+    text-transform: capitalize;
+}
+
+.Landing__29 h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: capitalize;
+}
+
+.Landing__29 .StudentPackage h2 {
+    color: var(--bg_color4);
+}
+
+.Landing__29 h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+.Landing__29 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--text_color);
+}
+
+.Landing__29 .d_flex {
+    display: flex;
+    align-items: center;
+}
+
+.Landing__29 .d_justify {
+    justify-content: space-between;
+}
+
+.Landing__29 .d_center {
+    justify-content: center;
+}
+
+.Landing__29 .section_gaps {
+    padding-top: 100px;
+}
+
+
+
+.Landing__29 .Header {
+    margin-bottom: 60px;
+}
+
+.Landing__29 .Header p {
+    margin-top: 15px;
+}
+
+
+
+/* ================ a btn ============ */
+
+
+.Landing__29 .CallForOrder a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #F8406F;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-bottom: -5px;
+    font-weight: 600;
+    border: 1px solid #F8406F;
+    line-height: 35px;
+    padding-top: 14px;
+
+}
+
+
+.Landing__29 .CallForOrder a:hover {
+    background: var(--bg_color4);
+    color: var(--white);
+    box-shadow: 0 0 10px #F8406F, 0 0 40px #F8406F, 0 0 80px #F8406F;
+    transition-delay: 1s;
+}
+
+
+.Landing__29 .CallForOrder a span {
+    position: absolute;
+    display: block;
+}
+
+.Landing__29 .CallForOrder a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #F8406F);
+}
+
+.Landing__29 .CallForOrder a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.Landing__29 .CallForOrder a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent, #F8406F);
+}
+
+.Landing__29 .CallForOrder a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.Landing__29 .CallForOrder a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #F8406F);
+}
+
+.Landing__29 .CallForOrder a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.Landing__29 .CallForOrder a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #F8406F);
+}
+
+.Landing__29 .CallForOrder a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    StudentPackage
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__29 .StudentPackage{
+    font-family: 'Noto Sans Bengali', sans-serif !important;
+}
+
+.Landing__29 .StudentPackage h2 {
+    color: var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage {
+    background: #FFE1E1;
+}
+
+.Landing__29 .StudentPackage .Logo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/* Banner */
+
+.Landing__29 .StudentPackage .Banner {
+    padding: 100px 0;
+    position: relative;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerLeft1 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerLeft2 {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerRight1 {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerRight2 {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerRight1 img {
+    height: 150px;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerRight2 img {
+    height: 250px;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerLeft1 img {
+    height: 200px;
+}
+
+.Landing__29 .StudentPackage .Banner .BannerLeft2 img {
+    height: 150px;
+}
+
+.Landing__29 .StudentPackage .BannerText h3 {
+    color: var(--bg_color3);
+    margin-bottom: 20px;
+}
+
+.Landing__29 .StudentPackage .BannerText h2 {
+    color: var(--bg_color4);
+    font-size: 55px;
+    line-height: 65px;
+}
+
+.Landing__29 .StudentPackage .BannerText h4 {
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--header);
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.Landing__29 .StudentPackage .BannerText h4 span {
+    color: var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage .BannerText del {
+    font-size: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--header);
+    margin-top: 5px;
+    display: block;
+}
+
+.Landing__29 .StudentPackage .OrderNow {
+    margin-top: 30px;
+}
+
+.Landing__29 .StudentPackage .CallForOrder a {
+    border: 1px solid var(--bg_color4);
+    color: var(--bg_color4);
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 14px;
+}
+
+.Landing__29 .StudentPackage .CallForOrder a:hover {
+    background: var(--bg_color4);
+    color: var(--white);
+    box-shadow: 0 0 10px #F8406F, 0 0 40px #F8406F, 0 0 80px #F8406F;
+}
+
+
+/* CallForOrder */
+
+.Landing__29 .StudentPackage .CallForOrder a span:nth-child(1) {
+    background: linear-gradient(90deg, transparent, #F8406F);
+}
+
+.Landing__29 .StudentPackage .CallForOrder a span:nth-child(3) {
+    background: linear-gradient(270deg, transparent, #F8406F);
+}
+
+.Landing__29 .StudentPackage .CallForOrder a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.Landing__29 .StudentPackage .CallForOrder a span:nth-child(2) {
+    background: linear-gradient(180deg, transparent, #F8406F);
+}
+
+.Landing__29 .StudentPackage .CallForOrder a span:nth-child(4) {
+    background: linear-gradient(360deg, transparent, #F8406F);
+}
+
+.Landing__29 .StudentPackage .BannerNumber {
+    margin-left: 10px;
+}
+
+.Landing__29 .StudentPackage .BannerNumber a {
+    color: var(--header);
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.Landing__29 .StudentPackage .BannerNumber p {
+    font-size: 14px;
+    color: var(--header);
+    line-height: 20px;
+    margin-top: 1px;
+}
+
+.Landing__29 .StudentPackage .BannerImg img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* VideoItem */
+.Landing__29 .StudentPackage .VideoItem {
+    padding: 25px;
+    border-radius: 20px;
+    background: var(--white);
+}
+
+.Landing__29 .StudentPackage .VideoItem div {
+    width: 100% !important;
+    height: 600px !important;
+}
+
+.Landing__29 .StudentPackage .VideoItem iframe#widget2 {
+    border-radius: 20px;
+}
+
+
+/* WhyBuy */
+
+.Landing__29 .StudentPackage .WhyBuy {
+    position: relative;
+}
+
+.Landing__29 .StudentPackage .WhyBuy .WhyBuyLeft {
+    position: absolute;
+    left: 30px;
+    top: 150px;
+}
+
+.Landing__29 .StudentPackage .WhyBuy .WhyBuyRight {
+    position: absolute;
+    right: 30px;
+    top: 150px;
+}
+
+.Landing__29 .StudentPackage .WhyBuy .WhyBuyLeft img,
+ .StudentPackage .WhyBuy .WhyBuyRight img {
+    height: 150px;
+}
+
+.Landing__29 .StudentPackage .WhyBuy h2 {
+    color: var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage .WhyBuyContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Landing__29 .StudentPackage .WhyBuyItem {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 18%;
+}
+
+.Landing__29 .StudentPackage .WhyBuyItem img {
+    height: 70px;
+}
+
+.Landing__29 .StudentPackage .WhyBuyItem h3 {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--bg_color4);
+    margin-top: 20px;
+}
+
+
+/* StudentSlider */
+
+.Landing__29 .StudentPackage .StudentSlider {
+    position: relative;
+}
+
+.Landing__29 .StudentPackage .StudentSlider img {
+    width: 100%;
+    z-index: 1;
+}
+
+.Landing__29 .StudentPackage .SliderOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    padding: 100px 0;
+    padding-top: 60px;
+}
+
+.Landing__29 .StudentPackage .SliderOverlayItem {
+    text-align: center;
+}
+
+.Landing__29 .StudentPackage .SliderOverlayItem img {
+    height: 580px;
+    width: auto;
+}
+
+.Landing__29 .StudentPackage .swiper-button-next,
+ .StudentPackage .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 4.94545px 0px 6.18182px rgba(0, 0, 0, 0.25);
+    background: var(--white);
+}
+
+.Landing__29 .StudentPackage .swiper-button-next:after,
+.StudentPackage .swiper-button-prev:after {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage .OrderConfirmRight button{
+    background: var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage .OrderConfirmLeft .Payment .ArrowBg {
+    background: var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage .OrderConfirmLeft .Payment .ArrowBg p{
+    color: var(--white);
+}
+
+.Landing__29 .StudentPackage .OrderConfirmLeft .Payment .ArrowBg::after {
+    border-bottom: solid 15px var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage .OrderConfirmLeft .Payment .CustomeInput input:checked+label:before {
+    background: var(--bg_color4);
+}
+
+.Landing__29 .StudentPackage .OrderConfirmLeft .Payment .CustomeInput input+label:before {
+    margin-top: 1px;
+}
+
+.Landing__29 .StudentPackage .OrderConfirmLeft .Payment .CustomeInput input:checked+label:after {
+    top: 14px;
+}
+
+
+
+/* DelivaryContent */
+.Landing__29 .StudentPackage .DelivaryContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Landing__29 .StudentPackage .DelivaryItem{
+    margin-right: 50px;
+}
+
+.Landing__29 .StudentPackage .DelivaryItem i {
+    font-size: 70px;
+    line-height: 50px;
+    color: #DE5074;
+}
+
+.Landing__29 .StudentPackage .DelivaryItem .text{
+    margin-left: 20px;
+}
+
+.Landing__29 .StudentPackage .DelivaryItem h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--header);
+}
+
+.Landing__29 .StudentPackage .DelivaryItem p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+/* StudentFooter */
+
+.Landing__29 .StudentPackage .StudentFooter{
+    padding-bottom: 50px;
+}
+
+.Landing__29 .StudentPackage .FooterLogo{
+    text-align: center;
+    margin: 0px;
+}
+
+.Landing__29 .StudentPackage .FooterLogo img{
+    height: 90px;
+}
+
+.Landing__29 .StudentPackage .StudentFooter ul{
+    text-align: right;
+}
+
+.Landing__29 .StudentPackage .StudentFooter ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* .Landing__29 .FooterItem */
+.Landing__29 .StudentPackage .FooterItem{
+    margin: 0;
+}
+
+
+
+/* ===========================================================================================
+       DelivaryContent 
+============================================================================================*/
+
+
+.Landing__29 .StudentPackage .DelivaryContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Landing__29 .StudentPackage .DelivaryItem{
+    margin-right: 50px;
+}
+
+ .Landing__29 .StudentPackage .DelivaryItem svg {
+    font-size: 70px;
+    line-height: 50px;
+    color: #DE5074;
+}
+
+ .Landing__29 .StudentPackage .DelivaryItem .text{
+    margin-left: 20px;
+}
+
+.Landing__29 .StudentPackage .DelivaryItem h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--header);
+}
+
+.Landing__29 .StudentPackage .DelivaryItem p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* =====================================================================================
+                    Order
+=========================================================================================*/
+
+
+.Landing__29 #OrderConfirmLeft #Payment #ArrowBg {
+    background:var(--bg_color4);
+  }
+  
+  .Landing__29 #OrderConfirmRight button {
+    background:var(--bg_color4);
+  }
+  
+  .Landing__29 #OrderConfirmLeft #Payment #ArrowBg p {
+    color: #ffffff;
+  }
+  .Landing__29 #OrderConfirmLeft #Payment #ArrowBg::after {
+    border-bottom:15px solid  var(--bg_color4);
+    } 
+    
+  .Landing__29 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+    background:var(--bg_color4);
+  }
+
+  .Landing__29 .SariOrderRight img{
+    height: 500px;
+  }
+
+
+  .Landing__29 #tinyFooter p a {
+    color: #f8406f;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   FollowUs 
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__29 .FollowUs h2 {
+    color: var(--bg_color4);
+    text-align: center;
+}
+
+
+ .Landing__29 .SocialIcon a {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background: #EDF4FF;
+    margin: 0 20px;
+    color: #337FFF;
+}
+
+ .Landing__29  .SocialIcon a:hover {
+    border-radius: 50%;
+}
+
+.Landing__29 .SocialIcon a.instagram {
+    background: #FAF5FC;
+    color: #FA8F21;
+}
+
+.Landing__29  .SocialIcon a.youtube {
+    background: #FFECE8;
+    color: #FF3000;
+}
+
+.Landing__29  .SocialIcon a.whatsapp {
+    background: #ECFFF5;
+    color: #00D95F;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Footer
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__29 .Footer {
+    background: linear-gradient(109.56deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 126.32%);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 30px;
+    box-shadow: 0 0 10px 5px #2633762d;
+}
+
+.Landing__29  .FooterLogo {
+    margin-right: 50px;
+}
+
+.Landing__29 .FooterLogo img {
+    height: 80px;
+}
+
+.Landing__29 .FooterLogo p {
+    color: var(--bg_color2);
+    margin-top: 20px;
+}
+
+.Landing__29 .Footersection_gaps {
+    padding-top: 60px;
+}
+
+.Landing__29  .FooterItem {
+    margin-bottom: 10px;
+}
+
+.Landing__29 .FooterItem h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--bg_color2);
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.Landing__29  .FooterItem h4::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 2px;
+    background: var(--bg_color2);
+}
+
+.Landing__29 .FooterItem a,
+ .FooterItem p {
+    display: block;
+    color: var(--bg_color2);
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+.Landing__29 .FooterItem a:hover {
+    color: var(--bg_color);
+}
+
+/* tineey Footer */
+
+.Landing__29 .tiny-footer_tinyFooter__Tr3b1 {
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+
+.Landing__29 .FooterItem{
+    margin-left: 25%;
+}
+
+.Landing__29 .FooterLogo{
+    margin-left: 25%;
+}
+
+
+/* =========================================================================================
+            media Quari
+=============================================================================================*/
+
+
+@media (max-width: 1780px) {
+
+
+    .Landing__29 h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .Landing__29 .CallForOrder a {
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+    .Landing__29 .FooterItem a, .FooterItem p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .Landing__29 h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuyItem h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .Landing__29 .StudentPackage .BannerText h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .Landing__29 .StudentPackage .CallForOrder a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .Landing__29 .StudentPackage .SliderOverlayItem img {
+        height: 400px;
+    }
+
+    .Landing__29 .MainPage .PackageItem .text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+
+    .Landing__29 p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .Landing__29 .StudentPackage .FooterLogo img {
+        height: 70px;
+    }
+
+
+    .Landing__29 .StudentPackage .WhyBuy .WhyBuyLeft img, .StudentPackage .WhyBuy .WhyBuyRight img {
+        height: 130px;
+    }
+
+
+    .Landing__29 .StudentPackage .SliderOverlayItem img {
+        height: 380px;
+    }
+
+    .Landing__29 .SocialIcon a {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .Landing__29 .Header {
+        margin-bottom: 40px;
+    }
+
+    
+}
+
+
+
+@media (max-width: 1439px) {
+
+
+    .Landing__29 .MenuItem li a {
+        padding: 0 12px;
+    }
+
+    .Landing__29 h1 {
+        font-size: 65px;
+        line-height: 75px;
+    }
+
+    .Landing__29 .MainPage .PackageItem .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuyItem img {
+        height: 50px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuyItem h3 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerLeft1 img {
+        height: 100px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerRight1 img {
+        height: 100px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerLeft2 {
+        bottom: 28px;
+        left: 10px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerLeft2 img{
+        height: 100px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerRight2 img {
+        height: 100px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuy .WhyBuyLeft img, .StudentPackage .WhyBuy .WhyBuyRight img {
+        height: 80px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuy .WhyBuyLeft {
+        left: 0px;
+        top: 150px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuy .WhyBuyRight {
+        right: 0;
+        top: 150px;
+    }
+
+    .Landing__29 .StudentPackage .SliderOverlayItem img {
+        height: 330px;
+    }
+
+    .Landing__29 .CustomerReviewItem {
+        padding: 20px 30px;
+        padding-top: 70px;
+    }
+
+    .Landing__29 .CustomerReviewItem p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .Landing__29 h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .Landing__29 .StudentPackage .BannerText h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .Landing__29 .StudentPackage .SliderOverlay {
+        padding-top: 40px;
+    }
+
+    .Landing__29 .StudentPackage .VideoItem div {
+        height: 450px !important;
+    }
+
+    .Landing__29 .CustomerReviewItem .Quate i {
+        font-size: 60px;
+    }
+
+    .Landing__29 .SocialIcon a {
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .Landing__29 .FooterLogo img {
+        height: 60px;
+    }
+
+
+    .Landing__29 h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .Landing__29 .section_gaps {
+        padding-top: 80px;
+    }
+
+    .Landing__29 .BestGift .bg_img {
+        height: 1000px;
+        width: 100%;
+    }
+
+    .Landing__29 .ChocolateBox #price h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .Landing__29 .ChocolateBox #customized {
+        padding: 80px 0;
+    }
+
+
+}
+
+
+@media (max-width: 1200px) {
+    .Landing__29 .StudentPackage .SliderOverlayItem img {
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+ 
+    .Landing__29 .MainPage .Banner .col-lg-6:first-child{
+        order: 2;
+    }
+
+    .Landing__29 .MainPage .Banner .col-lg-6:last-child{
+        order: 1;
+    }
+
+    .Landing__29 .MainPage .Banner {
+        height: auto;
+    }
+
+    .Landing__29 .MainPage .BannerItem .img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .Landing__29 .BannerItem {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .Landing__29 .BannerText {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .Landing__29 .MainPage .swiper-pagination-fraction {
+        bottom: 35px;
+        left: 0;
+        width: 100%;
+    }
+
+    .Landing__29 .CustomerReviewItem .Quate {
+        top: 15px;
+        left: 15px;
+    }
+
+    .Landing__29 .CustomerReviewItem .img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Landing__29 .CustomerReviewItem .img img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .Landing__29 .FooterContent {
+        margin-top: 35px;
+    }
+
+    .Landing__29 .StudentPackage .StudentSlider img {
+        height: 600px;
+        object-fit: cover;
+    }
+
+    .Landing__29 .StudentPackage .SliderOverlayItem img {
+        height: 300px;
+    }
+
+    .Landing__29 .BestGift .bg_img {
+        height: 1390px;
+    }
+
+    .Landing__29 .StudentPackage .DelivaryItem {
+        margin: 0px 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .Landing__29 .DelivaryItem h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .Landing__29 .StudentPackage .DelivaryItem i {
+        font-size: 50px;
+    }
+
+    .Landing__29 .StudentPackage .DelivaryItem .text {
+        margin-left: 0;
+    }
+
+    .Landing__29 .StudentPackage .FooterLogo img {
+        height: 40px;
+    }
+
+    .Landing__29 .FooterItem a, .FooterItem p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .col-lg-6:first-child{
+        order: 2;
+    }
+
+    .Landing__29 .StudentPackage .Banner .col-lg-6:last-child{
+        order: 1;
+    }
+
+    .Landing__29 .StudentPackage .Banner {
+        padding: 50px 0;
+        position: relative;
+    }
+
+    .Landing__29 .StudentPackage .BannerImg {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .Landing__29 .StudentPackage .OrderNow {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuyItem {
+        padding: 20px;
+        width: 30%;
+        margin: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuyContent {
+        justify-content: center;
+    }
+
+    .Landing__29 .FooterLogo {
+        margin-right: 0;
+    }
+
+    .Landing__29 .StudentPackage .VideoItem div {
+        width: 100% !important;
+        height: 450px !important;
+    }
+
+    .Landing__29 .section_gaps {
+        padding-top: 70px;
+    }
+
+    .Landing__29 .BestGift .BestGiftContent {
+        padding: 70px 0;
+    }
+
+    .Landing__29 .CustomerReviewItem .Quate i {
+        font-size: 60px;
+    }
+
+
+    .Landing__29 .MainPage .Banner .swiper-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Landing__29 .MainPage  .swiper-pagination-fraction {
+        bottom: 30px;
+    }
+
+
+    .Landing__29 .ChocolateBox #banner .banner_img {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .Landing__29 .ChocolateBox #banner .col-lg-6:last-child{
+        order: 1;
+    }
+
+    .Landing__29 .ChocolateBox #banner .col-lg-6:first-child{
+        order: 2;
+    }
+
+    .Landing__29 .ChocolateBox #banner .banner_content {
+        text-align: center;
+    }
+
+    .Landing__29 .ChocolateBox .price_img img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .Landing__29 .ChocolateBox #price h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .Landing__29 .ChocolateBox #price h2 {
+        margin: 5px 0;
+    }
+
+    .Landing__29 .FooterItem{
+        margin-left: 0%;
+    }
+    
+    .Landing__29 .FooterLogo{
+        margin-left: 0%;
+    }
+    
+
+}
+
+
+@media (max-width: 500px) {
+
+    .Landing__29 .MainPage .Logo img {
+        height: 40px;
+    }
+
+    .Landing__29 .MainPage .BannerItem .img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .Landing__29 .MainPage .Banner .swiper-pagination {
+        bottom: 45px;
+    }
+
+    .Landing__29 h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .Landing__29 .FooterLogo img {
+        height: 50px;
+    }
+
+    .Landing__29 .Footer {
+        background: none;
+        padding: 0;
+        margin: 0 20px;
+        box-shadow: none;
+    }
+
+
+    .Landing__29 .CallForOrder a {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+   
+    .Landing__29 .StudentPackage .swiper-button-next, .StudentPackage .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Landing__29 .StudentPackage .swiper-button-next:after, .StudentPackage .swiper-button-prev:after {
+        font-size: 13px;
+    }
+
+    .Landing__29 .StudentPackage h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .Landing__29 .StudentPackage .SliderOverlayItem img {
+        height: 280px;
+    }
+
+    .Landing__29 .StudentPackage .VideoItem div {
+        width: 100% !important;
+        height: 300px !important;
+    }
+
+    .Landing__29 .StudentPackage .VideoItem {
+        padding: 15px;
+    }
+
+    .Landing__29 .StudentPackage h2 {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .Landing__29 .SariAboutText p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+
+    .Landing__29 .SariAbout .CallForOrder {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuyItem {
+        padding: 15px;
+        width: 44%;
+    }
+
+    .Landing__29 .BestGift .bg_img {
+        height: 1075px;
+    }
+
+    .Landing__29 .StudentPackage .DelivaryContent {
+        display: block;
+    }
+
+    .Landing__29 .StudentPackage .DelivaryItem {
+        margin-bottom: 30px;
+    }
+
+    .Landing__29 .SocialIcon a {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 15px;
+        margin: 0 10px;
+    }
+
+    .Landing__29 .StudentFooter{
+        text-align: center;
+    }
+
+    .Landing__29 .StudentPackage .FooterLogo img {
+        height: 50px;
+    }
+
+    .Landing__29 .StudentPackage .StudentFooter ul {
+        text-align: center;
+    }
+
+    .Landing__29 .StudentFooter .col-lg-4:first-child{
+        order: 2;
+    }
+
+    .Landing__29 .StudentFooter .col-lg-4:nth-child(2){
+        order: 1;
+    }
+    
+    .Landing__29 .StudentFooter .col-lg-4:nth-child(3){
+        order: 3;
+    }
+
+    .Landing__29 .FooterItem a, .FooterItem p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .Landing__29 .StudentPackage .FooterItem p{
+        padding: 10px 0;
+    }
+
+    .Landing__29 .StudentPackage .StudentFooter {
+        padding-bottom: 20px;
+    }
+
+    .Landing__29 .Logo img {
+        height: 50px;
+    }
+
+    .Landing__29 .StudentPackage .BannerImg {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerLeft1 img {
+        height: 60px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerRight1 img {
+        height: 70px;
+    }
+
+    .Landing__29 h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .Landing__29 .StudentPackage .BannerText h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .Landing__29 .StudentPackage .BannerText h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .Landing__29 .StudentPackage .OrderNow {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerLeft2 img {
+        height: 60px;
+    }
+
+    .Landing__29 .StudentPackage .Banner .BannerRight2 img {
+        height: 65px;
+    }
+
+    .Landing__29 .StudentPackage .BannerNumber {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Landing__29 .StudentPackage .CallForOrder a {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px 30px;
+        padding-top: 12px;
+    }
+
+    .Landing__29 .StudentPackage .WhyBuy .WhyBuyLeft img, .StudentPackage .WhyBuy .WhyBuyRight img {
+        height: 60px;
+    }
+
+    .Landing__29 .OrderConfirmFromBg {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+   
+    .Landing__29 .StudentPackage .VideoItem div {
+        height: 250px !important;
+    }
+
+
+    .Landing__29 .StudentPackage .StudentSlider img {
+        height: 500px;
+    }
+
+    .Landing__29 .StudentPackage .SliderOverlayItem img {
+        height: 200px;
+    }
+
+
+    .Landing__29 .ChocolateBox #customized {
+        padding: 60px 0;
+    }
+
+    .Landing__29 .ChocolateBox .gallery .overlay_img {
+        bottom: -40px;
+    }
+
+}

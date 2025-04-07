@@ -1,0 +1,181 @@
+/* CSS Start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container ul,
+.container ol {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+}
+
+.container a,
+.container button,
+.container span,
+.container p,
+.container ul,
+.container li,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0;
+    clear: both;
+    color: #000000;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.container :where(input, textarea, button){
+    border: 0;
+    width: 100%;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    box-shadow: none;
+    outline: unset;
+}
+
+
+
+
+
+.Landing__25__FooterDiv{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .Landing__25__Hr{
+    width: 100px;
+    border-bottom: 1px solid #FFD54C;
+    margin: 13px 0px;
+  }
+  
+  .Landing__25__FooterItem h4{
+    font-size: 24px;
+    line-height: 31px;
+    color:black;
+    font-weight: 600;
+  }
+  
+  .Landing__25__FooterItem h3{
+    font-size: 35px;
+    line-height: 24px;
+    color:black;
+    font-weight: 600;
+  }
+  
+  .Landing__25__FooterItem a{
+    font-size: 18px;
+    line-height: 23px;
+    color:black;
+  }
+  
+  .Landing__25__FooterItem li{
+    margin-top: 15px;
+  }
+  
+  .Landing__25__FooterItemImg{
+    max-width: 150px;
+    margin-top: 0px;
+  }
+  
+  
+  .Landing__25__FooterItem h5{
+     background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .Landing__25__Hr{
+    border-bottom: 1px dashed #441A17;
+    margin-top: 80px;
+  }
+ 
+  .Landing__25__HrTxt span{
+    font-size: 24px;
+    color:#C53407;
+    padding:10px 15px;
+    background-color: #FFF;
+    display: inline-block;
+    text-align: center;
+  
+  }
+
+  .Landing__25__HrTxt {
+    text-align: center;
+    margin-top: -45px;
+  
+  }
+
+  .Landing__25__FooterAbs1{
+    left:0;
+    bottom: 0;
+    height: 403px;
+    position: absolute;
+  }
+
+  .Landing__25__FooterAbs2{
+    right:0;
+    bottom: 0;
+    height: 403px;
+    position: absolute;
+  }
+
+  .Landing__25 .FooterSec{
+    position: relative;
+  }
+
+
+  .Landing__25 .tiny-footer_tinyFooter__Tr3b1 p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #C53407;
+}
+
+
+
+
+
+

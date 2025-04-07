@@ -1,0 +1,1256 @@
+
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.MainPage{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.MainPage .CustomeContainer{
+    max-width: 100%;
+    padding: 0 200px;
+}
+
+.MainPage {
+    --bg_color: #FB8C00;
+    --bg_color2: #894BCA;
+    --text_color: #6F6F6F;
+}
+
+.MainPage a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    transition: all linear .2s;
+    text-decoration: none;
+}
+
+
+.MainPage h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--bg_color2);
+    text-transform: capitalize;
+}
+
+.MainPage p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--text_color);
+}
+
+.section_gaps{
+    margin-top: 100px;
+}
+
+
+/* Flex */
+.d_flex{
+    display: flex;
+    align-items: center;
+}
+
+.d_justify{
+    justify-content: space-between;
+}
+
+.d_center{
+    justify-content: center;
+}
+
+.Header{
+    margin-bottom: 60px;
+}
+
+.Header p{
+    margin-top: 15px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Menubar 
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Menubar{
+    background: var(--bg_color2);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.MenuItem ul li{
+    display: inline-block;
+} 
+
+.MenuItem ul li a{
+    color: var(--white);
+    padding: 0 25px;
+}
+
+.MenuItem ul li a.active{
+    font-weight: 600;
+    color: var(--bg_color);
+}
+
+.MenuItem ul li a:hover{
+    color: var(--bg_color);
+}
+
+
+/* Login */
+
+.Login{
+    text-align: right;
+}
+
+.Login a{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: var(--white);
+    border: 1px solid var(--white);
+    color: var(--bg_color2);
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.Login a:first-child{
+    background: var(--bg_color2);
+    color: var(--white);
+}
+
+.Login a:hover{
+    background: var(--bg_color);
+    border: 1px solid var(--bg_color);
+    color: var(--white);
+}
+
+.MobileMenu{
+    display: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Banner 
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Banner{
+    margin-top: 120px;
+}
+
+.Banner h2{
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.BannerContent{
+    width: 100%;
+}
+
+.BannerContent .BannerText{
+    width: 35%;
+}
+
+.BannerContent .BannerRight{
+    width: 40%;
+}
+
+.BannerContent .Img{
+    width: 5%;
+}
+
+.BannerContent .BannerText span{
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text_color);
+}
+
+.BannerContent .BannerText span:last-child{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.BannerContent .BannerRight h2{
+    color: var(--bg_color);
+}
+
+.BannerContent .BannerRight span{
+    font-weight: 400;
+    color: var(--text_color);
+}
+
+/* BannerBg */
+
+.BannerBg{
+    position: relative;
+}
+
+.BannerBg img{
+    width: 100%;
+}
+
+.BannerBg  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.BannerBg  .overlay img{
+    width: 100%;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+  HowToSetUp  
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.HowToSetUp .Header{
+    text-align: center;
+}
+
+.HowToSetUp .Header p{
+    padding: 0 100px;
+}
+
+.HowToSetUp img{
+    width: 100%;
+}
+
+.HowToSetUp .MobileImg{
+    display: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    BestFeatures
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.BestFeatures{
+    overflow: hidden;
+}
+
+.BestFeatures img{
+    width: 100%;
+}
+
+.BestFeaturesText span{
+    color: var(--bg_color);
+}
+
+.BestFeaturesText{
+    width: 55%;
+    margin-left: 30px;
+}
+
+.BestFeaturesText ul{
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.BestFeaturesText ul li{
+    padding-left: 30px;
+    font-size: 18px;
+    color: var(--text_color);
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-weight: 500;
+    position: relative;
+}
+
+.BestFeaturesText ul li::after{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    background: var(--bg_color2);
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    ManageYourShop
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.ManageYourShop{
+    background: #F1F1FF;
+}
+
+.SmartDashbordItem{
+    background: var(--bg_color2);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 190px;
+}
+
+.SmartDashbordItem p{
+    color: var(--white);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.SmartDashbordItem img{
+    height: 40px;
+    object-fit: fill;
+}
+
+.ManageShop{
+    margin-top: 50px;
+}
+
+.ManageShop img{
+    width: 100%;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   ShopTheme 
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.ShopThemeItem{
+    background: var(--white);
+    box-shadow: 0px 0px 10px 5px #F6F6F6;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all linear .3s;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ShopTheme .Header{
+    text-align: center;
+}
+
+.ShopThemeItem:hover{
+    transform: translateY(-8px);
+}
+
+.ShopThemeItem img{
+    width: 100%;
+    object-fit: fill;
+}
+
+.ShopThemeItem .text{
+    margin-top: 30px;
+}
+
+.ShopThemeItem h3{
+    font-size: 24px;
+    color: var(--bg_color);
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.ShopThemeItem a{
+    width: 100%;
+    color: var(--white);
+    background: var(--bg_color2);
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.ShopThemeItem a:hover{
+    background: var(--bg_color);
+}
+
+.ShowMore {
+    text-align: center;
+}
+
+.ShowMore a{
+    background: var(--white);
+    color: var(--bg_color2);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgba(161, 161, 161, 0.25);
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.ShowMore a:hover{
+    background: var(--bg_color2);
+    color: var(--white);
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    ChossePackage
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.ChossePackage .Header{
+    text-align: center;
+}
+
+.ChossePackageItem{
+    box-shadow: 0px 0px 20px 5px #ECECEC;
+    border-radius: 15px;
+    background: var(--white);
+    padding: 30px;
+    text-align: center;
+    transition: all linear .2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.ChossePackageItem .PackageImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all linear .2s;
+    opacity: 0;
+}
+
+.ChossePackageItem .PackageImg img{
+    width: 100%;
+}
+
+.ChossePackageItem h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: var(--bg_color2);
+    margin: 10px 0;
+    position: relative;
+    z-index: 9;
+    transition: all linear .2s;
+}
+
+.ChossePackageItem h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--bg_color2);
+    position: relative;
+    z-index: 9;
+    transition: all linear .2s;
+}
+
+.ChossePackageItem h5{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: var(--bg_color2);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--bg_color2);
+    position: relative;
+    z-index: 9;
+    transition: all linear .2s;
+}
+
+.ChossePackageItem ul{
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    z-index: 9;
+    transition: all linear .2s;
+}
+
+.ChossePackageItem img{
+    margin-right: 10px;
+}
+
+.ChossePackageItem li{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--bg_color2);
+    margin-top: 10px;
+    transition: all linear .2s;
+}
+
+.ChossePackageItem a{
+    background: var(--bg_color2);
+    color: var(--white);
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    position: relative;
+    z-index: 9;
+}
+
+.ChossePackageItem:hover{
+    transform: translateY(-5px);
+}
+
+.ChossePackageItem:hover .PackageImg{
+    opacity: 1;
+}
+
+.ChossePackageItem:hover h3, .ChossePackageItem:hover h4, .ChossePackageItem:hover h5, .ChossePackageItem:hover li{
+    color: var(--white);
+}
+
+.ChossePackageItem:hover a{
+    background: var(--white);
+    color: var(--bg_color2);
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    OurService
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.OurService{
+    padding: 0 30px;
+}
+
+.OurService .Item{
+    background: var(--white);
+    box-shadow: 0px 0px 10px 5px #F6F6F6;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.OurService .Item img{
+    height: 80px;
+}
+
+.OurService .Item p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    min-height: 50px;
+    margin-bottom: 0;
+}
+
+.OurService .swiper-wrapper {
+    padding: 30px;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    AskQustion
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.AskQustion .Header{
+    text-align: center;
+}
+
+.accordion-item{
+    border: none;
+}
+
+.AskQustionImg img{
+    width: 100%;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    JoinUs
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.JoinUs .Header{
+    text-align: center;
+}
+
+
+.SocialIcon{
+    justify-content: center;
+}
+
+.SocialIcon a{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+.SocialIcon a.fb{
+    background: #EDF4FF;
+    color: #337FFF;
+}
+
+.SocialIcon a.ins{
+    background: #FAF5FC;
+    color: #B03495;
+}
+
+.SocialIcon a.youtube{
+    background: #FFECE8;
+    color: #FF3000;
+}
+
+.SocialIcon a.whats{
+    background: #ECFFF5;
+    color: #00D95F;
+}
+
+.SocialIcon a:hover{
+    border-radius: 50%;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Footer
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Footer{
+    background: url('../../public/images/home_page/footer_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.Footer .Address{
+    margin-bottom: 30px;
+}
+
+.Footer .Address h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: var(--white);
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.Footer .Address h4::after{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: var(--white);
+}
+
+.Footer .Address p, .Footer .Address a{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.Footer .Address .FooterMenubar li{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Footer .Address .FooterMenubar li a{
+    color: var(--white);
+}
+
+.FormPart {
+    padding: 40px 30px;
+    box-shadow: 0px 80.6px 105.701px rgba(51, 51, 51, 0.1);
+    border-radius: 20px;
+    background: var(--white);
+    margin-top: -130px;
+}
+
+.CustomeInput{
+    margin-bottom: 20px;
+}
+
+.CustomeInput:last-child{
+    margin-bottom: 0;
+}
+
+.CustomeInput input, .CustomeInput textarea{
+    padding: 12px 20px;
+    background: var(--white);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.CustomeInput button{
+    background: var(--bg_color2);
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Media
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1700px) {
+
+    .MainPage .CustomeContainer{
+        padding: 0 120px;
+    }
+
+    .BannerContent .BannerText{
+        width: 42%;
+    }
+    
+    .BannerContent .img{
+        width: 5%;
+    }
+
+    .BannerContent h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .Login a{
+        padding: 8px 30px;
+    }
+
+    .SmartDashbordItem{
+        background: var(--bg_color2);
+        border-radius: 10px;
+        padding: 25px;
+        width: 160px;
+    }
+
+    .SmartDashbordItem p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .SmartDashbordItem img {
+        height: 35px;
+    }
+
+    .OurService .Item p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .OurService .Item img{
+        height: 60px;
+    }
+
+    .ShopThemeItem h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .ShopThemeItem a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+}
+
+
+@media (max-width: 1439px) {
+
+    .MainPage .CustomeContainer{
+        padding: 0 80px;
+    }
+
+    .MenuItem ul li a{
+        padding: 0 20px;
+    }
+
+    .Menubar img{
+        height: 50px;
+    }
+
+    .Login a {
+        padding: 8px 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .BannerContent .BannerText {
+        width: 44%;
+    }
+
+    .BannerContent .BannerRight {
+        width: 44%;
+    }
+
+    .BannerContent .Img{
+        width: 4%;
+    }
+
+    .BestFeaturesText {
+        width: 85%;
+    }
+
+    .home_page h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .MainPage p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .SmartDashbordItem {
+        padding: 20px;
+        width: 150px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 1279px) {
+
+    .MainPage .CustomeContainer{
+        padding: 0px;
+        max-width: 90%;
+    }
+
+    .Menubar img {
+        height: 40px;
+    }
+
+    .MenuItem ul li a {
+        padding: 0px 15px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .Login a {
+        padding: 6px 30px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .SmartDashbordItem {
+        padding: 20px 15px;
+        width: 125px;
+    }
+
+    .MainPage p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .OurService .Item {
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px 6px;
+    }
+
+    .MainPage h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .ShopThemeItem h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ShopThemeItem a {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px;
+    }
+
+    .ShowMore a {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 10px 40px;
+    }
+
+    .ChossePackageItem h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .ChossePackageItem {
+        padding: 20px 10px;
+    }
+
+    .ChossePackageItem li {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 0px;
+    }
+
+    .ChossePackageItem a {
+        margin-top: 14px;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .ChossePackageItem img {
+        margin-right: 5px;
+    }
+
+    .Footer .Address h4 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Footer .Address p, .Footer .Address a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .FormPart {
+        padding: 30px 20px;
+        margin-top: -100px;
+    }
+
+    .CustomeInput button {
+        padding: 5px 30px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .CustomeInput input, .CustomeInput textarea {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .Footer {
+        padding-bottom: 50px;
+    }
+
+    .section_gaps{
+        margin-top: 80px;
+    }
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1023px) {
+
+    .DesktopMenu{
+        display: none;
+    }
+
+    .MobileMenu{
+        display: flex;
+    }
+
+    .MenuIcon{
+        position: relative;
+    }
+
+    .MenuItem ul {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    .MenuItem ul li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .MenuItem ul li a{
+        color: #000;
+        text-decoration: none;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .Login {
+        text-align: left;
+    }
+
+    .Login a{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 30px;
+        box-shadow: none;
+        border: 1px solid #894BCA;
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    .Login a:first-child {
+        background: #894BCA;
+        color: var(--white);
+    }
+
+    .Login a:last-child {
+        border: 1px solid #894BCA;
+        color: #894BCA;
+    }
+
+    .BannerContent{
+        display: block;
+        text-align: center;
+    }
+
+    .BannerContent .BannerText {
+        width: 100%;
+    }
+
+    .BannerContent .BannerText span:last-child{
+        text-align: center;
+    }
+
+    .BannerContent .BannerRight {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .BannerContent .Img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .BannerBg .overlay {
+        text-align: center;
+    }
+
+    .BannerBg  .overlay img {
+        width: 70%;
+    }
+
+    .HowToSetUp {
+        margin-top: 180px;
+    }
+
+    .HowToSetUp .img{
+        display: none;
+    }
+
+    .HowToSetUp .MobileImg{
+        display: block;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .HowToSetUp .MobileImg img:last-child{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .BestFeatures h2 {
+        width: 80%;
+    }
+
+    .BestFeaturesText {
+        margin-left: 50px;
+    }
+
+    .ManageYourShop {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .SmartDashbordItem {
+        padding: 20px;
+        width: 150px;
+    }
+
+    .MainPage p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .ManageShop img {
+        width: 60%;
+    }
+
+    .ShopThemeItem h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .ShowMore a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 50px;
+    }
+
+    .AskQustion .first{
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .AskQustion .last{
+        order: 1;
+    }
+
+    .Footer {
+        background: var(--bg_color2);
+        padding: 80px 0;
+    }
+
+    .FormPart {
+        padding: 40px 30px;
+        margin-top: 30px;
+    }
+
+    .Footer .Address p, .Footer .Address a {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .ManageShop {
+        margin-top: 40px;
+    }
+
+    .Menubar img {
+        height: 50px;
+    }
+
+    .Menubar button img {
+        height: 35px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 500px) {
+
+    .SmartDashbordItem {
+        width: 47%;
+        margin-bottom: 30px;
+    }
+
+    .ManageYourShop .d_justify {
+        flex-wrap: wrap;
+    }
+
+    .ManageShop {
+        margin-top: 30px;
+    }
+
+    .OurService {
+        padding: 0 20px;
+    }
+
+    .MainPage h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .BannerContent .BannerText span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .BannerContent .BannerRight {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .BannerBg  .overlay img {
+        width: 90%;
+    }
+
+    .HowToSetUp .Header p {
+        padding: 0px;
+    }
+
+    .HowToSetUp .Header p {
+        padding: 0px;
+    }
+
+    .BestFeatures h2 {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .BestFeaturesText {
+        margin-left: 30px;
+    }
+
+    .ChossePackageItem li {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .ChossePackageItem a {
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .Footer {
+        padding-bottom: 40px;
+    }
+
+    .section_gaps {
+        margin-top: 60px;
+    }
+
+    .SocialIcon a {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .Footer .Logo {
+        margin-bottom: 30px;
+    }
+
+    .FormPart {
+        border-radius: 15px;
+    }
+
+
+
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    
+--------------------------------------------------------------------------------------------------------------------------------------------------- */

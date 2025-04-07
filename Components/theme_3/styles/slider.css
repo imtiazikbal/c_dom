@@ -1,0 +1,23 @@
+.theme3-slider .swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #ddd;
+  opacity: 1;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+.theme3-slider .swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+.theme3-slider .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 20px;
+}
+.swiper-slide {
+  height: auto !important;
+}
+
+.theme3-slider-feat .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0px;
+}

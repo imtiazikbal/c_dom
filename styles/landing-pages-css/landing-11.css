@@ -1,0 +1,1871 @@
+                 /* ========================== Common Css========================= */
+                 /* ============================================================== */
+
+ .Landing__11 {
+     overflow-x: hidden; 
+     font-family: 'Ruda', sans-serif;
+
+ }
+
+ .Landing__11 ul {
+     padding: 0;
+ }
+ 
+ .Landing__11 h1{
+     margin-top: 60px;
+     margin-bottom: 40px;
+     font-size: 52px;
+     line-height: 90px; 
+     color:#593A1B;
+     font-weight: 700;
+ }
+
+ .Landing__11 h2{
+         font-size: 37px;
+         line-height: 54px;
+         color: #593A1B;
+         font-weight: 600;
+        
+ }
+
+
+ .Landing__11 h4{
+     font-size: 73px;
+     line-height: 123px;
+     color:#FFCB05;
+     font-weight: 900;
+
+ }
+ .Landing__11 h4 span{
+     font-size: 73px;
+     line-height: 123px;
+     color: #42210B;
+     font-weight: 900;
+ }
+
+ .Landing__11 p{
+     font-size: 20px;
+     line-height: 26px;
+     color: #777777;
+ }
+
+/* Link  Button*/
+      
+.Landing__11 a {
+ transition: 0.5s;
+ /* display: block; */
+ font-weight: 600;
+ text-decoration: none;
+}
+
+.Landing__11 a.bg{
+ margin-top: 30px;
+ padding: 24px 40px;
+ color: #FFFFFF; 
+ background-image: linear-gradient(to right, #FE8D0E 0%, #FFC827 51%, #FE8D0E  100%);
+ background-size: 200% auto;
+ border-radius: 10px;
+ display: inline-block;
+ font-size: 24px;
+ line-height: 37px;
+ transition: .05s;
+ transform: skew(-10deg);
+}
+
+.Landing__11 a.bg7{
+ font-size: 32px ;
+ color: #FFFFFF; 
+ /* background-image: linear-gradient(to right, #FE8D0E 0%, #FFC827 51%, #FE8D0E  100%); */
+ background-size: 200% auto;
+ border-radius: 10px;
+ display: inline-block;
+ transition: .05s;
+ transform: skew(-10deg);
+}
+
+
+.Landing__11 a.bg:hover {
+ background-position: right center;
+ color: #fff;
+ text-decoration: none;
+   
+ transform: skew(10deg);
+ transform: scale(1.05); 
+}
+
+.Landing__11 a.bg7:hover {
+ background-position: right center;
+ color: #fff;
+ text-decoration: none;
+   
+ transform: skew(10deg);
+ transform: scale(1.05); 
+}
+
+.Landing__11 a svg{
+ font-size: 25px;
+ margin-top: -5px;
+ margin-right: 10px;
+}
+
+/* Button 2 */
+
+.Landing__11 a.bg2{
+ margin-top: 30px;
+ padding: 24px 40px;
+ color:#FC981A; 
+ background-size: 200% auto;
+ border-radius: 10px;
+ display: inline-block;
+ font-size: 24px;
+ line-height: 37px;
+ border: 2px solid #FC981A;
+ margin-left: 30px;
+ transition: .05s;
+ transform: skew(-10deg);
+}
+
+
+.Landing__11 a.bg2:hover {
+ background-position: right center;
+ color: #fff;
+ text-decoration: none;
+ background-image: linear-gradient(to right, #FE8D0E 0%, #FFC827 51%, #FE8D0E  100%);
+ transform: skew(10deg);
+ transform: scale(1.05);
+}
+
+
+ .Landing__11 .section_gap{
+     padding-top: 100px;
+ }
+
+ .Landing__11 .section_gap2{
+     padding-top: 50px;
+ }
+
+
+
+
+
+/* ========================================================================================================================
+               Banner
+=============================================================================================================================*/
+
+.Landing__11 .img2, .Landing__11 .HoneyAbs5, .Landing__11 .HoneyAbs6 {
+
+ animation: mymovea 15s linear infinite ;
+
+}
+
+@keyframes mymovea {
+
+ from {transform: rotate(0);}
+ to {transform: rotate(360deg);}
+
+}
+
+/*    Anim3 */
+
+.Landing__11 .TableAbs3 {
+ animation: mymove2a 2s linear infinite alternate ;
+
+}
+.Landing__11 .TableAbs4 {
+ animation: mymove3a 2s linear infinite alternate ;
+
+}
+
+@keyframes mymove2a {
+ from {}
+ to {top:5px}
+}
+
+@keyframes mymove3a {
+ from {}
+ to {bottom:5px}
+}
+
+/*    Anim2 */
+
+
+.Landing__11 .StoreAbs1 {
+ animation: mymove4a 7s linear infinite alternate ;
+}
+.Landing__11 .StoreAbs2 {
+ animation: mymove5a 7s linear infinite alternate ;
+}
+
+@keyframes mymove4a {
+ from {top:0}
+ to {top:-800px; transform: translate(100px); transform: rotate(120deg);}
+}
+
+@keyframes mymove5a {
+ from {bottom:0}
+ to {bottom:1000px;  transform: rotate(120deg);}
+}
+
+
+
+.Landing__11 .Conpad{
+ padding: 0;
+ position: relative;
+}
+
+.Landing__11 .bgimg{
+ background-image: url('../../public/images/landing-11/bgimg.png');
+ /* padding: 43px 0px 177px 0px; */
+ padding: 43px 0px 162px 0px;
+ background-size: cover;
+ 
+}
+
+
+.Landing__11 .img1{
+position: absolute;
+bottom: -4px;
+right: 0;
+width: 60%;
+
+}
+
+.Landing__11 .img2div{
+ margin-top: 180px;
+ margin-left: 140px;
+}
+
+.Landing__11 .img2{
+ position: relative;
+ width: 40%;
+}
+
+.Landing__11 .img2Abs{
+
+ margin-top: -180px;
+ margin-left: 43px;
+ position: absolute;  
+}
+
+.Landing__11 .img2AbsTxt{
+ display: flex;
+ align-items: center;
+
+}
+.Landing__11 .img2Span1{
+ font-weight: 900;
+ font-size: 74px;
+ color: #FFFFFF;
+ 
+}
+
+.Landing__11 .img2Span2{
+ font-weight: 900;
+ font-size: 40px;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.Landing__11 .img2Span3{
+ font-weight: 900;
+ font-size: 20px;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.Landing__11 .img2Span4{
+ font-size: 25px;
+ line-height: 15px;
+ color: #FFFFFF;
+ text-align: center;
+ margin-top: -10px;
+}
+
+.Landing__11 .uldiv {
+ margin-top: 66px;
+ display: flex;
+ align-items: center;
+}
+
+.Landing__11 .uldiv h5 {
+ color: #24703E;
+ font-size: 32px;
+
+}
+
+.Landing__11 .uldiv h6 {
+ font-size: 38px;
+ line-height: 60px;
+ color: #24703E;
+ font-weight: 600;
+}
+
+
+
+
+/* ========================================================================================================================
+               HONEY STORE
+=============================================================================================================================*/
+
+.Landing__11 .StoreRel{
+ position: relative;
+}
+
+.Landing__11 .StoreAbs1{
+ top:0;
+ left:70px;
+ position: absolute;
+}
+
+.Landing__11 .StoreAbs2{
+ bottom:-100px;
+ right:100px;
+ position: absolute;
+}
+
+
+
+.Landing__11 .Storeimg1{
+ width: 100%;
+}
+.Landing__11 .Storeimg2{
+ width: 100%;
+}
+
+.Landing__11 .Storeimg2{
+ margin-top: 20px;
+ margin-left: 10%;
+}
+
+.Landing__11 .StoreCol2{
+ padding-left: 26px;
+}
+
+.Landing__11 .StoreCol2 .StoreH2{
+padding-left:52px;
+}
+
+.Landing__11 .Storeimg3{
+ width: 100%;
+padding-top: 27px;
+}
+
+.Landing__11 .LitxtBox li{
+ display: flex;
+ align-items: center;
+}
+.Landing__11 .LitxtBox li p{
+ padding-bottom: 30px;
+ line-height: 40px;
+}
+
+.Landing__11 .LitxtBox li img{
+ margin-right: 15px;
+ margin-bottom: auto;
+}
+
+.Landing__11 .StoreRow2{
+ display: flex;
+ align-items: center;
+}
+
+.Landing__11 .StoreRel{
+ position: relative;
+}
+
+.Landing__11 .Storeh5{
+ position: absolute;
+ top: 50px;
+ left: 100px;
+ text-align: center;
+ font-size: 40px;
+ line-height: 54px;
+ color: #593A1B;
+ font-weight: 600;
+ 
+}
+/* ========================================================================================================================
+              Price Section One
+=============================================================================================================================*/
+
+.Landing__11 .PriceBgBox{
+ display: flex;
+ justify-content: center;
+ position: relative;
+ height: 346px;
+ background: #593A1B;
+ width: 100%;
+ margin-top: 50px;
+}
+
+.Landing__11 .PriceBgBoxImg{
+ top: -50%;
+ position: absolute;
+ z-index: 2;
+}
+
+.Landing__11 .PriceBgBoxTxt{
+ position: absolute;
+ top: 10%;
+ text-align: center;
+ z-index: 3;
+
+}
+
+.Landing__11 .PriceBgBoxTxt h5{
+ font-size: 51px;
+ line-height: 70px;
+ color: #FDFDFD;
+ font-weight: 600;
+}
+
+.Landing__11 .PriceBgBoxTxt h6{
+ font-size: 32px;
+ line-height: 42px;
+ color: #FDFDFD;
+ font-weight: 400;
+ margin-top: 15px;
+}
+
+.Landing__11 .bg3{
+ background-image: linear-gradient(to right, #FE8D0E 0%, #593A1B 51%, #FE8D0E  100%) !important;
+ color: #FFFFFF !important;
+}
+
+/* ========================================================================================================================
+             Video Section
+=============================================================================================================================*/
+
+.Landing__11 .VideoBgBox{
+
+ text-align: center;
+ height: 705px;
+ background: #FFC827;
+ width: 100%;
+
+}
+
+.Landing__11 .VideoBgBoxImg1{
+ width: 100%;
+ position: relative;
+}            
+
+.Landing__11 .VideoBgBox h2{
+ padding-top: 246px;
+ margin-bottom: 40px;
+}
+
+
+.Landing__11 .VideoBgBoxCon{
+ position: relative;
+}
+
+.Landing__11 .VideoBgBox img{
+ position: absolute;
+ z-index: 2;
+ left: 0;
+ width: 100%; 
+}
+
+.Landing__11 .VideoBgBox iframe{
+ position: absolute;
+ z-index: 2;
+ left: 0;
+ width: 100%; 
+ height: 650px;
+ border-radius: 10px;
+}
+
+/* ========================================================================================================================
+              Table Section
+=============================================================================================================================*/
+
+.Landing__11 .TableBoxRow{
+
+ position: relative;
+
+}
+
+.Landing__11 .TableAbs3{
+ width: 200px;
+ position: absolute;
+ top:-100px;
+ right:-100px;
+}
+
+.Landing__11 .TableAbs4{
+ width: 200px;
+ position: absolute;
+ bottom:-90px;
+ left:-150px;
+}
+
+
+.Landing__11 .TableBoxH2 h2{
+ text-align: center;
+ padding: 0 20%;
+ margin-bottom: 60px;
+}
+
+.Landing__11 .TableBoxImg{
+ width: 100%;
+}
+
+.Landing__11 .TableBoxRow{
+
+ border: 1px solid #593A1B;
+ box-sizing: border-box;
+}
+
+.Landing__11 .TableBoxCol{
+
+ border: 1px solid #593A1B;
+ height: 20% vh!important;
+ padding: 60px 20px;
+}
+
+.Landing__11 .TableBoxCol:hover {
+
+background-color: #593A1B;
+color: #FFFFFF;
+}
+
+.Landing__11 .TableBoxCol:hover.TableBoxCol p{ 
+  
+color: #FFFFFF ;
+}
+
+
+.Landing__11 .TableBoxCol p{
+ font-size: 20px;
+}
+
+
+
+/* ========================================================================================================================
+         Price Section 2
+=============================================================================================================================*/
+
+.Landing__11 .PriceBoxTxt2{
+ text-align: center;
+
+}
+
+
+.Landing__11 .PriceBoxTxt2 h5{
+ font-size: 51px;
+ line-height: 69px;
+ color: #593A1B;
+ font-weight: 600;
+}
+
+.Landing__11 .PriceBoxTxt2 h6{
+ font-size: 32px;
+ line-height: 42px;
+ color: #593A1B;
+ font-weight: 400;
+ margin-top: 15px;
+}
+
+             
+/* ========================================================================================================================
+              Discussion Honey
+=============================================================================================================================*/
+
+
+
+
+
+
+.Landing__11 .Conpad{
+ position: relative;
+}
+
+.Landing__11 .HoneyAbs5{
+ position: absolute;
+ top:-100px;
+ left:-100px;
+}
+.Landing__11 .HoneyAbs6{
+ position: absolute;
+ top:-100px;
+ right:-100px;
+}
+
+
+
+.Landing__11 .DiscussionBgBox{
+ background-image: url('../../public/images/landing-11/img16.png');
+ padding: 0px 0px 71px 0px;
+ text-align: center;
+ background-size: cover;
+}
+
+.Landing__11 .Discussionimg1{
+ margin-top: -170px;
+ width: 29%;
+}
+             
+.Landing__11 .DiscussionTxtBox h2{
+ color: #FFC827;
+ padding-top: 80px;
+ padding-bottom: 37px;
+ 
+}
+
+.Landing__11 .DiscussionTxtBox p{
+ padding: 0 12%;
+ color: #FFFFFF;
+ font-size: 20px;
+
+}
+
+
+
+/* ========================================================================================================================
+              Honey Idea
+=============================================================================================================================*/
+
+.Landing__11 .LitxtBox .LitxtBoxTxtH2{
+ padding-bottom: 30px;
+}
+
+.Landing__11 .HoneyIdeaImg{
+ width: 100%;
+}
+
+.Landing__11 .HoneyIdeaRow{
+ display: flex;
+ align-items: center;
+}
+
+
+/* order Confram  */
+.Landing__11 .OrderBg{
+
+ padding-bottom: 50px;
+}
+
+
+
+/* ========================================================================================================================
+            Order Last section
+=============================================================================================================================*/
+.Landing__11 .LastOrderDiv{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ 
+}
+
+
+.Landing__11 .LastOrderDiv img{
+height: 509px;
+ 
+}
+
+.Landing__11 .LastOrderDivAbs1{
+ position: absolute;
+ font-size: 40px;
+ line-height: 52px;
+ color: #593A1B;
+ top:30px;
+ 
+}
+
+.Landing__11 .LastOrderDivAbs2{
+ position: absolute;
+ font-size: 55px;
+ line-height: 80px;
+ color: #593A1B !important;
+ top:230px;
+ font-weight: 700;
+}
+
+.Landing__11 .bg7{
+ position: absolute;
+ top:400px;
+ padding: 39px 140px !important;
+
+}
+
+
+
+
+
+/* ========================================================================================================================
+              icon
+=============================================================================================================================*/
+
+.Landing__11 .ShippingIconBox{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.Landing__11 .ShippingIcondev{
+ text-align: center;
+}
+
+.Landing__11 .ShippingIcondev:hover.ShippingIcondev h5{
+
+ text-decoration-line: underline;
+ text-underline-offset: 25px;
+ text-decoration-color: #593A1B;
+ text-decoration-thickness: 3px ;
+
+}
+
+.Landing__11 .ShippingIcondev h5{
+ font-size: 24px;
+ line-height: 40px;
+ color: #593A1B;
+ padding-top: 15px;
+}
+
+  
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__11 #OrderConfirmLeft #Payment #ArrowBg {
+    background: #FE8D0E;
+}
+
+.Landing__11 #OrderConfirmRight button {
+    background: #FE8D0E;
+}
+
+.Landing__11 #OrderConfirmLeft #Payment #ArrowBg p {
+    color: #ffffff;
+}
+
+.Landing__11 #OrderConfirmLeft #Payment #ArrowBg::after {
+    border-bottom: solid 15px #FE8D0E;
+}
+
+.Landing__11 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+    background: #FE8D0E;
+}
+
+
+.Landing__11 #OrderConfirmLeft #Payment #ArrowBg p {
+    font-size: 18px;
+  }
+  
+  .Landing__11 #OrderConfirmLeft #Payment #ArrowBg {
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+
+/* ========================================================================================================================
+              Footer 
+=============================================================================================================================*/
+
+.Landing__11 .FooterBg{
+ background-image: url('../../public/images/landing-11/Footerbg.png');
+ padding:90px 0px 28px 0px ;
+ text-align: center;
+ background-size: cover;
+}
+
+.Landing__11 .logo2{
+    max-height: 90px;
+}
+
+.Landing__11 .Footerhrdiv{
+ text-align: center;
+ width: 100%;
+ margin-top: 45px;
+ 
+}
+
+.Landing__11 .Footerhr{
+ width: 70%;
+ font-size: 22px;
+ line-height: 36px;
+ font-weight: 600;
+ color: #FFFFFF;
+ border-top: 1px dotted #FDE8CC;
+ margin: 0 auto;
+ margin-top: -15px;
+
+}               
+.Landing__11 .Footerhrdiv h6{
+ font-size: 22px;
+ line-height: 36px;
+ font-weight: 500;
+ color: #FFFFFF;
+ background-color: rgba(127, 83, 33, .9);
+ border-radius: 50px;
+ padding: 5px 20px ;
+ display: inline;
+  
+}               
+
+.Landing__11 .FooterdivRow{
+ padding: 0 15%;
+ padding-bottom: 70px;
+}
+
+.Landing__11 .FooterTxtdiv{
+ margin-top: 43px;
+ text-align: left;  
+}
+.Landing__11 .FooterTxtdiv h5{
+ font-size: 24px;
+ line-height: 29px;
+ color: #F8A209; 
+ font-weight: 600;
+}
+.Landing__11 .FooterTxtdiv h2{
+ color: #F8F8F8; 
+}
+
+.Landing__11 .FooterTxtdiv a{
+ font-size: 18px;
+ line-height: 30px;
+ color:#FFFFFF;
+ margin-left: 12px;
+ font-family: 'Ruda' !important;
+ 
+}
+
+.Landing__11 .FooterTxtdiv li{
+ margin-top: 15px;
+}
+.Landing__11 .FooterTxtdiv li img{
+ width: 20px;
+}
+
+.Landing__11 .FooterIcon{
+ font-size: 20px;
+ color:#F89E0A;
+}
+
+
+.Landing__11 .Footerhr2{
+
+ border-top: 1px solid #FDE8CC;
+
+}
+
+
+
+/* Other */
+
+.Landing__11 .imgMo2{
+     display: none;
+
+}
+
+/* Social Icon */
+
+.Landing__11 .SocialIconBox {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+ .Landing__11 .SocialIconBox  a{
+    margin: 15px 0px;
+    margin-right: 30px;
+    font-size: 25px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.Landing__11 .SocialIconBox  a:hover{
+    transform: scale(1.2);
+    background: none;
+ }
+
+ .Landing__11 .tiny-footer_tinyFooter__Tr3b1 p {
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.Landing__11 .tiny-footer_tinyFooter__Tr3b1 p a {
+    color: #fe8d0e;
+    padding: 0 5px;
+}
+
+
+/* ========================================================================================================================
+              Media Quary
+=============================================================================================================================*/
+
+
+
+
+@media (min-width: 1441px) {
+
+
+
+
+}
+
+@media (max-width: 1440px) {
+
+
+ .Landing__11 h1 {
+     font-size: 41px;
+     line-height: 77px;
+  
+ }
+
+ .Landing__11 a.bg{
+     margin-top: 20px;
+     padding: 20px 40px !important;
+ }
+ 
+ .Landing__11 a.bg2{
+     margin-top: 20px;
+     padding: 20px 40px !important;
+ }
+ 
+ .Landing__11 .img2Span1 {
+     font-size: 60px; 
+ }
+
+ .Landing__11 .img2Span2 {
+     font-size: 33px;
+ }
+ .Landing__11 .img2Span3 {
+     font-size: 16px;
+ }
+ .Landing__11 .img2Abs{
+     margin-top: -146px;
+     margin-left: 40px;
+ }
+
+ .Landing__11 h2 {
+     font-size: 32px;
+     line-height: 50px;
+ }
+
+ .Landing__11 .Storeh5 {
+     top: 37px;
+     font-size: 32px;
+ }
+
+ .Landing__11 .StoreAbs1 {
+     left: 26px;
+ }
+
+ .Landing__11 .PriceBgBoxTxt h5 {
+     font-size: 48px;
+     line-height: 70px;
+     color: #FDFDFD;
+     font-weight: 600;
+ }
+
+ .Landing__11 .VideoBgBox iframe {
+     height: 526px;
+ }
+ .Landing__11 .TableBoxCol{
+     padding: 45px 20px;
+ }
+
+
+  
+  .Landing__11 .LastOrderDivAbs1{
+      position: absolute;
+      font-size: 32px;
+      top:20px;
+      
+  }
+  
+  .Landing__11 .LastOrderDivAbs2{
+      position: absolute;
+      font-size: 44px;
+      top:180px;
+
+  }
+  
+  .Landing__11 .LastOrderDiv .bg7{
+      position: absolute;
+      top:310px;
+      padding: 39px 140px !important;
+      font-size: 24px !important;
+  
+  }
+
+  .Landing__11 .LastOrderDiv img{
+     height: 409px;
+      
+  }
+
+
+
+
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+.Landing__11 .FooterdivRow {
+        padding: 0 8%;
+        padding-bottom: 70px;
+    }
+
+ .Landing__11 h1 {
+     font-size: 37px;
+     line-height: 71px;
+ }
+
+ .Landing__11 a.bg{
+     margin-top: 20px;
+     font-size: 20px;
+     padding: 16px 26px !important;
+ }
+ 
+ .Landing__11 a.bg2{
+     margin-top: 20px;
+     font-size: 20px;
+     margin-left: 18px;
+     padding: 16px 26px !important;
+ }
+
+ .Landing__11 .uldiv h5 {
+     color: #24703E;
+     font-size: 28px;
+ }
+
+ .fifteen h6 {
+     font-size: 32px;
+ }
+
+ .Landing__11 .img1 {
+     bottom: -3px;
+ }
+
+ .Landing__11 .img2{
+     width: 50%;
+ }
+
+ .Landing__11 .img2Span1 {
+     font-size: 48px;
+ }
+
+ .Landing__11 .img2Span2 {
+     font-size: 30px;
+ }
+
+ .Landing__11 .img2Span3 {
+     font-size: 12px;
+ }
+
+ .Landing__11 .img2Span4 {
+     font-size: 22px;
+ }
+
+ .Landing__11 .img2Abs {
+     margin-top: -124px;
+     margin-left: 41px;
+ }
+
+ .Landing__11 h2 {
+     font-size: 26px;
+     line-height: 42px;
+ }
+
+ .Landing__11 p {
+     font-size: 16px;
+ }
+
+ .Landing__11 .LitxtBox li p {
+     padding-bottom: 30px;
+     line-height: 30px;
+ }
+
+ .Landing__11 .Storeh5{
+     top: 37px;
+     font-size: 22px;
+ }
+
+
+ .Landing__11 .PriceBgBoxTxt h5 {
+     font-size: 40px;
+     line-height: 60px;
+ }
+
+ .Landing__11 .PriceBgBoxTxt h6 {
+     font-size: 28px;
+     line-height: 42px;
+ }
+
+ .Landing__11 .PriceBgBoxImg {
+     top: -49%;
+     height: 532px;
+ }
+
+ .Landing__11 .PriceBgBox {
+     height: 272px;
+ }
+
+ .Landing__11 .TableAbs3 {
+     width: 150px;
+ }
+
+ .Landing__11 .TableAbs4 {
+     width: 150px;
+     bottom: -63px;
+     left: -113px;
+ }
+
+ .Landing__11 .TableBoxCol {
+     padding: 43px 20px;
+ }
+
+ .Landing__11 .PriceBoxTxt2 h5 {
+     font-size: 40px;
+     line-height: 60px;
+ }
+
+ .Landing__11 .PriceBoxTxt2 h6 {
+     font-size: 28px;
+     line-height: 42px;
+ }
+
+ .Landing__11 .Discussionimg1 {
+     margin-top: -170px;
+     width: 41%;
+ }
+
+ .Landing__11 .HoneyAbs6 {
+     top: -14px;
+     right: -64px;
+     width: 150px;
+ }
+
+ .Landing__11 .HoneyAbs5 {
+     width: 150px;
+     top: -25px;
+     left: -64px;
+ }
+
+ .Landing__11 .ShippingIcondev h5 {
+     font-size: 18px;
+ }
+
+ .Landing__11 .FooterTxtdiv h5 {
+     font-size: 22px;
+ }
+ .Landing__11 .FooterTxtdiv a {
+     font-size: 16px;
+ }
+
+ .tinyFooter p a {
+     font-size: 18px;
+ }
+
+ .Landing__11 .StoreAbs2{
+     width: 100px;
+ }
+
+
+}
+
+
+@media (max-width: 991px) {
+
+ .Landing__11 .imgMo2{
+     display: block;
+     width: 111%;
+}
+
+.Landing__11 .img1{
+ display: none;
+}
+
+.ColReverce{
+ flex-direction: column-reverse;
+}
+
+.Landing__11 .img2div{
+ position: absolute;
+
+}
+.Landing__11 .img2{
+ width: 50%;
+ top: -32px;
+ left: 77px;
+}
+
+.Landing__11 .img2Abs {
+ margin-top: -152px;
+ margin-left: 100px;
+}
+
+.Landing__11 h1 {
+ font-size: 32px;
+ line-height: 60px;
+
+}
+
+.ColCenterMob{
+ text-align: center;
+}
+
+
+.Landing__11 a.bg{
+ margin-top: 30px;
+ padding: 18px 40px !important;
+ font-size: 20px;
+ 
+
+}
+.Landing__11 a.bg2{
+ margin-top: 30px;
+ padding: 18px 40px !important;
+ font-size: 20px;
+}
+
+.Landing__11 .uldiv {
+ justify-content: center;
+}
+
+.Landing__11 .bgimg {
+ padding: 43px 0px 80px 0px;
+}
+
+.Landing__11 .uldiv h6 {
+ font-size: 32px;
+ line-height: 42px;
+}
+
+.Landing__11 .uldiv h5 {
+ color: #24703E;
+ font-size: 26px;
+}
+
+.Landing__11 .LitxtBox li p {
+ padding-bottom: 25px;
+ line-height: 25px;
+}
+
+.Landing__11 .Storeh5 {
+ left: 60px;
+ top: 26px;
+ font-size: 18px;
+}
+
+.Landing__11 .StoreAbs2 {
+ width: 100px;
+}
+
+
+.Landing__11 .PriceBgBoxTxt h5 {
+ font-size: 36px;
+ line-height: 60px;
+}
+
+.Landing__11 .PriceBgBoxTxt h6 {
+ font-size: 24px;
+ line-height: 17px;
+}
+
+
+.Landing__11 .PriceBgBoxImg {
+ top: -45%;
+ height: 485px;
+}
+
+.Landing__11 .PriceBgBox {
+ height: 252px;
+}
+
+.Landing__11 .StoreRow2{
+ padding-top: 20px ;
+}
+
+.Landing__11 .VideoBgBox h2 {
+ padding-top: 200px;
+ margin-bottom: 40px;
+}
+
+.Landing__11 .TableBoxCol {
+ padding: 15px 20px;
+}
+
+.Landing__11 .ShippingIcondev h5 {
+ font-size: 20px;
+ line-height: 28px;
+}
+
+
+.Landing__11 .TableBoxH2  h2 {
+ text-align: center;
+ padding: 0px 4%;
+ margin-bottom: 60px;
+}
+
+.Landing__11 .Discussionimg1 {
+ margin-top: -107px;
+ width: 45%;
+}
+
+.Landing__11 .section_gap2{
+ display: none;
+}
+
+.Landing__11 .Footerhrdiv h6 {
+ background-color: rgb(96 62 24 / 90%);
+}
+
+.Landing__11 .logo2{
+ width: 300px;
+}
+
+
+.Landing__11 .LastOrderDivAbs1{
+ position: absolute;
+ font-size: 28px;
+ top:20px;
+ 
+}
+
+.Landing__11 .LastOrderDivAbs2{
+ position: absolute;
+ font-size: 36px;
+ top:150px;
+
+}
+
+.Landing__11 .LastOrderDiv .bg7{
+ position: absolute;
+ top:280px;
+ padding: 25px 100px !important;
+ font-size: 20px !important;
+
+}
+
+.Landing__11 .LastOrderDiv img{
+height: 350px;
+ 
+}
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+ .Landing__11 .img2{
+     width: 40%;
+     top: -70px;
+     left: 34px;
+ }
+
+ .Landing__11 .img2Abs {
+     margin-top: -167px;
+     margin-left: 48px;
+ }
+
+ .Landing__11 .img2Span1 {
+     font-size: 35px;
+ }
+
+ .Landing__11 .img2Span2 {
+     font-size: 20px;
+ }
+
+ .Landing__11 .img2Span3 {
+     font-size: 11px;
+ }
+ .Landing__11 .img2Span4 {
+     font-size: 18px;
+ }
+
+ .Landing__11 h1 {
+     font-size: 28px;
+     line-height: 50px;
+     margin-bottom: 20px;
+ }
+
+ .Landing__11 .Storeimg2{
+     margin-top: 20px;
+     margin-left: 0%;
+     height: 60px;
+ }
+
+ .Landing__11 .StoreCol2 .StoreH2 {
+     padding-left: 0px;
+     margin-top: 50px;
+     text-align: center;
+ }
+
+ .Landing__11 .Storeh5 {
+     left: 35%;
+     top: 26px;
+     font-size: 18px;
+ }
+
+
+ .Landing__11 h2 {
+     font-size: 22px;
+     line-height: 38px;
+ }
+
+ .Landing__11 .MobLogo{
+     width: 205px;
+ }
+
+ .Landing__11 .PriceBoxTxt2 h5 {
+ font-size: 36px;
+ line-height: 45px;
+}
+
+.Landing__11 .PriceBoxTxt2 h6 {
+ font-size: 24px;
+}
+
+
+.Landing__11 a.bg{
+ margin-top: 30px;
+ padding: 14px 40px !important;
+ font-size: 18px;
+}
+.Landing__11 a.bg2{
+ margin-top: 30px;
+ padding: 14px 40px !important;
+ font-size: 18px;
+}
+
+.Landing__11 .VideoBgBox iframe {
+ height: 470px;
+}
+
+.Landing__11 .section_gap{
+     padding-top: 70px;
+ }
+
+.Landing__11 .TableAbs3{
+ width: 100px;
+ top: -53px;
+ right: -58px;
+}
+
+.Landing__11 .TableAbs4 {
+ width: 100px;
+ bottom: -40px;
+ left: -70px;
+}
+
+
+.Landing__11 .Discussionimg1 {
+ margin-top: -107px;
+ width: 60%;
+}
+
+
+.Landing__11 .LastOrderDivAbs1{
+ position: absolute;
+ font-size: 24px;
+ top:20px;
+ 
+}
+
+.Landing__11 .LastOrderDivAbs2{
+ position: absolute;
+ font-size: 32px;
+ top:120px;
+
+}
+
+.Landing__11 .LastOrderDiv .bg7{
+ position: absolute;
+ top:230px;
+ padding: 25px 100px !important;
+ font-size: 20px !important;
+
+}
+
+.Landing__11 .LastOrderDiv img{
+height: 300px;
+ 
+}
+
+
+
+
+
+}
+
+
+@media (max-width: 575px) {
+
+    
+.Landing__11 .TableBoxCol p{
+    font-size: 20px;
+    line-height: 25px;
+   }
+
+.Landing__11 .DiscussionTxtBox p {
+    padding: 0 12%;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+ .Landing__11 .img2{
+     width: 35%;
+     top: -85px;
+     left: -2px;
+ }
+
+ .Landing__11 .img2Abs{
+     margin-top: -168px;
+     margin-left: 19px;
+ }
+
+ .Landing__11 .img2Span1 {
+     font-size: 32px;
+ }
+
+ .Landing__11 .img2Span2 {
+     font-size: 16px;
+ }
+
+ .Landing__11 .img2Span4{
+     font-size: 14px;
+ }
+
+ .Landing__11 h1 {
+     font-size: 24px;
+     line-height: 40px;
+     margin-bottom: 20px;
+     margin-top: 40px;
+ }
+
+ .Landing__11 a.bg{
+     margin-top: 30px;
+     padding: 12px 20px !important;
+     font-size: 16px;
+     
+ 
+ }
+ .Landing__11 a.bg2{
+     margin-top: 30px;
+     padding: 10px 20px !important;
+     font-size: 16px;
+ }
+
+ .Landing__11 .uldiv h5 {
+     color: #24703E;
+     font-size: 22px;
+ }
+
+ .Landing__11 .uldiv h6 {
+     font-size: 24px;
+     line-height: 32px;
+ }
+
+ .Landing__11 .uldiv img {
+         width: 55px;
+     
+ }
+
+ .Landing__11 .uldiv {
+     margin-top: 42px;
+ }
+
+ .Landing__11 .bgimg {
+     padding: 43px 0px 50px 0px;
+ }
+
+ .Landing__11 .StoreAbs1 {
+     left: 0px;
+     width: 70px;
+ }
+
+ .Landing__11 h2 {
+     font-size: 20px;
+     line-height: 31px;
+ }
+
+ .Landing__11 .LitxtBox {
+     margin-top: 50px;
+ }
+
+ .Landing__11 .PriceBgBoxTxt h5 {
+     font-size: 28px;
+     line-height: 40px;
+ }
+
+ .Landing__11 .PriceBgBoxTxt h6 {
+     font-size: 18px;
+     line-height: 10px;
+ }
+
+ .Landing__11 .PriceBgBoxImg {
+     top: -50%;
+     height: 370px;
+ }
+
+ .Landing__11 .PriceBgBox {
+     height: 186px;
+ }
+
+ .Landing__11 .VideoBgBox h2 {
+     padding-top: 129px;
+     margin-bottom: 40px;
+ }
+
+ .Landing__11 .section_gap{
+     padding-top: 50px;
+ }
+
+ .Landing__11 .StoreAbs2{
+     width: 74px;
+     bottom: -70px;
+ }
+ .Landing__11 .TableAbs3 {
+     width: 100px;
+     top: -53px;
+     right: -34px;
+ }
+
+ .Landing__11 .TableAbs4 {
+     width: 100px;
+     bottom: -40px;
+     left: -42px;
+ }
+
+ .Landing__11 .PriceBoxTxt2 h5 {
+     font-size: 28px;
+     /* line-height: 51px; */
+ }
+
+ .Landing__11 .PriceBoxTxt2 h6 {
+     font-size: 18px;
+     line-height: 21px;
+ }
+
+ .Landing__11 .HoneyAbs6 {
+     top: 28px;
+     right: -20px;
+     width: 50px;
+ }
+ .Landing__11 .HoneyAbs5 {
+     top: -25px;
+     left: -20px;
+     width: 50px;
+ }
+
+ .Landing__11 p {
+     font-size: 14px;
+     line-height: 21px;
+ }
+
+ .Landing__11 .DiscussionTxtBox h2 {
+     padding-top: 52px;
+     padding-bottom: 22px;
+ }
+
+ .Landing__11 .LitxtBox ul li img{
+     width: 20px;
+
+ }
+
+ .Landing__11 .ShippingIcondev img{
+     width: 60px;
+ }
+
+ .Landing__11 .ShippingIcondev h5 {
+     font-size: 12px;
+     line-height: 16px;
+ }
+
+ .Landing__11 .logo2{
+     width: 195px;
+ }
+
+ .Landing__11 .FooterBg {
+     padding: 54px 0px 28px 0px;
+  
+     
+ }
+
+ .Landing__11 .FooterTxtdiv{
+   text-align: center;
+ }
+
+ .Landing__11 .Footerhrdiv h6 {
+     font-size: 18px;
+ }
+ .Landing__11 .FooterTxtdiv h5 {
+     font-size: 20px;
+ }
+
+ .Landing__11 .FooterTxtdiv a {
+     font-size: 14px;
+ }
+
+ .Landing__11 .FooterTxtdiv li {
+     margin-top: 4px;
+ }
+
+ .Landing__11 .FooterTxtdiv li img {
+     width: 15px;
+ }
+
+ .Landing__11 .section_gap2{
+     display: block;
+ }
+
+
+ .Landing__11 .Discussionimg1 {
+     margin-top: -107px;
+     width: 60%;
+ }
+ 
+
+
+ 
+ .Landing__11 .LastOrderDivAbs1{
+     position: absolute;
+     font-size: 20px;
+     top:8px;
+     
+ }
+ 
+ .Landing__11 .LastOrderDivAbs2{
+     position: absolute;
+     font-size: 28px;
+     top:100px;
+ 
+ }
+ 
+ .Landing__11 .LastOrderDiv .bg7{
+     position: absolute;
+     top:190px;
+     padding: 25px 60px !important;
+     font-size: 16px !important;
+ 
+ }
+ 
+ .Landing__11 .LastOrderDiv img{
+    height: 250px;
+     
+ }
+
+
+ }
+
+
+
+@media (max-width: 450px) {
+
+ .Landing__11 .VideoBgBox iframe {
+     height: 420px;
+ }
+
+ .Landing__11 .MobLogo {
+     margin-bottom: 50px;
+ }
+
+
+ .Landing__11 .img2 {
+     width: 41%;
+     top: -71px;
+     left: -30px;
+ }
+
+ .Landing__11 .img2Abs {
+     margin-top: -160px;
+     margin-left: -12px;
+ }
+
+
+
+ .Landing__11 .LastOrderDivAbs1{
+     position: absolute;
+     font-size: 16px;
+     top:-4px;
+     
+ }
+ 
+ .Landing__11 .LastOrderDivAbs2{
+     position: absolute;
+     font-size: 20px !important;
+     top:50px;
+ 
+ }
+ 
+ .Landing__11 .LastOrderDiv .bg7{
+     position: absolute;
+     top:130px;
+     padding: 12px 40px !important;
+     font-size: 16px !important;
+ 
+ }
+ 
+ .Landing__11 .LastOrderDiv img{
+    height: 170px ;
+     
+ }
+
+
+
+ }
+
+ @media (max-width: 364px){
+
+     .Landing__11 .img2 {
+         width: 57%;
+         top: -77px;
+         left: -67px;
+     }
+ 
+ 
+     .Landing__11 .img2Abs {
+         margin-top: -161px;
+         margin-left: -50px;
+     }
+ 
+     .Landing__11 a.bg{
+         margin-top: 30px;
+         padding: 6px 14px !important;
+         font-size: 14px;
+         
+     
+     }
+     .Landing__11 a.bg2{
+         margin-top: 30px;
+         padding: 4px 20px !important;
+         font-size: 14px;
+     }
+
+     .Landing__11 .VideoBgBox iframe {
+         height: 389px;
+     }
+
+
+     .Landing__11 .FooterTxtdiv a {
+         font-size: 12px;
+     }
+   
+ 
+ 
+
+ }
+             
+
+
+/* ========================================================================================================================
+    Header Section
+=============================================================================================================================*/
+
+
+             

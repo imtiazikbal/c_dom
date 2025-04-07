@@ -1,0 +1,889 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__23 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden ;
+  }
+
+  .Landing__23 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__23 h1{
+      font-size: 48px;
+      line-height: 64px;
+      color:#FFF;
+      font-weight: 900;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+
+  .Landing__23 h2{
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__23 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+
+  .Landing__23 a.bg{
+      position: relative;
+      padding: 24px 70px;
+      color:#BB3D3E; 
+      background:#FFF;
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 10px;
+      font-size: 32px;
+      line-height: 42px;
+     transition: all .2s;
+     transform: scale(.9);
+    }
+
+
+  .Landing__23 a.bg svg{
+      font-size: 40px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #BB3D3E; 
+  }
+  
+
+  .Landing__23 a.bg:hover {
+      background-position: right center;
+      color: #000000;
+      text-decoration: none;
+      transform: scale(1.1);
+  }
+   
+  .Landing__23 a.bg:hover svg {
+      color: #020000;      
+  }
+   
+
+  .Landing__23__section_gaps{
+      margin-top: 100px;
+  }
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+  .Landing__23__bg_div{
+    background-image: url('../../public/images/landing-23/bg.png');
+    background-size: cover;
+    padding: 40px 0px 60px 0px;
+  }
+  
+.Landing__23__HrBanner{
+    width: 70%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+
+
+.Landing__23__BannerTxt h1 {
+
+  background-image: linear-gradient(
+    -225deg,
+    #fff 0%,
+    #fff 29%,
+    #f300b6 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: ngvhvyvu12 5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes ngvhvyvu12 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.Landing__23 #OrderSection h2 {
+
+  background-image: linear-gradient(
+    -225deg,
+    #fff 0%,
+    #fff 29%,
+    #f300b6 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: ngvhvyvu12 5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes ngvhvyvu12 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.Landing__23__BannerTxt h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    line-height: 95px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.Landing__23__BannerTxt h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110px;
+    line-height: 100px;
+    color: #FFF;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+/* ================================================================================================
+            Shipping Icon
+  ===================================================================================================*/
+
+  .Landing__23__ShippingIcon{
+    padding:40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .2s;
+    border-radius: 10px;
+  }
+
+  .Landing__23__ShippingIcon{
+    outline: 1px dashed #BB3D3E;
+    outline-offset: -10px;
+  }
+
+
+
+  .Landing__23__ShipImg1{
+    display: none;
+    transition: all .2s;
+  }
+
+  .Landing__23__ShippingIcon:hover .Landing__23__ShipImg1{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .Landing__23__ShippingIcon:hover .Landing__23__ShipImg2{
+    display: none;
+  }
+
+  .Landing__23__ShippingIcon:hover {
+    background-color:#BB3D3E;
+    outline: 1px dashed #ffffff;
+  }
+
+  .Landing__23__ShippingIcon:hover h4 {
+    color:#ffffff;
+  }
+
+  .Landing__23__ShippingIcon h4 {
+    font-size: 26px;
+    line-height: 38px;
+    color: #BB3D3E;
+    font-weight: 600;
+    margin-top: 31px;
+}
+
+
+/* ================================================================================================
+            Special Features
+  ===================================================================================================*/
+
+.Landing__23__Features h4{
+    font-size: 36px;
+    line-height:61px;
+    color:#BB3D3E;
+    font-weight: 700;
+}
+
+.Landing__23__Hr2{
+    border-bottom: 3px solid #BB3D3E;
+    width: 30%;
+}
+
+.Landing__23__Features h5{
+    font-size: 24px;
+    line-height: 41px;
+    color:#4C4C4C;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.Landing__23__Features li{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Landing__23__FeaturesImgDiv img{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.Landing__23__VideoTxtDiv p{
+    font-size: 24px;
+    padding: 40px 0px;
+    line-height: 34px;
+
+}
+.Landing__23__VideoTxtDiv {
+    padding-top: 40px;
+}
+
+/* btn */
+
+.Landing__23 .bg2 {
+    transition: 0.5s;
+    display: block;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.Landing__23 a.bg2{
+    position: relative;
+    padding: 24px 42px;
+    color:#FFF; 
+    background:#BB3D3E;
+    background-size: 180% auto;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 28px;
+    line-height: 42px;
+   transition: all .2s;
+   transform: scale(.9);
+  }
+
+
+.Landing__23 a.bg2 svg{
+    font-size: 40px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #FFF; 
+}
+
+
+.Landing__23 a.bg2:hover {
+    background-position: right center;
+    color: #000000;
+    text-decoration: none;
+    transform: scale(1);
+}
+ 
+.Landing__23 a.bg2:hover svg {
+    color: #020000;      
+}
+ 
+
+/* btn 3 */
+
+.Landing__23 .bg3 {
+    transition: 0.5s;
+    display: block;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.Landing__23 a.bg3{
+    position: relative;
+    padding: 24px 42px;
+    color:#BB3D3E; 
+    background-size: 180% auto;
+    display: inline-block;
+    outline: 4px solid #BB3D3E;
+    transition: .2s;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 28px;
+    line-height: 42px;
+   transition: all .2s;
+   transform: scale(.9);
+  }
+
+
+.Landing__23 a.bg3 svg{
+    font-size: 40px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #FFF; 
+}
+
+
+.Landing__23 a.bg3:hover {
+    background-position: right center;
+    color: #000000;
+    background-color:#BB3D3E;
+    text-decoration: none;
+    transform: scale(1);
+}
+ 
+.Landing__23 a.bg3:hover svg {
+    color: #020000;      
+}
+ 
+
+/* ================================================================================================
+            Slider
+  ===================================================================================================*/
+
+  .Landing__23__CardUpTxt2{
+    padding-bottom: 150px;
+}
+
+.Landing__23__Slider_CardDivImg{
+    width: 100%;
+    transform: scale(.98);
+    transition: all .2s;
+  }
+
+  
+  .Landing__23__SliderIconDiv2{
+    position: relative;
+  }
+
+  .Landing__23__SliderIcon1{
+    position: absolute;
+    bottom:-30px;
+    left: 44%;
+    background: none;
+    font-size: 28px;
+    color:#ffffff;
+    width: 11px;
+    height: 11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
+  
+  .Landing__23__SliderIcon2{
+    position: absolute;
+    bottom:-30px;
+    left: 47%;
+    background: none;
+    font-size: 28px;
+    color:#fffcfc;
+    width: 11px;
+    height:11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
+
+  .Landing__23__SliderIcon3{
+    position: absolute;
+    bottom:-30px;
+    left: 50%;
+    background: none;
+    font-size: 28px;
+    color:#ffffff;
+    width: 11px;
+    height: 11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
+  
+  .Landing__23__SliderIcon4{
+    position: absolute;
+    bottom:-30px;
+    left: 53%;
+    background: none;
+    font-size: 28px;
+    color:#fff0f0;
+    width: 11px;
+    height: 11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
+
+
+  .Landing__23__SliderIcon4:hover, .Landing__23__SliderIcon3:hover, .Landing__23__SliderIcon2:hover, .Landing__23__SliderIcon1:hover{
+    width: 55px;
+  }
+
+  .Landing__23__SliderImg:hover img{
+    transform: scale(1);
+    border-radius: 5px;
+  }
+
+
+/* ================================================================================================
+            Slider2
+  ===================================================================================================*/
+
+  .Landing__23__SliderIcon5{
+    bottom:30px;
+
+  }
+
+
+/* ================================================================================================
+           Place In Order
+  ===================================================================================================*/
+
+  
+.Landing__23__PlaseInOdr{
+  position: relative;
+  background-color:#BB3D3E;
+  padding: 0px 20px 0px 20px;
+  background-size:cover;
+  border-radius: 20px;
+}
+
+.Landing__23 #OrderSection {
+  padding: 100px 0px !important;
+  border-radius: 10px;
+  color: #FFF;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment #CustomeInput label {
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.Landing__23 #OrderConfirmRight ul h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.Landing__23 #OrderConfirmLeft #CustomeInput input {
+  border: 1px solid #d1d5db;
+  padding: 12px 20px;
+  background: none;
+  border-radius: 10px;
+  color:#FFF;
+}
+
+
+
+.Landing__23 #OrderConfirmLeft #Payment #ArrowBg {
+  background:#fff;
+}
+
+.Landing__23 #OrderConfirmRight button {
+  background:#fff;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment #ArrowBg p {
+  color: #ffffff;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment #ArrowBg::after {
+border-bottom:15px solid  #fff;
+} 
+
+.Landing__23 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background:#fff;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment h3 {
+  padding: 20px;
+  padding-bottom: 0;
+  color: #ffffff;
+}
+
+.Landing__23 #OrderConfirmRight button {
+  color: #c91717;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment {
+  background: #BB3D3E;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background: #ff6364;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment #ArrowBg p {
+  color: #BB3D3E;
+  font-size: 18px;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment #ArrowBg {
+  padding: 10px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.Landing__23  #tinyFooter p a {
+  display: inline;
+  font-size: 20px;
+  font-weight: 600;
+  color: #BB3D3E;
+  padding: 0 5px;
+}
+
+.Landing__23 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:after {
+  top: 10px;
+}
+
+.Landing__23 ::placeholder{
+  color: #fff;
+}
+
+/* ================================================================================================
+            Footer
+  ===================================================================================================*/
+
+  .Landing__23__FooterDiv img{
+    max-height: 60px;
+  }
+
+  .Landing__23__FooterDiv{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+
+  .Landing__23__FooterDiv h4{
+    font-size: 31px;
+    line-height: 31px;
+    color:#BB3D3E;
+    font-weight: 500;
+  }
+
+  .Landing__23__FooterDiv a{
+    font-size: 18px;
+    line-height: 30px;
+    color:#AAAAAA;
+    font-weight: 500;
+  }
+
+  .Landing__23__FooterDiv a svg{
+   margin-right: 10px;
+  }
+
+  .Landing__23__FooterDiv p{
+    font-size: 20px;
+    line-height: 28px;
+    color:#4C4C4C;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  .Landing__23__FooterDiv li{
+   margin-top: 10px;
+  }
+
+
+/* ================================================================================================
+           Midea Quary
+  ===================================================================================================*/
+
+ 
+  @media (max-width: 1641px) {
+
+
+
+
+  }
+  
+   @media (max-width: 1400px) {
+  
+    .Landing__23 h1 {
+      font-size: 40px;
+      line-height: 52px;
+      padding-bottom: 15px;
+  }
+
+  .Landing__23__BannerTxt h4 {
+    font-size: 44px;
+    line-height: 45px;
+  }
+
+  .Landing__23__BannerTxt h3 {
+    font-size: 75px;
+    line-height: 78px;
+    margin-bottom: 20px;
+}
+
+.Landing__23 a.bg {
+  padding: 18px 54px;
+  font-size: 24px;
+}
+
+.Landing__23 a.bg svg {
+  font-size: 28px;
+}
+
+.Landing__23__ShippingIcon h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Landing__23 a.bg2, .Landing__23 a.bg3 {
+  padding: 18px 50px;
+  font-size: 24px;
+}
+
+.Landing__23 h2 {
+  font-size: 40px;
+  line-height: 60px;
+
+}
+
+
+  }
+  
+  
+  @media (max-width: 1280px) {
+  
+    .Landing__23__FooterDiv h4 {
+      font-size: 24px;
+      line-height: 31px;
+      color: #BB3D3E;
+      font-weight: 500;
+  }
+
+    .Landing__23 h1 {
+      font-size: 28px;
+      line-height: 38px;
+      padding-bottom: 15px;
+  }
+
+  .Landing__23__BannerTxt h4 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .Landing__23__BannerTxt h3 {
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.Landing__23 a.bg {
+  padding: 10px 38px;
+  font-size: 20px;
+}
+
+.Landing__23 a.bg svg {
+  font-size: 25px;
+}
+
+.Landing__23__ShippingIcon h4 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.Landing__23__ShippingIcon{
+  margin-bottom: 20px;
+}
+
+.Landing__23__Features h4 {
+  font-size: 30px;
+  line-height: 51px;
+}
+
+.Landing__23__Hr2 {
+  border-bottom: 3px solid #BB3D3E;
+  width: 18%;
+} 
+
+.Landing__23__Features h5 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #4C4C4C;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.Landing__23 h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.Landing__23 a.bg2, .Landing__23 a.bg3 {
+  padding: 12px 40px;
+  font-size: 20px;
+}
+
+.Landing__23 a.bg2 svg {
+  font-size: 25px;
+  margin-top: -5px;
+  margin-right: 10px;
+  color: #FFF;
+}
+
+
+
+
+  }
+  
+  @media (max-width: 991px) {
+
+    .Landing__23__FooterDiv {
+      display: block;
+      text-align: center;
+      padding-bottom: 0px;
+    }
+  
+    .Landing__23__FooterDiv > div{
+    margin-bottom: 25px;
+    }
+  
+
+  }
+  
+  
+  @media (max-width: 767px) {
+  
+    .Landing__23__VideoTxtDiv p {
+      font-size: 18px;
+      padding: 24px 0px;
+    }
+
+    .Landing__23 h1 {
+      font-size: 24px;
+      line-height: 34px;
+      padding-bottom: 15px;
+  }
+
+  .Landing__23__BannerTxt{
+    text-align: center;
+  }
+
+  .Landing__23__HrBanner {
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+.Landing__23__bg_div {
+  background-size: cover;
+  padding: 40px 0px 60px 0px;
+  background-position: -90%;
+}
+
+.Landing__23__Features h4 {
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.Landing__23__Features h5 {
+  font-size: 16px;
+  line-height: 17px;
+  color: #4C4C4C;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.Landing__23 a.bg2, .Landing__23 a.bg3 {
+  padding: 9px 23px;
+  font-size: 20px;
+}
+
+.Landing__23  .mySwiper span{
+  display: none;
+}
+
+.Landing__23__SliderIconDiv2 button{
+  display: none;
+}
+  
+.Landing__23__VideoTxtDiv {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.Landing__23__Hr2 {
+  margin: 0 auto;
+  border-bottom: 3px solid #BB3D3E;
+  width: 18%;
+}
+
+
+.Landing__23 h2 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.Landing__23__FooterDiv h4 {
+  font-size: 22px;
+  line-height: 31px;
+  color: #BB3D3E;
+  font-weight: 500;
+}
+
+.Landing__23__ShippingIcon {
+  margin: 0 10%;
+  margin-bottom: 20px;
+}
+
+.Landing__23__section_gaps{
+  margin-top: 50px;
+}
+
+
+  }
+  
+  
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+

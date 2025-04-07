@@ -1,0 +1,525 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__36 {
+  --bg-color: #0a1071;
+  --bg-color2: #099b90;
+  --text-color: #590707;
+  --text-color2: #265902;
+  --white-color: #fff;
+  --yellow-color: #ffc300;
+  overflow-x: hidden;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+.Landing__36 h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--text-color);
+  border-radius: 32px 0px;
+  background-color: rgba(255, 248, 241, 0.75);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Landing__36 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.Landing__36 p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--header-color);
+}
+
+.Landing__36 :where(.Order, .Price) a,
+.Landing__36 :where(.Order, .Price) button {
+  background: linear-gradient(to right, #f2d335 0%, #f2d335 51%, #c9ac1f 100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  padding: 15px 50px;
+  font-weight: 700;
+  display: inline-block;
+  width: auto;
+  margin-top: 30px;
+  border-radius: 109px;
+  border-radius: 10px;
+  border: 3px solid #f2441d;
+
+  /* 1 */
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Landing__36 :where(.Order, .Price) a:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Landing__36 :where(.Order, .Price) img {
+  height: 24px;
+  padding: 0px 10px;
+}
+
+.Landing__36 .Price button {
+  font-size: 35px;
+  line-height: 55px;
+  border-radius: 16px 0px;
+}
+
+.Landing__36 .Section__Gaps {
+  margin-top: 80px;
+}
+
+/* ============================================================
+Start Landing__35__Banner
+==============================================================*/
+
+.Landing__36__Banner {
+  padding: 70px 0px 40px 0px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://landing-page-images-1.s3.ap-south-1.amazonaws.com/landing-36/bg.png");
+  position: relative;
+}
+
+.Landing__36__Banner__Text {
+  text-align: center;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  padding-bottom: 40px;
+}
+.Landing__36__Banner__Text p {
+  margin-top: 48px;
+  margin-bottom: 44px;
+  color: #fdfdfd;
+  padding: 0px 8%;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.Landing__36__Banner__ImgMain {
+  max-width: 512px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.Landing__36__Banner__PriceBox {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 16px 0px;
+  border: 1px solid #f2d335;
+  margin: 0px 10%;
+  overflow: hidden;
+  padding-left: 14px;
+  margin-top: 40px;
+}
+
+.Landing__36__Banner__PriceBox h4 {
+  color: #f2d335;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Landing__36__Banner__PriceBox h2 {
+  color: #fdfdfd;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  background-color: #f2441d;
+  padding: 15px 10px;
+}
+
+.Landing__36__Banner__Texth1 {
+  border-radius: 32px 0px;
+  padding: 18px;
+  background-color: #f2d335;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================================
+ Card
+==============================================================*/
+.Landing__36__Banner__H2_Div {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 32px;
+  border: 4px solid #265902;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgb(228, 228, 231);
+}
+
+.Landing__36__Banner__H2_Div img {
+  height: 48px;
+  padding: 0 10px;
+}
+
+.Landing__36__Banner__Card__main {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-radius: 32px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 58px;
+  margin-bottom: 30px;
+}
+
+.Landing__36__Banner__Card1 {
+  padding: 8%;
+  color: #265902;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  height: 200px;
+  border: 1px solid #dbdbdb;
+}
+
+.Landing__36 .Order_center {
+  text-align: center;
+}
+
+.Landing__36Video h2 {
+  color: #8c0808;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  padding: 3% 5%;
+}
+
+.Landing__36__Video__Txt {
+  margin-top: 80px;
+  border-radius: 16px;
+  background-color: #265902;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+
+.Landing__36__Video__Txt_inner {
+  border-radius: 16px;
+  background: rgba(197, 241, 166, 0.55);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 48px 0px;
+  text-align: center;
+}
+.Landing__36__Video__Txt_inner h4 {
+  color: #f2d335;
+  text-align: center;
+  font-size: 31px;
+  line-height: 41px;
+  font-weight: 400;
+}
+
+.Landing__36__Banner__PriceBox2 h4 {
+  color: #fff;
+}
+
+.Landing__36__ProblemSolve__Ul ul li {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0px;
+  border-bottom: 1px solid #417f29;
+}
+.Landing__36__ProblemSolve__Ul ul li img {
+  margin-right: 10px;
+  max-width: 30px;
+}
+
+.Landing__36__ProblemSolve__Ul ul li p {
+  color: #265902;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.Landing__36__ProblemSolve {
+  margin-bottom: 50px;
+}
+
+.Landing__36__SolveBg {
+  padding: 60px 30px;
+  border-radius: 40px;
+  background-color: rgba(197, 241, 166, 0.55);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Landing__36__ProblemSolve__Img img {
+  width: 100%;
+  max-height: 622px;
+}
+
+/* ============================================================
+Binifit
+==============================================================*/
+.Landing__36__Binifit h2 {
+  color: #fff;
+}
+
+.Landing__36__Binifit .Landing__36__Banner__H2_Div {
+  background-color: #335e16;
+}
+
+.Landing__36__BinifitSec {
+  background-color: #265902;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 40px 0px 80px 0px;
+}
+
+.Landing__36__Binifit2 ul li {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid #417f29;
+}
+.Landing__36__Binifit2 {
+  margin-top: 60px;
+}
+.Landing__36__Binifit2 ul li img {
+  margin-right: 10px;
+}
+.Landing__36__Binifit2 ul li p {
+  color: #fdfdfd;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* ============================================================
+price
+==============================================================*/
+.Landing__36__price {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.Landing__36__price p {
+  color: #265902;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Landing__36__price h4 {
+  color: #f2441d;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: line-through;
+  line-height: 42px;
+  margin-top: 20px;
+}
+
+.Landing__36__price h5 {
+  color: #265902;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+
+.Landing__36__price h6 {
+  color: #f2d335;
+  text-align: center;
+  font-size: 31px;
+  line-height: 42px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px solid #f2d335;
+  background-color: #f2441d;
+  padding: 10px;
+}
+
+.Landing__36__price {
+  border-radius: 40px;
+  background-color: rgba(197, 241, 166, 0.55);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================================
+ Card
+==============================================================*/
+
+.Landing__36 #OrderConfirmRight button {
+  background-color: #f2d335;
+}
+
+@media (max-width: 1399.99px) {
+  .Landing__36 h1 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .Landing__36 h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .Landing__36__Binifit2 ul li p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .Landing__36__Banner__Text img {
+    max-height: 418px;
+  }
+
+  .Landing__36 :where(.Order, .Price) a,
+  .Landing__36 :where(.Order, .Price) button {
+    font-size: 22px;
+    padding: 10px 32px;
+  }
+
+  .Landing__36__Banner__PriceBox {
+    display: block;
+  }
+  .Landing__36__Banner__PriceBox h2 {
+    margin: 15px;
+  }
+  .Landing__36__Banner__Card__main {
+    grid-template-columns: auto;
+  }
+  .Landing__36 h2 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 667px) {
+  .Landing__36 h1 {
+    font-size: 24px;
+    line-height: 34px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Landing__36__Banner__Text p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0px 8%;
+    font-size: 20px;
+  }
+
+  .Landing__36__Banner__PriceBox h4 {
+    font-size: 20px;
+  }
+  .Landing__36 h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .Landing__36 :where(.Order, .Price) a,
+  .Landing__36 :where(.Order, .Price) button {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+  .Landing__36__Banner__H2_Div img {
+    height: 20px;
+    padding: 0 8px;
+  }
+
+  .Landing__36__Banner__Card1 {
+    font-size: 16px;
+    height: auto;
+  }
+
+  .Landing__36Video h2 {
+    margin: 15px 0px;
+  }
+
+  .Landing__36__reverce {
+    flex-direction: column-reverse;
+  }
+
+  .Landing__36__price {
+    border-radius: 15px;
+  }
+
+  .Landing__36__Banner__H2_Div {
+    border-radius: 10px;
+  }
+
+  .Landing__36__SolveBg {
+    padding: 60px 30px;
+    border-radius: 15px;
+  }
+  .Landing__36__Video__Txt_inner h4 {
+    color: #f2d335;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .Landing__36__ProblemSolve__Ul ul li p {
+    font-size: 16px;
+  }
+
+  .Landing__36__ProblemSolve__Ul ul li img {
+    margin-right: 10px;
+    max-width: 22px;
+  }
+
+  .Landing__36__SolveBg {
+    padding: 60px 8px;
+  }
+  .Landing__36__price p {
+    font-size: 16px;
+  }
+  .Landing__36__price h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+
+  .Landing__36__price h5 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .Landing__36__price h6 {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px;
+  }
+
+  .Landing__36 .Section__Gaps {
+    margin-top: 40px;
+  }
+
+  .Landing__36__Binifit2 {
+    margin-top: 0;
+  }
+  .Landing__36__Banner__PriceBox {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .Landing__36__SolveBg {
+    padding: 30px 15px;
+  }
+  .Landing__36__Banner__H2_Div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Landing__36__ProblemSolve {
+    margin-bottom: 30px;
+  }
+  .Landing__36 :where(.Order, .Price) img {
+    height: 15px;
+  }
+}

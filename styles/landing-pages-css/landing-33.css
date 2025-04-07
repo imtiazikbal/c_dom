@@ -1,0 +1,506 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__33 {
+  --bg-color: #0a1071;
+  --bg-color2: #099b90;
+  --text-color: #44454b;
+  --white-color: #fff;
+  --yellow-color: #ffd45c;
+  overflow-x: hidden;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.Landing__33 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--white-color);
+  background: var(--bg-color2);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.Landing__33 h1 span {
+  background: var(--bg-color);
+  color: var(--yellow-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.Landing__33 h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--bg-color);
+  text-align: center;
+  border: 2px dashed var(--bg-color);
+  padding: 15px 50px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Landing__33 h2 img {
+  height: 25px;
+  width: 25px;
+}
+
+.Landing__33 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.Landing__33 p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: var(--header-color);
+}
+
+.Landing__33 :where(.Order, .Price) a,
+.Landing__33 :where(.Order, .Price) button {
+  background: linear-gradient(to right, #09a095 0%, #056c64 51%, #09a095 100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  padding: 15px 50px;
+  font-weight: 700;
+  border-radius: 16px 0px;
+  display: inline-block;
+  width: auto;
+  margin-top: 30px;
+}
+
+.Landing__33 :where(.Order, .Price) a:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Landing__33 .Price button {
+  font-size: 35px;
+  line-height: 55px;
+  border-radius: 16px 0px;
+}
+
+.Landing__33 .Section__Gaps {
+  margin-top: 80px;
+}
+
+.Landing__33 .d_flex {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================================================
+Start Landing__33__Banner
+==============================================================*/
+
+.Landing__33__Banner {
+  position: relative;
+}
+
+img.Landing__33__Banner__img {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+}
+
+.Landing__33__Banner__Content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Landing__33__Banner h4 {
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  font-weight: 500;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.Landing__33__Banner h4 span {
+  color: var(--yellow-color);
+}
+
+/* ============================================================
+End Landing__33__WhyBuy
+==============================================================*/
+
+/* ============================================================
+Start Landing__33__Call__Us__Content
+==============================================================*/
+
+.Landing__33__Call__Us__Content {
+  background: var(--bg-color);
+  padding: 30px 0;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.Landing__33__Call__Us__Content h3 {
+  border-bottom: 1px solid #3c9cec;
+  color: var(--yellow-color);
+  margin-bottom: 20px;
+  padding: 0 30px;
+  padding-bottom: 20px;
+}
+
+.Landing__33__Call__Us__Content h2 {
+  color: var(--white-color);
+  padding: 0 30px;
+}
+
+.Landing__33__Call__Us__Content h4 {
+  color: var(--bg-color2);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  padding: 0 30px;
+}
+
+.Landing__33__Call__Us .Order {
+  text-align: center;
+}
+
+/* ============================================================
+End Landing__33__Call__Us__Content
+==============================================================*/
+
+/* ============================================================
+Start Landing__33__Benifits
+==============================================================*/
+.Landing__33__Benifits {
+  text-align: center;
+}
+
+.Landing__33__Benifits ul {
+  margin-top: 30px !important;
+  text-align: left;
+}
+
+.Landing__33__Benifits li img {
+  width: 30px;
+  height: 30px;
+}
+
+.Landing__33__Benifits li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  background: var(--white-color);
+  box-shadow: 0px 3px 10px 0px rgba(119, 119, 119, 0.1);
+  padding: 15px 80px;
+  color: var(--bg-color2);
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* ============================================================
+End Landing__33__Benifits
+==============================================================*/
+
+/* ============================================================
+Start Landing__33__WhyBuy
+==============================================================*/
+
+.Landing__33__WhyBuy {
+  text-align: center;
+}
+
+.Landing__33__WhyBuy p {
+  margin-top: 50px;
+  color: var(--text-color);
+}
+
+.Landing__33__WhyBuy .Landing__33__WhyBuy_Img {
+  margin-top: 30px;
+}
+
+.Landing__33__WhyBuy_Img img {
+  width: 100%;
+}
+
+/* ============================================================
+End Landing__33__WhyBuy
+==============================================================*/
+
+/* ============================================================
+Start Landing__33__Package
+==============================================================*/
+
+.Landing__33__Package {
+  text-align: center;
+}
+
+.Landing__33__Package_Content {
+  margin-top: 30px;
+}
+
+.Landing__33__Package ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Landing__33__Package ul li {
+  border-radius: 15px;
+  background: var(--white-color);
+  box-shadow: 0px 3px 10px 0px rgba(119, 119, 119, 0.1);
+  padding: 15px 30px;
+  color: var(--bg-color2);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Landing__33__Package__Img {
+  border-radius: 15px;
+  background: var(--white-color);
+  box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.13);
+  padding: 15px;
+}
+
+.Landing__33__Package__Img img {
+  width: 100%;
+}
+
+/* ============================================================
+End Landing__33__Package
+==============================================================*/
+
+/* ============================================================
+Start Landing__33__Price
+==============================================================*/
+
+.Landing__33__Price {
+  background: var(--bg-color);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Landing__33__Price h3 {
+  color: var(--yellow-color);
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.Landing__33__Price h4 {
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 20px;
+  color: var(--white-color);
+}
+
+/* ============================================================
+End Landing__33__Price
+==============================================================*/
+
+/* ============================================================
+Start 
+==============================================================*/
+
+/* ============================================================
+End 
+==============================================================*/
+
+/* ============================================================
+Start rder
+==============================================================*/
+
+.Landing__33 .CustomerReview {
+  text-align: center;
+}
+
+.Landing__33 .order_OrderConfirmRight__9BH89 button {
+  background: var(--bg-color2);
+}
+
+.Landing__33 .order_OrderConfirmLeft__HZHqT .order_Payment__H_muv .order_CustomeInput__k6j_b input:checked+label:after {
+  top: 10px;
+}
+
+.Landing__33 .order_OrderConfirmFrom__eiWmc h2 {
+  padding: 15px 50px;
+  margin: 0 auto;
+  width: auto;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+/* ==============================================================
+Meida
+============================================================== */
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1399.99px) {
+  .Landing__33 h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .Landing__33 h1 span {
+    padding: 2px 10px;
+    margin: 0 5px;
+  }
+
+  .Landing__33 h2 {
+    font-size: 30px;
+    line-height: 45px;
+    padding: 15px 30px;
+  }
+
+  .Landing__33__Benifits li {
+    gap: 10px;
+    padding: 15px 40px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .Landing__33__Package ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .Landing__33__Package ul {
+    gap: 10px;
+  }
+
+  .Landing__33 .Section__Gaps {
+    margin-top: 50px;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1023px) {
+  .Landing__33 .container {
+    max-width: 95%;
+  }
+
+  .Landing__33 .Section__Gaps {
+    margin-top: 50px;
+  }
+
+  .Landing__33 h1 {
+    font-size: 30px;
+    line-height: 45px;
+    padding: 30px 20px;
+  }
+
+  .Landing__33__Banner h4 {
+    font-size: 25px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  img.Landing__33__Banner__img {
+    height: 900px;
+  }
+
+  .Landing__33__Package_Content .col-lg-8 {
+    order: 2;
+  }
+
+  .Landing__33__Package_Content .col-lg-4 {
+    order: 1;
+  }
+
+  .Landing__33__Package ul {
+    margin-top: 30px !important;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 667px) {
+  .Landing__33 h1 span {
+    background: none;
+    padding: 0;
+  }
+
+  .Landing__33 h1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  img.Landing__33__Banner__img {
+    height: 750px;
+  }
+
+  .Landing__33__Banner h4 {
+    font-size: 22px;
+    line-height: 35px;
+    width: 100%;
+  }
+
+  .Landing__33__Call__Us__Content h3 {
+    padding: 0 15px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .Landing__33 h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 15px 15px;
+  }
+
+  .Landing__33__Call__Us__Content h4 {
+    color: var(--bg-color2);
+    font-size: 28px;
+    line-height: 35px;
+    padding: 0 15px;
+  }
+
+  .Landing__33 :where(.Order, .Price) a,
+  .Landing__33 :where(.Order, .Price) button {
+    font-size: 22px;
+    line-height: 35px;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
+
+  .Landing__33__Benifits li {
+    gap: 8px;
+    padding: 15px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .Landing__33__WhyBuy p {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+
+  .Landing__33__Price h3 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+}

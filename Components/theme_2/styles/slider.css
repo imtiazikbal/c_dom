@@ -1,0 +1,110 @@
+.home-banner ._heading {
+  overflow: hidden;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.home-banner ._heading > * {
+  transition: transform 500ms ease;
+  transform: translateY(-400%);
+}
+
+.swiper-slide-next ._heading > * {
+  transform: translateY(400%);
+}
+.swiper-slide-prev ._heading > * {
+  transform: translateY(-400%);
+}
+
+.swiper-slide-active ._heading > * {
+  transform: translateY(0);
+}
+
+.swiper-pagination-progressbar {
+  background-color: hsl(var(--primary) / 0.2) !important;
+  width: 100% !important;
+  height: 0.125rem /* 2px */ !important;
+  border-radius: 9999px !important;
+}
+
+.swiper-pagination-progressbar-fill {
+  background-color: hsl(var(--primary)) !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  transform-origin: left !important;
+}
+.image-gallery-thumbnail {
+  overflow: hidden;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.image-gallery .image-gallery-slides {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-gallery .image-gallery-thumbnail.active {
+  border: 3px solid hsl(var(--primary));
+}
+.image-gallery .image-gallery-thumbnail:hover {
+  border-width: 3px;
+}
+
+.image-gallery .image-gallery-thumbnails-wrapper {
+  margin-top: 10px;
+}
+
+.image-gallery .image-gallery-slide-wrapper {
+  margin-bottom: 10px;
+}
+
+.image-gallery .image-gallery-left-nav,
+.image-gallery .image-gallery-right-nav {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  filter: none;
+  box-shadow: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.image-gallery:hover .image-gallery-left-nav,
+.image-gallery:hover .image-gallery-right-nav {
+  opacity: 1;
+}
+
+.image-gallery .image-gallery-left-nav svg,
+.image-gallery .image-gallery-right-nav svg {
+  width: 30px;
+  height: 30px;
+  color: #000;
+}
+
+.image-gallery .image-gallery-left-nav::before,
+.image-gallery .image-gallery-right-nav::before {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.image-gallery .image-gallery-left-nav {
+  left: 10px;
+}
+
+.image-gallery .image-gallery-right-nav {
+  right: 10px;
+}
+
+.image-gallery .image-gallery-image img {
+  margin: auto;
+}
+

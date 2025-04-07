@@ -1,0 +1,22 @@
+.OrderOTP_btn div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ResendOTPBtn{
+    font-weight: 600;
+    color: #7a7a7a;
+    background-color:transparent !important;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.ResendOTPBtn:hover{
+    color: #212020 !important
+}
+
+.noSpinButton::-webkit-inner-spin-button,
+.noSpinButton::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

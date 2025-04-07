@@ -1,0 +1,1477 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__22 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden ;
+  }
+
+  .Landing__22 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__22 h1{
+      font-size: 54px;
+      line-height: 74px;
+      color:#813C13;
+      font-weight: 900;
+      padding-top: 100px;
+      padding-bottom: 30px;
+  }
+
+
+  .Landing__22 h2{
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__22 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+
+  .Landing__22 a.bg{
+      position: relative;
+      padding: 24px 70px;
+      color:#FFF; 
+      background:#7E4A13;
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 100px;
+      font-size: 32px;
+      line-height: 42px;
+     transition: all .2s;
+     transform: scale(.9);
+    }
+
+
+  .Landing__22 a.bg svg{
+      font-size: 40px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #FFF; 
+  }
+  
+  .Landing__22 p{
+      font-size: 24px;
+      line-height: 30px;
+  }
+  
+
+  .Landing__22 a.bg:hover {
+      background-position: right center;
+      color: #FFF;
+      text-decoration: none;
+      transform: scale(1.1);
+  }
+   
+  .Landing__22 a.bg:hover svg {
+      color: #FFF;      
+  }
+   
+
+  .Landing__22__section_gaps{
+      margin-top: 100px;
+  }
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+  .Landing__22__bg_div{
+    background-image: url('../../public/images/landing-22/bg.png');
+    background-size: cover;
+    padding: 40px 0px 230px 0px;
+  }
+
+  .Landing__22__BannerTxt{
+    position: relative;
+    margin-top: 50px;
+  }
+
+.Landing__22__BannerTxt p{
+    position: absolute;
+    top: 15px;
+    left:20px;
+    font-size: 27px;
+    line-height: 35px;
+    color:#7E4A13;
+    display: inline-block;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.Landing__22__BannerTxtimg1{
+    position: absolute;
+    margin-left: 0px;
+    height: 70px;
+    margin-top:0px;
+    z-index: 0;
+    transition: 0.2s;
+}
+
+
+.Landing__22__BannerTxt h3{
+    font-size: 53px;
+    line-height: 70px;
+    color:#FFFCF4;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    
+}
+  
+
+  
+.Landing__22__BannerTxt h1{
+   
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #813C13 29%,
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hgf76yfiu36 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes hgf76yfiu36 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+.Landing__22__RelText{
+    position: relative;
+    
+}
+
+.Landing__22__BannerLinkimgBox{
+    position: relative;
+}
+
+.Landing__22__LinkAbs{
+    position: absolute;
+    top:-5px;
+    width: 320px;
+    height: 100px;
+    left:10px;
+    transition: all .2s;
+}
+
+
+.Landing__22__BannerLinkimgBox:hover .Landing__22__BannerTxtimg1{
+  position: absolute;
+  width: 130px;
+  margin-left: -0px;
+  margin-top:-3px;
+  z-index: 0;
+  height: 80px;
+}
+
+.Landing__22__AbsB_Box{
+    position: absolute;
+    top:-70px;
+    left: 420px;
+    display: flex;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+
+.Landing__22__BannerTxt .Landing__22__RelText h5{
+   font-size: 34px;
+   color:#443513;
+   position: relative;
+   font-weight: 600;
+   margin-left: 30px;
+  }
+
+ .Landing__22__AbsB_Box img{
+    position: absolute;
+    left: -57px;
+    top:-23px;
+    height: 103px;
+  }
+
+/* Col---2 */
+.Landing__22__DisImgDiv{
+    text-align: right;
+}
+
+
+.Landing__22__DisImg{
+    height: 251px;
+    margin-top: 200px;
+    margin-right: -150px;
+}
+
+
+
+/* ================================================================================================
+           Oil Details
+  ===================================================================================================*/
+
+  .Landing__22__Oilh2{
+    font-size: 50px;
+    line-height: 60px;
+    color:#002223;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+.Landing__22__Oildetails{
+    background-image: url('../../public/images/landing-22/bg2.png');
+    background-size: cover;
+    padding: 114px 0px 78px 0px;
+}
+
+.Landing__22__OildetailsFlex {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 442px;
+}
+
+.Landing__22__OildetailsFlex > div div{
+    width: 334px;
+    background-color: #7E4A13;
+    padding: 21px 27px 15px 50px;
+    border-radius: 0 50px 0 50px;
+    margin-top: 50px;
+    height: 114px;
+}
+
+.Landing__22__OildetailsFlex > div p{
+   font-size: 20px;
+   line-height: 26px;
+   color:#FFFFFF;
+}
+
+.Landing__22__OilRel{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Landing__22__OilAbs1{
+  position: absolute;
+  height: 608px;
+  margin-top: 300px;
+}
+
+.Landing__22__OilAbs1{
+  animation: jyguiy35468 7s infinite linear;
+}
+
+@keyframes jyguiy35468 {
+  from {transform:rotate(0) ;}
+  to {transform:rotate(360deg);}
+}
+   
+
+.Landing__22__OilAbs2{
+  position: absolute;
+  height: 748px;
+  margin-top: 300px;
+}
+
+.Landing__22__BannerTxt2{
+  text-align: center !important;
+}
+
+.Landing__22__LinkAbs2{
+    position: absolute;
+    top: -5px;
+    width: 320px;
+    height: 100px;
+    transition: all .2s;
+    margin-left: 7px;
+}
+
+.Landing__22__BannerLinkimgBox .bg2{
+    background-color: #F9C60B !important;
+    color:#7E4A13 !important;
+}
+
+.Landing__22__BannerLinkimgBox .bg2 svg{
+    color:#7E4A13 !important;
+}
+
+
+/* ================================================================================================
+          Landing__22__BenefitsOilSec
+  ===================================================================================================*/
+   .Landing__22__BenefitsOilSec h2{
+      margin-bottom: 50px;
+   }
+
+   .Landing__22__BenefitsOilSec li{
+      display: flex;
+      padding: 0 30px;
+      align-items: center;
+      background-color: #FFF2CB ;
+      height: 86px;
+      margin-bottom: 50px;
+    
+   }
+
+   .Landing__22__BenefitsOilSec li p{
+     color:#7E4A13;
+     padding-left: 15px;
+     display: inline;
+   }
+
+   .Landing__22__BenefitsUlDiv li > div{
+       clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+       background-color: #F9C60B;
+       width: 100px;
+       height: 85px;
+       position: absolute;
+       right: -15px;
+       top:15px;
+       z-index: -1;
+       transition: all .2s;
+       display: none;
+   }
+
+   .Landing__22__BenefitsUlDiv li:hover .Landing__22__BenefitsabsDiv{
+     display: block;
+   }
+
+.Landing__22__BenefitsUlDiv{
+  position: relative;
+  margin-right: 20px;
+}
+
+
+/* ================================================================================================
+            Video
+  ===================================================================================================*/
+.Landing__22__Videosec{
+  position: relative;
+}
+
+.Landing__22__VideoAbs1{
+  position: absolute;
+  height: 155px;
+  right: -200px;
+  bottom: -100px;
+  z-index: -1;
+}
+
+.Landing__22__VideoAbs2{
+  position: absolute;
+  height: 155px;
+  left:-200px;
+  bottom: -100px;
+  z-index: -1;
+}
+
+
+/* ================================================================================================
+            Order2
+  ===================================================================================================*/
+
+   .Landing__22__Order2TxtDiv{
+     padding: 250px 201px 83px 200px;
+     text-align: center;
+     background-color: #965817;
+     color:#FFFFFF;
+     border-radius: 30px;
+     position: relative;
+     margin-top: 400px;
+   }
+
+   
+.Landing__22__Order2Dflex{
+  display: flex;
+  justify-content: center;
+}
+
+   .Landing__22 .Landing__22__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    text-align: center;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+
+/* abs--- */
+
+   .Landing__22__Order2TxtDivAbs1{
+      position: absolute;
+      height: 282px;
+      top:-160px;
+      left:-160px;
+   }
+
+   .Landing__22__Order2TxtDivAbs2{
+      position: absolute;
+      height: 223px;
+      bottom: -120px;
+      right: -120px;
+   }
+
+
+   .Landing__22__Order2Sec{
+    position: relative;
+   
+   }
+
+
+  .Landing__22 .Landing__22__Order2Img{
+    height: 512px;
+  }
+
+  .Landing__22__Order2Abs{
+      position: absolute;
+      text-align: center;
+      z-index: 3;
+  }
+
+  .Landing__22__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#FFFFFF;
+      margin: 30px 0px;
+      font-weight: 900;
+  }
+
+
+/* ================================================================================================
+           Card Title 
+  ===================================================================================================*/
+   
+  .Landing__22__CardTitle{
+    background-image: url('../../public/images/landing-22/img20.png');
+    background-size: cover;
+    padding: 284px 0px 0px 0px;
+    margin-top: 200px;
+    position: relative;
+  }
+
+  .Landing__22__CardTitleAbs1{
+      position: absolute;
+      height: 391px;
+      left:0;
+      top:70px;
+    
+  }
+
+  .Landing__22__CardTitleAbs2{
+    position: absolute;
+    height: 391px;
+    right: 0;
+    top:70px;
+  }
+
+
+
+
+/* ================================================================================================
+            Card
+  ===================================================================================================*/
+
+   .Landing__22__CardSec{
+    background-color: #FFF9EC;
+    margin-top: 60px;
+    padding-bottom: 166px;
+   }
+
+   .Landing__22__CardSec h2{
+    padding: 0 20%;
+    margin-bottom: 50px;
+   }
+
+   .Landing__22__Card{
+    background-color: #fff;
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+    height: 234px;
+    margin-bottom: 44px;
+    transition: all .2s;
+   }
+
+   .Landing__22__Card:hover{
+      background-image: url('../../public/images/landing-22/img13.png');
+      background-size: cover;
+     
+   }
+   .Landing__22__Card:hover.Landing__22__Card h4{
+      color:#FFF ;
+   }
+
+
+
+   .Landing__22__Card img{
+      height: 60px;
+   }
+
+   .Landing__22__Card h4{
+      font-size: 24px;
+      line-height: 31px;
+      color:#7E4A13;
+      margin-top: 15px;
+   }
+
+
+
+
+
+/* ================================================================================================
+           Order3
+  ===================================================================================================*/
+  
+  .Landing__22 .Landing__22__Order3 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+
+  .Landing__22__Order3Abs{
+      /* position: absolute; */
+      text-align: center;
+  }
+
+  .Landing__22__Order3Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#FD4343;
+      font-weight: 900;
+      margin: 30px 0px;
+  }
+
+  .Landing__22__Order3Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#F59F33;
+      margin-top: 45px;
+      padding: 0 20%;
+  }
+
+
+/* ================================================================================================
+           place in order
+  ===================================================================================================*/
+
+   .Landing__22__PlaceinOrder{
+      background-size: cover;
+      background-color: #9e7b28;
+   }
+
+   .Landing__22 #OrderConfirmFrom {
+    border-radius: 10px;
+    color: #fff;
+}
+
+.Landing__22 #OrderSection #Paymenth3 {
+  color: #000;
+}
+
+.Landing__22 #OrderSection ul h5 {
+  color: #ffffff;
+}
+
+
+.Landing__22 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background: #F9C60B;
+}
+
+.Landing__22 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N h3 {
+  padding: 30px;
+  padding-bottom: 0;
+  color: #000;
+}
+
+.Landing__22 #OrderConfirmLeft #Payment #CustomeInput input+label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  color: #000;
+}
+
+
+.Landing__22 #OrderConfirmLeft #Payment #ArrowBg::after {
+  position: absolute;
+  content: "";
+  border-bottom: solid 15px #F9C60B;
+}
+
+.Landing__22 #OrderConfirmLeft #Payment #ArrowBg {
+  background: #F9C60B;
+}
+
+.Landing__22 #OrderConfirmLeft #Payment #ArrowBg {
+  padding: 10px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.Landing__22 #OrderConfirmLeft #Payment #ArrowBg p{
+  font-size: 18px;
+  color: #fff;
+}
+
+.Landing__22 #OrderConfirmLeft #Payment h3 {
+  padding: 30px;
+  padding-bottom: 0;
+  color: #000;
+}
+
+.Landing__22 #OrderConfirmRight h5 {
+  color: #ffffff;
+}
+
+.Landing__22 #OrderConfirmRight button {
+  width: 100%;
+  background: #F9C60B;
+}
+
+.Landing__22__Order2TxtDiv p{
+  color: #fff;
+}
+
+
+.Landnig__22 #OrderSection label {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  font-style: italic;
+  color: #000;
+}
+
+
+.Landnig__22 #OrderSection  input+label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  color: #000;
+}
+
+
+.Landnig__22 #OrderConfirmFrom ul h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.Landnig__22 #OrderConfirmLeft #Payment #CustomeInput input+label {
+    color: #000;
+}
+
+.Landnig__22 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  
+}
+
+
+/* ================================================================================================
+            Footer Sec
+  ===================================================================================================*/
+
+  .Landing__22__FooterSmBg{
+    background-image: url('../../public/images/landing-22/img22.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 218px;
+  }
+
+  .Landing__22__FooterAbs1{
+    position: absolute;
+    z-index: 3;
+    top:-15px;
+    margin-left: -50px;
+    height: 121px;
+  }
+
+  .Landing__22__FooterAbs2{
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    height: 349px;
+  }
+
+  .Landing__22__ShippingDiv p{
+    color:#947734 !important;
+    padding-top: 10px;
+}
+
+.Landing__22__ShippingDiv {
+    padding: 50px;
+}
+
+
+/* privecy-------- */
+
+.Landing__22__PrivacyDiv {
+ text-align: center;
+ margin-top: 50px;
+
+}
+
+.Landing__22__PrivacyDiv a{
+  font-size: 18px;
+  line-height: 24px;
+  color:#814C13;
+
+}
+
+.Landing__22__PrivacyDiv svg{
+  color:#F9C60B;
+  margin-left: 10px;
+
+}
+
+.Landing__22__Hr{
+    border-bottom: 1px solid #814C13;
+    margin: 28px 17%;
+}
+
+.Landing__22__FooterSec{
+  padding-bottom: 50px;
+  position: relative;
+
+}
+
+.Landing__22__FooterAbs4{
+    position: absolute;
+    height: 339px;
+    right: 0;
+    bottom: 0;
+}
+
+.Landing__22__FooterAbs3{
+  position: absolute;
+  height: 339px;
+  left:0;
+  bottom: 0;
+}
+
+
+
+/* ================================================================================================
+            Media Quari
+  ===================================================================================================*/
+    
+ @media (max-width: 1641px) {
+
+  .Landing__22__BannerTxt p {
+    font-size: 20px;
+    top:9px;
+}
+
+.Landing__22__BannerTxtimg1 {
+  height: 50px;
+}
+
+.Landing__22 h1 {
+font-size: 40px;
+line-height: 52px;
+padding-top: 67px;
+padding-bottom: 10px;
+}
+
+.Landing__22__BannerTxt h3 {
+font-size: 40px;
+line-height: 27px;
+}
+
+.Landing__22 a.bg {
+font-size: 24px;
+padding: 18px 70px;
+}
+
+.Landing__22 a.bg svg {
+font-size: 28px;
+}
+
+.Landing__22__LinkAbs {
+position: absolute;
+top: -5px;
+width: 274px;
+height: 88px;
+}
+
+.Landing__22__BannerTxt {
+position: relative;
+margin-top: 30px;
+}
+
+.Landing__22__AbsB_Box img {
+position: absolute;
+left: -83px;
+top: -8px;
+height: 81px;
+}
+
+.Landing__22__BannerTxt .Landing__22__RelText h5 {
+font-size: 30px;
+margin-left: 0px;
+}
+
+.Landing__22__bg_div {
+background-size: cover;
+padding: 40px 0px 130px 0px;
+}
+
+.Landing__22__DisImg {
+height: 180px;
+margin-top: 77px;
+margin-right: -25px;
+}
+
+.Landing__22 h2{
+  font-size: 40px;
+}
+
+.Landing__22__CardTitleAbs2 , .Landing__22__CardTitleAbs1{
+  position: absolute;
+  height: 300px;
+}
+
+.Landing__22__LinkAbs2 {
+  position: absolute;
+  top: -5px;
+  width: 277px;
+  height: 87px;
+  transition: all .2s;
+  margin-left: 7px;
+}
+
+
+ }
+ 
+  @media (max-width: 1400px) {
+ 
+    .Landing__22__BannerTxt p {
+      font-size: 20px;
+      top:9px;
+  }
+
+  .Landing__22__BannerTxtimg1 {
+    height: 50px;
+}
+
+.Landing__22 h1 {
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 67px;
+  padding-bottom: 10px;
+}
+
+.Landing__22__BannerTxt h3 {
+  font-size: 40px;
+  line-height: 27px;
+}
+
+.Landing__22 a.bg {
+  font-size: 24px;
+  padding: 18px 70px;
+}
+
+.Landing__22 a.bg svg {
+  font-size: 28px;
+}
+
+.Landing__22__LinkAbs {
+  position: absolute;
+  top: -5px;
+  width: 274px;
+  height: 88px;
+}
+
+.Landing__22__BannerTxt {
+  position: relative;
+  margin-top: 30px;
+}
+
+.Landing__22__AbsB_Box img {
+  position: absolute;
+  left: -83px;
+  top: -8px;
+  height: 81px;
+}
+
+.Landing__22__BannerTxt .Landing__22__RelText h5 {
+  font-size: 30px;
+  margin-left: 0px;
+}
+
+.Landing__22__bg_div {
+  background-size: cover;
+  padding: 40px 0px 130px 0px;
+}
+
+.Landing__22__DisImg {
+  height: 180px;
+  margin-top: 77px;
+  margin-right: -25px;
+}
+
+
+/* Banner end */
+
+.Landing__22 h2 {
+  font-size: 40px;
+}
+
+.Landing__22__OildetailsFlex > div p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+
+.Landing__22__OildetailsFlex > div div {
+  width: 275px;
+  background-color: #7E4A13;
+  padding: 21px 27px 15px 50px;
+  border-radius: 0 50px 0 50px;
+  margin-top: 50px;
+  height: 102px;
+}
+
+.Landing__22__OilAbs2 {
+  position: absolute;
+  height: 550px;
+  margin-top: 300px;
+}
+
+.Landing__22__OilAbs1 {
+  position: absolute;
+  height: 516px;
+  margin-top: 300px;
+}
+
+.Landing__22__OildetailsFlex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 286px;
+}
+
+.Landing__22 p {
+  font-size: 16px;
+}
+
+.Landing__22__LinkAbs2 {
+  position: absolute;
+  top: -5px;
+  width: 276px;
+  height: 88px;
+  transition: all .2s;
+  margin-left: 7px;
+}
+
+.Landing__22__Order2Abs h4 {
+  font-size: 40px;
+}
+
+.Landing__22 .Landing__22__Order2Img {
+  height: 411px;
+}
+
+
+.Landing__22__Order2TxtDiv {
+  padding: 250px 201px 83px 200px;
+  margin-top: 215px;
+}
+
+.Landing__22 .Landing__22__Order2 {
+  margin-top: -36px;
+}
+
+.Landing__22__Order2TxtDivAbs1 {
+  position: absolute;
+  height: 200px;
+  top: -86px;
+  left: -77px;
+}
+
+.Landing__22__Order2TxtDivAbs2 {
+  position: absolute;
+  height: 150px;
+  bottom: -54px;
+  right: -69px;
+}
+
+.Landing__22__CardTitle {
+  margin-top: 100px;
+  padding: 216px 0px 0px 0px;
+}
+
+.Landing__22__CardTitleAbs2 {
+  height: 266px;
+}
+
+.Landing__22__CardTitleAbs1{
+  height: 266px;
+}
+
+.Landing__22__Card h4 {
+  font-size: 20px;
+}
+
+
+.Landing__22__CardSec {
+  background-color: #FFF9EC;
+  margin-top: 60px;
+  padding-bottom: 66px;
+}
+
+.Landing__22__VideoAbs1 {
+  position: absolute;
+  height: 100px;
+  right: -100px;
+  bottom: -69px;
+  z-index: -1;
+}
+
+.Landing__22__VideoAbs2 {
+  position: absolute;
+  height: 100px;
+  left: -100px;
+  bottom: -69px;
+  z-index: -1;
+}
+
+.Landing__22__Order3Abs h4 {
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.Landing__22__Order3Abs h5 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Landing__22__FooterAbs4 , .Landing__22__FooterAbs3{
+  position: absolute;
+  height: 200px;
+}
+
+.Landing__22__FooterAbs1 {
+  height: 83px;
+}
+
+ 
+
+ }
+ 
+ 
+ @media (max-width: 1280px) {
+ 
+  .Landing__22__BannerTxt {
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .Landing__22__AbsB_Box {
+    position: absolute;
+    top: 30px;
+    left: 295px;
+}
+
+.Landing__22__LinkAbs {
+  left: 92px;
+}
+
+.Landing__22__BannerTxtimg1 {
+  left: 30%;
+}
+
+.Landing__22__BannerTxt p {
+  left: 33%;
+}
+
+.Landing__22__DisImg {
+  height: 180px;
+  margin-top: 102px;
+  margin-right: 225px;
+}
+
+.Landing__22 h1 {
+  font-size: 30px;
+  line-height: 45px;
+  padding-top: 67px;
+  padding-bottom: 10px;
+}
+
+.Landing__22__BannerTxt h3 {
+  font-size: 30px;
+  line-height: 27px;
+}
+
+.Landing__22 h2 {
+  font-size: 28px;
+}
+
+.Landing__22__Oilh2 {
+  margin-bottom: 41px;
+}
+
+.Landing__22__OilAbs1 {
+  height: 516px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.Landing__22__OilAbs2 {
+  height: 550px;
+  margin-top: 0;
+}
+
+.Landing__22__bg_div {
+  background-size: cover;
+  padding: 40px 0px 130px 0px;
+  background-position: 42%;
+}
+
+.Landing__22__Order2Abs h4 {
+  font-size: 30px;
+}
+
+.Landing__22__Order2TxtDiv {
+  padding: 252px 50px 83px 50px;
+  margin-top: 215px;
+}
+
+.Landing__22__OildetailsFlex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 118px;
+}
+
+.Landing__22__CardTitleAbs2, .Landing__22__CardTitleAbs1 {
+  height: 150px;
+}
+
+.Landing__22__CardTitle {
+  margin-top: 100px;
+  padding: 142px 0px 0px 0px;
+}
+
+.Landing__22 .Landing__22__Order2Img {
+  height: 348px;
+}
+
+ 
+ }
+ 
+ @media (max-width: 991px) {
+
+  .Landing__22__LinkAbs {
+    left: 30%;
+}
+ }
+ 
+ 
+ @media (max-width: 767px) {
+ 
+  .Landing__22__LinkAbs {
+    left: 121px;
+  }
+
+  .Landing__22__AbsB_Box {
+    position: absolute;
+    top: 30px;
+    left: 195px;
+}
+
+.Landing__22__DisImg {
+  height: 180px;
+  margin-top: 102px;
+  margin-right: 153px;
+}
+
+.Landing__22__OildetailsFlex {
+  display: block;
+}
+
+.Landing__22__OildetailsFlex > div div {
+  background-color: #7E4A13;
+  padding: 21px 27px 15px 50px;
+  border-radius: 0 50px 0 50px;
+  margin-top: 50px;
+  height: 102px;
+  width: 100%;
+  text-align: center;
+}
+
+.Landing__22__OildetailsFlex {
+  padding-bottom: 40px;
+}
+
+.Landing__22__bg_div {
+  background-size: cover;
+  padding: 40px 0px 130px 0px;
+  background-position: 52%;
+}
+
+.Landing__22__FooterAbs4, .Landing__22__FooterAbs3 {
+  position: absolute;
+  height: 120px;
+}
+
+
+
+ }
+ 
+ 
+ @media (max-width: 575px) {
+ 
+  .Landing__22 h1 {
+    font-size: 24px;
+    line-height: 35px;
+    padding-top: 67px;
+    padding-bottom: 10px;
+}
+
+.Landing__22__BannerTxt p {
+  left: 24%;
+}
+
+.Landing__22__BannerTxtimg1 {
+  left: 19%;
+}
+
+.Landing__22__BannerTxt h3 {
+  font-size: 22px;
+  line-height: 2px;
+}
+
+
+.Landing__22 a.bg {
+  font-size: 20px;
+  padding: 12px 46px;
+}
+
+.Landing__22__LinkAbs {
+  position: absolute;
+  top: -2px;
+  width: 216px;
+  height: 71px;
+}
+
+.Landing__22__LinkAbs {
+  left: 19%;
+}
+
+.Landing__22__AbsB_Box img {
+  position: absolute;
+  left: -83px;
+  top: -8px;
+  height: 56px;
+}
+
+.Landing__22__BannerTxt .Landing__22__RelText h5 {
+  font-size: 22px;
+  margin-left: -31px;
+  top: -8px;
+}
+
+.Landing__22__AbsB_Box {
+  position: absolute;
+  top: 30px;
+  left: 154px;
+}
+
+.Landing__22__DisImg {
+  height: 180px;
+  margin-top: 102px;
+  margin-right: 71px;
+}
+
+.Landing__22__bg_div {
+  background-size: cover;
+  padding: 40px 0px 60px 0px;
+  background-position: 52%;
+}
+
+.Landing__22__section_gaps{
+  margin-top: 50px;
+}
+
+.Landing__22 h2 {
+  font-size: 22px;
+}
+
+.Landing__22__OilAbs2 {
+  height: 427px;
+  margin-top: 0;
+}
+
+.Landing__22__OilAbs1 {
+  height: 319px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.Landing__22__OildetailsFlex {
+  padding-bottom: 40px;
+  margin-top: 82px;
+}
+
+.Landing__22__LinkAbs2 {
+  position: absolute;
+  top: -5px;
+  width: 211px;
+  height: 75px;
+  transition: all .2s;
+  margin-left: 5px;
+}
+
+.Landing__22__BenefitsOilSec li {
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+  background-color: #FFF2CB;
+  height: 86px;
+  margin-bottom: 32px;
+}
+
+.Landing__22__Order2Abs h4 {
+  font-size: 28px;
+}
+
+.Landing__22 .Landing__22__Order2Img {
+  height: 292px;
+}
+
+.Landing__22__Order2Abs h4 {
+  line-height: 69px;
+  color: #FFFFFF;
+  margin: 4px 0px;
+  font-weight: 900;
+}
+
+.Landing__22__Order2TxtDiv {
+  padding: 156px 5px 83px 5px;
+  margin-top: 215px;
+}
+
+.Landing__22 p {
+  font-size: 17px;
+}
+
+.Landing__22__Order2TxtDivAbs1 {
+  position: absolute;
+  height: 200px;
+  top: -100px;
+  left: -160px;
+}
+
+.Landing__22__CardSec h2 {
+  padding: 0 0%;
+  margin-bottom: 50px;
+  line-height: 40px;
+}
+
+.Landing__22__Card h4 {
+  font-size: 16px;
+}
+
+.Landing__22__CardTitle {
+  margin-top: 100px;
+  padding: 112px 0px 0px 0px;
+}
+
+.Landing__22__CardTitleAbs2, .Landing__22__CardTitleAbs1 {
+  height: 95px;
+}
+
+.Landing__22__Order3Abs h4 {
+  font-size: 28px;
+  line-height: 49px;
+}
+
+.Landing__22__Order3Abs h5 {
+  font-size: 22px;
+  padding: 0 4%;
+}
+
+.Landing__22__FooterAbs2 {
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  height: 204px;
+}
+
+.Landing__22__FooterAbs1 {
+  height: 56px;
+  top:70px;
+}
+
+.Landing__22 .tiny-footer_tinyFooter__Tr3b1 p a {
+  display: inline;
+  font-size: 16px;
+  font-weight: 600;
+  color: #42210B;
+  padding: 0 5px;
+}
+    
+.Landing__22__FooterAbs4, .Landing__22__FooterAbs3 {
+  position: absolute;
+  height: 91px;
+}
+
+.Landing__22__PrivacyDiv a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #814C13;
+}
+
+
+.Landing__22__PlaceinOrder {
+  background-size: cover;
+  background-position: 50%;
+}
+
+
+     }
+ 
+ @media (max-width: 450px) {
+ 
+    
+     }
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/

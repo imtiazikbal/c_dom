@@ -1,0 +1,1384 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__7 {
+  --header_color: #080422;
+  --bg_color1: #6001D3;
+  --bg_color2: #FCDC00;
+  --bg_color3: #FD346E;
+  --white_color: #fff;
+  /* overflow-x: hidden; */
+
+}
+
+.Landing__7 ul {
+  padding: 0;
+
+}
+
+.Landing__7 {
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.Landing__7 h2 {
+  font-size: 48px;
+  line-height: 50px;
+  color: var(--header_color);
+  font-weight: 700;
+  text-align: center;
+}
+
+.Landing__7 h3 {
+  font-size: 24px;
+  line-height: 35px;
+  color: var(--header_color);
+  font-weight: 600;
+}
+
+.Landing__7 p {
+  color: var(--text_color);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+.Landing__7 .bg {
+  transition: 0.5s;
+  display: block;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.Landing__7 a.bg {
+  /* margin-top: 30px; */
+  padding: 24px 30px;
+  color: var(--white_color);
+  background-image: linear-gradient(to right, #8DC63F 0%, #3F4F64 51%, #8DC63F 100%);
+  background-size: 180% auto;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.Landing__7 a svg {
+  font-size: 32px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.Landing__7 a.bg:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Landing__7 .section_gaps {
+  margin-top: 100px;
+}
+
+.Landing__7 ul {
+
+  list-style: none;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART 1
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* .Landing__7 .topImg1 */
+
+.Landing__7 .topImg1 {
+  position: relative;
+  animation: mymove25hjk 12s linear infinite;
+}
+
+@keyframes mymove25hjk {
+  0% {
+    top: 0px;
+    transform: rotate(0);
+  }
+
+  50% {
+    top: 30px;
+    ;
+  }
+
+  100% {
+    top: 0px;
+    transform: rotate(360deg)
+  }
+}
+
+.Landing__7 .topImg4 {
+  position: relative;
+  animation: mymove498gs4t 20s linear infinite;
+}
+
+@keyframes mymove498gs4t {
+  0% {
+    top: 0px;
+    transform: rotate(0);
+  }
+
+  50% {
+    top: 30px;
+    ;
+  }
+
+  100% {
+    top: 0px;
+    transform: rotate(360deg)
+  }
+}
+
+
+
+.Landing__7 .banner {
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+
+.Landing__7 .ClmPad {
+  padding: 0px;
+}
+
+.Landing__7 .topImg {
+  text-align: right;
+  margin-top: -45px;
+}
+
+.Landing__7 .logo {
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.Landing__7 .logo2 {
+  display: none;
+}
+
+/* .Landing__7 .TopTxtdev{
+padding-left: 19%;
+}
+.Landing__7 .TopTxtdev2{
+padding-right: 20%;
+} */
+
+.Landing__7 .TopTxtdev h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 142.02%;
+  color: #182D41;
+  margin-bottom: 40px;
+}
+
+.Landing__7 .TopTxtdev .span1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 142.02%;
+  color: #182D41;
+  padding: 13px 25px 13px 25px;
+  background-color: #E0F0CA;
+  border-radius: 30px;
+
+}
+
+.Landing__7 .TopTxtdev h5 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  color: #8DC63F;
+  margin-top: 55px;
+  margin-bottom: 20px;
+
+}
+
+.Landing__7 .TopTxtdev h4 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 77px;
+  color: #182D41;
+
+}
+
+.Landing__7 .TopTxtdev .span2 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 77px;
+  color: #F23534;
+}
+
+/* col-----------------------------2 */
+
+.Landing__7 .ClmPad {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.Landing__7 .topImg2 {
+  position: absolute;
+  top: 0;
+  right: -32%;
+  margin-top: -100px;
+
+}
+
+.Landing__7 .topImg3 {
+  position: absolute;
+  bottom: -70px;
+  right: -28%;
+  margin-top: 0px;
+}
+
+
+.Landing__7 .mainImglogo img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+
+
+.Landing__7 .Imgrelativ {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+
+.Landing__7 .ImgAbsolote {
+  position: absolute;
+  bottom: 70px;
+  right: 84px;
+}
+
+.Landing__7 .ImgAbsolote .persentxt {
+  position: absolute;
+
+  font-size: 42px;
+  color: #F23534;
+  font-weight: bolder;
+  margin-top: 90px;
+  right: 55px;
+  z-index: 1;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART---2
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__7 .secBanner2 {
+  padding: 0;
+}
+
+.Landing__7 .banner2 {
+  padding: 70px 150px;
+  background-color: #F7F1E9;
+}
+
+.Landing__7 .banner2 ul {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.Landing__7 .banner2 ul li {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.Landing__7 .myWhatsapp {
+  font-weight: 500;
+
+}
+
+/* .banner2{
+
+} */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART-3
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__7 .PaddCon {
+  padding: 0%;
+
+}
+
+
+.Landing__7 .banner3bg {
+  background-image: url('../../public/images/landing-7/bg1.png');
+  width: 100%;
+  padding-top: 62px;
+  /* padding-bottom: 100px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2BB573;
+  height: 590px;
+
+}
+
+.Landing__7 .banner3bg h2 {
+  line-height: 79px;
+  color: #FFFBF9;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.Landing__7 .banAbsoluteMain {
+
+  padding-top: 100px;
+  background-image: url('../../public/images/landing-7/bg2.png');
+  background-size: cover;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.Landing__7 .banAbsoluteMain1 {
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 39px 0px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+
+}
+
+.Landing__7 .FloatSolve {
+  width: 100%;
+  float: left;
+}
+
+
+
+.Landing__7 .cardDiv img {
+  margin-top: -50px;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART--3
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__7 .cardDiv {
+
+  --c: rgba(211, 255, 149, 0.952);
+  background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0) 0 var(--p, 0%),
+    conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100% var(--p, 0%);
+  background-size: var(--s, 0%) 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s ease-in, background-position 0s;
+
+}
+
+.Landing__7 .cardDiv:hover,
+.cardDiv p:hover {
+  --p: 100%;
+  --s: calc(100% + 0.61em);
+
+  color: rgb(120 175 45);
+
+}
+
+
+
+.Landing__7 .cardDiv {
+
+  /* background-image: url('../../public/images/landing_10/bg2.png'); */
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 0px 25px 44px 25px;
+  margin-bottom: 100px;
+  min-height: 262px;
+  color: #182D41;
+  transition: .5s;
+}
+
+.Landing__7 .cardDiv p {
+  color: #182D41;
+}
+
+
+.Landing__7 .section3 {
+  clear: both;
+}
+
+/* .OverflowH{
+  overflow: hidden;
+  border-radius: 20px;
+} */
+
+
+.Landing__7 .linkdiv {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.Landing__7 .sec3txtDiv h2 {
+  line-height: 69px;
+  color: #182D41;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART  -4
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__7 .section4 {
+  margin-top: 100px;
+  margin-left: 148px;
+  /* background-color: #F6F7F7; */
+  background-image: linear-gradient(to left, #F6F7F7 80%, #ffffff 20%);
+}
+
+.Landing__7 .Consection4 {
+  padding: 0;
+}
+
+.Landing__7 .section4 .Sec4Img img {
+  width: 100%;
+}
+
+/* .liImg{
+
+} */
+
+.Landing__7 .section4 .Sec4ul {
+
+  margin-top: 20%;
+  margin-left: 8%;
+
+}
+
+
+.Landing__7 .liTxt {
+
+  font-size: 24px;
+  color: #182D41;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.Landing__7 .B4reltive {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.Landing__7 .B4Absolutimg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART---5
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__7 .ban5Txtbox {
+  margin-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Landing__7 .ban5Txtbox h2 {
+  line-height: 79px;
+  color: #182D41;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.Landing__7 .banner5Button {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.Landing__7 .banner5Button h2 {
+  margin-bottom: 20px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__7 #OrderConfirmLeft #Payment #ArrowBg{
+  background: #8DC63F;
+}
+
+.Landing__7 #OrderConfirmRight button {
+  background: #8DC63F;
+}
+
+.Landing__7 #OrderConfirmLeft #Payment #ArrowBg p {
+  color: #ffffff;
+}
+
+.Landing__7 #OrderConfirmLeft #Payment #ArrowBg::after {
+  border-bottom: solid 15px #8DC63F;
+}
+
+.Landing__7 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background: #8DC63F;
+}
+
+.Landing__7 #OrderConfirmLeft #Payment #ArrowBg p {
+  font-size: 18px;
+}
+
+.Landing__7 #OrderConfirmLeft #Payment #ArrowBg {
+  padding: 10px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART -Footer
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__7 .footerh4 {
+
+  padding-top: 100px;
+}
+
+.Landing__7 .footerh4 h4 {
+  font-size: 24px;
+  color: #182D41;
+  font-weight: 700;
+}
+
+.Landing__7 .footerh4 li {
+  font-size: 18px;
+  color: #182D41;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.Landing__7 .footerh4 li a {
+  text-decoration: none;
+}
+
+.Landing__7 .hr {
+  border-top: 2px solid #2BB573;
+  width: 50px;
+  margin-bottom: 16px;
+}
+
+.Landing__7 .footericon3 {
+  display: flex;
+  margin-top: 25px;
+  transition: 1s;
+}
+
+.Landing__7 .footericon3 a {
+  color: #2BB573;
+  padding-right: 15px;
+  transition: .2s;
+
+}
+
+.Landing__7 .footericon3 a:hover {
+
+  transform: scale(1.2);
+  outline-offset: 2px;
+  transform-origin: 1s;
+}
+
+.Landing__7 .Footpad {
+
+  padding: 0;
+
+}
+
+.Landing__7 .footerRel {
+
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.Landing__7 .lastImg {
+
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+.Landing__7 .lastImg img {
+
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+.Landing__7 .topImg3 img {
+
+  width: 150px;
+
+}
+
+
+
+/* Other */
+
+.Landing__7 .banner3bg h2 {
+
+  padding-bottom: 20px;
+
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART --Media Quary
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1441px) {
+
+  .Landing__7 .cardDiv p {
+    font-size: 20px;
+  }
+
+  .Landing__7 .liTxt {
+    line-height: 70px;
+
+  }
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1440px) {
+
+  .Landing__7 .tiny-footer_tinyFooter__Tr3b1 p a {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding: 0 5px;
+}
+
+.Landing__7 .tiny-footer_tinyFooter__Tr3b1 p {
+  line-height: 24px;
+  text-align: center;
+}
+
+
+  .Landing__7 .banner2 {
+    padding: 70px 70px;
+    background-color: #F7F1E9;
+  }
+
+  .Landing__7 .banner2 ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .Landing__7 .banner2 ul li {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+
+  .Landing__7 .bg {
+
+    font-size: 25px;
+
+  }
+
+  .Landing__7 a.bg {
+    /* margin-top: 30px; */
+    padding: 18px 24px;
+
+  }
+
+  .Landing__7 a svg {
+    font-size: 25px;
+
+  }
+
+  .Landing__7 .lastImg img {
+    width: 100%;
+    margin-top: 60px;
+
+  }
+
+  .Landing__7 .liTxt {
+    line-height: 55px;
+  }
+
+
+
+
+  .Landing__7 .TopTxtdev h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 142.02%;
+    color: #182D41;
+    margin-bottom: 40px;
+  }
+
+  .Landing__7 .TopTxtdev .span1 {
+    font-size: 22px;
+
+  }
+
+  .Landing__7 .TopTxtdev .span2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 77px;
+
+  }
+
+  .Landing__7 .TopTxtdev h4 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 77px;
+    color: #182D41;
+  }
+
+  .Landing__7 .banner2 {
+    padding: 45px 70px;
+    background-color: #F7F1E9;
+  }
+
+  .Landing__7 .banner3bg h2 {
+    line-height: 61px;
+    color: #FFFBF9;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 35px;
+  }
+
+  .Landing__7 .ban5Txtbox h2 {
+    line-height: 60px;
+    color: #182D41;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .Landing__7 h2 {
+    font-size: 35px;
+    line-height: 50px;
+
+  }
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+  .Landing__7 .lastImg img {
+    width: 100%;
+    margin-top: 120px;
+
+  }
+
+  .Landing__7 .cardDiv {
+    min-height: 320px;
+  }
+
+  .Landing__7 .liTxt {
+    line-height: 40px;
+  }
+
+  .Landing__7 .TopTxtdev h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 142.02%;
+    color: #182D41;
+    margin-bottom: 40px;
+  }
+
+  .Landing__7 .TopTxtdev .span1 {
+    font-size: 22px;
+
+  }
+
+  .Landing__7 .TopTxtdev .span2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 77px;
+
+  }
+
+  .Landing__7 .TopTxtdev h4 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 77px;
+    color: #182D41;
+  }
+
+  .Landing__7 .banner2 {
+    padding: 45px 70px;
+    background-color: #F7F1E9;
+  }
+
+  .Landing__7 .banner3bg h2 {
+    line-height: 61px;
+    color: #FFFBF9;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 35px;
+  }
+
+  .Landing__7 .ban5Txtbox h2 {
+    line-height: 60px;
+    color: #182D41;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .Landing__7 h2 {
+    font-size: 35px;
+    line-height: 50px;
+
+  }
+
+}
+
+@media (max-width: 990px) {
+
+  .Landing__7 .banner2 {
+    padding: 50px 30px;
+    background-color: #F7F1E9;
+  }
+
+  .Landing__7 .banner2 ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .Landing__7 .banner2 ul li {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .Landing__7 .bg {
+
+    font-size: 20px;
+
+  }
+
+  .Landing__7 a.bg {
+    /* margin-top: 30px; */
+    padding: 15px 20px;
+
+  }
+
+  .Landing__7 a svg {
+    font-size: 20px;
+
+  }
+
+  /* banner---1 */
+
+  .Landing__7 .TopTxtdev h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .Landing__7 .TopTxtdev .span1 {
+    font-size: 20px;
+  }
+
+  .Landing__7 .TopTxtdev h5 {
+    font-size: 25px;
+
+  }
+
+  .Landing__7 .TopTxtdev h4 {
+    font-size: 25px;
+  }
+
+  .Landing__7 .TopTxtdev .span2 {
+    font-size: 30px;
+  }
+
+  .Landing__7 .topImg2 img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .Landing__7 .lastImg img {
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .Landing__7 .cardDiv {
+    min-height: 410px;
+  }
+
+  .Landing__7 .liTxt {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .Landing__7 .TopTxtdev h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    color: #8DC63F;
+    margin-top: 36px;
+    margin-bottom: 0px;
+  }
+
+
+  .Landing__7 .banner3bg h2 {
+    line-height: 37px;
+    color: #FFFBF9;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 25px;
+  }
+
+
+  .Landing__7 .sec3txtDiv h2 {
+    line-height: 37px;
+    color: #182D41;
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 25px;
+  }
+
+  .Landing__7 .ban5Txtbox h2 {
+    line-height: 37px;
+    color: #182D41;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .Landing__7 .ban5Txtbox {
+    margin-top: 54px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .Landing__7 .banner5Button h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .Landing__7 .footerh4 h4 {
+    font-size: 18px;
+    color: #182D41;
+    font-weight: 700;
+  }
+
+  .Landing__7 .footerh4 li {
+    font-size: 13px;
+    color: #182D41;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .Landing__7 .footerh4 {
+    padding-top: 60px;
+  }
+
+  .Landing__7 .ImgAbsolote .persentxt {
+    position: absolute;
+    font-size: 30px;
+    color: #F23534;
+    font-weight: bolder;
+    margin-top: 90px;
+    right: 33px;
+    z-index: 1;
+    line-height: 32px;
+  }
+
+  .Landing__7 .ImgAbsolote img {
+    width: 130px;
+
+  }
+
+
+
+}
+
+
+@media (max-width: 767px) {
+
+  .Landing__7 .Rowrvs {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Landing__7 .logo {
+    display: none;
+  }
+
+  .Landing__7 .logo2 {
+    margin-top: 15px;
+    display: block;
+  }
+
+  .Landing__7 .topImg {
+    text-align: left;
+    margin-top: -45px;
+    margin-left: -50px;
+  }
+
+  .Landing__7 .banner2 {
+    padding: 50px 20px;
+    background-color: #F7F1E9;
+  }
+
+  .Landing__7 .banner2 ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .Landing__7 .banner2 ul li {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .Landing__7 .bg {
+
+    font-size: 16px;
+
+  }
+
+  .Landing__7 a.bg {
+    /* margin-top: 30px; */
+    padding: 12px 42px;
+
+  }
+
+  .Landing__7 a svg {
+    font-size: 18px;
+
+  }
+
+  .Landing__7 .TopTxtdev {
+    text-align: center;
+  }
+
+  .Landing__7 h2 {
+    text-align: center;
+  }
+
+  .section4 .Sec4ul {
+    margin-top: 20%;
+    margin-left: 0%;
+  }
+
+  .section4 .Sec4ul li {
+
+    margin-left: 15px;
+  }
+
+  .Landing__7 .section4 {
+    margin-top: 100px;
+    margin-left: 0px;
+    background-color: #F6F7F7;
+    background-image: linear-gradient(to left, #F6F7F7 80%, #F6F7F7 0%);
+
+  }
+
+  .Landing__7 .lastImg img {
+    width: 100%;
+    margin-top: 230px;
+  }
+
+  .Landing__7 .cardDiv {
+    min-height: 350px;
+  }
+
+
+
+
+}
+
+@media (max-width: 575px) {
+
+  .Landing__7 .banner2 ul {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Landing__7 .banner2 {
+    padding: 50px 20px;
+    background-color: #F7F1E9;
+  }
+
+  .Landing__7 .banner2 ul li {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .Landing__7 .bg {
+    font-size: 22px;
+    margin-bottom: 10px;
+
+  }
+
+  .Landing__7 a.bg {
+    /* margin-top: 30px; */
+    padding: 16px 32px;
+
+  }
+
+  .Landing__7 a svg {
+    font-size: 22px;
+  }
+
+  .Landing__7 .topImg3 {
+    position: absolute;
+    bottom: -70px;
+    right: -28%;
+    margin-top: 0px;
+    height: 170px;
+    width: 150px;
+
+  }
+
+  /* .Landing__7 .ImgAbsolote{
+width: 150px;
+height: 150px;
+} */
+  .Landing__7 .ImgAbsolote {
+    width: 127px;
+    height: 70px;
+  }
+
+  .Landing__7 .ImgAbsolote .persentxt {
+    position: absolute;
+
+    font-size: 22px;
+    color: #F23534;
+    font-weight: bolder;
+    /* margin-top: 90px;
+right:55px; */
+    margin-top: 21px;
+    right: 40px;
+    z-index: 1;
+  }
+
+  .Landing__7 h2 {
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+  }
+
+  .Landing__7 .section4 .Sec4ul {
+    margin-top: 20%;
+    margin-left: 0%;
+  }
+
+  .section4 .Sec4ul li {
+
+    margin-left: 15px;
+  }
+
+  .Landing__7 .section4 {
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+
+
+
+  .Landing__7 .logo2 {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .Landing__7 .TopTxtdev .span1 {
+    font-size: 18px;
+  }
+
+  .Landing__7 .liTxt {
+    font-size: 18px;
+    color: #182D41;
+    line-height: 40px;
+    font-weight: 500;
+  }
+
+  .Landing__7 .lastImg img {
+    width: 100%;
+    margin-top: 470px;
+  }
+
+  .Landing__7 .footerh4 {
+    text-align: center;
+  }
+
+  .Landing__7 .hr {
+    margin: 0 auto;
+  }
+
+  .Landing__7 .footericon3 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Landing__7 .cardDiv {
+    min-height: 262px;
+  }
+
+
+  .Landing__7 .banAbsoluteMain {
+    border-radius: 20px;
+  }
+
+  .Landing__7 .banAbsoluteMain1 {
+    border-radius: 20px;
+
+  }
+
+  /* Ibrahim Revision----------- */
+
+  .Landing__7 .mainImglogo img {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .Landing__7 .topImg2 img {
+    height: 200px;
+    width: 136px;
+  }
+
+  .Landing__7 .topImg3 {
+    position: absolute;
+    bottom: -70px;
+    right: -37%;
+    margin-top: 0px;
+    height: 124px;
+    width: 135px;
+  }
+
+  .Landing__7 .topImg3 img {
+    width: 72px;
+  }
+
+  .Landing__7 .topImg img {
+    width: 72px;
+  }
+
+
+  .Landing__7 .TopTxtdev h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+
+  .Landing__7 .TopTxtdev h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    color: #8DC63F;
+    margin-top: 42px;
+    margin-bottom: 0px;
+  }
+
+
+  .Landing__7 .TopTxtdev h4 {
+    font-size: 22px;
+  }
+
+  .Landing__7 .TopTxtdev .span2 {
+    font-size: 22px;
+  }
+
+  .Landing__7 .sec3txtDiv h2 {
+    line-height: 32px;
+    color: #182D41;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .Landing__7 .footerh4 h4 {
+    font-size: 22px;
+    color: #182D41;
+    font-weight: 700;
+  }
+
+  .Landing__7 .ban5Txtbox {
+    margin-top: 50px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .Landing__7 .banner5Button {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .Landing__7 .section_gaps {
+    margin-top: 60px !important;
+  }
+
+  .Landing__7 .footerh4 {
+    padding-top: 54px;
+  }
+
+
+  .Landing__7 .bg {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .Landing__7 a.bg {
+    /* margin-top: 30px; */
+    padding: 10px 32px;
+
+  }
+
+  .Landing__7  .tiny-footer_tinyFooter__Tr3b1 p a {
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    padding: 0 5px;
+}
+
+
+
+
+
+}

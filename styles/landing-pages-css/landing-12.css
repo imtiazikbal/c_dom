@@ -1,0 +1,1213 @@
+/* ===================== Common Css================== */
+/* =================================================== */
+
+.Landing__12 {
+    /* overflow-x: hidden; */
+    font-family: 'Ruda', sans-serif;
+}
+
+.Landing__12 h1 {
+    font-size: 53px;
+    line-height: 85px;
+}
+
+.Landing__12 h2 {
+    font-size: 45px;
+    line-height: 76px;
+    color: #593A1B;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.Landing__12 p {
+    font-size: 25px;
+    line-height: 70px;
+    color: #593A1B;
+}
+
+/* btn-------------Start---- */
+
+
+.Landing__12 a {
+    font-size: 36px;
+    color: #42210B;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .1s;
+}
+
+.Landing__12 a:hover {
+    background: #FE8D0E;
+}
+
+.Landing__12 .Btnbg:hover {
+    background: #FE8D0E;
+    padding: 28px 105px;
+}
+
+
+.Landing__12 .Btnbg {
+    padding: 25px 100px;
+    background-color: #FFCB05;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+
+}
+
+.Landing__12 .Btnbg:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #ff00b3, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+
+}
+
+.Landing__12 .Btnbg:active {
+    color: #000;
+
+}
+
+.Landing__12 .Btnbg:active:after {
+    background: transparent;
+
+}
+
+.Landing__12 .Btnbg:hover:before {
+    opacity: 1;
+}
+
+.Landing__12 .Btnbg:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: #111; */
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+ .Landing__12 .section_gap {
+    margin-top: 100px;
+}
+
+
+
+
+/* ========================================================================================================================
+        Banner One   
+============================================================================================================================*/
+.Landing__12 .BannerMAbsImg {
+    animation: mymove3 2s infinite alternate;
+    transition: 2s;
+}
+
+@keyframes mymove3 {
+    from {
+        top: 0px;
+        transform: rotate(0);
+    }
+
+    to {
+        top: 10px;
+        transform: rotate(-30deg)
+    }
+}
+
+
+
+
+.Landing__12 .BannerMAbsImg {
+    position: absolute;
+    top: -70px;
+    left: 300px;
+    width: 200px;
+
+}
+
+.Landing__12 .BannerMAbsImg2 {
+    position: absolute;
+    top: 190px;
+    right: -50px;
+}
+
+
+
+.Landing__12 .bgImgBox {
+    background-image: url('../../public/images/landing-12/bg.png');
+    padding: 40px 0px 191px 0px;
+    background-size: cover;
+
+}
+
+.Landing__12 .BannerImg {
+    width: 100%;
+}
+
+.Landing__12 .ContainerPad {
+    padding: 0;
+}
+
+.Landing__12 .LogoBox {
+    width: 100%;
+    text-align: center;
+}
+
+.Landing__12 .Bannertxtbox h1 {
+
+    color: #593A1B;
+    margin-top: 135px;
+
+
+}
+
+.Landing__12 .Bannertxtbox h4 {
+    font-size: 75px;
+    line-height: 148px;
+    color: #FFCB05;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.Landing__12 .Bannertxtbox h4 span {
+    font-size: 75px;
+    line-height: 148px;
+    color: #593A1B;
+    font-weight: 900;
+
+}
+
+.Landing__12 .Bannertxtbox h5 {
+    font-size: 54px;
+    line-height: 99px;
+    font-weight: 700;
+    color: #593A1B;
+    margin-top: 40px;
+    font-weight: 900;
+
+}
+
+.Landing__12 .BannerRow {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ========================================================================================================================
+        Banner Two  Slider
+============================================================================================================================*/
+
+.Landing__12 .Banner2Rel {
+    position: relative;
+}
+
+.Landing__12 .Banner2AbsImg {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 250px;
+}
+
+
+.Landing__12 .Container_gap {
+    margin-bottom: 40px;
+
+}
+
+.Landing__12 .Banner2txtbox ul li img {
+    margin-bottom: auto;
+    margin-right: 24px;
+
+}
+
+.Landing__12 .Banner2txtbox ul li {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.Landing__12 .Banner2txtbox h2 {
+    margin-bottom: 50px;
+}
+
+.Landing__12 .Banner2imgbox {
+    position: relative;
+}
+
+.Landing__12 .Banner2imgAbs {
+    position: absolute;
+    bottom: -80px;
+    left: 40%;
+}
+
+.Landing__12 .Banner2imgbox .Banner2imgRel {
+    width: 100%;
+}
+
+.Landing__12 .SliderImg img {
+    width: 100%;
+    height: 287px;
+}
+
+.Landing__12 .SliderBtn {
+    position: relative;
+    z-index: 1;
+}
+
+.Landing__12 .SliderBtn1 {
+    position: absolute;
+    top: -160px;
+    left: -20px;
+    background-color: #FFCB05;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.Landing__12 .SliderBtn1 svg {
+    font-size: 35px !important;
+    color: #000;
+
+
+}
+
+.Landing__12 .SliderBtn2 svg {
+    font-size: 35px !important;
+    color: #000;
+}
+
+.Landing__12 .SliderBtn1 svg {
+    font-size: 15px;
+}
+
+.Landing__12 .SliderBtn2 {
+    position: absolute;
+    top: -160px;
+    right: -20px;
+    ;
+    background-color: #FFCB05;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+
+
+
+/* ========================================================================================================================
+        Banner Three 
+============================================================================================================================*/
+.Landing__12 .Banner3AbsImg {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    width: 250px;
+    z-index: 2;
+}
+
+.Landing__12 .Banner3AbsImg2 {
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+    width: 250px;
+    z-index: -1;
+}
+
+
+.Landing__12 .Banner2imgAbs2 {
+    position: absolute;
+    bottom: -400px;
+    left: 10%;
+}
+
+.Landing__12 .Banner2txtbox2 ul li {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+
+/* ========================================================================================================================
+            Banner Four
+============================================================================================================================*/
+.Landing__12 .Banner4txth2 {
+    position: relative;
+    text-align: center;
+}
+
+.Landing__12 .Banner4txtbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 130px;
+}
+
+.Landing__12 .Banner4txth2 img {
+    width: 100%;
+    height: 574px;
+    object-fit: cover;
+}
+
+.Landing__12 .Banner4txtbox p {
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+
+/* ========================================================================================================================
+        Slider-2
+============================================================================================================================*/
+.Landing__12 .slider2h2 {
+    margin-bottom: 60px !important;
+}
+
+.Landing__12 .SliderImg h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Landing__12 .SliderImg a:hover {
+    background: none;
+}
+
+/* ========================================================================================================================
+        Love Section  
+============================================================================================================================*/
+.Landing__12 .LoveTextBox h5 {
+    line-height: 160px;
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: #593A1B;
+}
+
+.Landing__12 .LoveTextBox {
+    text-align: center;
+}
+
+.Landing__12 .LoveImg {
+    width: 100%;
+}
+
+/* ========================================================================================================================
+        Footer
+============================================================================================================================*/
+
+.Landing__12 .LogoBox img{
+    max-height: 70px;
+}
+
+
+.Landing__12 .BannerMAbsImgAll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 200px;
+}
+
+.Landing__12 .BannerMAbsImgAll2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.Landing__12 .BannerMAbsImgAll {
+
+    animation: mymove4 25s infinite alternate;
+
+}
+
+@keyframes mymove4 {
+
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        left: 300px
+    }
+
+    100% {
+        top: -7900px;
+    }
+}
+
+
+.Landing__12 .BannerMAbsImgAll2 {
+
+    animation: mymove6 25s infinite alternate;
+}
+
+@keyframes mymove6 {
+
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        right: 300px
+    }
+
+    100% {
+        top: -7900px;
+        transform: rotate(180deg);
+    }
+
+}
+
+
+
+.Landing__12 .FooterBg {
+    background-image: url('../../public/images/landing-12/img18.png');
+    background-size: cover;
+    padding: 40px 0px 228px 0px;
+}
+
+.Landing__12 .FooterBgTxtBox h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #42210B;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.Landing__12 .FooterBgTxtBox h5 {
+    font-size: 35px;
+    line-height: 48px;
+    color: #42210B;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Landing__12 .FooterBgTxtBox a {
+    font-size: 18px !important;
+    line-height: 30px;
+    color: #42210B;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Landing__12 .FooterBgTxtBox li {
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.Landing__12 .FooterBgTxtBox li svg {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.Landing__12 .FooterBgTxtBox ul {
+    padding: 0;
+}
+
+
+
+/* Social Icon */
+
+.Landing__12 .SocialIconBox {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+ .Landing__12 .SocialIconBox  a{
+    margin-right: 30px;
+    font-size: 25px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+ .Landing__12 .SocialIconBox  a:hover{
+   transform: scale(1.2);
+   background: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Swiper 
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Landing__12 .swiper-button-prev {
+    left: 10px;
+    right: auto;
+    padding: 10px 20px !important;
+    background: #FFCB05;
+    border-radius: 50px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.Landing__12 .swiper-button-next {
+    right: 10px;
+    left: auto;
+    padding: 10px 20px !important;
+    background: #FFCB05;
+    border-radius: 50px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.Landing__12 .swiper-button-next:after{
+    font-size: 14px !important;
+    color: #42210B;
+}
+
+.Landing__12 .swiper-button-prev:after {
+    font-size: 14px !important;
+    color: #42210B;
+}
+
+
+.Landing__12 .swiper-button-prev {
+    left: 5px !important;
+    left: auto;
+}
+
+.Landing__12 .swiper-button-next {
+    right: 5px !important;
+    right: auto;
+}
+
+
+
+
+@media (max-width: 992px){
+
+    .Landing__12 .swiper-button-next {
+        display: none !important;
+    }
+
+    .Landing__12 .swiper-button-prev {
+        display: none !important;
+    }
+
+
+}
+
+
+            
+              /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+                Order Confram
+                --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+                .Landing__12 #OrderConfirmLeft #Payment #ArrowBg {
+                    background: #FFCB05;
+                }
+
+                .Landing__12 #OrderConfirmRight button {
+                    background: #FFCB05;
+                }
+
+                .Landing__12 #OrderConfirmLeft #Payment #ArrowBg p {
+                    color: #ffffff;
+                }
+
+                .Landing__12 #OrderConfirmLeft #Payment #ArrowBg::after {
+                    border-bottom: solid 15px #FFCB05;
+                }
+
+                .Landing__12 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+                    background: #FFCB05;
+                }
+
+                .Landing__12 #OrderConfirmLeft #Payment #ArrowBg p {
+                    line-height: 25px;
+                }
+
+                .Landing__12 #OrderConfirmLeft #Payment #ArrowBg p {
+                    font-size: 18px;
+                  }
+                  
+                  .Landing__12 #OrderConfirmLeft #Payment #ArrowBg {
+                    padding: 10px 30px;
+                    border-radius: 0 0 10px 10px;
+                  }
+                  
+
+    /* ========================================================================================================================
+            Media Quary
+    ============================================================================================================================*/
+
+
+
+
+@media (min-width: 1441px) {}
+
+@media (max-width: 1440px) {
+    .Landing__12 .FooterBgTxtBox img {
+        width: 200px;
+    }
+
+    .Landing__12 .Banner2AbsImg {
+        z-index: -1;
+        width: 180px;
+    }
+
+    .Landing__12 .Banner3AbsImg2 {
+        width: 180px;
+    }
+
+    .Landing__12 h1 {
+        font-size: 43px;
+        line-height: 78px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 {
+        font-size: 60px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 span {
+        font-size: 60px;
+    }
+
+    .Landing__12 h2 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .Landing__12 p {
+        font-size: 22px;
+        line-height: 56px;
+    }
+
+    .Landing__12 a {
+        font-size: 33px;
+    }
+
+    .Landing__12 .Banner2imgAbs2 {
+        width: 450px;
+
+    }
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+    .Landing__12 h1 {
+        font-size: 33px;
+        line-height: 64px;
+        margin-top: 72px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 {
+        font-size: 45px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 span {
+        font-size: 45px;
+    }
+
+    .Landing__12 h2 {
+        font-size: 28px;
+        line-height: 47px;
+    }
+
+    .Landing__12 .Bannertxtbox h5 {
+        font-size: 48px;
+        line-height: 99px;
+    }
+
+    .Landing__12 p {
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .Landing__12 a {
+        font-size: 30px;
+    }
+
+    .Landing__12 .Banner2imgAbs2 {
+        width: 350px;
+        bottom: -300px;
+    }
+
+    .Landing__12 .Banner2imgAbs {
+        width: 300px;
+    }
+
+    .Landing__12 .Banner2txtbox ul li img {
+        width: 40px;
+    }
+
+    .Landing__12 .tinyFooter p a {
+        font-size: 16px;
+    }
+
+    .Landing__12 .BannerMAbsImg {
+        top: -70px;
+        left: 242px;
+        width: 200px;
+    }
+
+}
+
+
+
+@media (max-width: 991px) {
+
+    .Landing__12 .BannerRow {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .Landing__12 .FooterBg {
+        text-align: center;
+    }
+
+    .Landing__12 .BannerImgDiv {
+        margin-top: 80px;
+    }
+
+    .Landing__12 .BannerMAbsImg {
+        width: 150px;
+    }
+
+    .Landing__12 .BannerMAbsImg2 {
+        width: 70px;
+    }
+
+    /* .Landing__12 .SliderBtn1{
+top: -95px;
+}
+
+.Landing__12 .SliderBtn2{
+top: -95px;
+}
+
+
+*/
+
+    .Landing__12 .SliderBtn1 svg {
+        font-size: 25px !important;
+    }
+
+    .Landing__12 .SliderBtn2 svg {
+        font-size: 25px !important;
+    }
+
+    .Landing__12 .Banner2imgboxCol {
+        margin-bottom: 300px;
+    }
+
+    .Landing__12 .Banner2imgAbs2 {
+        width: 450px;
+        bottom: -300px;
+    }
+
+    .Landing__12 .section_gapNone {
+        display: none;
+    }
+
+    .Landing__12 .LoveImg {
+        margin-top: 50px;
+    }
+
+    .Landing__12 .LoveTextBox h5 {
+        font-size: 48px;
+        line-height: 130px;
+    }
+
+    .Landing__12 .Banner2imgbox {
+        margin-top: 30px;
+    }
+
+    .Landing__12 .section_gap {
+        margin-top: 70px;
+    }
+
+    .Landing__12 .Container_gap {
+        margin-bottom: 55px;
+    }
+
+    .Landing__12 .Btnbg {
+        padding: 25px 80px;
+    }
+
+    .Landing__12 .Btnbg:hover {
+        padding: 28px 85px;
+    }
+
+
+
+    .Landing__12 a {
+        font-size: 24px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    .Landing__12 h1 {
+        font-size: 24px;
+        line-height: 46px;
+        margin-top: 24px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 {
+        font-size: 34px;
+        line-height: 100px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 span {
+        font-size: 34px;
+        line-height: 100px;
+    }
+
+    .Landing__12 a {
+        font-size: 20px;
+    }
+
+    .Landing__12 .Btnbg {
+        padding: 19px 66px;
+    }
+
+    .Landing__12 .Btnbg:hover {
+        padding: 21px 70px;
+    }
+
+
+
+    .Landing__12 .Bannertxtbox h4 {
+        margin-bottom: 40px;
+    }
+
+    .Landing__12 .Bannertxtbox h5 {
+        font-size: 34px;
+        line-height: 73px;
+    }
+
+    .Landing__12 .bgImgBox {
+        padding: 40px 0px 70px 0px;
+    }
+
+    .Landing__12 .section_gap {
+        margin-top: 50px;
+    }
+
+    .Landing__12 h2 {
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .Landing__12 .Banner2txtbox h2 {
+        margin-bottom: 25px;
+    }
+
+    .Landing__12 p {
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .Landing__12 .Banner2txtbox ul li {
+        margin-bottom: 2px;
+    }
+
+    .Landing__12 .Banner2txtbox ul li img {
+        width: 30px;
+    }
+
+    .Landing__12 .SliderImg img {
+        width: 100%;
+        height: 224px;
+    }
+
+    .Landing__12 .SliderBtn2 {
+        top: -129px;
+    }
+
+    .Landing__12 .SliderBtn1 {
+        top: -129px;
+    }
+
+    .Landing__12 .Banner2imgAbs2 {
+        width: 350px;
+        bottom: -300px;
+    }
+
+    .Landing__12 .Banner3AbsImg {
+        width: 160px;
+    }
+
+    .Landing__12 .Banner3AbsImg2 {
+
+        width: 100px;
+    }
+
+    .Landing__12 .Banner4txtbox h5 {
+        font-size: 34px;
+        line-height: 55px;
+        margin-top: 0px;
+    }
+
+    .Landing__12 .Banner4txtbox p {
+        line-height: 20px;
+        margin-bottom: 49px;
+    }
+
+    .Landing__12 .Banner4txth2 img {
+        width: 100%;
+        height: 388px;
+    }
+
+    .Landing__12 .slider2h2 img {
+        width: 120px;
+    }
+
+    .Landing__12 .BannerMAbsImg {
+        width: 126px;
+        top: -18px;
+    }
+
+
+    .Landing__12  img {
+        width: 145px;
+    }
+
+
+    .Landing__12 .BannerMAbsImgAll {
+        width: 120px !important;
+        z-index: 5;
+    }
+
+    .Landing__12 .BannerMAbsImgAll2 {
+        width: 60px;
+        right: 20px;
+        z-index: 5;
+    }
+
+    .Landing__12 .Banner2imgAbs {
+        width: 222px;
+    }
+
+    @keyframes mymove4 {
+
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: -8400px;
+        }
+    }
+
+
+
+    @keyframes mymove6 {
+
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: -8400px;
+            transform: rotate(180deg);
+        }
+
+    }
+
+    .Landing__12 .Banner2imgAbs2 {
+        width: 338px;
+    }
+
+
+}
+
+
+@media (max-width: 575px) {
+
+    .Landing__12 .BannerMAbsImg {
+        position: absolute;
+        top: -9px;
+        left: 269px;
+    }
+
+    .Landing__12 .BannerMAbsImg2 {
+        position: absolute;
+        top: 190px;
+        right: -25px;
+    }
+
+    .Landing__12 .SliderBtn1 {
+        display: none;
+    }
+
+    .Landing__12 .SliderBtn2 {
+        display: none;
+    }
+
+    .Landing__12 .Banner2imgAbs2 {
+        width: 235px;
+        bottom: -202px;
+        margin-left: 50px;
+    }
+
+    .Landing__12 .Banner2imgboxCol {
+        margin-bottom: 200px;
+    }
+
+
+
+
+}
+
+@media (max-width: 425px) {
+
+    .Landing__12 .BannerMAbsImg {
+        width: 100px;
+        top: -18px;
+        left: 150px;
+    }
+
+    .Landing__12 .BannerMAbsImg2 {
+        width: 50px;
+        top: 120px;
+        right: 10px;
+    }
+
+    .Landing__12 h1 {
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: 24px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 {
+        font-size: 28px;
+        line-height: 100px;
+    }
+
+    .Landing__12 .Bannertxtbox h4 span {
+        font-size: 28px;
+        line-height: 100px;
+    }
+
+    .Landing__12 a {
+        font-size: 16px;
+    }
+
+    .Landing__12 .Bannertxtbox h5 {
+        font-size: 28px;
+        line-height: 48px;
+    }
+
+    .Landing__12 h2 {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .Landing__12 p {
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .Landing__12 .Banner2AbsImg {
+        width: 100px;
+    }
+
+    .Landing__12 .Banner2imgAbs {
+        width: 172px;
+    }
+
+    .Landing__12 .SliderImg img {
+        width: 100%;
+        height: 180px;
+    }
+
+
+
+    .Landing__12 .Banner3AbsImg {
+        width: 112px;
+        top: 86px;
+    }
+
+    .Landing__12 .Banner2imgAbs {
+        width: 179px;
+        bottom: -79px;
+    }
+
+
+    .Landing__12 .Banner2imgboxCol {
+        margin-bottom: 180px;
+    }
+
+    .Landing__12 .slider2h2 img {
+        width: 90px;
+    }
+
+    .Landing__12 .Banner4txtbox p {
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    .Landing__12 .SliderImg h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Landing__12 .LoveTextBox h5 {
+        font-size: 28px;
+        line-height: 82px;
+    }
+
+    .Landing__12 .FooterBgTxtBox h4 {
+        font-size: 22px;
+    }
+
+    .Landing__12 .FooterBgTxtBox h5 {
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .Landing__12 .Banner2imgAbs2 {
+        width: 235px;
+        bottom: -202px;
+        margin-left: 0px;
+    }
+
+
+}

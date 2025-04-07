@@ -1,0 +1,521 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__34 {
+  --bg-color: #0D2601;
+  --bg-color2: #2E8C03;
+  --text-color: #44454b;
+  --white-color: #fff;
+  --yellow-color: #F2A413;
+  overflow-x: hidden;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.Landing__34 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--white-color);
+  border:1px solid var(--bg-color2);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.Landing__34 h1 span {
+  background: var(--bg-color);
+  color: #D97F11;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.Landing__34 h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  padding: 15px 50px;
+  border-radius: 10px;
+
+}
+
+.Landing__34 h2 img {
+  height: 25px;
+  width: 25px;
+}
+
+.Landing__34 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.Landing__34 p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: var(--header-color);
+}
+
+.Landing__34 :where(.Order, .Price) a,
+.Landing__34 :where(.Order, .Price) button {
+  background: linear-gradient(to right, #F2A413 0%, #d8a13a 51%, #F2A413 100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  padding: 15px 50px;
+  font-weight: 700;
+  display: inline-block;
+  width: auto;
+  margin-top: 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 3px solid #AD7419;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.Landing__34 :where(.Order, .Price) a:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.Landing__34 :where(.Order) img{
+  margin-left: 10px;
+}
+
+.Landing__34 .Price button {
+  font-size: 35px;
+  line-height: 55px;
+  border-radius: 16px 0px;
+}
+
+.Landing__34 .Section__Gaps {
+  margin-top: 80px;
+}
+
+.Landing__34 .d_flex {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================================================
+Start Landing__34__Banner
+==============================================================*/
+
+.Landing__34__Banner__Content{
+  background-color: var(--bg-color);
+  padding:36px 0px 20px 0px ;
+  text-align: center;
+}
+
+.Landing__34__Logo img{
+  max-height: 70px;
+}
+
+.Landing__34__Banner__Text h4{
+  color: #FDFDFD;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Li Ador Noirrit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.Landing__34__Video__Content{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #2E8C03;
+  margin: 5%;
+}
+
+
+/* ============================================================
+Start Offer
+==============================================================*/
+
+.Landing__34__offer{
+  padding: 71px 10% 108px 10%;
+  background-color: var(--bg-color2);
+  border-radius: 15px;
+}
+
+.Landing__34__offer h4{
+  text-align: center;
+  color: var(--white-color);
+  background-color: #FD003A;
+  font-size: 33px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.Landing__34__offer2{
+  padding: 35px 0px;
+  margin-top: 24px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+}
+
+.Landing__34__offer2 h5{
+  font-family: 'Noto Sans Bengali', sans-serif;
+  color: #2E8C03;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.2px;
+text-align: center;
+text-decoration: line-through;
+}
+
+.Landing__34__offer2 h6{
+  font-family: 'Noto Sans Bengali', sans-serif;
+  color: #2E8C03;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.2px;
+text-align: center;
+
+}
+
+.Landing__34__offer2 h5 span{
+  color: #FD003A;
+}
+
+.Landing__34__offer2-Hr{
+  border: 1px dashed #2E8C03;
+  margin: 15px 0px;
+}
+
+.Landing__34__Button_top{
+  margin-top: -66px;
+  text-align: center;
+}
+
+/* ============================================================
+Landing__34__benifit_sec
+==============================================================*/
+
+.Landing__34__benifit_sec{
+  padding: 80px 0px ;
+  background-color: #F3FFED;
+}
+
+.Landing__34__benifit_content {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.Landing__34__benifit_content h2{
+  width: 100%;
+  color: #0D2601;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  border-radius: 24px;
+  border: 11px solid #2E8C03;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Landing__34__benifit_content ul li img{
+  margin-right: 10px;
+}
+
+.Landing__34__benifit_content ul li p{
+  color: #0D2601;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.Landing__34__benifit_content ul li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E5EAF4;
+  padding: 5px 0px;
+}
+
+.Landing__34__benifit_content ul li:last-child {
+  border-bottom: none;
+}
+
+
+.Landing__34__Button3{
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* ============================================================
+end Offer
+==============================================================*/
+
+
+
+/* ============================================================
+Start banner2
+==============================================================*/
+
+.Landing__34__Banner2 {
+  text-align: center;
+}
+
+.Landing__34__Banner2 img{
+  width: 100%;
+  max-height: 500px;
+  margin-top: 20px;
+}
+
+
+
+
+/* ============================================================
+   Why moringa
+==============================================================*/
+
+.Landing__34__benifit_sec2{
+  padding: 80px 0px;
+  background-color: #0D2601;
+
+}
+
+.Landing__34__benifit_contentDiv{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.Landing__34__benifit_contenth2 {
+  color: #ffffff ;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  border-radius: 24px;
+  border: 11px solid #2E8C03;
+  text-align: center;
+  margin-bottom: 40px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+.Landing__34__benifit_content2 ul li img{
+  margin-right: 15px;
+}
+
+.Landing__34__benifit_content2 ul li p{
+  color: #fcfcfc;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.Landing__34__benifit_content2 ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.Landing__34__benifit_content4 img{
+  max-width: 500px;
+  width: 100%;
+}
+
+
+.Landing__34 .CustomerReview {
+  text-align: center;
+}
+
+/* ==============================================================
+Why eat
+============================================================== */
+
+.Landing__34__benifit_contenth3{
+    color:  #0D2601;
+}
+
+.Landing__34__why_card {
+  border-radius: 8px;
+  border: 2px solid #2E8C03;
+  background: #FDFDFD;
+  padding: 15px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.Landing__34__why_card p{
+  color: #0D2601;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+/* ==============================================================
+   WHY MORINGA
+============================================================== */
+
+.Landing__34__price{
+  text-align: center;
+  color: #2E8C03;
+  border-radius: 16px;
+  border: 6px dashed #2E8C03;
+  padding: 20px;
+ 
+}
+
+.Landing__34__price2{
+  text-align: center;
+  font-family: 'Noto Sans Bengali', sans-serif;
+  padding: 20px;
+  background-color: #FD0002;
+  margin: 20px;
+  border-radius: 16px;
+  background: #FD0002;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.Landing__34__price2 h4{
+    color: #FDFDFD;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.Landing__34__price2 h5{
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* ==============================================================
+Order
+============================================================== */
+
+.Landing__34 #OrderConfirmRight button {
+  background-color: #F2A413;
+}
+
+
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1399.99px) {
+  .Landing__34 h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .Landing__34 h1 span {
+    padding: 2px 10px;
+    margin: 0 5px;
+  }
+
+  .Landing__34 h2 {
+    font-size: 30px;
+    line-height: 45px;
+    padding: 15px 30px;
+  }
+
+  .Landing__34__price2 h5 {
+    font-size: 35px;
+}
+
+ 
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1023px) {
+ 
+
+
+
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 667px) {
+  
+  .Landing__34 :where(.Order, .Price) a,
+  .Landing__34 :where(.Order, .Price) button {
+    font-size: 22px;
+    line-height: 35px;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
+
+  .Landing__34 h1 {
+    font-size: 24px;
+    padding: 15px;
+}
+
+.Landing__34__Banner__Text h4 {
+  font-size: 22px;
+}
+
+.Landing__34__Video__Content {
+  padding: 12px;
+}
+
+.Landing__34__offer h4 {
+  font-size: 22px;
+  padding: 15px 5px;
+  border-radius: 10px;
+}
+
+.Landing__34__offer2 h5 {
+  font-size: 22px;
+}
+
+.Landing__34__offer2 h6 {
+  font-size: 22px;
+}
+.Landing__34 h2 {
+  font-size: 22px;
+}
+
+.Landing__34 h2 {
+  padding: 10px 6px;
+}
+
+.Landing__34__price2 h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.Landing__34__price2 h5 {
+  font-size: 24px;
+}
+
+.Landing__34 .Section__Gaps {
+  margin-top: 50px;
+}
+
+
+
+}

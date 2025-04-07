@@ -1,0 +1,10 @@
+
+
+.VideoPlayers div{
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.VideoPlayers iframe{
+    border-radius: 10px;
+}

@@ -1,0 +1,1414 @@
+/* ========================== Common Css========================= */
+/* ============================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+
+
+.Landing__13 {
+    background: #FFFF88;
+    background-color: #FFFF88;
+    padding-top: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.Landing__13 h1 {
+    margin-top: 230px;
+    font-size: 40px;
+    line-height: 61px;
+    color: #593A1B;
+}
+
+.Landing__13 h2 {
+    font-size: 36px;
+    line-height: 53px;
+    color: #A15F19;
+    font-weight: 600;
+
+}
+
+.Landing__13 h3 {
+    font-size: 48px;
+    line-height: 74px;
+    color: #A15F19;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Landing__13 h4 {
+    font-size: 73px;
+    line-height: 123px;
+    color: #FFCB05;
+    font-weight: 900;
+
+}
+
+.Landing__13 h4 span {
+    font-size: 73px;
+    line-height: 123px;
+    color: #42210B;
+    font-weight: 900;
+}
+
+.Landing__13 p {
+    font-size: 24px;
+    line-height: 38px;
+    color: #42210B;
+}
+
+
+/* btn------------- */
+
+.Landing__13 a {
+    font-size: 36px;
+    color: #42210B;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .1s;
+
+
+}
+
+
+.Landing__13 .Btnbg:hover {
+    background: #FE8D0E;
+    padding: 28px 105px;
+}
+
+
+.Landing__13 .Btnbg {
+    padding: 25px 100px;
+    background-color: #FFCB05;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    border-radius: 50px;
+
+}
+
+.Landing__13 .Btnbg:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #ff00b3, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    border-radius: 50px;
+
+
+}
+
+.Landing__13 .Btnbg:active {
+    color: #000;
+
+}
+
+.Landing__13 .Btnbg:active:after {
+    background: transparent;
+
+}
+
+.Landing__13 .Btnbg:hover:before {
+    opacity: 1;
+}
+
+.Landing__13.Btnbg:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: #111; */
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+
+
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+
+.Landing__13 .section_gap {
+    padding-top: 100px;
+}
+
+/* ========================================================================================================================
+            Header Section
+=============================================================================================================================*/
+
+.Landing__13 .ConPad {
+    padding: 0;
+}
+
+.Landing__13 .ImgRelBox {
+    position: relative;
+    width: 45%;
+
+}
+
+.Landing__13 .ImgAbsTree {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Landing__13 .HeaderTxtBox h5 {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-size: 53px;
+    line-height: 93px;
+    font-weight: 700;
+    color: #A15F19;
+}
+
+.Landing__13 .HeaderTxtBoxRel {
+    position: relative;
+}
+
+.Landing__13 .HeaderTxtBox {
+    /* position: absolute; */
+    /* z-index: 2 !important; */
+
+}
+
+
+
+/* Col------- */
+
+.Landing__13 .ImgDiv2 img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.Landing__13 .ImgDiv2 {
+    position: relative;
+}
+
+.Landing__13 .ImgDiv2Abs1 {
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    padding: 15px 45px;
+    font-size: 20px;
+    line-height: 29px;
+    background: #FDCF06;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.Landing__13 .ImgDiv2Abs2 {
+    position: absolute;
+    bottom: 40%;
+    left: -10%;
+    padding: 15px 45px;
+    font-size: 20px;
+    line-height: 29px;
+    background: #FC9A0A;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.Landing__13 .ImgDiv2Abs3 {
+    position: absolute;
+    top: 40%;
+    right: -10%;
+    padding: 15px 45px;
+    font-size: 20px;
+    line-height: 29px;
+    background: #BF8127;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+
+
+
+/* ========================================================================================================================
+        Slider One
+=============================================================================================================================*/
+
+.Landing__13 .SecSlider {
+    margin-top: 30px;
+}
+
+/* .Landing__13 .SliderImg {
+height: 287px;
+} */
+
+.Landing__13 .SliderImg img {
+    width: 100%;
+    height: 287px;
+
+}
+
+.Landing__13 .SliderBtn {
+    position: relative;
+    z-index: 1;
+}
+
+.Landing__13 .SliderBtn1 {
+    position: absolute;
+    top: -160px;
+    left: -20px;
+    background-color: #FFCB05;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.Landing__13 .SliderBtn1 svg {
+    font-size: 35px !important;
+    color: #000;
+
+}
+
+.Landing__13 .SliderBtn2 svg {
+    font-size: 35px !important;
+    color: #000;
+
+}
+
+.Landing__13 .SliderBtn1 svg {
+    font-size: 15px;
+
+}
+
+.Landing__13 .SliderBtn2 {
+    position: absolute;
+    top: -160px;
+    right: -20px;
+    ;
+    background-color: #FFCB05;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.Landing__13 .SliderTop_gap {
+    margin-top: 60px;
+}
+
+.Landing__13 .SliderTopTxt {
+    text-align: center;
+}
+
+.Landing__13 .SliderTopTxtAbsImg {
+    margin-top: -70px;
+
+}
+
+.Landing__13 .SliderTopTxtDev {
+    position: relative;
+}
+
+.Landing__13 .SliderBottomImg {
+    width: 100%;
+}
+
+
+/* ========================================================================================================================
+        Pragrap Section
+=============================================================================================================================*/
+
+.Landing__13 .ParagraphDiv h2 {
+    padding: 0 8%;
+    text-align: center;
+}
+
+.Landing__13 .ParagraphDivImg {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.Landing__13 .ParagraphCol2Img {
+    width: 100%;
+}
+
+.Landing__13 .ParagraphDivRow {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ========================================================================================================================
+        Pragraph  Section --2
+=============================================================================================================================*/
+
+
+.Landing__13 .Paragraph2Div li {
+    display: flex;
+    margin-bottom: 35px;
+
+}
+
+.Landing__13 .ParagraphDivImg2 {
+    margin-bottom: 40px;
+}
+
+.Landing__13 .Paragraph2Div ul li img {
+    margin-right: 16px;
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+
+/* ========================================================================================================================
+        Button-2 Section
+=============================================================================================================================*/
+.Landing__13 .ContainerPad {
+    padding: 0;
+}
+
+.Landing__13 .btnBgdiv img {
+    width: 100%;
+    height: 662px;
+}
+
+.Landing__13 .btnBgdiv {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.Landing__13 .btnBgdivAbs {
+    width: 100%;
+    position: absolute;
+}
+
+.Landing__13 .btnBgdivAbs h6 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.Landing__13 .btnBgdivAbs h5 {
+    font-size: 60px;
+    line-height: 92px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 600;
+
+
+}
+
+/* ========================================================================================================================
+        Banner One
+=============================================================================================================================*/
+.Landing__13 .SliderImg2 a {
+    background: none !important;
+}
+
+/* .Landing__13 .SliderImg2 {
+height: 505px;
+} */
+
+.Landing__13 .SliderImg2 img {
+    width: 100%;
+    height: 500px;
+}
+
+.Landing__13 .SliderBtnCopy1 {
+    top: -250px
+}
+
+.Landing__13 .SliderBtnCopy2 {
+    top: -250px
+}
+
+
+/* ========================================================================================================================
+        Slider Pragraph
+=============================================================================================================================*/
+.Landing__13 .SliderTopTxt h6 {
+    font-size: 32px;
+    line-height: 49px;
+    font-weight: 600;
+    color: #593A1B;
+}
+
+.Landing__13 .SliderTopTxt p {
+    padding: 30px 5% 20px 5%;
+}
+
+
+/* ========================================================================================================================
+        Button-3 Section
+=============================================================================================================================*/
+.Landing__13 .Button3Box {
+    position: relative;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.Landing__13 .Button3BoxImgAbs1 {
+    position: absolute;
+    top: -200px;
+    left: 0%;
+    width: 28%;
+
+}
+
+.Landing__13 .Button3BoxImgAbs2 {
+    position: absolute;
+    top: -80px;
+    right: 0%;
+    width: 32%;
+}
+
+.Landing__13 .Button3Box h2 {
+    padding-top: 10px;
+    position: relative;
+}
+
+.Landing__13 .Button3Box h5 {
+    margin-bottom: 50px !important;
+    font-size: 60px;
+    line-height: 92px;
+    color: #42210B;
+    font-weight: 600;
+}
+
+.Landing__13 .Button3BoxImgAbs3 {
+    margin-top: -60px;
+}
+
+
+
+
+/* ========================================================================================================================
+    Order Section
+=============================================================================================================================*/
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Landing__13 #OrderConfirmLeft #Payment #ArrowBg{
+    background: #FFCB05;
+}
+
+.Landing__13 #OrderConfirmRight button {
+    background: #FFCB05;
+}
+
+.Landing__13 #OrderConfirmLeft #Payment #ArrowBg p {
+    color: #ffffff;
+}
+
+.Landing__13 #OrderConfirmLeft #Payment #ArrowBg::after {
+    border-bottom: solid 15px #FFCB05;
+}
+
+.Landing__13 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+    background: #FFCB05;
+}
+
+.Landing__13 #OrderConfirmLeft #Payment #ArrowBg p {
+    line-height: 25px;
+}
+
+.Landing__13 #OrderConfirmLeft #Payment #ArrowBg p {
+    font-size: 18px;
+  }
+  
+  .Landing__13 #OrderConfirmLeft #Payment #ArrowBg {
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+
+
+/* ========================================================================================================================
+    Footer
+=============================================================================================================================*/
+
+.Landing__13 .Banner2Rel {
+    position: relative;
+}
+
+.Landing__13 .FooterBgTxtBox img{
+    max-height: 240px;
+}
+
+.Landing__13 .BannerMAbsImgAll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 200px;
+}
+
+.Landing__13 .BannerMAbsImgAll2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 15;
+}
+
+.Landing__13 .BannerMAbsImgAll {
+
+    animation: mymove 25s infinite alternate;
+
+}
+
+@keyframes mymove {
+
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        left: 300px
+    }
+
+    100% {
+        top: -8400px;
+    }
+}
+
+
+.Landing__13 .BannerMAbsImgAll2 {
+
+    animation: mymove2 25s infinite alternate;
+}
+
+@keyframes mymove2 {
+
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        right: 300px
+    }
+
+    100% {
+        top: -8400px;
+        transform: rotate(180deg);
+    }
+
+}
+
+
+
+
+.Landing__13 .FooterSec {
+    padding: 45px 0px 100px 0px;
+    background-image: linear-gradient(to bottom, #FDCF06, #FC9A0A);
+
+}
+
+.Landing__13 .FooterBgTxtBox h4 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+    color: #42210B;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.Landing__13 .FooterBgTxtBox h5 {
+    font-size: 35px;
+    line-height: 48px;
+    color: #42210B;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Landing__13 .FooterBgTxtBox a {
+    font-size: 18px !important;
+    line-height: 30px;
+    color: #42210B;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Landing__13 .FooterBgTxtBox li {
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.Landing__13 .FooterBgTxtBox li svg {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.Landing__13 .FooterBgTxtBox ul {
+    padding: 0;
+}
+
+
+
+
+.Landing__13 .Button3BoxImgAbs4 {
+    width: 100%;
+}
+
+
+.Landing__13 .SliderTopTxtAbsImg2 {
+    width: 50% !important;
+}
+
+/* Other */
+.Landing__13 .LogoNone2 {
+    display: none;
+}
+
+.Landing__13 .OrderBgh3 {
+    font-size: 28px !important;
+    color: #212529 !important;
+    font-weight: 400 !important;
+}
+
+/* Social Icon */
+
+.Landing__13 .SocialIconBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Landing__13 .SocialIconBox a {
+    margin-right: 30px;
+    font-size: 25px !important;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.Landing__13 .SocialIconBox a:hover {
+    transform: scale(1.2);
+    background: none;
+}
+
+
+/* ================================================================================================================
+    Swiper
+===================================================================================================================*/
+
+.Landing__13 .swiper-button-prev {
+    left: 10px;
+    right: auto;
+    padding: 10px 20px !important;
+    background: #FFCB05;
+    border-radius: 50px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.Landing__13 .swiper-button-next {
+    right: 10px;
+    left: auto;
+    padding: 10px 20px !important;
+    background: #FFCB05;
+    border-radius: 50px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.Landing__13 .swiper-button-next:after {
+    font-size: 14px !important;
+    color: #42210B;
+}
+
+.Landing__13 .swiper-button-prev:after {
+    font-size: 14px !important;
+    color: #42210B;
+}
+
+
+.Landing__13 .swiper-button-prev {
+    left: 5px !important;
+    left: auto;
+
+}
+
+.Landing__13 .swiper-button-next {
+    right: 5px !important;
+    right: auto;
+
+}
+
+
+.Landing__13 .OrderConfirmFrom h3 {
+
+    font-size: 30px !important;
+
+}
+
+
+
+
+@media (max-width: 992px) {
+
+    .Landing__13 .swiper-button-next {
+        display: none !important;
+    }
+
+    .Landing__13 .swiper-button-prev {
+        display: none !important;
+    }
+
+    .Landing__13 .OrderConfirmFrom h3 {
+
+        font-size: 22px !important;
+
+    }
+
+}
+
+
+
+
+/* ========================================================================================================================
+        Media Quary
+=============================================================================================================================*/
+
+
+@media (min-width: 1441px) {}
+
+@media (max-width: 1440px) {
+
+    .Landing__13 h4 {
+        font-size: 60px;
+        line-height: 100px;
+    }
+
+    .Landing__13 h4 span {
+        font-size: 60px;
+        line-height: 100px;
+    }
+
+    .Landing__13 h3 {
+        font-size: 38px;
+    }
+
+    .Landing__13 .SliderTopTxtAbsImg {
+        width: 85%;
+    }
+
+    .Landing__13 h2 {
+        font-size: 32px;
+    }
+
+    .Landing__13 .SliderTopTxt h6 {
+        font-size: 30px;
+        line-height: 49px;
+        font-weight: 600;
+        color: #593A1B;
+    }
+
+    .Landing__13 h1 {
+        margin-top: 114px;
+        font-size: 36px;
+
+    }
+
+    .Landing__13 .Btnbg {
+        padding: 23px 90px;
+        font-size: 30px;
+    }
+
+    .Landing__13 .Btnbg:hover {
+        padding: 26px 95px;
+        font-size: 30px;
+    }
+
+    .Landing__13 .ImgDiv2Abs1,
+    .Landing__13 .ImgDiv2Abs2 {
+        padding: 10px 25px;
+        font-size: 16px;
+        left: -10%;
+
+    }
+
+    .Landing__13 .ImgDiv2Abs3 {
+        padding: 10px 25px;
+        font-size: 16px;
+        right: -10%;
+    }
+
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+    .Landing__13 h1 {
+        margin-top: 59px;
+        font-size: 30px;
+        line-height: 51px;
+    }
+
+    .Landing__13 h4 {
+        font-size: 46px;
+        line-height: 90px;
+    }
+
+    .Landing__13 h4 span {
+        font-size: 46px;
+        line-height: 90px;
+    }
+
+    .Landing__13 .HeaderTxtBox h5 {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        font-size: 42px;
+    }
+
+    .Landing__13 .Btnbg {
+        padding: 23px 90px;
+        font-size: 30px;
+    }
+
+    .Landing__13 .Btnbg:hover {
+        padding: 26px 95px;
+        font-size: 30px;
+    }
+
+
+
+    .Landing__13 h3 {
+        font-size: 30px;
+    }
+
+    .Landing__13 h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .Landing__13 p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .Landing__13 .Paragraph2Div li {
+        margin-bottom: 14px;
+    }
+
+    .Landing__13 .btnBgdivAbs h6 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    .Landing__13 .btnBgdivAbs h5 {
+        font-size: 48px;
+        line-height: 90px;
+    }
+
+    .Landing__13 .SecSlider {
+        margin-top: 0px;
+    }
+
+    .Landing__13 .SliderImg2 img {
+        width: 100%;
+        height: 420px;
+    }
+
+    .Landing__13 .SliderTop_gap {
+        margin-top: 10px;
+    }
+
+    .Landing__13 .SliderBtnCopy1 {
+        top: -300px !important;
+    }
+
+    .Landing__13 .SliderBtnCopy2 {
+        top: -300px !important;
+    }
+
+    .Landing__13 .Button3Box h5 {
+        font-size: 48px;
+        line-height: 70px;
+    }
+
+    .Landing__13 .Button3Box {
+        padding-bottom: 120px;
+    }
+
+    .Landing__13 .FooterBgTxtBox h5 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .Landing__13 .Button3BoxImgAbs1 {
+        top: -109px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .Landing__13 .SliderBtn1 svg {
+        font-size: 25px !important;
+    }
+
+    .Landing__13 .SliderBtn2 svg {
+        font-size: 25px !important;
+    }
+
+    .ColumnReverce {
+        flex-direction: column-reverse;
+    }
+
+    .LogoNone {
+        display: none;
+    }
+
+    .Landing__13 .LogoNone2 {
+        display: block;
+        text-align: center;
+    }
+
+    .Landing__13 .LogoNone2Div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Landing__13 .ImgAbsTree {
+        top: 29px;
+        left: 0;
+        width: 95%;
+    }
+
+    .Landing__13 .ConPad {
+        text-align: center;
+    }
+
+    .Landing__13 h3 {
+        font-size: 28px;
+        line-height: 48px;
+    }
+
+    .Landing__13 h2 {
+        padding: 0px 0%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .Landing__13 .ParagraphDivImg img {
+        width: 90%;
+    }
+
+    .Landing__13 .SliderImg img {
+        width: 100%;
+        height: 250px;
+    }
+
+
+    .Landing__13 .SliderBtn2 {
+        top: -128px;
+    }
+
+    .Landing__13 .SliderBtn1 {
+        top: -128px;
+    }
+
+    .Landing__13 p {
+        font-size: 16px;
+        line-height: 33px;
+    }
+
+    .Landing__13 .ParagraphDivImg2 img {
+        width: 90%;
+    }
+
+    .Landing__13 .Btnbg {
+        padding: 23px 80px;
+        font-size: 25px;
+    }
+
+    .Landing__13 .Btnbg:hover {
+        padding: 26px 85px;
+        font-size: 27px;
+    }
+
+    .Landing__13 .section_gap {
+        padding-top: 70px;
+    }
+
+    .Landing__13 .SecSlider {
+        margin-top: 41px;
+    }
+
+    .Landing__13 .SliderImg2 img {
+        width: 100%;
+        height: 372px;
+    }
+
+    .Landing__13 .SliderTopTxt img {
+        width: 90%;
+    }
+
+    .Landing__13 .SliderBtnCopy2 {
+        top: -211px !important;
+    }
+
+    .Landing__13 .SliderBtnCopy1 {
+        top: -211px !important;
+    }
+
+    .Landing__13 .SliderTopTxt h6 {
+        font-size: 24px;
+
+    }
+
+    .Landing__13 .btnBgdivAbs h5 {
+        font-size: 42px;
+        line-height: 77px;
+    }
+
+    .Landing__13 .Button3Box h5 {
+        font-size: 42px;
+        line-height: 70px;
+    }
+
+    .Landing__13 .Button3BoxImgAbs2 {
+        right: -2%;
+    }
+
+    .Landing__13 .Button3BoxImgAbs1 {
+        left: -4%;
+    }
+
+    .Landing__13 .Button3BoxImgAbs3 {
+        margin-top: -60px;
+        width: 64%;
+    }
+
+    .Landing__13 .Button3Box {
+        padding-bottom: 91px;
+    }
+
+    .Landing__13 .tinyFooter p a {
+        display: inline;
+        font-size: 16px;
+        font-weight: 600;
+        color: #42210B;
+        padding: 0 5px;
+    }
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    .Landing__13 .SliderBtn2 {
+        top: -129px;
+    }
+
+    .Landing__13 .SliderBtn1 {
+        top: -129px;
+    }
+
+    .Landing__13 h1 {
+        margin-top: 59px;
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .Landing__13 h4 {
+        font-size: 34px;
+        line-height: 70px;
+    }
+
+    .Landing__13 h4 span {
+        font-size: 34px;
+        line-height: 70px;
+    }
+
+    .Landing__13 .HeaderTxtBox h5 {
+        font-size: 30px;
+        line-height: 60px;
+
+    }
+
+    .Landing__13 .Btnbg {
+        padding: 20px 67px;
+        font-size: 20px;
+    }
+
+    .Landing__13 .Btnbg:hover {
+        padding: 23px 73px;
+        font-size: 20px;
+    }
+
+    .Landing__13 h3 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .Landing__13 .SliderImg img {
+        width: 100%;
+        height: 218px;
+    }
+
+    .Landing__13 h2 {
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+    .Landing__13 .btnBgdivAbs h6 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .Landing__13 .btnBgdivAbs h5 {
+        font-size: 30px;
+        line-height: 52px;
+    }
+
+    .Landing__13 .btnBgdiv img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .Landing__13 .SliderTopTxtAbsImg2 {
+        width: 86% !important;
+    }
+
+    .Landing__13 .SecSlider {
+        margin-top: 0px;
+    }
+
+    .Landing__13 .SliderImg2 img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .Landing__13 .SliderBtnCopy2 {
+        top: -162px !important;
+    }
+
+    .Landing__13 .SliderBtnCopy1 {
+        top: -162px !important;
+    }
+
+
+    .Landing__13 .SliderTopTxt h6 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .Landing__13 .Button3Box h5 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+
+    .Landing__13 .Button3BoxImgAbs2 {
+        top: -11px;
+        right: -2%;
+        width: 32%;
+    }
+
+    .Landing__13 .Button3BoxImgAbs1 {
+        top: -63px;
+        left: -12%;
+        width: 32%;
+    }
+
+    .Landing__13 .section_gap {
+        padding-top: 50px;
+    }
+
+    /* fly--- */
+
+    .Landing__13 .BannerMAbsImgAll {
+        width: 120px !important;
+        z-index: 5;
+    }
+
+    .Landing__13 .BannerMAbsImgAll2 {
+        width: 60px;
+        right: 20px;
+        z-index: 5;
+    }
+
+    .Landing__13 .Banner2imgAbs {
+        width: 222px;
+    }
+
+    @keyframes mymove {
+
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: -8400px;
+        }
+    }
+
+
+
+    @keyframes mymove2 {
+
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: -8400px;
+            transform: rotate(180deg);
+        }
+
+    }
+
+    .Landing__13 .Banner2imgAbs2 {
+        width: 338px;
+    }
+
+
+}
+
+
+@media (max-width: 575px) {
+    .Landing__13 .SliderBtn1 {
+        display: none;
+    }
+
+    .Landing__13 .SliderBtn2 {
+        display: none;
+    }
+
+
+    .Landing__13 .FooterSec {
+        text-align: center;
+    }
+
+    .Landing__13 .ImgDiv2Abs1,
+    .Landing__13 .ImgDiv2Abs2 {
+        padding: 4px 15px;
+        font-size: 14px;
+        left: 0%;
+
+    }
+
+    .Landing__13 .ImgDiv2Abs3 {
+        padding: 4px 15px;
+        font-size: 14px;
+        right: 0%;
+    }
+
+    .Landing__13 .OrderBgh3 {
+        font-size: 22px !important;
+        color: #212529 !important;
+    }
+
+
+
+}
+
+
+@media (max-width: 425px) {
+
+    .Landing__13 p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .Landing__13 .SliderImg2 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .Landing__13 h3 {
+        font-size: 19px;
+        line-height: 36px;
+    }
+
+    .Landing__13 h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .Landing__13 .SliderImg img {
+        width: 100%;
+        height: 158px;
+    }
+
+    .Landing__13 .btnBgdiv img {
+        width: 100%;
+        height: 415px;
+    }
+
+    .Landing__13 h4 {
+        font-size: 28px;
+        line-height: 70px;
+    }
+
+    .Landing__13 h4 span {
+        font-size: 28px;
+        line-height: 70px;
+    }
+
+    .Landing__13 .FooterBgTxtBox h4 {
+        font-size: 22px !important;
+        line-height: 28px !important;
+
+    }
+
+    .Landing__13 .ImgDiv2Abs1,
+    .Landing__13 .ImgDiv2Abs2 {
+        padding: 2px 10px;
+        font-size: 10px;
+        left: 0%;
+
+    }
+
+    .Landing__13 .ImgDiv2Abs3 {
+        padding: 2px 10px;
+        font-size: 10px;
+        right: 0%;
+    }
+
+
+    .Landing__13 .SliderTopTxt p {
+        padding: 30px 0% 20px 0%;
+    }
+
+
+}
+
+
+
+/* ========================================================================================================================
+        Banner One
+=============================================================================================================================*/

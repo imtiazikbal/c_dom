@@ -1,0 +1,869 @@
+:root {
+    --bg_primary: #FECB02;
+    --primary_color: #FFC05E;
+    --text_primary: #092E67;
+    --text_black: #121212;
+    --chocolate: #362213;
+    --text_paragraph: #7D7D7D;
+}
+
+/* body{
+
+} */
+
+.LandingThree .container{
+    max-width: 1320px;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.LandingThree .col-lg-3, .LandingThree .col-lg-4{
+    padding: 0 12px;
+}
+
+.LandingThree .gap{
+    margin: 100px 0;
+}
+
+.LandingThree hr{
+    color: #fff;
+}
+
+.LandingThree * {
+    padding: 0;
+    margin: 0;
+}
+
+.LandingThree #mobile-nav {
+    display: none;
+}
+
+
+.LandingThree a {
+    font-family: var(--lg-font);
+
+}
+
+.LandingThree h1 {
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 120px;
+
+}
+
+.LandingThree h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text_primary);
+}
+
+.LandingThree h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--text_primary);
+
+}
+
+.LandingThree h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    color: var(--text_primary);
+    /* identical to box height, or 130% */
+}
+
+.LandingThree h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FECB02;
+}
+
+.LandingThree h6 {
+    font-family: var(--lg-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.LandingThree p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: var(--text_paragraph);
+}
+
+.LandingThree .title {
+    /* padding: 30px 0; */
+    font-family: var(--lg-font);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.LandingThree {
+    margin: 0;
+    padding: 0;
+}
+
+/* ==============Banner Section================================================================ */
+
+.LandingThree .BannerSection {
+    background: url('/images/landing_3/bg-image.png');
+    /* object-fit: contain; */
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.LandingThree .BannerSection .title {
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.LandingThree .BannerSection .title h1 span {
+    color: var(--bg_primary);
+}
+
+.LandingThree .BannerSection .title h1 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 146.1%;
+}
+
+.LandingThree .BannerSection .logo {
+    margin-bottom: 30px;
+}
+
+.LandingThree .button3 {
+    background: var(--bg_primary);
+    border-radius: 50px;
+    border: none;
+    padding: 15px 50px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text_primary);
+    box-shadow: inset 0 0 0 #092E67;
+    transition: ease-out 0.3s;
+    margin-top: 20px;
+}
+
+.LandingThree .button3:hover {
+    box-shadow: inset 0 -100px 0 #092E67;
+    color: #fff;
+
+}
+
+.LandingThree .BannerSection .button3 svg {
+    font-size: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+.LandingThree .BannerSection .bannerBtn {
+    display: flex;
+    justify-content: flex-start;
+}
+/* ==============Banner Section end=========================================================== */
+
+/* ==============Subtitle Section=========================================================== */
+.LandingThree .SubtitleSection {
+    position: relative;
+    background: #F6F4F0;
+    padding: 150px 0;
+    /* box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75); */
+}
+
+.LandingThree .SubtitleSection .ImgOverlay1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.LandingThree .SubtitleSection .ImgOverlay2 {
+    position: absolute;
+    top: 75%;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.LandingThree .SubtitleSection .text {
+    position: relative;
+    z-index: 3;
+}
+
+
+
+
+
+/* ==============Subtitle Section end=========================================================== */
+
+
+/* ==============PriceTitle =========================================================== */
+
+.LandingThree .PriceTitle{
+    background: #ffffff;
+    padding: 150px 0;
+}
+
+.LandingThree .PriceTitle .PriceDiv{
+    position: relative;
+    height: 100%;
+
+}
+
+.LandingThree .PriceTitle .PriceDiv img {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.LandingThree .PriceTitle .PriceDiv .text{
+    position: absolute;
+    top: 100px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+/* ==============PriceTitle end=========================================================== */
+
+/* ==============ProductQuality =========================================================== */
+
+.LandingThree .ProductQuality{
+    background: var(--text_primary);
+    padding: 120px 0;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.LandingThree .ProductQuality .vector{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.LandingThree .ProductQuality .content{
+    position: relative;
+    z-index: 3;
+}
+
+.LandingThree .ProductQuality .infoBox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.LandingThree .ProductQuality .infoBox .bgImage{
+    width: 100%;
+    padding: 0 12px;
+}
+
+.LandingThree .ProductQuality .description p {
+    line-height: 30px;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.LandingThree .ProductQuality .description{
+    position: absolute;
+    top: 15%;
+    width: 80%;
+}
+.LandingThree .ProductQuality .description img{
+    width: 30%;
+}
+
+/* ==============ProductQuality end=========================================================== */
+
+/* ==============ProductVideo================================================================ */
+
+.LandingThree .ProductVideo{
+    background: #fff;
+    padding: 120px 0;
+}
+
+.LandingThree .ProductVideo img{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* ==============ProductVideo end=========================================================== */
+
+
+/* ==============CustomerReview =========================================================== */
+
+.LandingThree .CustomerReview {
+    position: relative;
+    background: #ffffff;
+    padding:100px 0;
+
+}
+
+.LandingThree .CustomerReview .ImgOverlay2{
+    position: absolute;
+    top: 75%;
+    right: 0;
+
+}
+
+.LandingThree .CustomerReview .Review{
+    margin-top: 100px;
+    width: 80%;
+    text-align: left;
+}
+
+
+.LandingThree .CustomerReview .Review svg{
+    color: var(--text_primary);
+}
+
+.LandingThree .CustomerReview .Review h4{
+    text-align: left;
+}
+
+.LandingThree .CustomerReview .Review {
+    font-style: italic;
+}
+
+
+/* ==============CustomerReview end=========================================================== */
+
+
+
+/* ==============FreeDelivery =========================================================== */
+.LandingThree .FreeDelivery{
+    background: #fff;
+    padding: 150px 0;
+}
+
+.LandingThree .FreeDelivery .OrderImage{
+    width: 100%;
+    background: url('/images/landing_3/honeyjar.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.LandingThree .FreeDelivery .text{
+    padding: 50px 0;
+    background: rgba(243, 243, 243, 0.5);
+    backdrop-filter: blur(20.5px);
+    border-radius: 10px;
+}
+
+.LandingThree .FreeDelivery .button3 svg{
+    margin-bottom: 5px;
+}
+
+.LandingThree .FreeDelivery .button3{
+    margin-top: 30px;
+    background: #092E67;
+    color: #ffffff;
+}
+
+.LandingThree .FreeDelivery .button3:hover{
+
+    box-shadow: inset 0 -100px 0 var(--bg_primary);
+    color: #092E67;
+}
+
+/* ==============FreeDelivery end=========================================================== */
+
+/* ==============ServiceWidget=========================================================== */
+
+.LandingThree .ServiceWidget{
+    background: #FECB02;
+    padding: 50px 0;
+}
+.LandingThree .ServiceWidget h3{
+    margin-top: -10px;
+}
+
+.LandingThree .ServiceWidget .ServiceImage{
+    margin: 20px 0;
+}
+
+
+/* ==============ServiceWidget end=========================================================== */
+
+
+/* ==============FooterWidget ============================================================== */
+.LandingThree .FooterWidget{
+    background: var(--text_primary);
+    padding: 50px 0;
+    position: relative;
+}
+
+.LandingThree .FooterWidget .vector{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-y;
+}
+
+.LandingThree .FooterWidget .vector img{
+    background-size: cover;
+}
+
+.LandingThree img.vector {
+    background-repeat: repeat;
+    object-fit: cover;
+
+}
+
+
+.LandingThree .FooterWidget .front{
+    position: relative;
+    z-index: 3;
+}
+
+.LandingThree .FooterWidget .footerMenu{
+    margin: 20px;
+}
+
+.LandingThree .FooterWidget .footerMenu ul li{
+    margin-top: 10px;
+    list-style: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.LandingThree .FooterWidget .footerMenu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.LandingThree .FooterWidget .footerMenu ul li svg{
+    color: #FECB02;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.LandingThree .FooterWidget .footerMenu h2{
+    text-align: left;
+    font-size: 20px;
+}
+
+.LandingThree .FooterWidget .footerMenu  ul.social li{
+    display: inline;
+
+}
+
+.LandingThree .FooterWidget .footerMenu  ul.social li svg{
+
+    background: #FECB02;
+    color: #092E67;
+    border: 12px solid #FECB02;
+    font-size: 40px;
+    border-radius: 50px;
+    /* padding: 10px; */
+}
+
+.LandingThree .FooterWidget .footerMenu  ul.social li:hover svg{
+    border-color: #caad37;
+    background: #caad37;
+}
+
+/* ==============FooterWidget end=========================================================== */
+
+
+/* ===================================================================================================
+================================= Media Section small desktop==================================================== */
+@media (max-width: 1024px) {
+    .LandingThree .container{
+        max-width: 90%;
+    }
+    .LandingThree .gap {
+        margin: 50px 0;
+    }
+
+    .LandingThree .col-lg-3{
+        padding: 0 7px;
+    }
+
+    .LandingThree .BannerSection {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .LandingThree h2 {
+        font-size: 30px;
+    }
+
+    .LandingThree .BannerSection .logo img {
+        width: 40%;
+    }
+
+    .LandingThree .BannerSection .title {
+        margin-bottom: 20px;
+    }
+
+    .LandingThree .BannerSection .title h1 {
+        font-size: 32px;
+    }
+
+    .LandingThree .button3 {
+        padding: 12px 30px 8px 30px;
+        font-size: 16px;
+    }
+
+    .LandingThree .SubtitleSection {
+        padding: 50px 0;
+        /* box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75); */
+    }
+
+    .LandingThree .SubtitleSection img.image1 {
+        width: 60%;
+    }
+
+    .LandingThree .SubtitleSection img.image2 {
+        width: 60%;
+    }
+
+    .LandingThree .PriceTitle .PriceDiv .text {
+        top: 20px;
+    }
+
+    .LandingThree .PriceTitle {
+        padding: 50px 0;
+    }
+
+    .LandingThree h4 {
+        margin-top: 10px;
+
+    }
+
+    .LandingThree .ProductQuality {
+        padding: 50px 0;
+    }
+
+    .LandingThree .ProductQuality .infoBox .bgImage {
+        padding: 0px;
+    }
+    .LandingThree .ProductQuality .description p {
+        line-height: 18px;
+        margin-top: 12px;
+        color: #fff;
+    }
+
+    .LandingThree .ProductVideo {
+        padding: 60px 0;
+    }
+
+    .LandingThree .FreeDelivery {
+        padding-bottom: 50px;
+    }
+
+    .LandingThree .ServiceWidget h3 {
+        font-size: 20px;
+    }
+}
+
+
+/* ===================================================================================================
+================================= Media Section Tab==================================================== */
+
+@media (max-width: 768px) {
+    .LandingThree .container{
+        max-width: 90%;
+    }
+    .LandingThree .gap {
+        margin: 50px 0;
+    }
+
+    .LandingThree .BannerSection {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .LandingThree h2 {
+        font-size: 30px;
+    }
+
+    .LandingThree .BannerSection .logo img {
+        width: 40%;
+    }
+
+    .LandingThree .BannerSection .title {
+        margin-bottom: 20px;
+    }
+
+    .LandingThree .BannerSection .title h1 {
+        font-size: 32px;
+    }
+
+    .LandingThree .button3 {
+        padding: 12px 30px 8px 30px;
+        font-size: 16px;
+    }
+
+    .LandingThree .SubtitleSection {
+        padding: 50px 0;
+        /* box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75); */
+    }
+
+    .LandingThree .SubtitleSection img.image1 {
+        width: 60%;
+    }
+
+    .LandingThree .SubtitleSection img.image2 {
+        width: 60%;
+    }
+
+    .LandingThree .PriceTitle .PriceDiv .text {
+        top: 20px;
+    }
+
+    .LandingThree .PriceTitle {
+        padding: 50px 0;
+    }
+
+    .LandingThree h4 {
+        margin-top: 10px;
+
+    }
+
+    .LandingThree .ProductQuality {
+        padding: 50px 0;
+    }
+
+    .LandingThree .ProductQuality .infoBox .bgImage {
+        padding: 12px;
+    }
+
+    .LandingThree .ProductVideo {
+        padding: 60px 0;
+    }
+
+    .LandingThree .FreeDelivery {
+        padding-bottom: 50px;
+    }
+
+    .LandingThree .ServiceWidget h3 {
+        font-size: 24px;
+    }
+}
+
+
+
+/* ===================================================================================================
+================================= Media Section Mobile==================================================== */
+
+@media (max-width:575px){
+    .LandingThree .container{
+        max-width: 90%;
+        padding: 0px 12px;
+    }
+
+    .LandingThree h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .LandingThree .button3 {
+        padding: 10px 30px 6px 30px;
+        font-size: 16px;
+    }
+
+    .LandingThree .BannerSection {
+        padding-top: 40px;
+        padding-bottom: 50px;
+        background-size: auto;
+    }
+
+    .LandingThree .BannerSection .logo img{
+        width: 50%;
+    }
+
+    .LandingThree .BannerSection .logo {
+        text-align: center;
+    }
+
+    .LandingThree h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .LandingThree p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .LandingThree h3 {
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .LandingThree .BannerSection .title {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .LandingThree .BannerSection .title h1 {
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    .LandingThree .BannerSection .bannerBtn {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .LandingThree .SubtitleSection {
+        padding: 50px 0;
+        position: relative;
+        /* box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75); */
+    }
+
+    .LandingThree .SubtitleSection img.image1{
+        width: 60%;
+    }
+
+    .LandingThree .SubtitleSection p{
+        font-size: 14px;
+    }
+
+    .LandingThree .SubtitleSection img.image2{
+        width: 60%;
+    }
+
+    .LandingThree .SubtitleSection .ImgOverlay1 {
+        top: 29%;
+
+    }
+
+    .LandingThree .SubtitleSection .ImgOverlay2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .LandingThree .PriceTitle {
+        padding: 50px 0;
+    }
+
+    .LandingThree .PriceTitle .PriceDiv .text {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .LandingThree .PriceTitle .PriceDiv .text h4 {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 5px;
+
+    }
+
+
+    .LandingThree .PriceTitle .button3 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .LandingThree .ProductQuality {
+        padding: 50px 0;
+
+    }
+
+    .LandingThree .gap {
+        margin: 20px 0;
+    }
+
+    .LandingThree .ProductQuality .infoBox {
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .LandingThree .ProductQuality .infoBox .bgImage {
+
+        width: 100%;
+        padding: 0;
+    }
+
+    .LandingThree .ProductQuality .description {
+        width: 80%;
+        top: 20%;
+    }
+    .LandingThree .FreeDelivery .OrderImage {
+        padding: 10px;
+
+    }
+
+    .LandingThree .ProductVideo {
+        padding: 70px 0;
+    }
+
+    .LandingThree .FreeDelivery {
+        padding:  0;
+        padding-bottom: 60px;
+    }
+
+    .LandingThree .FreeDelivery .button3 {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .LandingThree .FooterWidget {
+        padding: 30px 0;
+
+    }
+
+    .LandingThree .FooterWidget .logo img{
+        width: 60%;
+    }
+
+    .LandingThree h5 {
+        font-size: 17px;
+    }
+
+    .LandingThree .FooterWidget .footerMenu ul li {
+        font-size: 16px;
+    }
+    .LandingThree .FooterWidget .footerMenu ul li a {
+        font-size: 16px;
+    }
+
+}
+
+/* ===================================================================================================
+================================= Media Section====================================*/

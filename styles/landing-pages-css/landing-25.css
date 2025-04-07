@@ -1,0 +1,1372 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__25 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden ;
+  }
+
+  .Landing__25 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__25 h1{
+      font-size: 56px;
+      line-height: 74px;
+      color:#FFF;
+      font-weight: 900;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+  }
+
+
+  .Landing__25 h2{
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__25 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+
+  .Landing__25 a.bg{
+      position: relative;
+      padding: 24px 70px;
+      color:#ffffff; 
+      background-image: linear-gradient(to right,#FE8D0E 0%,#C53407 51%, #FE8D0E 100%);
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 100px;
+      font-size: 32px;
+      line-height: 42px;
+      border-bottom: 10px solid #FE8D0E;
+    }
+
+
+  .Landing__25 a.bg svg{
+      font-size: 40px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #ffffff; 
+  }
+  
+
+  .Landing__25 a.bg:hover {
+      background-position: right center;
+      color: #000000;
+      text-decoration: none;
+  }
+   
+  .Landing__25 a.bg:hover svg {
+      color: #020000;      
+  }
+   
+
+  .Landing__25__section_gaps{
+      margin-top: 100px;
+  }
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+  .Landing__25__bg_div{
+    background-image: url('../../public/images/landing-25/bg.png');
+    padding: 50px 0px 121px 0px;
+    background-size:cover;
+    position: relative;
+}
+  
+.Landing__25__Bannerimg1{
+    width: 110%;
+    margin-left: -5%;
+    position: relative;
+}
+
+
+/* All Animation */
+ 
+.Landing__25__Bannerimg1{
+  animation: gdyngf354A 1s ease-in-out alternate infinite;
+}
+
+@keyframes gdyngf354A {
+  from {top:0}
+  to {top:-20px}
+}
+
+.BannertxtAbs3 , .BannertxtAbs4{
+  animation: htfhtyf32659 1s ease-in-out alternate infinite;
+}
+
+@keyframes htfhtyf32659 {
+  from {top:0}
+  to {top:-20px}
+}
+
+.Landing__25__FooterAbs7, .Landing__25__FooterAbs8{
+  animation: hjtf5461A 7s linear infinite;
+}
+
+@keyframes hjtf5461A {
+  from {transform: rotate(0);}
+  to {transform: rotate(360deg);}
+}
+
+.Landing__25__FooterAbs6, .Landing__25__FooterAbs5{
+  animation: bgfhyfu654599 2s linear alternate infinite;
+}
+
+@keyframes bgfhyfu654599 {
+  from {transform: scale(.9);}
+  to {transform: scale(1.1);}
+}
+
+.Landing__25__FooterAbs3, .Landing__25__FooterAbs4{
+  animation: grdtrd35498 2s linear alternate infinite;
+}
+
+@keyframes grdtrd35498  {
+  from {transform: rotate(0);}
+  to {transform: rotate(5deg);}
+}
+
+.Landing__25__Sliderh2{
+
+  background-image: linear-gradient(
+    -225deg,
+    #C53407 0%,
+    #C53407 29%,  
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: tytftf54984 2s linear infinite;
+  display: inline-block;
+}
+
+  @keyframes tytftf54984 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+.Landing__25 .BannertxtAbs1 h4{
+  font-size: 24px;
+  line-height: 31px;
+  color:#C53407;
+}
+
+.Landing__25 .BannertxtAbs1 span{
+  font-size: 46px;
+  line-height: 65px;
+  color:#FDFDFD;
+  font-weight: 700;
+}
+
+.Landing__25 .BannertxtAbs1D-f img{
+  height: 60px;
+  margin-right: 15px;
+}
+
+.Landing__25 .BannertxtAbs1D-f{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Landing__25 .BannertxtRelDiv{
+  position: relative;
+}
+
+.Landing__25 .BannertxtAbs1{
+  position: absolute;
+}
+
+.Landing__25 .BannertxtAbs2{
+  position:absolute ;
+  top:-50px;
+  right: 100px;
+  height:319px ;
+}
+
+.Landing__25 .BannertxtRelDiv, .BannertxtAbs1{
+  width: 100%;
+}
+
+.Landing__25 .BannertxtAbs3{
+    position: absolute;
+    top:0;
+    left:36px;
+    height: 582px;
+}
+
+.Landing__25 .BannertxtAbs4{
+    position: absolute;
+    top:0;
+    right: 36px;
+    height: 582px;
+}
+
+/* ================================================================================================
+            Gift Box
+  ===================================================================================================*/
+
+  .Landing__25 .GiftBoxDiv{
+      position: relative;
+      background-image: url('../../public/images/landing-25/bg3.png');
+      padding: 250px 0px 121px 0px;
+      background-size:cover;
+  }
+
+  .Landing__25 .GiftBoxDivAbs1Img{
+      position: absolute;
+      top:0;
+      width: 100%;
+  }
+
+  .Landing__25 .GiftBoxDivTxt h2{
+    padding: 0 20%;
+    color:#391612;
+    margin-bottom: 50px;
+  }
+
+  .Landing__25 .GiftBoxDivTxt h4{
+    font-size: 32px;
+    line-height: 42px;
+    color:#391612;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
+
+  .Landing__25 .GiftImgBox{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Landing__25 .GiftImgItems{
+    text-align: center;
+  }
+
+  .Landing__25 .GiftImgItems img{
+    width: 100%;
+    transform: scale(.9);
+    transition: all linear .3s;
+  }
+
+  .Landing__25 .GiftImgItems:hover img{
+    transform: scale(1.1);
+  }
+
+  .Landing__25 .GiftImgItems:hover h4{
+    color: red;
+  }
+
+
+/* ================================================================================================
+            Order1
+  ===================================================================================================*/
+
+  .Landing__25 .Landing__25__Order1 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__25 .Landing__25__Order1 img{
+    height: 696px;
+
+  }
+
+  .Landing__25__Order1Abs{
+    text-align: center;
+  }
+
+  .Landing__25__Order1Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#391612;
+      font-weight: 900;
+  }
+
+  .Landing__25__Order1Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#C53407;
+      margin: 30px 0px;
+
+  }
+
+  .Landing__25__Order1Abs h6{
+      font-size: 32px;
+      line-height: 40px;
+      color:#391612;
+      margin-top: 50px;
+  }
+
+.Landing__25__Order1Sec{
+  position: relative;
+  }
+
+.Landing__25__FooterAbs7{
+  left:-170px;
+  position: absolute;
+  height: 347px;
+}
+
+.Landing__25__FooterAbs8{
+  right:-170px;
+  position: absolute;
+  height: 347px;
+}
+
+/* ================================================================================================
+            CardH2
+  ===================================================================================================*/
+
+.Landing__25__CardH2{
+  padding: 0 10% !important;
+  color:#C53407;
+}
+
+.Landing__25__Card{
+  background-image: linear-gradient(to top,#FDFDFD,#FFA78C);
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 50px;
+  padding: 0px 20px 40px 20px;
+  transition: all 0.3s;
+}
+
+.Landing__25__Card:hover{
+  background-image: linear-gradient(to top,#ffffff,#f55828);
+}
+
+
+.Landing__25__CardImgDiv{
+  padding: 20px;
+  background-color: #FFF;
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: -50px;
+}
+ 
+.Landing__25__Card h4{
+   font-size: 32px;
+   line-height: 42px;
+   color:#C53407;
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+
+
+.Landing__25__Card p{
+   font-size: 24px;
+   line-height: 32px;
+   color:#391612;
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+
+
+.Landing__25__CardSec{
+  position: relative;
+}
+
+.Landing__25__FooterAbs5{
+  left:0;
+  position: absolute;
+  height: 312px;
+}
+
+.Landing__25__FooterAbs6{
+  right:0;
+  position: absolute;
+  height: 312px;
+}
+
+
+/* ================================================================================================
+            Slider 
+  ===================================================================================================*/
+
+.Landing__25__SliderDivSec{
+    position: relative;
+    background-image: url('../../public/images/landing-25/bg4.png');
+    padding: 250px 95px 121px 95px;
+    background-size:cover;
+}
+
+.Landing__25__Sliderh2{
+    color:#C53407;
+    margin-left: 25%;
+}
+
+ .Landing__25__SliderDiv{
+    margin-top: 133px;
+
+ }
+
+ 
+ .Landing__25__Slider_CardDivImg{
+  width: 100%;
+}
+
+
+.Landing__25__SliderIconDiv2{
+  position: relative;
+
+}
+
+.Landing__25__SliderIcon1{
+  position: absolute;
+  margin-top: -11%;
+  left: -30px;
+  background: none;
+  font-size: 40px;
+  color:#E95F65;
+  width: 62px;
+  background:#FFF;
+  z-index: 2;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  height: 62px;
+}
+
+.Landing__25__SliderIcon2{
+  position: absolute;
+  margin-top: -11%;
+  right:-30px;
+  background: none;
+  font-size: 40px;
+  color:#E95F65;
+  width: 62px;
+  background:#FFF;
+  z-index: 2;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  height: 62px;
+}
+
+
+/* ================================================================================================
+          Order2
+  ===================================================================================================*/
+
+  .Landing__25 .Landing__25__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__25__Order2Img{
+    height: 812px;
+
+  }
+
+  .Landing__25__Order2Abs{
+      position: absolute;
+      text-align: center ;
+  }
+
+  .Landing__25__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#391612;
+      font-weight: 900;
+      margin: 20px 0px 30px 0px;
+  }
+
+  .Landing__25__Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#C53407;
+  }
+
+  .Landing__25__Order2Abs h6{
+      font-size: 24px;
+      line-height: 31px;
+      color:#C53407;
+      margin-bottom: 10px;
+      margin-top: 70px;
+  }
+
+  .Landing__25__Order2Abs span{
+      font-size: 40px;
+      line-height: 56px;
+      color:#391612;
+      margin-left: 20px;
+  }
+
+  .Landing__25 .Landing__25__Hr{
+    border-bottom: 1px dashed #C53407;
+    margin: 15px 0px;
+    width: 70%;
+    margin-left: 15%;
+    
+  }
+
+  .BannertxtAbs1D-f2{
+    display: flex;
+    justify-content: center;
+  }
+
+ .Landing__25__Order2sec{
+  position: relative;
+ }
+
+ .Landing__25__FooterAbs3{
+  left:0;
+  bottom: 0;
+  height: 580px;
+  position: absolute;
+}
+
+.Landing__25__FooterAbs4{
+  right:0;
+  bottom: 0;
+  height: 580px;
+  position: absolute;
+}
+
+/* ================================================================================================
+           Place In Order
+  ===================================================================================================*/
+
+.Landing__25__PlaceIn__OrderBg{
+  position: relative;
+  background-size:cover;
+  background-color: #852f39;
+
+}
+
+.Landing__25 #OrderConfirmFrom {
+  border-radius: 10px;
+  color: #FFF;
+}
+
+.Landing__25 #OrderConfirmLeft #Payment #CustomeInput label {
+  font-size: 17px;
+  line-height: 30px;
+  color: #000;
+}
+
+.Landing__25 #OrderConfirmRight ul h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.Landing__25 #OrderConfirmLeft #CustomeInput  input {
+  border: 1px solid #d1d5db;
+  padding: 12px 20px;
+  background: none;
+  border-radius: 10px;
+  color:#FFF;
+}
+
+
+.Landing__25 #OrderConfirmLeft #Payment #ArrowBg {
+  background: linear-gradient(to bottom, #C53407 ,#C53407);
+  padding: 10px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.Landing__25 #OrderConfirmRight button {
+  background:linear-gradient(to bottom, #C53407 ,#C53407);
+}
+
+.Landing__25 #OrderConfirmLeft #Payment #ArrowBg p {
+  color: #ffffff;
+}
+
+.Landing__25 #OrderConfirmLeft #Payment #ArrowBg::after {
+border-bottom:15px solid  #C53407;
+} 
+
+
+.Landing__25 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background:linear-gradient(to bottom, #C53407 ,#C53407);
+}
+
+.Landing__25 #OrderConfirmLeft #Payment h3 {
+  padding: 20px;
+  padding-bottom: 0;
+  color: #000;
+}
+
+.Landing__25 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+.Landing__25 ::placeholder{
+  color:#fff;
+}
+
+
+/* ================================================================================================
+            Footer
+  ===================================================================================================*/
+
+  .Landing__25__FooterItemImg {
+    max-height: 140px;
+ }
+
+  .Landing__25__FooterDiv{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .Landing__25__Hr{
+    width: 100px;
+    border-bottom: 1px solid #FFD54C;
+    margin: 13px 0px;
+  }
+  
+  .Landing__25__FooterItem h4{
+    font-size: 24px;
+    line-height: 31px;
+    color:#5C0510;
+    font-weight: 600;
+  }
+  
+  .Landing__25__FooterItem h3{
+    font-size: 35px;
+    line-height: 24px;
+    color:#5C0510;
+    font-weight: 600;
+  }
+  
+  .Landing__25__FooterItem a{
+    font-size: 18px;
+    line-height: 23px;
+    color:#C53407;
+  }
+  
+  .Landing__25__FooterItem li{
+    margin-top: 15px;
+  }
+  
+  .Landing__25__FooterItemImg{
+    margin-top: -150px;
+  }
+  
+  
+  .Landing__25__FooterItem h5{
+     background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .Landing__25__Hr{
+    border-bottom: 1px dashed #441A17;
+    margin-top: 80px;
+  }
+ 
+  .Landing__25__HrTxt span{
+    font-size: 24px;
+    color:#C53407;
+    padding:10px 15px;
+    background-color: #FFF;
+    display: inline-block;
+    text-align: center;
+  
+  }
+
+  .Landing__25__HrTxt {
+    text-align: center;
+    margin-top: -45px;
+  
+  }
+
+  .Landing__25__FooterAbs1{
+    left:0;
+    bottom: 0;
+    height: 403px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .Landing__25__FooterAbs2{
+    right:0;
+    bottom: 0;
+    height: 403px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .Landing__25 .FooterSec{
+    position: relative;
+  }
+
+
+  .Landing__25 .tiny-footer_tinyFooter__Tr3b1 p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #C53407;
+}
+
+
+
+/* ================================================================================================
+            Media Quari
+  ===================================================================================================*/
+
+ 
+  @media (max-width: 1641px) {
+
+    .Landing__25 h1 {
+      font-size: 40px;
+      line-height: 54px;
+      padding: 20px 10%;
+  }
+
+  .Landing__25 .BannertxtAbs3, .Landing__25 .BannertxtAbs4 {
+    height: 379px;
+}
+
+.Landing__25__Bannerimg1 {
+  width: 90%;
+  margin-left:4%;
+  position: relative;
+}
+
+
+.Landing__25 .BannertxtAbs1 h4 {
+  font-size: 20px;
+  line-height: 31px;
+  color: #C53407;
+}
+
+.Landing__25 .BannertxtAbs1 span {
+  font-size: 30px;
+  line-height: 42px;
+  color: #FDFDFD;
+  font-weight: 700;
+}
+
+.Landing__25 .BannertxtAbs1D-f img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.Landing__25 .BannertxtAbs1 {
+  position: absolute;
+  left: 10%;
+}
+
+.Landing__25 .BannertxtAbs2 {
+  position: absolute;
+  top: -50px;
+  right: 258px;
+  height: 250px;
+}
+
+.Landing__25 h2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.Landing__25 .GiftBoxDivTxt h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Landing__25__Order1Abs h4 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.Landing__25__Order1Abs h5 {
+  font-size: 24px;
+  line-height: 42px;
+  color: #C53407;
+  margin: 26px 0px;
+}
+
+.Landing__25__FooterAbs8 {
+  right: -134px;
+  position: absolute;
+  height: 278px;
+}
+
+.Landing__25__FooterAbs7 {
+  left: -134px;
+  position: absolute;
+  height: 278px;
+}
+
+.Landing__25 a.bg {
+  position: relative;
+  padding: 20px 70px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.Landing__25 a.bg svg {
+  font-size: 24px;
+  margin-top: -5px;
+}
+
+.Landing__25__Order1Abs h6 {
+  font-size: 22px;
+  line-height: 35px;
+  color: #391612;
+  margin-top: 50px;
+}
+
+.Landing__25__Card h4 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.Landing__25__Card p {
+  font-size: 18px;
+  line-height: 31px;
+
+}
+
+.Landing__25__Order2Abs span {
+  font-size: 30px;
+  line-height: 42px;
+  color: #391612;
+  margin-left: 20px;
+}
+
+.BannertxtAbs1D-f2 img{
+  height: 40px;
+}
+
+.Landing__25__Order2Abs h6 {
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.Landing__25__Order2Abs h5 {
+  font-size: 28px;
+  line-height: 42px;
+  color: #C53407;
+}
+
+.Landing__25__Order2Abs h4 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #391612;
+  font-weight: 900;
+  margin: 20px 0px 30px 0px;
+}
+
+.Landing__25__Order2Img {
+  height: 698px;
+}
+
+.Landing__25__FooterAbs4 {
+  right: 0;
+  bottom: 102px;
+  height: 346px;
+  position: absolute;
+}
+
+.Landing__25__FooterAbs3 {
+  left: 0;
+  bottom: 102px;
+  height: 346px;
+  position: absolute;
+}
+
+.Landing__25__SliderIcon2 {
+  position: absolute;
+  margin-top: -11%;
+  right: -21px;
+  font-size: 30px;
+  color: #E95F65;
+  width: 45px;
+  height: 45px;
+}
+
+.Landing__25__SliderIcon1 {
+  position: absolute;
+  margin-top: -11%;
+  left: -21px;
+  font-size: 30px;
+  color: #E95F65;
+  width: 45px;
+  height: 45px;
+}
+
+.Landing__25__PlaceIn__OrderBg {
+  background-position: -140px;
+  padding: 140px 95px 0px 95px;
+}
+
+.Landing__25__FooterAbs2 {
+  height: 249px;
+  position: absolute;
+}
+
+.Landing__25__FooterAbs1 {
+  height: 249px;
+  position: absolute;
+}
+
+.Landing__25__FooterItem h3 {
+  font-size: 28px
+}
+
+.Landing__25__FooterAbs6, .Landing__25__FooterAbs5 {
+  height: 191px;
+}
+
+  }
+
+  
+   @media (max-width: 1400px) {
+  
+  
+  }
+  
+  
+  @media (max-width: 1280px) {
+  
+    .Landing__25 h1 {
+      font-size: 32px;
+      line-height: 45px;
+      padding: 20px 10%;
+  }
+
+  .Landing__25 .BannertxtAbs3, .Landing__25 .BannertxtAbs4 {
+    height: 283px;
+}
+
+.Landing__25 h2 {
+  font-size: 35px;
+  line-height: 48px;
+}
+
+.Landing__25 .GiftImgItems img {
+  width: 73%;
+  transform: scale(.9);
+  transition: all linear .3s;
+}
+
+.Landing__25 .GiftBoxDivTxt h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Landing__25__Order1Abs h4 {
+  font-size: 30px;
+  line-height: 18px;
+}
+
+.Landing__25 a.bg {
+  position: relative;
+  padding: 20px 61px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.Landing__25__Order1Abs h6 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.Landing__25__FooterAbs5 {
+  height: 191px;
+}
+.Landing__25__FooterAbs6 {
+
+  height: 191px;
+}
+
+.Landing__25__SliderIcon2, .Landing__25__SliderIcon1 {
+  margin-top: -12%;
+}
+
+.Landing__25__Order2Abs h4 {
+  font-size: 35px;
+  line-height: 48px;
+  color: #391612;
+  font-weight: 900;
+  margin: 20px 0px 30px 0px;
+}
+
+  }
+  
+  @media (max-width: 991px) {
+  
+    .Landing__25 h1 {
+      font-size: 28px;
+      line-height: 38px;
+      padding: 20px 10%;
+  }
+
+  .Landing__25 .BannertxtAbs1 span {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FDFDFD;
+    font-weight: 700;
+}
+
+.Landing__25 .BannertxtAbs2 {
+  position: absolute;
+  top: -50px;
+  right: 130px;
+  height: 194px;
+}
+
+.Landing__25 .BannertxtAbs1D-f img {
+  height: 30px;
+  margin-right: 6px;
+}
+
+.Landing__25 .BannertxtAbs3, .Landing__25 .BannertxtAbs4 {
+  height: 231px;
+}
+
+.Landing__25 .GiftBoxDivTxt h2 {
+  padding: 0 7%;
+  color: #391612;
+  margin-bottom: 50px;
+}
+
+.Landing__25 .GiftBoxDiv {
+  position: relative;
+  padding: 148px 0px 121px 0px;
+  background-size: cover;
+}
+
+.Landing__25__Order2Img {
+  height: 564px;
+}
+
+.Landing__25__Order2Abs h4 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #391612;
+  font-weight: 900;
+  margin: 20px 0px 30px 0px;
+}
+
+.Landing__25__PlaceIn__OrderBg {
+  background-position: -451px;
+  padding: 202px 95px 0px 95px;
+}
+
+.Landing__25__FooterItem h4 {
+  font-size: 22px;
+  line-height: 31px;
+}
+
+.Landing__25__FooterDiv {
+    margin-top:0px;
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.Landing__25__FooterItemImg {
+  margin-top: 10px;
+}
+
+.Landing__25__FooterItem{
+
+  margin-top: 35px;
+
+}
+
+
+.Landing__25__SliderIcon2{
+  display: none;
+}
+
+.Landing__25__SliderIcon1{
+  display: none;
+}
+
+
+
+
+}
+  
+  
+  @media (max-width: 767px) {
+    .Landing__25 h1 {
+      font-size: 24px;
+      line-height: 32px;
+      padding: 20px 10%;
+      margin-bottom: 40px;
+  }
+
+  .Landing__25 .BannertxtAbs1 h4 {
+    font-size: 16px;
+    line-height: 31px;
+    color: #C53407;
+}
+  
+.Landing__25 .BannertxtAbs1 span {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.Landing__25 .BannertxtAbs1D-f img {
+  height: 20px;
+  margin-right: 6px;
+}
+
+.Landing__25 .BannertxtAbs2 {
+  position: absolute;
+  top: -50px;
+  right: 130px;
+  height: 144px;
+}
+
+.Landing__25 h2 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.Landing__25 .GiftBoxDiv {
+  position: relative;
+  padding: 78px 0px 79px 0px;
+  background-size: cover;
+}
+
+.Landing__25 .GiftBoxDivTxt h4 {
+  font-size: 16px;
+  line-height: 2px;
+}
+
+.Landing__25__Order1Abs h4 {
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.Landing__25__Order1Abs h5 {
+  font-size: 16px;
+  line-height: 9px;
+  color: #C53407;
+  margin: 26px 0px;
+}
+
+.Landing__25 a.bg {
+  position: relative;
+  padding: 7px 40px;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.Landing__25__FooterAbs8 {
+  right: -38px;
+  position: absolute;
+  height: 82px;
+}
+
+.Landing__25__FooterAbs7 {
+  left: -38px;
+  position: absolute;
+  height: 82px;
+}
+
+.Landing__25__Order1Abs h6 {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.Landing__25__section_gaps {
+  margin-top: 50px;
+}
+
+.Landing__25__FooterAbs6,.Landing__25__FooterAbs5 {
+  height: 75px;
+}
+
+.Landing__25__SliderIconDiv2, .Landing__25__SliderIconDiv1 {
+  display: none;
+}
+
+.Landing__25__SliderDivSec {
+  position: relative;
+  padding: 52px 0px 51px 0px;
+  background-size: cover;
+}
+
+.Landing__25__Order2Img {
+  height: 396px;
+}
+
+.Landing__25__Order2Abs span {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.BannertxtAbs1D-f2 img {
+  height: 30px;
+}
+
+.Landing__25__Order2Abs h5 {
+  font-size: 22px;
+  line-height: 28px;
+  color: #C53407;
+}
+
+.Landing__25__Order2Abs h4 {
+  font-size: 24px;
+  line-height: 6px;
+  color: #391612;
+  font-weight: 900;
+  margin: 20px 0px 30px 0px;
+}
+
+.Landing__25__FooterAbs4,.Landing__25__FooterAbs3 {
+  height: 136px;
+}
+
+.Landing__25__FooterItem a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #C53407;
+}
+
+.Landing__25__HrTxt span {
+  font-size: 18px;
+}
+
+.Landing__25__HrTxt {
+  text-align: center;
+  margin-top: -38px;
+}
+
+.Landing__25__FooterAbs2 {
+  height: 100px;
+  position: absolute;
+}
+
+.Landing__25__FooterAbs1 {
+  height: 100px;
+  position: absolute;
+}
+
+
+
+
+  }
+  
+  
+  @media (max-width: 575px) {
+  
+    .Landing__25 .BannertxtAbs3, .Landing__25 .BannertxtAbs4 {
+      height: 102px;
+  }
+     
+  .Landing__25 h1 {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 20px 0%;
+    margin-bottom: 40px;
+}
+
+.Landing__25__Bannerimg1 {
+  width: 100%;
+  margin-left: 0%;
+  position: relative;
+}
+
+.Landing__25 .BannertxtAbs2 {
+  position: absolute;
+  top: -50px;
+  right: 109px;
+  height: 99px;
+}
+
+.Landing__25 .BannertxtAbs1 h4 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #C53407;
+  margin-top: -50px;
+}
+
+.Landing__25 .GiftImgBox {
+  display: block;
+  text-align: center;
+}
+
+.Landing__25 .GiftBoxDivTxt h4 {
+  font-size: 16px;
+  line-height: 2px;
+  margin-bottom: 15px;
+}
+
+.Landing__25__PlaceIn__OrderBg {
+  background-position: -710px;
+  padding: 210px 0px 0px 1px;
+  margin-top: -200px;
+}
+
+.Landing__25__Sliderh2 {
+  color: #C53407;
+  margin-left: 0%;
+}
+
+.Landing__25 .BannertxtAbs2 {
+  position: absolute;
+  top: -50px;
+  right: 80px;
+  height: 99px;
+}
+
+
+
+      }
+  
+  @media (max-width: 450px) {
+  
+     
+      }
+ 
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+.custom-image-gallery .image-gallery-thumbnail {
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.custom-image-gallery .image-gallery-thumbnail.active {
+  border-color: hsl(var(--primary));
+}
+
+.custom-image-gallery .image-gallery-thumbnails-wrapper {
+  margin-top: 10px;
+}
+
+.custom-image-gallery .image-gallery-slide-wrapper {
+  margin-bottom: 10px;
+}
+
+/* Add these new styles */
+.custom-image-gallery .image-gallery-left-nav,
+.custom-image-gallery .image-gallery-right-nav {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.custom-image-gallery:hover .image-gallery-left-nav,
+.custom-image-gallery:hover .image-gallery-right-nav {
+  opacity: 1;
+}
+
+.custom-image-gallery .image-gallery-left-nav::before,
+.custom-image-gallery .image-gallery-right-nav::before {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custom-image-gallery .image-gallery-left-nav {
+  left: 10px;
+}
+
+.custom-image-gallery .image-gallery-right-nav {
+  right: 10px;
+}

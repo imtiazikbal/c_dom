@@ -1,0 +1,1380 @@
+/* =================================================================================
+Common
+===================================================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;700&display=swap');
+
+
+.Landing__9 {
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif ;
+}
+
+.Landing__9 h1 {
+  font-size: 81px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-family: 'Hind Siliguri', sans-serif ;
+}
+
+.Landing__9 h2 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #EC3361;
+  font-weight: 600;
+  font-family: 'Noto Serif Bengali', serif !important;
+}
+
+.Landing__9 p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #192335;
+  font-weight: 400;
+}
+
+
+/* Link  Button*/
+
+.Landing__9 a {
+  transition: 0.5s;
+  /* display: block; */
+  font-weight: 600;
+  text-decoration: none;
+  transition: all linear .2s;
+}
+
+.Landing__9 a.bg {
+  margin-top: 30px;
+  padding: 14px 40px;
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #EC3361 0%, #C20A22 51%, #EC3361 100%);
+  background-size: 200% auto;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 37px;
+  transition: all linear .2s;
+}
+
+
+.Landing__9 a.bg:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.Landing__9 a svg {
+  font-size: 24px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+/* Button 2 */
+
+.Landing__9 a.bg2 {
+  margin-top: 30px;
+  padding: 14px 40px;
+  color: #fff;
+  background-size: 200% auto;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 32px;
+  border: 2px solid #C20A22;
+  margin-left: 30px;
+  transition: .05s;
+}
+
+
+.Landing__9 a.bg2:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #C20A22 0%, #EC3361 51%, #C20A22 100%);
+  transform: scale(1.1);
+}
+
+
+.Landing__9  .Section__Gaps {
+  padding-top: 100px;
+}
+
+
+/* ===========================================================================================================
+Menubar
+===============================================================================================================*/
+
+.Landing__9 .Menubar {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.Landing__9 .menubar_MenubarContent__jlW_b .menubar_Logo__pd9Tk img {
+  height: 70px;
+}
+
+
+/* ===========================================================================================================
+Banner
+===============================================================================================================*/
+
+.Landing__9 .Conpad {
+  position: relative;
+  padding: 0;
+}
+
+.Landing__9 .BannerAbs1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.Landing__9 .BannerAbs2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+
+.Landing__9 .BannerBg {
+  background-image: url('../../public/images/landing-9/bg.png');
+  padding-bottom: 100px;
+  background-size: cover;
+  position: relative;
+}
+
+.Landing__9 .BannerBgAbsImg1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.Landing__9 .BannerToptxt {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.51);
+  margin-bottom: 40px;
+}
+
+.Landing__9 .BannerToptxt h4 {
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.Landing__9 .BannerToptxtBox {
+  padding-top: 74px;
+  padding-bottom: 328px;
+  text-align: center;
+}
+
+.Landing__9 .BannerToptxtBox img {
+  padding-bottom: 56px;
+  height: 352px;
+
+}
+
+.Landing__9 .BannertxtBoxRel {
+  position: relative;
+  margin-top: 30px;
+}
+
+
+.Landing__9 .BannertxtBoxAbs1 {
+  position: absolute;
+  top: 40px;
+  left: 250px;
+  font-size: 81px;
+  color: #FFFFFF;
+  margin-left: 18%;
+}
+
+.Landing__9 .BannertxtBoxAbs2 {
+  position: absolute;
+  top: 181px;
+  margin-left: 24%;
+}
+
+.Landing__9 .BannerToptxtBox p {
+  padding: 0px 20%;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+.Landing__9 .BannerToptxtBox h2 {
+  padding-top: 54px;
+
+}
+
+
+/* ===========================================================================================================
+    Sharee House
+===============================================================================================================*/
+
+.Landing__9 .Sharee_house h2 {
+
+  padding-top: 52px;
+  padding-bottom: 22px;
+
+}
+
+.Landing__9 .Sharee_houseRow {
+
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.Landing__9 .Sharee_Row img {
+
+  width: 100%;
+
+}
+
+.Landing__9 .BordarMainDivCol {
+  position: relative;
+
+}
+
+
+.Landing__9 .BordarMainDiv {
+  position: absolute;
+  height: 110%;
+  width: 92%;
+  z-index: -1;
+  margin-top: -20px;
+  margin-left: 15px;
+}
+
+.Landing__9 .BordarMainDiv1 {
+  float: left;
+  border: 1px solid #5C0510;
+  width: 50%;
+  height: 50%;
+}
+
+.Landing__9 .BordarMainDiv2 {
+  float: left;
+  border: 1px solid #5C0510;
+  width: 50%;
+  height: 50%;
+}
+
+.Landing__9 .BordarMainDiv3 {
+  float: left;
+  border: 1px solid #5C0510;
+  width: 50%;
+  height: 50%;
+}
+
+.Landing__9 .BordarMainDiv4 {
+  float: left;
+  border: 1px solid #5C0510;
+  width: 50%;
+  height: 50%;
+}
+
+
+.Landing__9 .FloatSolve {
+  clear: both;
+
+}
+
+
+
+/* ===========================================================================================================
+    Shipping Icon
+===============================================================================================================*/
+
+.Landing__9 .ConPad {
+  padding: 0;
+
+}
+
+.Landing__9 .BggImg {
+  background-image: url('../../public/images/landing-9/bgg.png');
+  background-size: cover;
+  padding: 47px 0px;
+
+}
+
+.Landing__9 .BggImgFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+
+.Landing__9 .BggImgFlex h4 {
+  color: #FDFDFD;
+  padding-top: 10px;
+  font-size: 24px;
+
+}
+
+.Landing__9 .ShippingAddress p {
+  color: #FDFDFD;
+
+
+}
+
+
+
+
+/* ===========================================================================================================
+       Card
+===============================================================================================================*/
+.Landing__9 .CardConBg {
+
+  background-color: #FEF5F7;
+  padding: 100px 0;
+}
+
+.Landing__9 .CardMidImg {
+  padding-left: 10%;
+  Width: 85%
+}
+
+.Landing__9 .CardImg {
+
+  Width: 100%;
+  height: 280px;
+
+}
+
+.Landing__9 .CardTopH2 {
+  padding: 0 15% 70px 15%;
+  text-align: center;
+
+}
+
+.Landing__9 .CardImgRel {
+  position: relative;
+
+}
+
+.Landing__9 .Cardpad {
+  padding: 25px 30px;
+}
+
+.Landing__9 .CardImgAbs1 {
+  position: absolute;
+  top: 47px;
+  font-size: 32px;
+  line-height: 42px;
+  color: #C20A22;
+  font-weight: 600;
+}
+
+.Landing__9 .CardImgAbs2 {
+  position: absolute;
+  top: 100px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #192335;
+  padding-right: 10px;
+}
+
+
+
+
+/* ===========================================================================================================
+  Price Section 2
+===============================================================================================================*/
+
+.Landing__9 .BggImg2 {
+  background-image: url('../../public/images/landing-9/img12.png');
+  background-size: cover;
+  padding: 50px 0px;
+  border-radius: 10px;
+}
+
+.Landing__9 .BggImgFlex2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.Landing__9 .BggImg2 h3 {
+  font-size: 60px;
+  line-height: 79px;
+  color: #FDFDFD;
+  font-weight: 600;
+
+}
+
+.Landing__9 .BggImg2 h5 {
+  font-size: 32px;
+  line-height: 42px;
+  color: #FDFDFD;
+}
+
+.Landing__9 .BggImg2 .bg3 {
+  padding: 24px 70px;
+  margin-top: 15px;
+}
+
+
+
+
+/* ===========================================================================================================
+    Sharee House
+===============================================================================================================*/
+
+.Landing__9 .SliderImg {
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+
+.Landing__9 .SliderImg img {
+  width: 100%;
+  height: 630px;
+}
+
+.Landing__9 .SliderImg:hover .ClipBox {
+  background-color: #EC3361;
+
+}
+
+.Landing__9 .SliderImg:hover img {
+  transform: scale(1.02);
+}
+
+
+.Landing__9 .ClipBox {
+  position: absolute;
+  bottom: 0;
+  clip-path: polygon(0 43%, 100% 0, 100% 100%, 0 100%);
+  height: 80%;
+  width: 100%;
+  background-color: #F1F1F1;
+  z-index: -1;
+  border-radius: 10px 30px 20px 20px;
+
+
+}
+
+.Landing__9 .SliderBtn {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.Landing__9 .SliderBtn button {
+  padding: 0 10px;
+  font-size: 20px;
+  color: #DBDBDB;
+  background: none;
+  border: none;
+}
+
+.Landing__9 .SliderBtn button:hover {
+  font-size: 30px;
+  color: #192335;
+  font-weight: 600;
+}
+
+
+.Landing__9 .SliderBtn {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Landing__9 .SliderBtn button {
+  padding: 0 10px;
+  font-size: 20px;
+  color: #dbdbdb;
+  background: none;
+  border: none;
+  display: inline-block;
+  width: auto;
+}
+
+
+
+/* ===========================================================================================================
+    Gift Section
+===============================================================================================================*/
+
+
+.Landing__9 .GiftMain {
+  clip-path: polygon(100% 55%, 50% 92%, 0 59%, 0 0, 100% 0);
+  background-color: #FEF5F7;
+  padding-top: 100px;
+  padding-bottom: 670px;
+
+}
+
+.Landing__9 .GiftH2 {
+  text-align: center;
+  padding: 0 20%;
+  padding-bottom: 70px;
+
+}
+
+
+.Landing__9 .GiftRow {
+  display: flex;
+  align-items: center;
+
+}
+
+.Landing__9 .GiftImg {
+  width: 100%;
+  padding-bottom: 20px;
+
+}
+
+.Landing__9 .GiftUlBox {
+  padding-left: 108px;
+}
+
+.Landing__9 .GiftUlBox li {
+  display: flex;
+  padding-top: 25px;
+}
+
+.Landing__9 .GiftUlBox li p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #192335;
+  font-weight: 600;
+}
+
+.Landing__9 .GiftUlBox li img {
+  padding-right: 18px;
+  margin-bottom: auto;
+}
+
+.Landing__9 .GiftH3 {
+  text-align: center;
+  font-size: 60px;
+  color: #192335;
+  font-weight: 600;
+  padding: 0 5%;
+
+}
+
+.Landing__9 .PriceBox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.Landing__9 .PriceBox .priceImgBg {
+  top: -600px;
+  position: absolute;
+  height: 584px;
+
+}
+
+
+
+/* ===========================================================================================================
+    priceing
+===============================================================================================================*/
+
+.Landing__9 .PriceBoxTxtDiv {
+  top: -480px;
+  position: absolute;
+  text-align: center;
+
+}
+
+.Landing__9 .PriceBoxTxtDiv h4 {
+  font-size: 32px;
+  line-height: 42px;
+  color: #EC3361;
+  padding-bottom: 15px;
+}
+
+.Landing__9 .PriceBoxTxtDiv svg {
+  font-size: 32px;
+  line-height: 42px;
+  color: #F29D00;
+}
+
+.Landing__9 .PriceBoxTxtDiv h3 {
+  font-size: 60px;
+  line-height: 79px;
+  color: #FEF5F7;
+  padding-top: 25px;
+}
+
+.Landing__9 .PriceBoxTxtDiv .bg4 {
+  font-size: 32px;
+  border-radius: 50px;
+  padding: 24px 67px;
+
+}
+
+
+
+
+/* ===========================================================================================================
+     Order Comfirm 
+===============================================================================================================*/
+
+.Landing__9 .OrderBg {
+  position: relative;
+  background-color: #FEF5F7;
+  overflow: hidden;
+
+}
+
+.Landing__9 .FooterAbs1 {
+  position: absolute;
+  top: 0%;
+  left: -500px;
+  z-index: 0;
+  width: 700px;
+  opacity: .1;
+
+}
+
+.Landing__9 .FooterAbs2 {
+  position: absolute;
+  top: 0%;
+  right: -500px;
+  width: 700px;
+  opacity: .1;
+}
+
+
+
+
+
+
+
+.Landing__9 .ArrowBg p {
+  color: #FEF5F7 !important;
+
+}
+
+
+/* ===========================================================================================================
+      Order Confram
+===============================================================================================================*/
+
+
+.Landing__9 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+.Landing__9 #OrderConfirmLeft #Payment #ArrowBg__Rpfa0 {
+  background: #FF466D;
+  position: relative;
+  border-radius: 0 0 15px 15px;
+  padding: 10px 30px;
+}
+
+.Landing__9 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background: #FF466D;
+}
+
+.Landing__9 #OrderConfirmLeft #Payment #ArrowBg::after {
+  border-bottom: solid 15px #FF466D;
+}
+
+.Landing__9 #OrderConfirmLeft #Payment #ArrowBg {
+  background: #FF466D;
+}
+
+.Landing__9 #OrderConfirmLeft #Payment #ArrowBg p {
+  font-size: 18px;
+}
+
+.Landing__9 #OrderConfirmLeft #Payment #ArrowBg {
+  padding: 10px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+/* ===========================================================================================================
+         Footer
+===============================================================================================================*/
+
+
+.Landing__9 .FooterBg {
+
+  background-image: url('../../public/images/landing-9/bg2.png');
+  padding: 100px 0px;
+  padding-bottom: 20px;
+  background-size: cover;
+
+}
+
+.Landing__9 .footerLogoDiv {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 0 5%;
+  padding-bottom: 50px;
+}
+
+.Landing__9 .footerLogo {
+  text-align: center;
+  padding-bottom: 50px;
+
+
+}
+
+.Landing__9 .FooterUlBox li a {
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.Landing__9 .FooterUlBox {
+  text-align: left;
+
+}
+
+.Landing__9 .FooterUlBox h4 {
+  color: #5C0510;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 25px;
+  font-weight: 600;
+
+}
+
+.Landing__9 .FooterUlBox li {
+  padding-bottom: 15px;
+}
+
+.Landing__9 .FooterUlBox li svg {
+  font-size: 18px;
+  line-height: 30px;
+  color: #5C0510;
+}
+
+.Landing__9 .midUl {
+  padding-top: 20px;
+}
+
+.Landing__9 .midUl h4 {
+  padding-bottom: 10px;
+}
+
+.Landing__9 .midUl h5 {
+  font-size: 40px;
+  line-height: 54px;
+  color: #F8F8F8;
+  font-weight: 600;
+}
+
+.Landing__9 .FooterUlBox img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+
+.Landing__9 .Hr {
+  border-bottom: 2px solid #FF94AE;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.Landing__9 .HrTxt span {
+  font-size: 24px;
+  line-height: 28px;
+  color: #5C0510;
+  font-weight: 600;
+  padding: 15px 20px;
+  background: #EC3361;
+}
+
+.Landing__9 .HrTxt {
+  text-align: center;
+}
+
+/* Social Icon */
+
+.Landing__9 .SocialIconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Landing__9 .SocialIconBox a {
+  margin: 15px 0px;
+  margin-right: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+
+/* ===========================================================================================================
+  Sharee House
+===============================================================================================================*/
+
+.Landing__9.ShippingAddress p {
+
+  color: #FFF;
+
+}
+
+
+
+
+/* ===========================================================================================================
+    Media Quari
+===============================================================================================================*/
+
+
+@media (min-width: 1441px) {
+
+
+}
+
+@media (max-width: 1440px) {
+
+  .Landing__9 iframe {
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+  }
+
+  .Landing__9 h1 {
+    font-size: 65px;
+
+  }
+
+  .Landing__9 .BannertxtBoxAbs1 {
+    top: 40px;
+    left: 250px;
+    font-size: 70px;
+    margin-left: 18%;
+  }
+
+  .Landing__9 .BannertxtBoxAbs2 {
+    position: absolute;
+    top: 181px;
+    margin-left: 10%;
+}
+
+  .Landing__9 .BannerAbs2,
+  .BannerAbs1 {
+    width: 300px;
+  }
+
+  .Landing__9 .BggImg2 h3 {
+    font-size: 52px;
+    line-height: 79px;
+  }
+
+  .Landing__9 .GiftH2 {
+    text-align: center;
+    padding: 0 10%;
+    padding-bottom: 70px;
+  }
+
+  .Landing__9 h2 {
+    font-size: 35px;
+
+  }
+
+  .Landing__9 .GiftH3 {
+    text-align: center;
+    font-size: 48px;
+
+  }
+
+  .Landing__9 .PriceBoxTxtDiv h3 {
+    font-size: 52px;
+    line-height: 79px;
+  }
+
+  .Landing__9 .midUl h5 {
+    font-size: 35px;
+    line-height: 54px;
+  }
+
+  .Landing__9 .SliderImg img {
+    width: 100%;
+    height: 550px;
+  }
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+  .Landing__9 .BannerToptxtBox img {
+    padding-bottom: 56px;
+    height: 281px;
+  }
+
+  .Landing__9 h1 {
+    font-size: 58px;
+  }
+
+  .Landing__9 .BannertxtBoxAbs1 {
+    top: 30px;
+    left: 150px;
+    font-size: 58px;
+    margin-left: 18%;
+  }
+
+  .Landing__9 .BannertxtBoxAbs2 {
+    position: absolute;
+    top: 136px;
+    margin-left: 18%;
+  }
+
+  .Landing__9 .CardImgAbs1 {
+    top: 47px;
+    font-size: 28px;
+
+  }
+
+  .Landing__9 .CardImgAbs2 {
+    top: 100px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .Landing__9 .BggImg2 h3 {
+    font-size: 40px;
+    line-height: 79px;
+  }
+
+  .Landing__9 .BggImg2 h5 {
+    font-size: 28px;
+    line-height: 42px;
+    color: #FDFDFD;
+  }
+
+  .Landing__9 a.bg {
+    margin-top: 30px;
+    padding: 14px 40px;
+    font-size: 20px;
+
+  }
+
+  .Landing__9 .GiftH3 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .Landing__9 .PriceBoxTxtDiv h3 {
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  .Landing__9 .PriceBoxTxtDiv .bg4 {
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 15px 67px;
+  }
+
+  .Landing__9 .midUl h5 {
+    font-size: 22px;
+    line-height: 54px;
+  }
+
+
+
+}
+
+@media (max-width: 991px) {
+
+  .Landing__9 .CardImgAbs1 {
+    top: 47px;
+    font-size: 20px;
+  }
+
+  .Landing__9 .CardImg {
+    Width: 100%;
+    height: 351px;
+  }
+
+
+  .Landing__9 .BannerAbs2,
+  .BannerAbs1 {
+    width: 202px;
+  }
+
+  .Landing__9 .BannertxtBoxAbs1 {
+    top: 30px;
+    left: 150px;
+    font-size: 44px;
+    margin-left: 14%;
+  }
+
+  .Landing__9 h1 {
+    font-size: 44px;
+  }
+
+  .Landing__9 .BannerToptxtBox img {
+    padding-bottom: 56px;
+    height: 235px;
+  }
+
+  .Landing__9 .BannertxtBoxAbs2 {
+    position: absolute;
+    top: 108px;
+    margin-left: 18%;
+  }
+
+  .Landing__9 .BordarMainDiv {
+    position: absolute;
+    height: 110%;
+    width: 85%;
+
+  }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+  .Landing__9 .BannerAbs2,
+  .BannerAbs1 {
+    width: 156px;
+  }
+
+  .Landing__9 .BannerToptxtBox img {
+    padding-bottom: 56px;
+    height: 186px;
+  }
+
+  .Landing__9 .BannertxtBoxAbs1 {
+    top: 12px;
+    left: 35px;
+    font-size: 40px;
+    margin-left: 18%;
+  }
+
+  .Landing__9 h1 {
+    font-size: 40px;
+  }
+
+  .Landing__9 .BannertxtBoxAbs2 {
+    position: absolute;
+    top: 73px;
+    margin-left: 8%;
+  }
+
+  .Landing__9 h2 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .Landing__9 .BordarMainDivCol {
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .Landing__9 .CardMidImg {
+    padding-left: 18%;
+    Width: 76%;
+  }
+
+  .Landing__9 .SliderImg img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .Landing__9 .GiftUlBox li p {
+    font-size: 20px;
+    line-height: 29px;
+    color: #192335;
+    font-weight: 600;
+  }
+
+  .Landing__9 .GiftH3 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .Landing__9 .PriceBox .priceImgBg {
+    top: -600px;
+    position: absolute;
+    height: 497px;
+  }
+
+
+  .Landing__9 .CardImg {
+    Width: 100%;
+    height: 294px;
+  }
+
+}
+
+
+@media (max-width: 575px) {
+
+  .Landing__9 .BannerAbs2,
+  .BannerAbs1 {
+    width: 87px;
+  }
+
+  .Landing__9 .BannerToptxt h4 {
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-top: 5px;
+  }
+
+  .Landing__9 .BannerToptxt {
+    height: 30px;
+    margin-bottom: 40px;
+  }
+
+  .Landing__9 .BannerToptxtBox img {
+    padding-bottom: 56px;
+    height: 144px;
+  }
+
+  .Landing__9 .BannertxtBoxAbs1 {
+    top: 9px;
+    left: 16px;
+    font-size: 28px;
+    margin-left: 18%;
+  }
+
+  .Landing__9 h1 {
+    font-size: 28px;
+  }
+
+  .Landing__9 .BannertxtBoxAbs2 {
+    position: absolute;
+    top: 50px;
+    margin-left: 4%;
+  }
+
+  .Landing__9 .BannerToptxtBox p {
+    padding: 0px 12%;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+  }
+
+  .Landing__9 a.bg {
+    margin-top: 30px;
+    padding: 11px 18px;
+    font-size: 16px;
+  }
+
+  .Landing__9 a.bg2 {
+    padding: 9px 17px;
+    font-size: 16px;
+
+  }
+
+  .Landing__9 .BannerBg {
+    padding-bottom: 0px;
+
+  }
+
+  .Landing__9 h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 34px;
+  }
+
+  .Landing__9 p {
+    font-size: 16px;
+  }
+
+  .Landing__9 a svg {
+    font-size: 18px;
+    margin-top: -5px;
+    margin-right: 10px;
+  }
+
+  .Landing__9 .BordarMainDiv {
+    position: absolute;
+    height: 119%;
+    width: 84%;
+    z-index: -1;
+    margin-top: -20px;
+    margin-left: 15px;
+  }
+
+  .Landing__9 .CardTopH2 {
+    padding: 0 0% 70px 0%;
+    text-align: center;
+  }
+
+  .Landing__9 .CardImgAbs1 {
+    position: absolute;
+    top: 47px;
+    font-size: 24px;
+    line-height: 42px;
+    color: #C20A22;
+    font-weight: 600;
+  }
+
+  .Landing__9 .BggImg2 h3 {
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  .Landing__9 .BggImg2 h5 {
+    font-size: 22px;
+    line-height: 42px;
+    color: #FDFDFD;
+  }
+
+  .Landing__9 .BggImg2 .bg3 {
+    padding: 13px 32px;
+    margin-top: 15px;
+  }
+
+  .Landing__9 iframe {
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+  }
+
+  .Landing__9 .SliderImg img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Landing__9 .GiftH2 {
+    text-align: center;
+    padding: 0 0%;
+    padding-bottom: 70px;
+  }
+
+  .Landing__9 .GiftUlBox {
+    padding-left: 10px;
+  }
+
+  .Landing__9 .GiftUlBox li p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .Landing__9 .GiftUlBox li img {
+    padding-right: 18px;
+    margin-bottom: auto;
+    height: 20px;
+  }
+
+  .Landing__9 .GiftH3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .Landing__9 .GiftH3 {
+    font-size: 30px;
+    padding: 0 0%;
+  }
+
+  .Landing__9 .PriceBox .priceImgBg {
+    top: -600px;
+    position: absolute;
+    height: 343px;
+  }
+
+  .Landing__9 .PriceBoxTxtDiv {
+    top: -527px;
+    position: absolute;
+    text-align: center;
+  }
+
+  .Landing__9 .PriceBoxTxtDiv h4 {
+    font-size: 22px;
+    line-height: 9px;
+    color: #EC3361;
+    padding-bottom: 15px;
+  }
+
+  .Landing__9 .PriceBoxTxtDiv svg {
+    font-size: 22px;
+    line-height: 42px;
+    color: #F29D00;
+  }
+
+  .Landing__9 .PriceBoxTxtDiv h3 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .Landing__9 .PriceBoxTxtDiv .bg4 {
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 12px 59px;
+  }
+
+  .Landing__9 .GapNone {
+    display: none;
+  }
+
+  .Landing__9 .FooterAbs2 {
+    position: absolute;
+    top: 0%;
+    right: -500px;
+    width: 551px;
+    opacity: .1;
+  }
+
+  .Landing__9 .FooterAbs1 {
+    position: absolute;
+    top: 0%;
+    left: -500px;
+    width: 551px;
+    opacity: .1;
+  }
+  
+  .Landing__9 .FooterUlBox {
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 374px){
+  .Landing__9 .BannerToptxtBox img {
+    padding-bottom: 56px;
+    height: 130px;
+  }
+
+  .Landing__9 .PriceBox .priceImgBg {
+    top: -600px;
+    position: absolute;
+    height: 292px;
+}
+
+
+}

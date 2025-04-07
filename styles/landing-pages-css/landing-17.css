@@ -1,0 +1,1523 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__17 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden;
+  
+  }
+
+.Landing__17 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__17 h1{
+      font-size: 44px;
+      line-height: 72px;
+      color:#012A4A;
+      font-weight: 900;
+      padding-top: 20px;
+      padding-bottom: 50px;
+  }
+
+  .Landing__17 h2{
+      font-size: 40px;
+      line-height: 52px;
+      color: #012A4A;
+      font-weight: 900;     
+      text-align: center;
+  }
+  
+  .Landing__17 p{
+      color:#012A4A;
+      font-size: 24px;
+      line-height: 31px;
+  }
+  
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__17 .bg {
+      transition: 0.5s;
+      display: block;
+      font-size: 32px;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+     
+  }
+  
+  .Landing__17 a.bg{
+      /* margin-top: 30px; */
+      padding: 35px 74px;
+      color: #FFFFFF; 
+      background-image: linear-gradient(to right,#16A4E9 0%, #45D5F6 51%, #16A4E9 100%);
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+    }
+
+  
+  .Landing__17 .Landing__17__RelButton a svg{
+      font-size: 32px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #FFFFFF; 
+  }
+  
+  .Landing__17 a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+  }
+   
+  .Landing__17_section_gaps{
+      padding-top: 100px;
+  }
+ 
+
+  /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+.Landing__17__bg_div{
+    background-image: url('../../public/images/landing-17/bg.png');
+    padding: 0px 0px 100px 0px;
+    background-size:cover;
+  }
+
+  .Landing__17__MenuDiv{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      
+  }
+
+  .Landing__17__MenuMid{
+    padding-top: 35px;
+    background-color: rgba(229, 229, 229, 0.4);
+    width: 200px;
+    height: 190px;
+    text-align: center;
+    border-radius: 0px 0px 100px 100px;
+    position: absolute;
+    
+  }
+
+  .Landing__17__RowPad{
+    padding-top: 163px;
+    padding-bottom: 140px;
+  }
+
+  .Landing__17__Banner1{
+    position: relative;
+  }
+
+  .Landing__17__Banner1 h4{
+      top: 18px;
+      position: absolute;
+      padding: 9px 37px;
+      background-color:#E5E5E5 ;
+      font-size: 30px;
+      line-height: 40px;
+      color:#012A4A;
+      border-radius: 20px;
+      font-weight: 500;
+     
+  }
+
+  .Landing__17__Banner1 h3{
+    font-size: 48px;
+    line-height: 74px;
+    color:#012A4A;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+  
+  }
+
+
+  .Landing__17__Banner1 span{
+    font-size: 30px;
+    line-height: 40px;
+    color:#FC8730;
+    font-weight: 400;
+   text-decoration: line-through;
+   margin-left: 10px;
+  }
+
+  .Landing__17__Banner1 h5{
+    font-size: 35px;
+    line-height: 46px;
+    color:#06476E;
+    font-weight: 400;
+    padding: 10px 50px 10px 26px;
+    border: 4px solid #FFFFFF;
+    display: inline-block;
+    font-weight: 600px;
+  }
+
+  .Landing__17__RelText img{
+      height: 83px;
+      margin-top: -7px;
+      margin-left: -3px;
+  }
+
+  .Landing__17__RelText {
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+ .Landing__17__AbsB_Box{
+    position: absolute;
+    top:-80px;
+    left: 350px;
+  }
+
+ .Landing__17__AbsB_Box img{
+    position: absolute;
+   
+  }
+
+  .Landing__17__RelButton{
+    position: relative;
+    display: inline-block;
+  }
+
+ .Landing__17__Button1{
+  top:-18px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #1396D0;
+  left: -18px;
+}
+
+ .Landing__17__Button2{
+  position: absolute;
+  right: -18px;
+  width: 18px;
+  height: 18px;
+  background-color: #1396D0;
+  display: block;
+}
+
+/* Col --2 */
+
+.Landing__17__Col_2Rel{
+    position: relative;
+  
+}
+
+.Landing__17__img2Abs{
+  width: 90%;
+  margin-left: 30px;
+  position: absolute;
+  top:0;
+  left: 80px;
+  z-index: 1;
+}
+
+.Landing__17__img2Abs {
+  animation: ibrahim256s 12s infinite linear;
+}
+
+@keyframes ibrahim256s {
+  from {transform: rotate(0);}
+  to {transform: rotate(360deg);}
+}
+
+
+
+
+.Landing__17__Col_2Rel .Landing__17__img3{
+  margin-left: 50px;
+  width: 120%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+}
+
+  /* ================================================================================================
+            Card
+  ===================================================================================================*/
+.Landing__17__CardSec{
+  padding: 100px 0px 235px 0px;
+  background-color:#ECFBFF;
+}
+
+.Landing__17__Card{
+    background-color:#D7F3FB;
+    padding: 50px 45px 90px 45px;
+    height: 414px;
+    text-align: center;
+    border-radius: 150px;
+}
+
+.Landing__17__Card:hover {
+    outline: 2px dashed #FC8730;
+    outline-offset: 10px;
+}
+
+.Landing__17__Card:hover.Landing__17__Card h4 {
+    color:#1EA6DD;
+}
+
+.Landing__17__CardImgHei{
+  height: 215px;
+  box-sizing: border-box;
+}
+
+.Landing__17__Card img{
+   width: 100%;
+
+}
+
+.Landing__17__Card h4{
+   width: 100%;
+   font-size: 24px;
+   line-height: 31px;
+   color:#012A4A;
+}
+
+  /* ================================================================================================
+          Shipping
+  ===================================================================================================*/
+
+  .Landing__17__ShippingDiv{
+      margin-top: -100px;
+      background-color: #fff;
+      border-radius: 10px;
+  }
+
+  .Landing__17 #ShippingAddressItem p {
+    color:#012A4A;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+.Landing__17 #ShippingAddressItem {
+
+  padding: 50px 0px;
+
+}
+
+.Landing__17 #ShippingAddressItem:hover {
+
+  background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+
+}
+
+.Landing__17 #ShippingAddressItem:hover p{
+color: #fff;
+
+}
+
+
+  /* ================================================================================================
+            Order Template 1
+  ===================================================================================================*/
+ 
+  .Landing__17 .Landing__17__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__17 .Landing__17__Order2 img{
+    height: 962px;
+  }
+
+  .Landing__17__Order2Abs{
+      position: absolute;
+      text-align: center;
+      top: 250px;
+  }
+
+  .Landing__17__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#16A3E8;
+      font-weight: 900;
+  }
+
+  .Landing__17__Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#16A3E8;
+      margin: 30px 0px;
+
+  }
+
+
+
+  /* ================================================================================================
+            Video
+  ===================================================================================================*/
+  .Landing__17 .Landing__17__VideoH2Sec h2{
+    padding: 80px 30% 317px 30%;
+    background-color: #ECFBFF;
+  }
+
+.Landing__17__Video_div{
+  margin-top: -280px;
+}
+
+.Landing__17 .Landing__17__Order3 {
+  margin-top: -60px;
+}
+
+.Landing__17 .Landing__17__Order3 img{
+  height: 129px;
+}
+
+.Landing__17 .Landing__17__Order3 {
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+
+.Landing__17__Order2Abs2{
+    position: absolute;
+    text-align: center;
+}
+
+.Landing__17__Order2Abs2 h4{
+    font-size: 51px;
+    line-height: 69px;
+    color:#FFFFFF;
+    font-weight: 900;
+}
+
+.Landing__17__Order2Abs2 h5{
+    font-size: 30px;
+    line-height: 42px;
+    color:#FFFFFF;
+
+}
+
+
+  /* ================================================================================================
+           Table
+  ===================================================================================================*/
+  
+  .Landing__17__TableSec{
+    background-image: url('../../public/images/landing-17/bg3.png');
+    padding: 80px 130px 55px 130px;
+    background-size: cover;
+  }
+
+  .Landing__17__TableSec h2{
+    padding-bottom: 40px;
+  }
+
+  .Landing__17__Ul_div p{
+    display: inline;
+    margin-left: 10px;
+    vertical-align: -2px;
+    font-weight: 600;
+  }
+
+  .Landing__17__Ul_div {
+    margin-top: 10px;
+  }
+
+  .Landing__17__Ul_div li{
+    margin-top: 24px;
+  }
+
+  /* Table ------------------------*/
+
+  .Landing__17__TableBox{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #FFF;
+  }
+
+  .Landing__17__TableBox h4{
+    font-size: 30px;
+    color:#012A4A;
+    line-height: 31px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .Landing__17__TableRow {
+      border: 1px solid #012A4A;
+      border-right: none;
+  }
+
+  .Landing__17__TableRow div{
+     border: none;
+     border-right: 1px solid #012A4A;
+     color: #012A4A;
+     font-size: 24px;
+     line-height: 31px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 0px;
+     font-weight: 900;
+     
+  }
+
+
+  /* ================================================================================================
+             Order template 4
+  ===================================================================================================*/
+  
+  .Landing__17__Order4Sec{
+    background-image: url('../../public/images/landing-17/bg2.png');
+    padding: 0px 0px 250px 0px;
+    background-size: cover;
+    margin-top: -55px;
+  }
+  
+  .Landing__17 .Landing__17__Order4 {
+    display:flex ;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__17 .Landing__17__Order4 img{
+    height:690px;
+  }
+
+  .Landing__17__Order4Abs{
+      position: absolute;
+      text-align: center;
+  }
+
+
+  .Landing__17__Order4Abs h5{
+    font-size: 24px;
+    line-height: 31px;
+    color:#FFFFFF;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-left: -300px;
+}
+
+ .Landing__17__Order4Abs h4{
+      font-size: 60px;
+      line-height: 81px;
+      color:#012A4A;
+      font-weight: 900;
+     
+  }
+
+  .Landing__17__Order4Abs h6{
+      font-size: 24px;
+      line-height: 42px;
+      color:#012A4A;
+      font-weight: 600;
+      margin-bottom: 155px;
+  }
+
+
+  /* ================================================================================================
+            Slider
+  ===================================================================================================*/
+
+  .Landing__17 .Landing__17__SliderH2{
+      padding-bottom: 50px;
+  }
+
+  .Landing__17__Slider_CardDiv {
+      padding: 104px 17px;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+      border-radius: 150px;
+  }
+
+  .Landing__17__Slider_CardDiv:hover {
+      background-color: #D7F3FB;
+      border-radius: 150px;
+  }
+
+  .Landing__17__Slider_CardDiv img{
+      width: 100%;
+      height: 200px;
+  }
+
+ /* ================================================================================================================
+                        Swiper
+ ===================================================================================================================*/
+
+            .Landing__17 .swiper-button-prev {
+              left: 10px;
+              right: auto;
+              padding: 10px 20px !important;
+              background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+              border-radius: 50px;
+              width: 40px !important;
+              height: 40px !important;
+          }
+
+          .Landing__17 .swiper-button-next {
+              right: 10px;
+              left: auto;
+              padding: 10px 20px !important;
+              background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+              border-radius: 50px;
+              width: 40px !important;
+              height: 40px !important;
+          }
+
+          .Landing__17 .swiper-button-next:after{
+              font-size: 14px !important;
+              color: #42210B;
+          }
+
+          .Landing__17 .swiper-button-prev:after {
+              font-size: 14px !important;
+              color: #42210B;
+          }
+
+
+          .Landing__17 .swiper-button-prev {
+              left: 0px !important;
+              left: auto;
+             
+             
+          }
+
+          .Landing__17 .swiper-button-next {
+              right: 0px !important;
+              right: auto;
+              
+          }
+
+ /* ================================================================================================
+            Fashion
+  ===================================================================================================*/
+
+.Landing__17__FashionSec{
+  position: relative;
+  
+}
+
+.Landing__17__FashionSec .Landing__17__FashionSecImgAbs{
+  position: absolute;
+  top:-120px;
+  right: -20px;
+  width: 35%;
+
+}
+
+  .Landing__17 .Landing__17__FashionH2{
+  text-align: left;
+}
+
+
+  /* ================================================================================================
+            Plase in Order
+  ===================================================================================================*/
+
+  
+.Landing__17__PlaseInOdr{
+  background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+  border-radius: 50px;
+  padding: 0 5% ;
+}
+
+.Landing__17 #OrderConfirmLeft #Payment #ArrowBg {
+  background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+}
+
+.Landing__17 #OrderConfirmRight button {
+  background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+}
+
+.Landing__17 #OrderConfirmLeft #Payment #ArrowBg p {
+  color: #ffffff;
+}
+
+.Landing__17 #OrderConfirmLeft #Payment #ArrowBg::after {
+  border-bottom: solid 15px #0c91d1;
+}
+
+.Landing__17 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+}
+
+.Landing__17 #OrderConfirmLeft #Payment #ArrowBg p {
+  font-size: 18px;
+}
+
+.Landing__17 #OrderConfirmLeft #Payment #ArrowBg {
+  padding: 10px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+
+  /* ================================================================================================
+            Footer
+  ===================================================================================================*/
+
+  .Landing__17__FooterMidDiv img{
+    max-height: 140px;
+  }
+
+  .Landing__17__FooterBgRow_DivMain{
+    background-image: linear-gradient(to top, #ecfbff, #ecfbff, #ecfbff, #ecfbff, #ecfbff);
+    padding-bottom: 50px;
+  }
+  
+.Landing__17__FooterBgRow_Div{
+  padding: 0px 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius:  50px 0px 50px 0px;
+}
+
+.Landing__17__FooterBgRow_Div h4{
+  color:#012A4A;
+  font-size: 24px;
+  line-height: 32px;
+ 
+}
+
+.Landing__17__FooterBgRow_Div h3{
+  color:#1EA7DD;
+  font-size: 30px;
+  line-height: 42px;
+  padding-top: 10px;
+}
+
+.Landing__17__FooterBgRow_Div a{
+  color:#06658b;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.Landing__17__FooterHr{
+  border-bottom: 1px solid #1EA7DD;
+  background-color: #000;
+  width: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Landing__17 .Landing__17__FooterH3{
+color:#012A4A;
+}
+
+
+/* Tiney Footer */
+
+.Landing__17 .tiny-footer_tinyFooter__Tr3b1 p {
+line-height: 40px;
+text-align: center;
+color:#012A4A;
+font-size: 18px;
+}
+
+.Landing__17 .tiny-footer_tinyFooter__Tr3b1 p a {
+display: inline;
+font-size: 20px;
+font-weight: 600;
+color: #1EA7DD;
+padding: 0 5px;
+}
+
+.Landing__17__FooterMidDiv{
+  padding-top: 21px;
+  margin: 0px 15px;
+  background-color: #36C3ED;
+  width:332px;
+  height: 310px;
+  text-align: center;
+  border-radius: 0px 0px 150px 150px;
+  
+}
+
+.Landing__17 .socia-media_SocialMediaContent__A6ShX a.socia-media_TW__qnuIS {
+  color: #33ffff;
+}
+
+/* Other */
+
+.Landing__17 .tiny-footer_tinyFooter__Tr3b1 {
+  margin-top: 30px;
+}
+
+
+
+  /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+   
+ @media (min-width: 1441px) {
+
+
+ }
+ 
+  @media (max-width: 1440px) {
+ 
+    .Landing__17__Banner1 h4 {
+      top: 10px;
+      padding: 4px 37px;
+      font-size: 24px;
+  }
+
+  .Landing__17__Banner1 img {
+    height: 71px;
+    margin-top: -1px;
+}
+
+.Landing__17 h1 {
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Landing__17__Banner1 h3 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.Landing__17__Banner1 h5 {
+  font-size: 28px;
+  line-height: 30px;
+  padding: 10px 50px 10px 26px;
+
+}
+
+.Landing__17__RelText img {
+  height: 55px;
+  margin-top: 0px;
+}
+
+.Landing__17__AbsB_Box {
+  position: absolute;
+  top: -58px;
+  left: 300px;
+}
+
+.Landing__17 a.bg {
+  padding: 22px 60px;
+  font-size: 24px;
+}
+
+.Landing__17__RelText {
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.Landing__17__Col_2Rel .Landing__17__img3 {
+  margin-left: 102px;
+  width: 80%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+}
+
+.Landing__17__img2Abs {
+  width: 65%;
+  margin-left: 45px;
+  position: absolute;
+  top: 0;
+  left: 90px;
+  z-index: 1;
+}
+
+.Landing__17__CardImgHei {
+  height: 214px;
+  box-sizing: border-box;
+}
+
+.Landing__17__Card h4 {
+  width: 100%;
+  font-size: 20px;
+  line-height: 26px;
+  color: #012A4A;
+}
+
+.Landing__17__Card {
+  height: 400px;
+}
+
+.Landing__17 p {
+  color: #012A4A;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.Landing__17__Order2Abs h4 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #16A3E8;
+  font-weight: 900;
+}
+
+.Landing__17__Order2Abs h5 {
+  font-size: 28px;
+  line-height: 34px;
+  color: #16A3E8;
+  margin: 30px 0px;
+}
+
+.Landing__17 .Landing__17__Order2 img {
+  height: 813px;
+}
+
+.Landing__17__Order2Abs {
+  position: absolute;
+  text-align: center;
+  top: 184px;
+}
+
+.Landing__17 h2 {
+  font-size: 35px;
+  line-height: 49px;
+  color: #012A4A;
+  font-weight: 900;
+  text-align: center;
+}
+
+.Landing__17 .Landing__17__VideoH2Sec h2 {
+  padding: 80px 20% 317px 20%;
+  background-color: #ECFBFF;
+}
+
+.Landing__17__Order2Abs2 h4 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+.Landing__17__Order2Abs2 h5 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.Landing__17__Order4Abs h4 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #012A4A;
+  font-weight: 900;
+}
+
+.Landing__17 .Landing__17__Order3 img {
+  height: 100px;
+}
+
+.Landing__17__Slider_CardDiv {
+  padding: 75px 17px;
+  
+}
+
+
+
+ }
+ 
+ 
+ @media (max-width: 1280px) {
+ 
+  .Landing__17 h1 {
+    font-size: 35px;
+    line-height: 46px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Landing__17__Banner1 h3 {
+  font-size: 35px;
+  line-height: 55px;
+}
+
+.Landing__17__Banner1 h5 {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 10px 50px 10px 26px;
+}
+
+.Landing__17__RelText img {
+  height: 50px;
+  margin-top: 0px;
+}
+
+.Landing__17 a.bg {
+  padding: 19px 60px;
+  font-size: 20px;
+}
+
+.Landing__17__Button2 {
+  position: absolute;
+  right: -14px;
+  width: 14px;
+  height: 14px;
+  background-color: #1396D0;
+  display: block;
+}
+
+.Landing__17__Button1 {
+  top: -14px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #1396D0;
+  left: -14px;
+}
+
+.Landing__17__Col_2Rel .Landing__17__img3 {
+  margin-left: 109px;
+  width: 72%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+}
+
+.Landing__17__img2Abs {
+  width: 65%;
+  margin-left: 29px;
+  position: absolute;
+  top: 0;
+  left: 90px;
+  z-index: 1;
+}
+
+.Landing__17__CardImgHei {
+  height: 217px;
+  box-sizing: border-box;
+}
+
+
+.Landing__17__Card {
+  background-color: #D7F3FB;
+  padding: 50px 15px 90px 15px;
+  height: 414px;
+  text-align: center;
+  border-radius: 150px;
+}
+
+.Landing__17__Card {
+  background-color: #D7F3FB;
+  padding: 50px 15px 90px 15px;
+  height: 371px;
+  text-align: center;
+  border-radius: 150px;
+}
+
+
+.Landing__17__Order2Abs h4 {
+  font-size: 35px;
+  line-height: 50px;
+  color: #16A3E8;
+  font-weight: 900;
+}
+
+.Landing__17__Order2Abs h5 {
+  font-size: 24px;
+  line-height: 24px;
+  color: #16A3E8;
+  margin: 30px 0px;
+}
+
+
+
+.Landing__17 .Landing__17__Order2 img {
+  height: 720px;
+}
+
+.Landing__17 .Landing__17__VideoH2Sec h2 {
+  padding: 80px 10% 317px 10%;
+  background-color: #ECFBFF;
+}
+
+.Landing__17__Order4Abs h4 {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.Landing__17 .Landing__17__Order4 img {
+  height: 673px;
+}
+
+.Landing__17__FashionSec .Landing__17__FashionSecImgAbs {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  width: 35%;
+}
+
+.Landing__17__FooterBgRow_Div {
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px 0px 50px 0px;
+}
+
+
+ }
+ 
+ @media (max-width: 991px) {
+ 
+ .Landing__17__Ul_div img{
+    height: 20px;
+ }
+
+ .Landing__17__Order4Sec {
+  padding: 0px 0px 145px 0px;
+  background-size: cover;
+  margin-top: -55px;
+}
+
+.Landing__17 h1 {
+  font-size: 28px;
+  line-height: 37px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Landing__17__Banner1 h3 {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.Landing__17__Banner1 span {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
+.Landing__17__AbsB_Box {
+  position: absolute;
+  top: -52px;
+  left: 208px;
+}
+
+.Landing__17__Banner1 h5 {
+  font-size: 20px;
+  line-height: 16px;
+  padding: 10px 50px 10px 26px;
+}
+
+.Landing__17__RelText img {
+  height: 42px;
+  margin-top: 0px;
+}
+
+.Landing__17__Col_2Rel .Landing__17__img3 {
+  margin-left: 109px;
+  width: 72%;
+  margin-top: 137px;
+}
+
+.Landing__17__img2Abs {
+  width: 65%;
+  margin-left: 29px;
+  position: absolute;
+  top: 93px;
+  left: 90px;
+  z-index: 1;
+}
+
+.Landing__17__Banner1 h4 {
+  top: 10px;
+  padding: 4px 37px;
+  font-size: 20px;
+}
+
+.Landing__17__Card {
+  margin: 20px 0%;
+}
+
+ }
+ 
+ 
+ @media (max-width: 767px) {
+ 
+  .Landing__17__MenuMid {
+    padding-top: 35px;
+    background-color: rgba(229, 229, 229, 0.4);
+    width: 159px;
+    height: 148px;
+}
+
+.Landing__17__RowPad{
+  flex-direction: column-reverse;
+}
+ 
+.Landing__17__Banner1{
+  margin-top: 450px;
+}
+
+.Landing__17__Col_2Rel .Landing__17__img3 {
+  margin-left: 87px;
+  width: 72%;
+  margin-top: 70px;
+}
+
+.Landing__17__img2Abs {
+  width: 65%;
+  margin-left: 29px;
+  top: 24px;
+  left: 69px;
+  z-index: 1;
+}
+
+.Landing__17__bg_div {
+  padding: 0px 0px 0px 0px;
+  background-size: cover;
+}
+
+.Landing__17__RowPad {
+  padding-top: 163px;
+  padding-bottom: 80px;
+}
+
+.Landing__17__CardImgHei {
+  height: 211px;
+  box-sizing: border-box;
+}
+
+.Landing__17__Order2Abs h4 {
+  font-size: 30px;
+  line-height: 20px;
+  color: #16A3E8;
+  font-weight: 900;
+}
+
+.Landing__17 .Landing__17__Order2 img {
+  height: 489px;
+}
+
+.Landing__17__Order2Abs {
+  position: absolute;
+  text-align: center;
+  top: 107px;
+}
+
+.Landing__17__TableSec {
+  padding: 80px 10px 55px 10px;
+  background-size: cover;
+}
+
+.Landing__17 .Landing__17__VideoH2Sec h2 {
+  padding: 80px 0% 317px 0%;
+  background-color: #ECFBFF;
+}
+
+.Landing__17__Order2Abs2 h4 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+.Landing__17 .Landing__17__Order3 img {
+  height: 77px;
+}
+
+.Landing__17__TableRow div {
+  color: #012A4A;
+  font-size: 20px;
+  padding: 16px 0px;
+  font-weight: 900;
+}
+
+.Landing__17 .Landing__17__Order4 img {
+  height: 518px;
+}
+
+.Landing__17__Order4Abs h5 {
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  margin-top: 183px;
+  margin-bottom: 76px;
+  margin-left: -259px;
+}
+
+.Landing__17__Order4Abs h6 {
+  font-size: 24px;
+  line-height: 42px;
+  color: #012A4A;
+  font-weight: 600;
+  margin-bottom: 110px;
+}
+
+.Landing__17 .swiper-button-next {
+  display: none;
+}
+
+.Landing__17 .swiper-button-prev {
+  display: none;
+}
+
+.Landing__17__FashionSec .Landing__17__FashionSecImgAbs {
+  position: relative;
+  top: -18px;
+  right: -54%;
+  width: 47%;
+ 
+}
+
+.Landing__17__FooterBgRow_Div{
+  display: block;
+  text-align: center;
+}
+
+.Landing__17__FooterBgRow_Div > div{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.Landing__17__FooterMidDiv {
+  margin: 0 auto;
+}
+
+.Landing__17__FooterBgRow_Div {
+  padding: 40px 0px;
+}
+
+.Landing__17__FooterHr {
+  margin: 0 auto;
+}
+
+.tiny-footer_tinyFooter__Tr3b1 {
+  margin-top: 0px;
+}
+
+ }
+ 
+ 
+ @media (max-width: 575px) {
+ 
+  .Landing__17__Col_2Rel .Landing__17__img3 {
+    margin-left: 42px;
+    width: 84%;
+    margin-top: 70px;
+}
+
+.Landing__17__img2Abs {
+  width: 73%;
+  margin-left: -14px;
+  top: 24px;
+  left: 69px;
+  z-index: 1;
+}
+
+.Landing__17__Banner1 {
+  margin-top: 369px;
+}
+
+.Landing__17 h1 {
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Landing__17__Banner1 {
+  margin-top: 469px;
+  text-align: center;
+}
+
+.Landing__17__Banner1 h4 {
+  left: 7%;
+}
+
+.Landing__17__Banner1 h3 {
+  font-size: 24px;
+  line-height: 32px;
+  display: block;
+}
+
+.Landing__17__AbsB_Box {
+  position: relative;
+  padding-top: 20px;
+  top: 0;
+  left:0%;
+}
+
+.Landing__17__Card img {
+  width: 60%;
+}
+
+.Landing__17__Card {
+  background-color: #D7F3FB;
+  padding: 50px 15px 90px 15px;
+  height: 371px;
+  text-align: center;
+  border-radius: 150px;
+  margin: 20px 17%;
+}
+
+.Landing__17__Order2Abs h4 {
+  font-size: 24px;
+  line-height: 2px;
+  color: #16A3E8;
+  font-weight: 900;
+}
+
+.Landing__17__Order2Abs h5 {
+  font-size: 20px;
+}
+
+.Landing__17 a.bg {
+  padding: 15px 49px;
+  font-size: 20px;
+}
+
+.Landing__17 .Landing__17__Order2 img {
+  height: 439px;
+}
+
+.Landing__17 h2 {
+  font-size: 22px;
+  line-height: 30px;
+  color: #012A4A;
+  font-weight: 900;
+  text-align: center;
+}
+
+.Landing__17 p {
+  color: #012A4A;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.Landing__17__TableSec h2 {
+  padding-bottom: 0px;
+}
+
+.Landing__17__TableBox h4 {
+  font-size: 22px;
+  color: #012A4A;
+  line-height: 14px;
+
+}
+    
+.Landing__17__TableRow div {
+  color: #012A4A;
+  font-size: 18px;
+  padding: 7px 0px;
+  font-weight: 900;
+}
+
+.Landing__17__Slider_CardDiv {
+  padding: 42px 1px;
+}
+
+.Landing__17__FooterBgRow_Div h4 {
+  color: #012A4A;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.Landing__17__FooterBgRow_Div h3 {
+  color: #1EA7DD;
+  font-size: 24px;
+  line-height: 16px;
+  padding-top: 10px;
+}
+
+.Landing__17__Order4Abs h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Landing__17__Order4Abs h6 {
+  font-size: 18px;
+  line-height: 42px;
+  color: #012A4A;
+  font-weight: 600;
+  margin-bottom: 110px;
+}
+
+.Landing__17__Order4Sec {
+  padding: 0px 0px 112px 0px;
+  background-size: cover;
+  margin-top: -55px;
+}
+
+.Landing__17_section_gaps{
+  padding-top: 50px;
+}
+
+
+.Landing__17 .tiny-footer_tinyFooter__Tr3b1 {
+  margin-top: 0px;
+}
+
+
+     }
+
+
+
+
+ @media (max-width: 425px){
+
+  .Landing__17__Card img {
+    width: 80%;
+ }
+
+ .Landing__17__Col_2Rel .Landing__17__img3 {
+  margin-left: 42px;
+  width: 84%;
+  margin-top: 70px;
+}
+
+.Landing__17__img2Abs {
+width: 73%;
+margin-left: -14px;
+top: 24px;
+left: 69px;
+z-index: 1;
+}
+
+.Landing__17__Banner1 {
+margin-top: 369px;
+}
+
+.Landing__17__Banner1 h4 {
+  top: 10px;
+  padding: 4px 20px;
+  font-size: 20px;
+}
+
+.Landing__17__Card {
+  background-color: #D7F3FB;
+  padding: 50px 15px 90px 15px;
+  height: 371px;
+  text-align: center;
+  border-radius: 150px;
+  margin: 15px 4%;
+}
+
+.Landing__17__CardImgHei {
+  height: 228px;
+  box-sizing: border-box;
+}
+
+.Landing__17__Order4Abs h5 {
+  font-size: 16px;
+  margin-left: -191px;
+}
+
+}
+
+
+  

@@ -1,0 +1,254 @@
+
+/* =========================================================================================
+        About Us
+============================================================================================*/
+
+
+
+.AboutUsMultipage .Section__Gaps {
+    padding-top: 100px;
+  }
+  
+
+.AboutUsMultipage{
+    font-family: 'Jost', sans-serif;
+}
+
+.AboutUsMultipage h2{
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.AboutUsMultipage p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+.AboutUsMultipage__bannerBg img{
+    width: 100%;
+    max-height: 300px;
+}
+
+.AboutUsMultipage__bannerBg{
+    position: relative;
+}
+
+.AboutUsMultipage__bannerTxtDiv{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.AboutUsMultipage__bannerTxt h2{
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFF;
+}
+
+
+.AboutUsMultipage__bannerTxt h4 a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.AboutUsMultipage__bannerTxt h4 a:nth-child(2){
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF6C45;
+    font-weight: 400;
+}
+
+.AboutUsMultipage__AboutDiv h2{
+    color:#1F1E23;
+}
+
+.AboutUsMultipage__AboutDiv h5{
+    color:#FF6C45;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.AboutUsMultipageHr{
+    border-bottom: 1px solid #EBEBEB;
+    margin: 30px 0px;
+}
+
+
+@media (max-width: 768px) {
+
+    .AboutUsMultipage h2{
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .AboutUsMultipage__AboutDiv h5{
+        color:#FF6C45;
+        font-size: 22px;
+    }
+
+
+    .AboutUsMultipage .Section__Gaps {
+        padding-top: 50px;
+      }
+      
+}
+
+
+/* =========================================================================================
+        Contact Us
+============================================================================================*/
+
+.ContactUsMultipage__Mapdiv{
+    width: 100%;
+    max-height: 450px;
+}
+
+.ContactUsMultipage__Mapdiv iframe{
+    width: 100%;
+    height: 100%;
+    height: 450px;
+}
+
+.ContactUsMultipage__Mapdiv h4{
+    color:#FF6C45;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+
+.ContactUsMultipage__MapdivBox{
+    height: 106px;
+    background-color:#F7F7F7;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    position: relative;
+    margin-bottom: 16px;
+    transition: all .2s;
+}
+
+
+.ContactUsMultipage__MapdivBox:hover{
+    background-color:#f0eeee;
+}
+
+.ContactUsMultipage__MapdivBox:hover .ContactUsMultipage__MapIcon__Div{
+        border-radius: 100%;
+        transform: rotate(360deg);
+}
+
+
+.ContactUsMultipage__MapdivBox h5{
+    color:#8B8B8B;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.ContactUsMultipage__MapIcon__Div{
+    height: 72px;
+    width: 72px;
+    background-color: #3BB77E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:18px;
+    left: -20px;
+    transition: all 1s;
+}
+
+.ContactUsMultipage__MapIcon__Div svg{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.ContactUsMultipage__FromDiv{
+        padding-top: 50px;
+        padding-bottom: 70px;
+        box-shadow: rgba(0, 0, 0, 0.0723) 0px 12px 20px 4px; 
+        border-top: 15px solid #3BB77E;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.ContactUsMultipage__FromD__Contant__Div{
+    width: 50%;
+    background: #8B8B8B;
+    text-align: center;
+}
+
+.ContactUsMultipage__FromD__Contant__Div{
+    background: #ffffff;
+}
+
+.ContactUsMultipage__FromD__Contant__Div h4{
+    color:#4535AF;
+    font-weight: 400;
+}
+
+.ContactUsMultipage__FromD__Contant__Div p{
+    color: #8B8B8B;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+
+}
+
+.ContactUsMultipage__FromD__Contant__Div input{
+    border: 1px solid #EBEBEB;
+}
+
+.ContactUsMultipage__FromD__Contant__Div textarea{
+    border: 1px solid #EBEBEB;
+}
+
+
+.ContactUsMultipage__FromD__Contant__Div button{
+    background-color: #3BB77E;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.ContactUsMultipage__FromD__Contant__Div button:hover{
+    background-color: #3BB77E;
+    border: none;
+}
+
+
+@media (max-width: 768px) {
+
+    .ContactUsMultipage__FromD__Contant__Div{
+        width: 90%;
+    }
+
+    .ContactUsMultipage__Mapdiv iframe{
+        width: 100%;
+        height: 100%;
+        height: 250px;
+    }
+
+
+    .ContactUsMultipage__Mapdiv h4 {
+        color: #FF6C45;
+        font-size: 24px;
+    }
+   
+}

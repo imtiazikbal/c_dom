@@ -1,0 +1,1343 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandingEight {
+    --header_color: #ffffff;
+    --bg_color: #FEC827;
+    --bg_color2: #FD9328;
+    --bg_color3: #88EF19;
+    --bg_color4: #88EF19;
+    --text_color: #64607D;
+    --white_color: #fff;
+    --primary_text: #2E514A;
+
+  }
+
+  .container{
+      max-width: 100%;
+      padding: 0 250px;
+  }
+
+  .LandingEight{
+      font-family: 'Noto Sans Bengali', sans-serif !important;
+  }
+
+  .LandingEight h1{
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 90px;
+      color: var(--header_color);
+  }
+
+  .LandingEight h1 span{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 90px;
+    color: #FD4343;
+    text-align: center;
+
+}
+
+  .LandingEight h2{
+      font-size: 45px;
+      line-height: 50px;
+      color: var(--primary_text);
+      text-align: center;
+      font-weight: 700;
+  }
+
+  .LandingEight h3{
+      font-size: 24px;
+      line-height: 35px;
+      color: var(--primary_text);
+      font-weight: 600;
+  }
+
+  .LandingEight .Title h2{
+    line-height: 70px;
+  }
+  .LandingEight .Title p{
+    color: var(--primary_text);
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .LandingEight h5{
+    font-size: 24px;
+    line-height: 20px;
+    color: var(--primary_text);
+    font-weight: 600;
+}
+
+  .LandingEight h6{
+    font-size: 21px;
+    line-height: 28px;
+    color: var(--bg_color3);
+    font-weight: 700;
+}
+
+  .LandingEight p{
+      color: var(--text_color);
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-top: 15px;
+  }
+
+
+  .LandingEight a {
+      transition: 0.5s;
+      display: block;
+      font-size: 20px;
+      line-height: 35px;
+      font-weight: 600;
+  }
+
+  .LandingEight a.bg{
+      margin-top: 30px;
+      padding: 12px 50px;
+      padding-top: 15px;
+      color: var(--white_color);
+      background:#FD9328;
+      background-size: 200% auto;
+      border-radius: 30px;
+      display: inline-block;
+      box-shadow: 0px 67px 80px rgba(30, 20, 10, 0.38), 0px 43.4259px 46.8519px rgba(30, 20, 10, 0.1931), 0px 25.8074px 25.4815px rgba(30, 20, 10, 0.0425185), 0px 13.4px 13px rgba(30, 20, 10, 0.035), 0px 5.45926px 6.51852px rgba(30, 20, 10, 0.0274815), 0px 1.24074px 3.14815px rgba(30, 20, 10, 0.0168519);
+  }
+
+  .LandingEight a.bg:hover{
+    transform: scale(1.02);
+  }
+
+  .LandingEight a svg{
+      font-size: 25px;
+      margin-top: -5px;
+      margin-right: 10px;
+  }
+
+  .LandingEight .hLine{
+    margin-top: 10px;
+    height: 2px;
+    width: 300px;
+    background: var(--primary_text);
+  }
+
+  .LandingEight a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+  }
+
+  .LandingEight .section_gaps{
+      margin-top: 100px;
+  }
+  .LandingEight .LogoDiv{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Banner{
+    background: url(../../public/images/landing_8/background8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.Leaf .DiscountBox .text h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.Leaf{
+    background: url(../../public/images/landing_8/Leaf.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+
+}
+
+.LandingEight h2 span{
+    color: var(--bg_color2);
+    text-decoration: line-through;
+}
+
+.Leaf .pricediv{
+    margin-top: 50px;
+}
+
+.Leaf .text{
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+.Leaf .price2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.Leaf .textDecoration{
+    position: relative;
+    margin-left: 10px;
+}
+
+.Leaf h2{
+    text-align: left;
+    color: #fff;
+}
+
+.Leaf .textDecoration img{
+    position: absolute;
+    bottom: -40px;
+}
+
+.Leaf .textDecoration .PriceBox{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0px;
+    margin-left: 30px;
+    width: 228px;
+}
+
+.Leaf .phoneDiv{
+    margin-top: 60px;
+}
+
+.Leaf .imgWhite{
+    display: none;
+}
+
+.Leaf .text h3{
+    color: var(--primary_text);
+}
+
+.Leaf .BannerContent{
+    padding-bottom: 150px;
+}
+
+.Leaf .titleHeader{
+
+    margin-top: 50px;
+    display: flex;
+    word-spacing: 20px;
+    width: 60%;
+}
+
+.Leaf .titleHeader h1{
+    font-size: 80px;
+    letter-spacing: 0.11em;
+    margin-right: 30px;
+}
+
+.Leaf .titleHeader h1 span{
+    color: var(--primary_text);
+}
+
+.Leaf .DiscountBox{
+    padding-top: 200px;
+    position: relative;
+}
+
+.Leaf .DiscountBox img{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.Leaf .DiscountBox .text{
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    color: var(--bg_color2);
+    text-align: center;
+    width: 170px;
+}
+
+.Leaf .DiscountBox .text h2{
+    color: var(--bg_color2);
+}
+
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.ServiceSection{
+    padding: 35px;
+    background: #DBE8D8;
+}
+
+.ServiceSection .Services{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ServiceSection .ServiceBox{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.ServiceSection .Services .text{
+    margin-left: 10px;
+
+}
+
+.ServiceSection .Services .text p{
+    color: var(--primary_text);
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    ProductAbout PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.ProductAbout p{
+    color: var(--primary_text);
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Youtube PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.YouTubeVid img{
+    width: 100%;
+}
+
+.YouTubeVid .buttonGroup{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.YouTubeVid .buttonGroup .bg{
+
+    margin: 0 20px;
+
+}
+
+.YouTubeVid .buttonGroup .bg:last-child{
+    background: #fff;
+    border: 1px solid var(--primary_text);
+    color: var(--primary_text);
+    /* background-size: 200% auto;
+    background-image: linear-gradient(to right, #ffffff 0%, #dddddd  51%, #ffffff  100%); */
+
+}
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    UsefullnessItems PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.UsefullnessItems{
+    background: #E8F2E4;
+    position: relative;
+    padding: 125px 0;
+}
+
+.UsefullnessItems .ItemCards{
+    border-radius: 10px;
+    padding: 30px 43px;
+    text-align: center;
+    margin: 10px auto;
+    background: #fff;
+    box-shadow: 0px -22px 80px rgba(0, 0, 0, 0.03), 0px 50px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+}
+
+.UsefullnessItems .left{
+    position: absolute;
+    top:90%;
+    left: 0;
+}
+
+.UsefullnessItems .right{
+    position: absolute;
+    right: 0;
+    top: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.UsefullnessItems .left img, .UsefullnessItems .right img{
+    width: 100%;
+}
+
+
+.UsefullnessItems .ItemCards .IconBox{
+    background: var(--primary_text);
+    height: 60px;
+    width: 60px;
+    padding: 14px 10px 14px 10px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    DiscountSection PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.DiscountSection h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.DiscountSection .ContentBox{
+    background: #FDA043;
+    position: relative;
+    padding: 80px 0;
+    border-radius: 10px;
+
+}
+
+.DiscountSection .ContentBox .ImageLayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+.DiscountSection .ContentBox .ImageLayer2{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
+.DiscountSection .ContentBox .text .bg{
+    background: var(--primary_text);
+    margin: 0 auto;
+}
+
+.DiscountSection .ContentBox .text h1{
+    font-size: 45px;
+}
+
+.DiscountSection .ContentBox .text a{
+    font-size: 26px;
+}
+
+.DiscountSection .ContentBox .text .buttonCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.DiscountSection .ContentBox .ImageLayer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.DiscountSection .ContentBox .ImageLayer2{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.DiscountSection .ContentBox .ImageLayer img, .DiscountSection .ContentBox .ImageLayer2 img{
+    width: 100%;
+
+}
+
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    WhyUs PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.WhyUs{
+    position: relative;
+    padding: 120px 0;
+}
+
+.WhyUs .left{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.WhyUs .right{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    OnlyOrderBtn PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.OnlyOrderBtn{
+    padding: 60px 0;
+}
+
+.OnlyOrderBtn .buttonCenter{
+    display: flex;
+    justify-content: center;
+}
+
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    OrderConfirmFrom PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.OrderSection .OrderDiv{
+    background: var(--primary_text);
+    text-align: center;
+    padding: 30px 80px;
+    border-radius:10px
+
+}
+
+.OrderSection .OrderDiv h1{
+    font-size: 40px;
+}
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    SocialIcons PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.SocialIcons .SocialIconsList{
+    display: flex;
+    justify-content: center;
+}
+
+.SocialIcons .SocialIconsList a{
+    margin:10px;
+}
+
+.SocialIcons .SocialIconsList a.Fb svg{
+    color: #2E69DB;
+}
+
+.SocialIcons .SocialIconsList a.Yt svg{
+    color: #FF0000;
+}
+
+.SocialIcons .SocialIconsList a.InS svg{
+    background: linear-gradient(180deg, #F65D34 0%, #FF0917 47.92%, #FDCE56 100%);
+    color: #fff;
+    border-radius: 7px;
+}
+
+.SocialIcons .SocialIconsList a.Tw svg{
+    color: #33AAFF;
+}
+
+
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    OrderSection PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Footer Section PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.FooterSection{
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.FooterSection .imgLayer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.FooterSection .imgLayer img{
+    width: 100%;
+}
+
+.FooterSection .Logo img{
+    margin-right: auto;
+    display: flex;
+}
+.FooterSection .footerMenu{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.FooterSection .footerMenu ul li{
+    display: inline-block;
+
+}
+
+.FooterSection .footerMenu ul li{
+    margin-top: 10px;
+    list-style: none;
+    color: var(--primary_text);
+    font-size: 18px;
+}
+
+.FooterSection .footerMenu ul li a{
+    color: var(--primary_text);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.FooterSection .footerMenu ul li svg{
+    color: var(--primary_text);
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.FooterSection .footerMenu .footerBox{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterSection .footerMenu .footerBox svg{
+    color: var(--primary_text);
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    BottomFooterMenu PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.BottomFooterMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.BottomFooterMenu ul li{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.BottomFooterMenu ul li a{
+    color: var(--primary_text);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.CopyRight  p {
+    color: var(--primary_text);
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+/*  */
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1440px) {
+
+    .LandingEight .container{
+        width: 90%;
+    }
+
+    .LandingEight .container h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .LandingEight .container h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .LandingEight .container h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .LandingEight .section_gaps{
+        margin-top: 60px;
+    }
+
+
+}
+
+
+
+/*  */
+/* // laptop Devices */
+
+@media (max-width: 1024px) {
+
+    .LandingEight .section_gaps{
+        margin-top: 50px;
+    }
+
+    .LandingEight h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .LandingEight h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .LandingEight h5 {
+        font-size: 15px;
+    }
+
+    .LandingEight h1 span {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .LandingEight a.bg{
+        padding: 10px 30px;
+        padding-top: 11px;
+    }
+
+    .LandingEight p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .LandingEight .Title p {
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+    .LandingEight .Title h2 {
+        line-height: 30px;
+    }
+
+    .LandingEight .LogoDiv img{
+        width: 40%;
+
+    }
+
+
+    .Leaf{
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .Leaf .text {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Leaf .text h3{
+        font-size: 20px;
+    }
+
+    .Leaf .titleHeader {
+        margin-top: 10px;
+    }
+
+    .Leaf .textDecoration img{
+
+        bottom: -16px;
+        width: 160px;
+        left: 13px;
+    }
+
+    .Leaf .DiscountBox {
+        padding-top: 150px;
+        margin: 60px 0;
+    }
+
+    .Leaf .DiscountBox img {
+        top: 0px;
+    }
+
+    .Leaf .DiscountBox .text{
+        top: 50px;
+    }
+
+    .ServiceSection .ServiceBox{
+        margin: 20px 0;
+    }
+
+    .UsefullnessItems {
+        padding: 65px 0;
+    }
+
+    .UsefullnessItems h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .UsefullnessItems .ItemCards{
+        padding: 13px 8px;
+    }
+
+    .UsefullnessItems .ItemCards .IconBox img{
+        width: 20px;
+    }
+
+    .UsefullnessItems .ItemCards .IconBox{
+        height: 35px;
+        width: 35px;
+        padding: 6px 5px;
+        margin-bottom: 15px;
+    }
+
+    .DiscountSection h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .DiscountSection .ContentBox .text h1{
+        font-size: 30px;
+    }
+
+    .DiscountSection .ContentBox .text a{
+        font-size: 22px;
+    }
+
+
+    .LandingEight a.bg{
+        margin-top: 25px;
+        padding: 10px 25px;
+        padding-top: 12px;
+    }
+
+    .UsefullnessItems .left img, .UsefullnessItems .right img{
+        width: 60%;
+    }
+
+    .DiscountSection .ContentBox .ImageLayer img, .DiscountSection .ContentBox .ImageLayer2 img{
+        width: 60%;
+    }
+
+    .LandingEight .WhyUs{
+        padding: 30px 0;
+    }
+
+    .WhyUs .left img, .WhyUs .right img{
+        width: 30%;
+    }
+
+    .OnlyOrderBtn {
+        padding: 30px 0;
+    }
+
+    .FooterSection .imgLayer img {
+        width: 60%;
+    }
+
+    .SocialIcons {
+        margin-top: 20px;
+    }
+
+    .FooterSection .FooterMenu ul li{
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .FooterSection .footerMenu ul li a{
+        font-size: 18px;
+    }
+
+    .FooterSection .footerMenu ul li svg{
+        font-size: 20px;
+    }
+
+    .FooterSection .footerMenu .footerBox svg{
+        font-size: 25px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*  */
+/* // Mid Size Devices */
+
+@media (max-width: 768px) {
+
+   .LandingEight .section_gaps{
+        margin-top: 50px;
+    }
+
+    .LandingEight h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .LandingEight h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .LandingEight h5 {
+        font-size: 15px;
+    }
+
+    .LandingEight h1 span {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .LandingEight a.bg{
+        padding: 10px 30px;
+        padding-top: 11px;
+    }
+
+    .LandingEight p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .LandingEight .Title p {
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+    .LandingEight .Title h2 {
+        line-height: 30px;
+    }
+
+    .LandingEight .LogoDiv img{
+        width: 40%;
+
+    }
+
+
+    .Leaf{
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .Leaf .text {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Leaf .text h3{
+        font-size: 20px;
+    }
+
+    .Leaf .titleHeader {
+        margin-top: 10px;
+    }
+
+    .Leaf .textDecoration img{
+
+        bottom: -16px;
+        width: 160px;
+        left: 13px;
+    }
+
+    .Leaf .DiscountBox {
+        padding-top: 150px;
+    }
+
+    .Leaf .DiscountBox img {
+        top: 0px;
+    }
+
+    .Leaf .DiscountBox .text{
+        top: 50px;
+    }
+
+    .ServiceSection .ServiceBox{
+        margin: 20px 0;
+    }
+
+    .UsefullnessItems {
+        padding: 65px 0;
+    }
+
+    .UsefullnessItems h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .UsefullnessItems .ItemCards{
+        padding: 20px 8px;
+    }
+
+    .UsefullnessItems .ItemCards .IconBox img{
+        width: 20px;
+    }
+
+    .UsefullnessItems .ItemCards .IconBox{
+        height: 35px;
+        width: 35px;
+        padding: 6px 5px;
+        margin-bottom: 15px;
+    }
+
+    .DiscountSection h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .DiscountSection .ContentBox .text h1{
+        font-size: 30px;
+    }
+
+    .DiscountSection .ContentBox .text a{
+        font-size: 22px;
+    }
+
+
+    .LandingEight a.bg{
+        margin-top: 25px;
+        padding: 10px 25px;
+        padding-top: 12px;
+    }
+
+    .UsefullnessItems .left img, .UsefullnessItems .right img{
+        width: 60%;
+    }
+
+    .DiscountSection .ContentBox .ImageLayer img, .DiscountSection .ContentBox .ImageLayer2 img{
+        width: 60%;
+    }
+
+    .LandingEight .WhyUs{
+        padding: 30px 0;
+    }
+
+    .WhyUs .left img, .WhyUs .right img{
+        width: 30%;
+    }
+
+    .OnlyOrderBtn {
+        padding: 30px 0;
+    }
+
+    .FooterSection .imgLayer img {
+        width: 60%;
+    }
+
+    .SocialIcons {
+        margin-top: 20px;
+    }
+
+    .FooterSection .FooterMenu ul li{
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .FooterSection .FooterMenu ul li{
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .FooterSection .footerMenu ul li a{
+        font-size: 18px;
+    }
+
+    .FooterSection .footerMenu ul li svg{
+        font-size: 20px;
+    }
+
+    .FooterSection .footerMenu .footerBox svg{
+        font-size: 25px;
+    }
+
+
+
+
+
+}
+
+/*  */
+/* // Xm-Small devices (from mobile to tab) */
+@media (max-width: 575px) {
+
+    .LandingEight .section_gaps{
+        margin-top: 50px;
+    }
+
+
+    .LandingEight h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .LandingEight h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .LandingEight h5 {
+        font-size: 15px;
+    }
+
+    .LandingEight h1 span {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .LandingEight a.bg{
+        padding: 10px 30px;
+        padding-top: 11px;
+    }
+
+    .LandingEight p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .LandingEight .Title p {
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+    .LandingEight .Title h2 {
+        line-height: 30px;
+    }
+
+    .LandingEight .LogoDiv img{
+        width: 50%;
+
+    }
+
+    .Leaf{
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+    }
+    .Leaf .pricediv {
+        margin-top: 20px;
+    }
+
+    .Leaf .phonediv {
+        margin-top: 20px;
+    }
+
+    .Leaf .price2{
+        margin-top: 20px;
+    }
+
+    .Leaf .DiscountBox img {
+        width: 40%;
+    }
+
+
+    .Leaf .titleHeader{
+        display: block;
+        width: 100%;
+    }
+
+    .Leaf .titleHeader h1{
+        font-size: 50px;
+        margin-top: 30px;
+        color: #fff;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .Leaf .text h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Leaf .btnBox{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Leaf .text {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .Leaf .phoneDiv{
+        margin-top: 30px;
+    }
+
+    .Leaf .textDecoration .PriceBox {
+        width: 108px;
+    }
+
+    .Leaf .textDecoration img{
+        position: absolute;
+        bottom: -20px;
+        width: 140px;
+        left: inherit;
+    }
+
+    .Leaf .DiscountBox {
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+    .Leaf .DiscountBox .text {
+        top: 15px;
+        right: -18px;
+    }
+
+    .Leaf .DiscountBox img {
+        top: 10px;
+    }
+
+    .Leaf .textDecoration .PriceBox{
+        margin-left: 20px;
+
+    }
+
+    .Leaf .DiscountBox .text h2{
+        padding-bottom:0px;
+    }
+
+
+    .ServiceSection {
+        padding: 10px;
+    }
+
+
+    .ServiceSection .ServiceBox{
+        justify-content: flex-start;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .UsefullnessItems .left img, .UsefullnessItems .right img{
+        width: 30%;
+    }
+
+    .UsefullnessItems .left{
+        position: absolute;
+        top:inherit;
+        bottom: 0;
+        left: 0;
+    }
+
+    .UsefullnessItems h3{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .UsefullnessItems .ItemCards{
+        padding: 13px 8px;
+    }
+
+    .UsefullnessItems .ItemCards .IconBox img{
+        width: 20px;
+    }
+
+    .UsefullnessItems .ItemCards .IconBox{
+        height: 35px;
+        width: 35px;
+        padding: 6px 5px;
+        margin-bottom: 15px;
+    }
+
+    .UsefullnessItems .right{
+        position: absolute;
+        right: 0px;
+        display: flex;
+        justify-content: flex-end;
+        top: inherit;
+        bottom: 0;
+    }
+
+    .LandingEight a {
+
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .UsefullnessItems {
+        padding: 60px 0;
+    }
+
+
+
+    .DiscountSection .ContentBox .text h1{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .DiscountSection .ContentBox{
+        padding: 40px 0;
+    }
+
+    .DiscountSection .ContentBox .text a{
+        font-size: 20px;
+    }
+
+    .LandingEight .WhyUs{
+        padding: 60px 0;
+    }
+
+    .WhyUs .left img, .WhyUs .right img{
+        width: 30%;
+    }
+
+    .OnlyOrderBtn {
+        padding: 30px 0;
+    }
+
+
+    .OrderSection .OrderDiv {
+        padding: 20px 30px;
+    }
+
+    .OrderSection .OrderDiv h1 {
+        font-size: 16px;
+    }
+
+    .FooterSection .Logo img{
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .FooterSection .FooterMenu{
+        margin-top: 20px;
+        justify-content: center;
+
+    }
+
+    .FooterSection .FooterMenu ul li{
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .FooterSection .footerMenu ul li a{
+        font-size: 14px;
+    }
+
+    .FooterSection .footerMenu ul li svg{
+        font-size: 16px;
+    }
+
+    .FooterSection .footerMenu .footerBox svg{
+        font-size: 20px;
+    }
+
+
+    .FooterSection .imgLayer{
+        /* bottom: -20px; */
+    }
+
+    .FooterSection .imgLayer img {
+        width: 30%;
+    }
+
+    .SocialIcons {
+        margin-top: 40px;
+    }
+
+
+
+
+
+}

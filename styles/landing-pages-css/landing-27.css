@@ -1,0 +1,1054 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__27 {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    list-style-type: none;
+    overflow-x: hidden ;
+  }
+
+  .Landing__27 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+
+  .Landing__27 h1 {
+    font-size: 58px;
+    line-height: 89px;
+    color: #2C2C2C;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+  .Landing__27 h1 span{
+      color:#FFD626;
+  }
+
+
+  .Landing__27 h2{
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .Landing__27 p{
+    font-size: 24px;
+    line-height: 30px;
+    color:#6B6B6B;
+  }
+  
+  
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+.Landing__27 .bg {
+    transition: 0.5s;
+    display: block;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Landing__27 a.bg{
+    position: relative;
+    padding: 15px 40px;
+    color:#FFF; 
+    background-image: linear-gradient(to right,#E41320 0%,#E41320 51%, #E41320 100%);
+    background-size: 180% auto;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 30px;
+    line-height: 55px;
+
+  }
+
+
+.Landing__27 a.bg svg{
+    font-size: 40px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #FFF; 
+}
+
+
+.Landing__27 a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.Landing__27 a.bg:hover svg {
+    color: #fff;      
+}
+ 
+  .Landing__27__section_gaps{
+      margin-top: 100px;
+  }
+ 
+
+/* ================================================================================================
+Navbar
+===================================================================================================*/
+
+.Landing__27 #MenubarContent #LogoLeft{
+  text-align: left;
+  margin-top: 58px;
+  position: absolute;
+  z-index: 3;
+}
+
+.Landing__27 #MenubarContent #LogoLeft img {
+height: 40px;
+
+}
+
+/* ================================================================================================
+Banner
+===================================================================================================*/
+
+.Landing__27 h1{
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #2C2C2C 29%,
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hfytf3548 5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes hfytf3548 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+.Landing__27__Banner {
+  height: 100vh;
+  position: relative;
+}
+
+.Landing__27__Banner__bg {
+  width: 100%;
+  height: 100%;
+}
+
+.Landing__27__Banner__Content {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  z-index: 5;
+}
+
+.Landing__27__Banner__TextContent{
+  margin-top: 180px;
+}
+
+
+.Landing__27__Banner__Content h5 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ED3223;
+}
+
+.Landing__27__Banner__Content h2 {
+  color:#E41320;
+  text-align: left;
+}
+
+
+.Landing__27__RelText{
+  position: relative;
+}
+
+.Landing__27__AbsB_Box {
+  position: absolute;
+  top: -68px;
+  left: 360px;
+}
+
+.Landing__27__AbsB_Box h6{
+   margin-top: -45px;
+   margin-left: 40px;
+}
+
+.Landing__27__AbsB_Box img{
+   height: 54px;
+}
+
+.Landing__27__AbsB_Box h6{
+  color: #FDFDFD;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.Landing__27__Banner__TextContent h2{
+  margin-top: 110px;
+}
+
+
+/* Col-2-------------- */
+
+
+.Landing__27__Banner__Img {
+  position: relative;
+}
+.Landing__27__Banner__Img1 {
+  margin-top: 150px;
+  width: 160%;
+  margin-left: -100px;
+}
+
+.Landing__27__Banner__Img2 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin-top: -40px;
+  height: 235px;
+  z-index: 3;
+}
+
+.Landing__27__Banner__H4__Div h4{
+    position: absolute;
+    top:0;
+    left:150px;
+    font-size: 30px;
+    line-height: 52px;
+    color:#FDFDFD;
+    margin-top: 100px;
+    z-index: 3;
+    width: 100%;
+}
+
+.Landing__27__Banner__H4__Div{
+  position: relative;
+  width: 100%;
+}
+
+
+/* ================================================================================================
+  Card
+===================================================================================================*/
+
+.Landing__27__CardH2{
+    padding: 0% 18%;
+    color: #2C2C2C;
+    margin-bottom: 100px;
+}
+
+.Landing__27__Card img{
+  width: 100%;
+}
+
+.Landing__27__Card {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.Landing__27__Card h4{
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  color:#FDFDFD;
+  text-align: center;
+  width: 100%;
+}
+
+/* ================================================================================================
+ Lungi Details
+===================================================================================================*/
+  .Landing__27__Lungi_Details p{
+    text-align: center;
+  }
+
+.Landing__27__Lungi_DetailsH2{
+  padding: 0 15%;
+  margin-bottom: 20px;
+}
+
+/* ================================================================================================
+    Video
+===================================================================================================*/
+.Landing__27__CustomerReview{
+  position: relative;
+}
+
+.Landing__27__VideoImg1{
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 401px;
+  z-index: -1;
+}
+.Landing__27__VideoImg2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 401px;
+  z-index: -1;
+}
+
+/* ================================================================================================
+LungiDetails2
+===================================================================================================*/
+
+.Landing__27__LungiDetails2{
+  padding: 0 5%;
+  position: relative;
+  margin-top: 200px;
+}
+
+.Landing__27__LungiImg{
+  width: 100%;
+  height: 593px;
+}
+
+.Landing__27__LungiDetails2Abs{
+position: absolute;
+top:0px;
+left:0;
+width: 100%;
+height: 100%;
+z-index: 5;
+padding: 0 5%;
+}
+
+
+
+.Landing__27__LungiDetails2Abs h4{
+  color:#FDFDFD;
+  margin-top: 10px;
+}
+
+.Landing__27__LungiDetails2AbsImgDiv{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top:-300px;
+  left: 0;
+
+}
+
+.Landing__27__LungiDetails2AbsImgDiv img{
+  width: 60%;
+}
+
+.Landing__27__LungiDetails2Img6Div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding: 0 5%;
+}
+
+.Landing__27__LungiDetails2Img6Div div:nth-child(2){
+  margin-top: 40px;
+}
+
+.Landing__27__LungiDetails2Img6Div div:nth-child(3){
+  margin-top: 70px;
+}
+
+.Landing__27__LungiDetails2Img6Div div:nth-child(4){
+  margin-top: 90px;
+}
+
+.Landing__27__LungiDetails2Img6Div div:nth-child(5){
+  margin-top: 40px;
+}
+
+
+/* ================================================================================================
+      Details Table
+===================================================================================================*/
+
+.Landing__27__DetailsTable{
+  background-color: #FFF4F5;
+  padding-top: 46px ;
+}
+
+.Landing__27 .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 44px;
+  padding-bottom: 120px;
+  
+}
+.Landing__27 .grid-item {
+  border: 1px solid #FC9EA7;
+  padding: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.Landing__27 .grid-item:nth-child(odd){
+  border-left: none;
+  color:#2C2C2C;
+  font-weight: 600;
+}
+
+.Landing__27 .grid-item:nth-child(even){
+  border-left: none;
+  border-right: none;
+  color:#E42930;
+}
+
+/* ================================================================================================
+Details-3
+===================================================================================================*/
+.Landing__27__Details-3{
+  padding: 0 5%;
+}
+.Landing__27__Details-3 img{
+  width: 100%;
+}
+
+/* ================================================================================================
+    Order Sec
+===================================================================================================*/
+
+.Landing__27__OrderSec{
+  position: relative;
+  background: #FFF4F5;
+}
+
+.Landing__27__OrderSecImg{
+    width: 100%;
+    height: 961px;
+}
+
+
+
+.Landing__27 #OrderConfirmFrom {
+
+  background-size: cover;
+  padding: 100px 30px !important;
+  color:#E41320;
+}
+
+.Landing__27 #OrderConfirmFrom h2{
+  color:#1F1214;
+}
+
+.Landing__27 #OrderConfirmLeft #Payment #ArrowBg {
+  background:#E41320;
+  padding: 10px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.Landing__27 #OrderConfirmRight button {
+  background:#E41320;
+}
+
+.Landing__27 #OrderConfirmLeft #Payment #ArrowBg p {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+.Landing__27 #OrderConfirmLeft #Payment #ArrowBg::after {
+  border-bottom:15px solid  #E41320;
+  } 
+  
+.Landing__27 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+  background:#E41320;
+}
+
+
+.Landing__27 #OrderConfirmRight ul h5 {
+  color: #E41320;
+}
+
+.Landing__27 #OrderConfirmRight ul #left p {
+  color: #E41320;
+}
+
+
+
+.Landing__27 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:after {
+  top: 12px;
+}
+
+
+
+/* ================================================================================================
+Shipping Address
+===================================================================================================*/
+
+
+
+.Landing__27__ShippingDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  flex-wrap: wrap;
+}
+
+.Landing__27__ShippingDetails div {
+  position: relative;
+  height: 100px;
+  width: 23%;
+  box-shadow: 0px -3px 20px rgba(112, 144, 176, 0.12), 0px 7.66583px 17.0352px rgba(112, 144, 176, 0.12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Landing__27__ShippingDetails div h4{
+  text-align: center;
+  font-size: 30px;
+}
+
+.Landing__27__ShippingDetails div img{
+  position: absolute;
+  z-index: -1;
+  margin-top: -50px;
+ 
+}
+
+
+/* ================================================================================================
+    Footer
+===================================================================================================*/
+
+.Landing__27__FooterSec{
+    background-image: url(../../public/images/landing-27/bg4.png);
+    width: 100%;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.Landing__27__FooterContantImg{
+    height: 40px;
+}
+
+.Landing__27__FooterContant{
+  text-align: center;
+}
+
+.Landing__27__FooterContant h5{
+  font-size: 16px ;
+  color:#FDFDFD;
+  margin-top: 72px;
+}
+
+.Landing__27__FooterContant h3{
+  font-size: 30px ;
+  color:#FDFDFD;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.Landing__27__Hr{
+  width: 150px;
+  height: 1px;
+  background-color: #787272;
+  margin: 0 auto;
+  margin-bottom: 10px;
+ }
+
+.Landing__27__FooterContant ul{
+display: flex;
+justify-content: center;
+margin-bottom: 44px;
+
+}
+
+.Landing__27__FooterContant ul li a{
+  color: #E42930;
+  margin-left: 15px;
+}
+
+.Landing__27 #tinyFooter p {
+  color: #FDFDFD ;
+  font-size: 20px;
+  line-height: 34px;
+}
+.Landing__27 #tinyFooter p a{
+  color: #E41320 ;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+
+/* ================================================================================================
+      Media Quari
+===================================================================================================*/
+
+ 
+@media (max-width: 1741px) {
+
+  .Landing__27__Banner__Img1 {
+    margin-top: 150px;
+    width: 120%;
+    margin-left: -65px;
+}
+
+
+.Landing__27__Banner__H4__Div h4 {
+  left: 141px;
+  font-size: 24px;
+  color: #FDFDFD;
+  margin-top: 16px;
+}
+
+.Landing__27 h1 {
+  font-size: 44px;
+  line-height: 55px;
+  color: #2C2C2C;
+  font-weight: 900;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.Landing__27__Banner__TextContent {
+  margin-top: 143px;
+}
+
+.Landing__27 a.bg {
+  position: relative;
+  padding: 14px 56px;
+  font-size: 24px;
+  line-height: 55px;
+}
+
+.Landing__27__Banner__TextContent h2 {
+  margin-top: 44px;
+}
+
+.Landing__27 h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.Landing__27__LungiDetails2AbsImgDiv {
+  top: -224px;
+}
+
+.Landing__27 .grid-item {
+  border: 1px solid #FC9EA7;
+  padding: 24px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.Landing__27__ShippingDetails div h4 {
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+}
+
+ @media (max-width: 1400px) {
+
+  .Landing__27__Banner__Img1 {
+    margin-top: 150px;
+    width: 110%;
+    margin-left: -65px;
+}
+
+.Landing__27__Banner__H4__Div h4 {
+  left: 101px;
+  font-size: 24px;
+  color: #FDFDFD;
+  margin-top: 16px;
+}
+
+.Landing__27 h1 {
+  font-size: 44px;
+  line-height: 55px;
+  color: #2C2C2C;
+  font-weight: 900;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.Landing__27__Banner__TextContent {
+  margin-top: 143px;
+}
+
+.Landing__27 a.bg {
+    position: relative;
+    padding: 14px 56px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.Landing__27 a.bg svg {
+  font-size: 24px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.Landing__27__Banner__TextContent h2 {
+  margin-top: 44px;
+}
+
+.Landing__27 h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.Landing__27__LungiDetails2AbsImgDiv {
+  top: -224px;
+}
+
+.Landing__27 .grid-item {
+  border: 1px solid #FC9EA7;
+  padding: 24px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.Landing__27__ShippingDetails div h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+  .Landing__27__LungiDetails2AbsImgDiv {
+    top: -150px;
+}
+
+.Landing__27__AbsB_Box {
+  position: absolute;
+  top: -63px;
+  left: 292px;
+}
+
+.Landing__27__Banner__H4__Div h4 {
+  left: 81px;
+  font-size: 24px;
+  color: #FDFDFD;
+  margin-top: 16px;
+}
+
+
+.Landing__27__Banner__Img2 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin-top: -40px;
+  height: 180px;
+  z-index: 3;
+}
+
+.Landing__27__Card h4 {
+  position: absolute;
+  bottom: 12px;
+  font-size: 16px;
+  color: #FDFDFD;
+  text-align: center;
+  width: 100%;
+}
+
+.Landing__27__Banner__TextContent {
+  margin-top: 100px;
+}
+
+
+  }
+
+@media (max-width: 991px) {
+
+.Landing__27__collumnRev{
+
+  flex-direction: column-reverse;
+}
+
+.Landing__27__Banner {
+  height: auto;
+  position: relative;
+}
+
+
+.Landing__27__Banner__bg {
+  width: 100%;
+  height: 1200px;
+}
+
+.Landing__27__Banner__Img1 {
+  margin-top: 150px;
+  width: 100%;
+  margin-left: -35px;
+}
+
+.Landing__27__LungiDetails2AbsImgDiv {
+  top: -118px;
+}
+
+.Landing__27__LungiDetails2Img6Div div:nth-child(2) {
+  display: none;
+}
+
+.Landing__27__LungiDetails2Img6Div div:nth-child(3) {
+  display: none;
+}
+
+.Landing__27__LungiDetails2Img6Div div:nth-child(4) {
+  display: none;
+}
+
+.Landing__27__LungiImg {
+  width: 100%;
+  height: 517px;
+}
+
+.Landing__27__LungiDetails2Img6Div {
+  margin-top: 158px;
+  padding: 0 5%;
+}
+
+.Landing__27__OrderSecImg {
+  width: 100%;
+  height: 1356px;
+}
+
+
+
+}
+
+
+@media (max-width: 767px) {
+
+  .Landing__27__ShippingDetails {
+    display: block;
+    font-size: 30px;
+}
+
+
+.Landing__27__ShippingDetails div img {
+  width: 100%;
+  height: 80px;
+}
+
+.Landing__27__Banner__bg {
+  width: 100%;
+  height: 1128px;
+}
+
+.Landing__27__ShippingDetails div {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px -3px 20px rgba(112, 144, 176, 0.12), 0px 7.66583px 17.0352px rgba(112, 144, 176, 0.12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+}
+
+
+@media (max-width: 575px) {
+
+
+  .Landing__27__Banner__Img2 {
+    margin-top: 75px;
+    height: 102px;
+    z-index: 3;
+  }
+  
+  .Landing__27__Banner__Img1 {
+    margin-top: 150px;
+    width: 100%;
+    margin-left: -24px;
+  }
+
+  .Landing__27__Banner {
+    height: auto;
+    text-align: center;
+    position: relative;
+  }
+
+  .Landing__27__Banner__H4__Div h4 {
+    left: 0px;
+    font-size: 16px;
+    color: #FDFDFD;
+    margin-top: 16px;
+}
+
+.Landing__27__Banner__TextContent {
+  margin-top: 88px;
+}
+
+.Landing__27__Banner__Content h5 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.Landing__27 h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.Landing__27 a.bg {
+  position: relative;
+  padding: 4px 56px;
+  font-size: 20px;
+  line-height: 55px;
+}
+
+.Landing__27 a.bg svg {
+  font-size: 24px;
+}
+
+.Landing__27__AbsB_Box {
+  position: absolute;
+  top: 32px;
+  left: 60px;
+}
+
+.Landing__27__Banner__TextContent h2 {
+  margin-top: 112px;
+  text-align: center;
+}
+
+.Landing__27 h2 {
+  font-size: 22px;
+  line-height: 42px;
+}
+
+.Landing__27__Banner__bg {
+  width: 100%;
+  height: 900px;
+}
+
+.Landing__27__CardH2 {
+  padding: 0% 0%;
+  color: #2C2C2C;
+  margin-bottom: 100px;
+}
+
+.Landing__27 h2 {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.Landing__27__section_gaps{
+  margin-top: 50px;
+}
+
+.Landing__27__Lungi_DetailsH2 {
+  padding: 0 0%;
+  margin-bottom: 20px;
+}
+
+.Landing__27__Card h4 {
+  bottom: 20px;
+  font-size: 16px;
+}
+
+.Landing__27 p {
+  font-size: 16px;
+  line-height: 27px;
+  color: #6B6B6B;
+}
+
+.Landing__27__LungiDetails2AbsImgDiv img {
+  width: 100%;
+}
+
+.Landing__27__LungiDetails2Img6Div {
+  margin-top: 100px;
+  padding: 0 1%;
+}
+
+.Landing__27__LungiImg {
+  width: 100%;
+  height: 451px;
+}
+
+.Landing__27 .grid-item {
+  border: 1px solid #FC9EA7;
+  padding: 13px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Landing__27__OrderSecImg {
+  width: 100%;
+  height: 1576px;
+}
+
+.Landing__27__LungiDetails2Abs h4 {
+  color: #FDFDFD;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.Landing__27__AbsB_Box img {
+  height: 49px;
+}
+
+.Landing__27__AbsB_Box h6 {
+  margin-top: -43px;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.Landing__27__FooterContant h3 {
+  font-size: 24px;
+  color: #FDFDFD;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.Landing__27 .tiny-footer_tinyFooter__Tr3b1 p {
+  color: #FDFDFD ;
+  font-size: 16px;
+  line-height: 26px;
+}
+.Landing__27 .tiny-footer_tinyFooter__Tr3b1 p a{
+  color: #E41320 ;
+  font-size: 16px;
+  line-height:26px;
+}
+
+
+   
+    }
+
+@media (max-width: 450px) {
+
+   
+    }
+
+
+
+
+
+
+
+

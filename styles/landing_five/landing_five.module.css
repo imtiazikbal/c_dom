@@ -1,0 +1,1141 @@
+
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandingFive {
+  --header_color: #080422;
+  --bg_color1: #6001D3;
+  --bg_color2: #FCDC00;
+  --bg_color3: #FD346E;
+  --white_color: #fff;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 150px;
+}
+
+.LandingFive{
+    font-family: 'Noto Sans Bengali', sans-serif !important;
+}
+
+/* .LandingFive h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--header_color);
+    font-weight: 700;
+} */
+
+.LandingFive h3{
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--header_color);
+    font-weight: 600;
+}
+
+.LandingFive p{
+    color: var(--text_color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+         
+.LandingFive a {
+    transition: 0.5s;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+ 
+.LandingFive a.bg{
+    margin-top: 30px;
+    padding: 24px 50px;
+    color: var(--white_color); 
+    background-image: linear-gradient(to right, #6001D3 0%, #e9b005  51%, #6001D3  100%);
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.LandingFive a svg{
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.LandingFive a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.LandingFive .section_gaps{
+    margin-top: 100px;
+}
+.LandingFive ul{
+    list-style: none;
+    padding: 0%;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.BigDivece1{
+display: block;
+
+}
+.smallDivece2{
+    display: none;
+    
+}
+.Banner{
+    background: url('../../public/images/landing_5/banner_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.BannerText{
+    margin-top: 50px;
+}
+
+
+.BannerText h2{
+    font-size: 50px;
+    line-height: 150%;
+}
+
+.BannerText h2 span{
+    color: var(--bg_color3);
+}
+.BannerText .bgh3txt{
+    color: var(--bg_color3);
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+
+
+.BannerImg img{
+    width: 100%;
+}
+
+.txtCercleR3{
+    animation: myanim 1s linear infinite;
+    transition:1s;
+}
+@keyframes myanim {
+    0% {top: 0px;}
+   25% {top: 7px;}
+   50%  {top: 15px;}
+   75%  {top: 7px;}
+   100% {top: 0px;}
+  }
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART2
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.imgbanner2 .imgStarBox{
+    animation: myAnim2 3s linear infinite;
+    transition:3s;
+}
+
+@keyframes myAnim2 {
+    0% { transform: rotate(0deg);}
+   25% {transform: rotate(5deg);}
+   50%  {transform: rotate(10deg);}
+   75%  {transform: rotate(5deg);}
+   100% {transform: rotate(0deg);}
+  }
+
+
+
+.imgbanner2{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+
+.imgbanner2txt{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+/* .bgTopImg{
+max-height:520px;
+} */
+.imgbanner2txt .imgtxt1{
+    margin-top: 230px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 69px;
+    color: #FFFFFF;
+}
+.imgbanner2txt .imgtxt2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 114px;
+    text-align: center;
+    color: #FCDC00;
+}
+.imgbanner2txt .imgtxt3{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.txtCercleR{
+    position: relative;
+    top:0px;
+    left:0px;
+    margin-left: 20px;
+}
+.txtCercleR2{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-top:-30px;
+    margin-left:-20px;
+}
+
+.BannerText .txtCercleR3{
+    position:absolute;
+    top: 0;
+    right: -70px;
+    margin-top: -50px;
+}
+
+.bannerImgB2{
+   max-width: 100%;
+}
+
+.imgStarBox{
+   margin: 0 auto;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART 3
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.bgColor .OverflowH{
+  overflow: hidden;
+  border-radius: 20px;
+    margin-bottom: 24px;
+  }
+
+
+
+.conpadding{
+    padding: 0;
+    margin-top: 90px;
+    
+}
+.bgColor{
+    background: #F6F7FA;
+}
+
+.banner3h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 149.7%;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #080422;
+    padding: 70px 0 70px 0;
+}
+
+.mycard1{
+    text-align: center;
+    min-height: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 60px 80px rgba(49, 49, 49, 0.1);
+    border-radius: 16px;
+    font-size: 24px;  
+    padding: 15px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: .5s;
+}
+
+.mycard1:hover{
+    /* box-shadow: rgba(96, 1, 211, 0.4) 0px 2px, rgba(96, 1, 211, 0.3) 0px 5px, rgba(96, 1, 211, 0.2) 0px 7px, rgba(96, 1, 211, 0.1) 0px 12px, rgba(96, 1, 211, 0.05) 0px 15px; */
+    transform: scale(1.05);
+  }
+
+/* card background effact */
+
+.mycard1 {
+
+    --c: #e5e7eb;
+    background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0)
+        0 var(--p, 0%),
+      conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100%
+        var(--p, 0%);
+    background-size: var(--s, 0%) 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s ease-in, background-position 0s;
+  
+  }
+  
+  .mycard1:hover {
+    --p: 100%;
+    --s: calc(
+      100% + 0.61em
+    );
+    color: #fff;
+  }
+
+  .mycard1{
+    background-color: #ffffff;
+  }
+
+
+.cardimgstyle1{
+    margin: 31px 0 32px 0;
+    
+}
+.mycard1 .cardptxt {
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 166%;
+color: #6B6785;
+text-align: center;
+
+}
+
+.cardBtmPadding{
+    padding-bottom: 100px;
+}
+
+
+.absoluteimg1box{
+    text-align: right;
+    position: relative;
+    top:0;
+    right:0;
+}
+.absoltImg{
+    position: absolute;
+    top:-100px;
+    right: 0;
+    margin-right:0;
+    text-align: right;
+    vertical-align: 200px;
+   
+   
+}
+
+.myImgabsolut{
+    margin-top: -20px;
+}
+
+.absoluteimg1box .banner3ptxt2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 166%;
+    text-align: center;
+    color: #6B6785;
+    padding-top:90px;
+    padding-bottom: 65px;
+    padding-left: 14%;
+    padding-right: 14%;
+
+    text-align: justify;
+    text-align: center;
+}
+
+.videoImg iframe{
+    border-radius: 3%;
+}
+/* -------------------blu circle------------------------------ */
+.bluCercleRt{
+    position: relative;
+    top: 0;
+    left:0;
+}
+.bluCercleRt2{
+    position: absolute;
+    top:0px;
+    left:0;
+    margin-left: 80px;
+    margin-top: 7%;
+}
+
+
+/* ---------------------Cercle------ yello------------------------------ */
+.yelloCercleRt{
+    position: relative;
+    top: 0;
+    left:0;
+}
+.yelloCercleRt2{
+    position: absolute;
+    top:0px;
+    left:0;
+    margin-top: 22%;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART----4
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.baner4Dev{
+    margin-top: 100px;
+    position: relative;
+    top:0;
+    left:0;
+}
+.banner4BorderImg{
+    text-align: center;
+
+}
+.card4abTextBox{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+     top:0px;
+     left:0;
+}
+
+
+.borderImg{
+    max-width: 100%;
+}
+.card4abTextBox .banner4h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 149.7%;
+    letter-spacing: 0.015em;
+    color:#FD4343
+}
+
+.card4abTextBox .banner4P{
+
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 166%;
+text-align: center;
+color: #6B6785;
+padding-top: 30px;
+}
+
+
+.card4abText{
+    text-align: center;
+    margin-top: 12%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART----5
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.mainlinkdiv{
+    position: relative;
+    top:0;
+    left:0;
+    background: #1DE2CF;
+    border-radius: 20px;
+    padding: 118px 5% 118px 5%;
+    margin-top: 100px;
+}
+
+.cercleRed{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-right: -50px;
+    vertical-align: 150px;
+    z-index: -1;
+    margin-top: -50px;
+}
+
+
+.mainlinkdiv .Bannerbanner5Icon {
+    color:#6001D3;
+    padding: 0 0 0 12px;
+    font-size: 40px;
+  
+}
+
+
+.mainlinkdiv .banner5Link1{
+    margin: 0 auto;
+    color: #071C1F;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background: #7FFAEE;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 25px 31px 25px 31px;
+    align-items: center;
+    
+}
+
+.mainlinkdiv  .mypadding{
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.mainlinkdiv .banner5Link1:hover{
+    background-color: #FCDC00;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART-----Foooter
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.footerMDiv{
+    margin-top: 100px;
+}
+.footerDiv{
+    background: #172D4C;
+    border-radius: 16px;
+    padding: 62px 10% 32px 10%;
+    margin: 0 2% 0 2%;
+}
+.footerDiv .footerh2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.footericon3{
+display:flex ;
+margin-top: 25px;
+transition: 1s;
+/* text-align: center;
+align-items: center;
+justify-content: center; */
+}
+
+.footericon3 a:hover{
+ transform: scale(1.2);   
+outline-offset: 2px;
+transform-origin: 1s;
+}
+
+.hr{
+    width: 32px;
+    height: 0px;
+    left: 262px;
+    top: 6887px;
+    border: 1px solid #FCDC00;
+   margin-bottom: 8px;
+}
+
+.footerSpan{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footerDiv .footerS{
+margin-bottom: 12px;
+
+}
+.footerDiv .foottericon2{
+    color: #FFFFFF;
+}
+
+.coloricon{
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+    color:  #FD346E;
+    font-weight:bolder;
+    font-size: 20px;
+    margin-right: 33px;
+}
+.coloricon3{
+    color:#FEC827;
+    font-weight:bolder;
+    font-size: 20px;
+}
+.footlastSpan1 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #FECB02;
+}
+.footlastSpan2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.99px;
+    line-height: 55px;
+    color: #F8F8F8;
+}
+.lastlogo{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART - media Quari----------Responsive start
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 1440px) { 
+    .mycard1{
+        min-height: 410px;        
+    }
+
+}
+
+@media (max-width: 1199.98px) { 
+    .BannerText .txtCercleR3{
+        right: -160px;
+        margin-top: -50px;
+    }
+    .mainlinkdiv .banner5Link1{
+        width: 100%;
+        padding: 31px 31px 25px 12px;
+    }
+    .LandingFive a.bg{
+        margin-top: 30px;
+        padding: 24px 50px;
+        color: var(--white_color); 
+        background-image: linear-gradient(to right, #6001D3 0%, #e9b005  51%, #6001D3  100%);
+        background-size: 200% auto;
+        border-radius: 10px;
+        display: inline-block;
+        font-size: px;
+        line-height: 42px;
+    }
+
+    .mycard1{
+        min-height: 475px;        
+    }
+
+}
+
+@media (max-width: 991.98px) { 
+    .BigDivece1{
+        display: none;
+        }
+    .smallDivece2{
+        display: block;
+            
+        }
+        .BannerText .txtCercleR3{
+            position:absolute;
+            top: 0;
+            right: 0px;
+            margin-top:0px;
+        }
+        .imgbanner2txt .imgtxt1{
+            margin-top: 260px;
+        }
+
+        .imgbanner2txt .imgtxt1{
+          
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 19px;
+        }
+        .imgbanner2txt .imgtxt2{
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 74px;
+            text-align: center;
+        }
+        .imgbanner2txt .imgtxt3{
+            font-size: 25px;
+            line-height: 53px;
+        }
+        .BannerText h2{
+            text-align: center;
+        }
+
+        .mainlinkdiv .banner5Link1{
+            width: 100%;
+            padding: 31px 31px 25px 12px;
+        }
+
+        .mainlinkdiv .mypadding{
+            padding-left: 10px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 38px;
+        }
+        .footlastSpan2{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 23.99px;
+            line-height: 55px;
+            color: #F8F8F8;
+        }
+        .lastlogo{
+            margin-bottom: 20px;
+            height: 53px;
+            width: 173;
+        }
+
+        .mycard1{
+            min-height: 350px;        
+        }
+
+ }
+
+@media (max-width: 767.98px) {  
+
+    .imgbanner2txt .imgtxt1{
+        margin-top: 150px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 19px;
+    }
+    .imgbanner2txt .imgtxt2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 74px;
+        text-align: center;
+    }
+    .imgbanner2txt .imgtxt3{
+        font-size: 20px;
+        line-height: 53px;
+    }
+
+    .mainlinkdiv{
+        padding: 58px 5% 58px 5%;
+    }
+    .mainlinkdiv .banner5Link1{
+        width: 100%;
+        padding: 10px 31px 10px 12px;
+    }
+    .card4abTextBox .banner4h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40.7%;
+        
+    }
+
+    .mainlinkdiv .mypadding{
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    .mainlinkdiv .Bannerbanner5Icon {
+        color:#6001D3;
+        padding: 0 0 0 12px;
+        font-size: 30px;
+      
+    }
+
+    .footlastSpan2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23.99px;
+        line-height: 55px;
+        color: #F8F8F8;
+    }
+    .lastlogo{
+        margin-bottom: 20px;
+        height: 53px;
+        width: 173;
+    }
+    
+
+}
+
+@media (max-width: 575.98px) { 
+    .BannerText .txtCercleR3{
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        margin-top:80px;
+      
+    }
+  .BannerLogo{
+    margin-bottom: 30px;
+  }
+
+  .txtCercleR{
+    margin-bottom: 140px;
+  }
+  .imgbanner2txt .imgtxt1{
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+}
+.imgbanner2txt .imgtxt2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.imgbanner2txt .imgtxt3{
+    font-size: 15px;
+    line-height: 5px;
+}
+
+
+.LandingFive a.bg{
+    padding: 12px 5px;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+
+
+
+.LandingFive a svg{
+    font-size: 20px;
+}
+
+.LandingFive a {
+    font-size: 16px;
+    text-align: center;
+    /* margin-left: 0%; */
+}
+.LandingFive .banner3h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 149.7%;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #080422;
+    padding: 70px 0 70px 0;
+}
+
+
+.banner3ptxt2{
+    padding: 10px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    text-align: center;
+}
+
+.videoImg iframe{
+    height: 250px;
+}
+
+.card4abTextBox .banner4h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40.7%;
+    
+}
+.card4abTextBox .banner4P{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 90%;
+    text-align: center;
+    color: #6B6785;
+    padding-top: 10px;
+    }
+    
+
+     .mainlinkdiv{
+        padding: 58px 5% 58px 5%;
+    }
+    .mainlinkdiv .banner5Link1{
+        width: 100%;
+        padding: 10px 31px 10px 12px;
+    }
+
+     .mainlinkdiv .mypadding{
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 38px;
+    }
+
+
+
+     .footerh2TB{
+        margin-top: 60px;
+    
+     }
+     .lastlogo{
+        margin-top: 60px;
+     }
+
+     .footlastSpan2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22.99px;
+        line-height: 55px;
+        color: #F8F8F8;
+    }
+
+    .cercleRed{
+        position: absolute;
+        top:0;
+        right:0;
+        margin-right: -30px;
+        vertical-align: -80px;
+        z-index: -1;
+        margin-top: -30px;
+    }
+
+    .BannerText h2{
+        font-size: 30px;
+    }
+
+    .cercleSmall{
+        height: 100px;
+        width: 100px;
+        margin-top: 100px;
+    }
+    .aLink{
+        margin-left:22%;
+    }
+    .footerMDiv{
+        text-align: center;
+    }
+   
+    .hrDev{
+     margin: 0 auto;
+    }
+    .hr{
+        text-align: center;
+        width: 32px;
+        margin: 0 auto;
+        border: 1px solid #FCDC00;
+       margin-bottom: 8px;
+    }
+
+    .myImgabsolut{
+        height: 120px;
+    }
+    .footericon3{
+        display:flex ;
+        margin-top: 25px;
+        transition: 1s;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .mycard1 .cardptxt {
+            font-size: 18px;
+            }
+        .absoluteimg1box .banner3ptxt2{
+            font-size: 18px;
+              
+            }
+            
+          
+
+
+}
+@media (max-width: 500.98px) { 
+    .mainlinkdiv .mypadding{
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 38px;
+    }
+
+    .LandingFive a.bg{
+        padding: 12px 5px;
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    .mainlinkdiv{
+        padding: 58px 5% 58px 5%;
+    }
+    .mainlinkdiv .banner5Link1{
+        width: 100%;
+        padding: 10px 31px 10px 12px;
+    }
+
+    .footericon3{
+        display:flex ;
+        margin-top: 25px;
+        transition: 1s;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        }
+
+
+}
+@media (max-width: 400.98px) { 
+
+    .mainlinkdiv .banner5Link1{
+        width: 90%; 
+    }
+
+    .mainlinkdiv .mypadding{
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 38px;
+    }
+    .mainlinkdiv{
+        padding: 58px 5% 58px 5%;
+    }
+    .mainlinkdiv .banner5Link1{
+        width: 100%;
+        padding: 10px 10px 10px 12px;
+    }
+
+    .mainlinkdiv .Bannerbanner5Icon {
+        color:#6001D3;
+        padding: 0 0 0 2px;
+        font-size: 14px;
+      
+    }
+    
+    .footericon3{
+        display:flex ;
+        margin-top: 25px;
+        transition: 1s;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        }
+
+
+
+
+.txtCercleR .txtCercleR2 img {
+    width: 300px;
+}
+
+ .card4abText .banner4P{
+    font-size: 10px;
+}
+.aLink{
+    margin-left:18%;
+}
+
+.LandingFive a.bg{
+    padding: 12px 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.txtCercleR2{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-top:-30px;
+    margin-left:-30px;
+}
+
+.txtCercleR .bgh3txt{
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.card4abTextBox .banner4h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40.7%;
+    
+}
+
+.BannerText .txtCercleR3 img{
+    width:150px;
+    height:140px;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+
+
+
+
+}
+
+@media (max-width: 320.98px) { 
+    .imgbanner2txt .imgtxt1{
+        margin-top: 100px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 19px;
+    }
+    .imgbanner2txt .imgtxt2{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .imgbanner2txt .imgtxt3{
+        font-size: 15px;
+        line-height: 5px;
+    }
+    .banner3h2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 149.7%;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #080422;
+        padding: 70px 0 70px 0;
+    }
+  
+
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */

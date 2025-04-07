@@ -1,0 +1,235 @@
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1440px) {
+
+    .LandingTwo .container{
+        max-width: 80%;
+    }
+    .LandingTwo .container h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        color: var(--two_bg_color);
+    }
+    .LandingTwo .container a.bg, .LandingTwo .container button.bg {
+        border-radius: 15px;
+        padding: 10px 40px;
+        padding-bottom: 5px;
+    }
+    .LandingTwo .container a {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .LandingTwo .ProductItem {
+        padding: 25px;
+    }
+    .LandingTwo .container h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .LandingTwo .container p {
+        font-size: 15px;
+    }
+    .LandingTwo .WhyBuyItem h4 {
+        width: 85%;
+    }
+    .LandingTwo .WhyGood h2 {
+        color: var(--white_color);
+    }
+    .LandingTwo .WhyGood .WhyGoodOverlay {
+        top: -90px;
+    }
+    .LandingTwo .WhyGood .WhyGoodOverlay2 {
+        bottom: -265px;
+    }
+    .LandingTwo .WhyGood .WhyGoodOverlay2 img, .LandingTwo .WhyGood .WhyGoodOverlay img{
+        height: 250px;
+    }
+
+
+}
+
+
+/* // XX-Large devices (larger desktops, 12800px and up) */
+@media (max-width: 1280px) {
+
+    .LandingTwo .container {
+        max-width: 90%;
+    }
+
+    .LandingTwo .section_gaps{
+        margin-top: 80px;
+    }
+    .LandingTwo .LogoOverlay img{
+        height: 120px;
+    }
+    .LandingTwo .container h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .LandingTwo .ProductItem img {
+        width: 100px;
+        height: 100px;
+    }
+    .LandingTwo .ProductItem {
+        padding: 15px;
+    }
+    .LandingTwo .container h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .LandingTwo .container p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .LandingTwo .WhyBuyItem {
+        padding: 30px;
+    }
+    .LandingTwo .WhyBuyItem img{
+        height: 40px;
+    }
+    .LandingTwo .WhyBuyItem h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+    .LandingTwo .tinyFooter p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .LandingTwo .tinyFooter p a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .LandingTwo #form_part {
+        padding: 80px 0;
+    }
+    .LandingTwo .form_part_content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .LandingTwo .product_part ul li .left .img img {
+        height: 55px;
+    }
+    .LandingTwo .product_part ul li .left .text h4 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .LandingTwo .product_part ul li .amount h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .LandingTwo #Footer .footerLeft img {
+        width: 65%;
+    }
+    .LandingTwo #Footer .footerRight img {
+        width: 65%;
+    }
+    .LandingTwo #Footer .footerRight {
+        text-align: right;
+    }
+
+
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 990px) {
+
+    .LandingTwo .BannerContent{
+        text-align: center;
+    }
+    .LandingTwo .Banner .col-lg-6:first-child{
+        order: 2;
+    }
+    .LandingTwo .Banner .col-lg-6:last-child{
+        order: 1;
+    }
+    .LandingTwo .BannerImg{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .LandingTwo .BannerImg img{
+        width: 70%;
+    }
+    .LandingTwo .ProductItem{
+        margin-bottom: 30px;
+    }
+    .LandingTwo .WhyBuy .container {
+        padding: 50px;
+    }
+    .LandingTwo .WhyBuyItem h4 {
+        font-size: 17px;
+    }
+    .LandingTwo .WhyGood .WhyGoodOverlay2 img, .LandingTwo .WhyGood .WhyGoodOverlay img {
+        height: 150px;
+    }
+    .LandingTwo .WhyGood .WhyGoodOverlay {
+        top: -45px;
+    }
+    .LandingTwo .WhyGood .WhyGoodOverlay2 {
+        bottom: -60px;
+    }
+    .LandingTwo .WhyBuy {
+        padding-bottom: 0;
+    }
+    .LandingTwo .WhyGood {
+        padding: 100px 0;
+    }
+    .LandingTwo #form_part .container {
+        padding: 30px;
+    }
+    .LandingTwo .product_part ul li {
+        padding: 15px;
+        border-bottom: 1px solid var(--two_text_color);
+    }
+
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 575px) {
+
+    .LandingTwo .WhyBuy .WhyBuyOverlay2, .LandingTwo .WhyBuy .WhyBuyOverlay {
+        display: none;
+    }
+    .LandingTwo .LogoOverlay img {
+        height: 60px;
+    }
+    .LandingTwo .container p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .LandingTwo .VideoOverlay {
+        display: none;
+    }
+    .LandingTwo .WhyBuy .container {
+        padding: 30px;
+    }
+    .LandingTwo .container h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .LandingTwo .Banner h4 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .LandingTwo .Banner h4 span {
+        font-size: 25px;
+    }
+    .LandingTwo .Banner h4 del {
+        font-size: 15px;
+    }
+    .LandingTwo .WhyGood p {
+        font-size: 16px;
+        line-height: 35px;
+        width: 100%;
+    }
+    .LandingTwo .WhyGood {
+        background: #DE5074;
+    }
+    .LandingTwo .container a.bg, .LandingTwo .container button.bg {
+        padding: 15px 30px;
+        padding-bottom: 12px;
+    }
+
+
+}

@@ -1,0 +1,1412 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.Landing__4 {
+    --header_color: #ffffff;
+    --bg_color: #FEC827;
+    --bg_color2: #FD9328;
+    --bg_color3: #88EF19;
+    --bg_color4: #88EF19;
+    --text_color: #64607D;
+    --white_color: #fff;
+    --primary_text: #2E514A;
+
+}
+
+.Landing__4 .Section__Gaps{
+    margin-top: 100px;
+}
+
+.Landing__4 {
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.Landing__4 h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 90px;
+    color: var(--header_color);
+}
+
+.Landing__4 h1 span {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 90px;
+    color: #FD4343;
+    text-align: center;
+
+}
+
+.Landing__4 h2 {
+    font-size: 45px;
+    line-height: 50px;
+    color: var(--primary_text);
+    text-align: center;
+    font-weight: 700;
+}
+
+.Landing__4 h3 {
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--primary_text);
+    font-weight: 600;
+}
+
+.Landing__4 .Title h2 {
+    line-height: 70px;
+}
+
+.Landing__4 .Title p {
+    color: var(--primary_text);
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.Landing__4 h5 {
+    font-size: 24px;
+    line-height: 20px;
+    color: var(--primary_text);
+    font-weight: 600;
+}
+
+.Landing__4 h6 {
+    font-size: 21px;
+    line-height: 28px;
+    color: var(--bg_color3);
+    font-weight: 700;
+}
+
+.Landing__4 p {
+    color: var(--text_color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+.Landing__4 a {
+    transition: 0.5s;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.Landing__4 a.bg {
+    margin-top: 30px;
+    padding: 12px 50px;
+    padding-top: 15px;
+    color: var(--white_color);
+    background: #FD9328;
+    background-size: 200% auto;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 0px 67px 80px rgba(30, 20, 10, 0.38), 0px 43.4259px 46.8519px rgba(30, 20, 10, 0.1931), 0px 25.8074px 25.4815px rgba(30, 20, 10, 0.0425185), 0px 13.4px 13px rgba(30, 20, 10, 0.035), 0px 5.45926px 6.51852px rgba(30, 20, 10, 0.0274815), 0px 1.24074px 3.14815px rgba(30, 20, 10, 0.0168519);
+}
+
+.Landing__4 a.bg:hover {
+    transform: scale(1.02);
+}
+
+.Landing__4 a svg {
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.Landing__4 .hLine {
+    margin-top: 10px;
+    height: 2px;
+    width: 300px;
+    background: var(--primary_text);
+}
+
+.Landing__4 a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Landing__4 .section_gaps {
+    margin-top: 100px;
+}
+
+.Landing__4 .LogoDiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Menubar PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__4 .Menubar{
+    position: absolute;
+    width: 100%;
+    padding: 10px 0;
+    left: 0;
+    top: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__4 .Banner {
+    background: url(../../public/images/landing-4/background8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.Landing__4 .Leaf .DiscountBox .text h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.Landing__4 .Leaf {
+    background: url(../../public/images/landing-4/Leaf.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+
+}
+
+.Landing__4 h2 span {
+    color: var(--bg_color2);
+    text-decoration: line-through;
+}
+
+.Landing__4 .Leaf .pricediv {
+    margin-top: 50px;
+}
+
+.Landing__4 .Leaf .text {
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+.Landing__4 .Leaf .price2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.Landing__4 .Leaf .textDecoration {
+    position: relative;
+    margin-left: 10px;
+}
+
+.Landing__4 .Leaf h2 {
+    text-align: left;
+    color: #fff;
+}
+
+.Landing__4 .Leaf .textDecoration img {
+    position: absolute;
+    bottom: -40px;
+}
+
+.Landing__4 .Leaf .textDecoration .PriceBox {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.Landing__4 .Leaf .phoneDiv {
+    margin-top: 60px;
+}
+
+.Landing__4 .Leaf .imgWhite {
+    display: none;
+}
+
+.Landing__4 .Leaf .text h3 {
+    color: var(--primary_text);
+}
+
+.Landing__4 .Leaf .BannerContent {
+    padding-bottom: 150px;
+}
+
+.Landing__4 .Leaf .titleHeader {
+
+    margin-top: 50px;
+    display: flex;
+    word-spacing: 20px;
+    width: 60%;
+}
+
+.Landing__4 .Leaf .titleHeader h1 {
+    font-size: 80px;
+    letter-spacing: 0.11em;
+    margin-right: 30px;
+}
+
+.Landing__4 .Leaf .titleHeader h1 span {
+    color: var(--primary_text);
+}
+
+.Landing__4 .Leaf .DiscountBox {
+    padding-top: 200px;
+    position: relative;
+}
+
+.Landing__4 .Leaf .DiscountBox img {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.Landing__4 .Leaf .DiscountBox .text {
+    position: absolute;
+    top: 65px;
+    right: 11px;
+    color: var(--bg_color2);
+    text-align: center;
+    width: 170px;
+}
+
+.Landing__4 .Leaf .DiscountBox .text h2 {
+    color: var(--bg_color2);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    ProductAbout PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.ProductAbout p {
+    color: var(--primary_text);
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Youtube PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.YouTubeVid img {
+    width: 100%;
+}
+
+.YouTubeVid .buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.YouTubeVid .buttonGroup .bg {
+
+    margin: 0 20px;
+
+}
+
+.YouTubeVid .buttonGroup .bg:last-child {
+    background: #fff;
+    border: 1px solid var(--primary_text);
+    color: var(--primary_text);
+    /* background-size: 200% auto;
+    background-image: linear-gradient(to right, #ffffff 0%, #dddddd  51%, #ffffff  100%); */
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   UsefullnessItems PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__4 .UsefullnessItems {
+    background: #E8F2E4;
+    position: relative;
+    padding: 125px 0;
+}
+
+.Landing__4 .UsefullnessItems .ItemCards {
+    border-radius: 10px;
+    padding: 30px 43px;
+    text-align: center;
+    margin: 10px auto;
+    background: #fff;
+    box-shadow: 0px -22px 80px rgba(0, 0, 0, 0.03), 0px 50px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+}
+
+.Landing__4 .UsefullnessItems .left {
+    position: absolute;
+    top: 90%;
+    left: 0;
+}
+
+.Landing__4 .UsefullnessItems .right {
+    position: absolute;
+    right: 0;
+    top: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Landing__4 .UsefullnessItems .left img,
+.Landing__4 .UsefullnessItems .right img {
+    width: 100%;
+}
+
+
+.Landing__4 .UsefullnessItems .ItemCards .IconBox {
+    background: var(--primary_text);
+    height: 60px;
+    width: 60px;
+    padding: 14px 10px 14px 10px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   DiscountSection PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__4 .DiscountSection h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Landing__4 .DiscountSection .ContentBox {
+    background: #FDA043;
+    position: relative;
+    padding: 80px 0;
+    border-radius: 10px;
+
+}
+
+.Landing__4 .DiscountSection .ContentBox .ImageLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.Landing__4 .DiscountSection .ContentBox .ImageLayer2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Landing__4 .DiscountSection .ContentBox .text .bg {
+    background: var(--primary_text);
+    margin: 0 auto;
+}
+
+.Landing__4 .DiscountSection .ContentBox .text h1 {
+    font-size: 45px;
+}
+
+.Landing__4 .DiscountSection .ContentBox .text a {
+    font-size: 26px;
+}
+
+.Landing__4 .DiscountSection .ContentBox .text .buttonCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.Landing__4 .DiscountSection .ContentBox .ImageLayer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Landing__4 .DiscountSection .ContentBox .ImageLayer2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Landing__4 .DiscountSection .ContentBox .ImageLayer img,
+.Landing__4 .DiscountSection .ContentBox .ImageLayer2 img {
+    width: 100%;
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   WhyUs PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__4 .WhyUs {
+    position: relative;
+    padding: 120px 0;
+    padding-bottom: 0;
+}
+
+.Landing__4 .WhyUs .left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Landing__4 .WhyUs .right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    OnlyOrderBtn PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__4 .OnlyOrderBtn {
+    padding: 0px 0;
+}
+
+.Landing__4 .OnlyOrderBtn .buttonCenter {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    OrderConfirmFrom PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__4 .OrderSection .OrderDiv {
+    background: var(--primary_text);
+    text-align: center;
+    padding: 30px 80px;
+    border-radius: 10px
+}
+
+.Landing__4 .OrderSection .OrderDiv h1 {
+    font-size: 40px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__4 #OrderConfirmLeft #Payment #ArrowBg{
+    background: #2E514A;
+}
+
+.Landing__4 #OrderConfirmRight button{
+    background: #2E514A;
+}
+
+.Landing__4 #OrderConfirmLeft #Payment #ArrowBg p{
+    color: var(--white_color);
+}
+
+.Landing__4 #OrderConfirmLeft #Payment #ArrowBg::after {
+    border-bottom: solid 15px #2E514A;
+}
+
+
+.Landing__4 #tinyFooter p a {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2E514A;
+    padding: 0 5px;
+}
+
+.Landing__4 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+    background: #2e514a;
+}
+
+.Landing__4 #OrderConfirmLeft #Payment #ArrowBg p {
+    font-size: 18px;
+  }
+  
+  .Landing__4 #OrderConfirmLeft #Payment #ArrowBg {
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Footer Section PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__4 .FooterSection {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.Landing__4 .FooterSection .imgLayer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Landing__4 .FooterSection .imgLayer img {
+    width: 100%;
+}
+
+.Landing__4 .FooterSection .Logo img {
+    margin-right: auto;
+    display: flex;
+}
+
+.Landing__4 .FooterSection .footerMenu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Landing__4 .FooterSection .footerMenu ul li {
+    display: inline-block;
+
+}
+
+.Landing__4 .FooterSection .footerMenu ul li {
+    margin-top: 10px;
+    list-style: none;
+    color: var(--primary_text);
+    font-size: 18px;
+}
+
+.Landing__4 .FooterSection .footerMenu ul li a {
+    color: var(--primary_text);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.Landing__4 .FooterSection .footerMenu ul li svg {
+    color: var(--primary_text);
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.FooterSection .footerMenu .footerBox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Landing__4 .FooterSection .footerMenu .footerBox svg {
+    color: var(--primary_text);
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   BottomFooterMenu PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__4 .BottomFooterMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.Landing__4 .BottomFooterMenu ul li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.Landing__4 .BottomFooterMenu ul li a {
+    color: var(--primary_text);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Landing__4 .DiscountBox h2 {
+
+    right: 11px;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+
+
+
+/*  */
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1440px) {
+
+    .Landing__4 .container {
+        width: 90%;
+    }
+
+    .Landing__4 h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .Landing__4 h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .Landing__4 h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    /* Ibrahim---- */
+
+    .Landing__4 .ImageLayer2 {
+        width: 120px;
+    }
+
+    .Landing__4 .ImageLayer {
+        width: 120px;
+    }
+
+
+    .Landing__4 .tiny-footer_tinyFooter__Tr3b1 p {
+        line-height: 10px;
+        text-align: center;
+    }
+
+
+}
+
+
+
+/*  */
+/* // laptop Devices */
+
+@media (max-width: 1024px) {
+
+    .Landing__4 h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .Landing__4 h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .Landing__4 h5 {
+        font-size: 15px;
+    }
+
+    .Landing__4 h1 span {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .Landing__4 a.bg {
+        padding: 10px 30px;
+        padding-top: 11px;
+    }
+
+    .Landing__4 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .Landing__4 .Title p {
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+
+    .Landing__4 .Title h2 {
+        line-height: 30px;
+    }
+
+    .Landing__4 .LogoDiv img {
+        width: 40%;
+
+    }
+
+
+    .Landing__4 .Leaf {
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .Landing__4 .Leaf .text {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Landing__4 .Leaf .text h3 {
+        font-size: 20px;
+    }
+
+    .Landing__4 .Leaf .titleHeader {
+        margin-top: 10px;
+    }
+
+    .Landing__4 .Leaf .textDecoration img {
+
+        bottom: -16px;
+        width: 160px;
+        left: 13px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox {
+        padding-top: 150px;
+        margin: 60px 0;
+    }
+
+    .Landing__4 .Leaf .DiscountBox img {
+        top: 0px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox .text {
+        top: 50px;
+    }
+
+    .Landing__4 .UsefullnessItems {
+        padding: 65px 0;
+    }
+
+    .Landing__4 .UsefullnessItems h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards {
+        padding: 13px 8px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards .IconBox img {
+        width: 20px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards .IconBox {
+        height: 35px;
+        width: 35px;
+        padding: 6px 5px;
+        margin-bottom: 15px;
+    }
+
+    .Landing__4 .DiscountSection h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox .text h1 {
+        font-size: 30px;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox .text a {
+        font-size: 22px;
+    }
+
+
+    .Landing__4 .Landing__4 a.bg {
+        margin-top: 25px;
+        padding: 10px 25px;
+        padding-top: 12px;
+    }
+
+    .Landing__4 .UsefullnessItems .left img,
+    .Landing__4 .UsefullnessItems .right img {
+        width: 60%;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox .ImageLayer img,
+    .Landing__4 .DiscountSection .ContentBox .ImageLayer2 img {
+        width: 60%;
+    }
+
+    .Landing__4 .Landing__4 .WhyUs {
+        padding: 30px 0;
+    }
+
+    .Landing__4 .WhyUs .left img,
+    .Landing__4 .WhyUs .right img {
+        width: 30%;
+    }
+
+    .Landing__4 .OnlyOrderBtn {
+        padding: 30px 0;
+    }
+
+    .Landing__4 .FooterSection .imgLayer img {
+        width: 60%;
+    }
+
+    .Landing__4 .FooterSection .FooterMenu ul li {
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .Landing__4 .FooterSection .footerMenu ul li a {
+        font-size: 18px;
+    }
+
+    .Landing__4 .FooterSection .footerMenu ul li svg {
+        font-size: 20px;
+    }
+
+    .Landing__4 .FooterSection .footerMenu .footerBox svg {
+        font-size: 25px;
+    }
+
+
+    .Landing__4 .DiscountBox h2 {
+
+        right: 11px;
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/*  */
+/* // Mid Size Devices */
+
+@media (max-width: 768px) {
+
+    .Landing__4 h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .Landing__4 h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .Landing__4 h5 {
+        font-size: 15px;
+    }
+
+    .Landing__4 h1 span {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .Landing__4 a.bg {
+        padding: 10px 30px;
+        padding-top: 11px;
+    }
+
+    .Landing__4 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .Landing__4 .Title p {
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+
+    .Landing__4 .Title h2 {
+        line-height: 30px;
+    }
+
+    .Landing__4 .LogoDiv img {
+        width: 40%;
+
+    }
+
+
+    .Landing__4 .Leaf {
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .Landing__4 .Leaf .text {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Landing__4 .Leaf .text h3 {
+        font-size: 20px;
+    }
+
+    .Landing__4 .Leaf .titleHeader {
+        margin-top: 10px;
+    }
+
+    .Landing__4 .Leaf .textDecoration img {
+
+        bottom: -16px;
+        width: 160px;
+        left: 13px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox {
+        padding-top: 150px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox img {
+        top: 0px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox .text {
+        top: 50px;
+    }
+
+    .Landing__4 .UsefullnessItems {
+        padding: 65px 0;
+    }
+
+    .Landing__4 .UsefullnessItems h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards {
+        padding: 20px 8px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards .IconBox img {
+        width: 20px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards .IconBox {
+        height: 35px;
+        width: 35px;
+        padding: 6px 5px;
+        margin-bottom: 15px;
+    }
+
+    .Landing__4 .DiscountSection h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox .text h1 {
+        font-size: 30px;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox .text a {
+        font-size: 22px;
+    }
+
+
+    .Landing__4 a.bg {
+        margin-top: 25px;
+        padding: 10px 25px;
+        padding-top: 12px;
+    }
+
+    .Landing__4 .UsefullnessItems .left img,
+    .Landing__4 .UsefullnessItems .right img {
+        width: 60%;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox .ImageLayer img,
+    .Landing__4 .DiscountSection .ContentBox .ImageLayer2 img {
+        width: 60%;
+    }
+
+    .Landing__4 .Landing__4 .WhyUs {
+        padding: 30px 0;
+    }
+
+    .Landing__4 .WhyUs .left img,
+    .Landing__4 .WhyUs .right img {
+        width: 30%;
+    }
+
+    .Landing__4 .OnlyOrderBtn {
+        padding: 30px 0;
+    }
+
+    .Landing__4 .FooterSection .imgLayer img {
+        width: 60%;
+    }
+
+    .Landing__4 .FooterSection .FooterMenu ul li {
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .Landing__4 .FooterSection .FooterMenu ul li {
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .Landing__4 .FooterSection .footerMenu ul li a {
+        font-size: 18px;
+    }
+
+    .Landing__4 .FooterSection .footerMenu ul li svg {
+        font-size: 20px;
+    }
+
+    .Landing__4 .FooterSection .footerMenu .footerBox svg {
+        font-size: 25px;
+    }
+
+    /* Ibrahim------------------ */
+    .Landing__4 .ImageLayer2 {
+        width: 120px;
+    }
+
+    .Landing__4 .ImageLayer {
+        width: 120px;
+    }
+
+
+    .Landing__4 .DiscountBox img {
+        top: 22px;
+        /* left: 145px; */
+        width: 130px !important;
+        margin-left: 20px;
+
+    }
+
+
+    .Landing__4 .DiscountBox h2 {
+        padding-bottom: 0px;
+        padding-left: 61px;
+        margin-top: -45px;
+        right: 11px;
+    }
+
+    .Landing__4 .DiscountBox h5 {
+        padding-bottom: 0px;
+        padding-left: 60px;
+    }
+
+
+
+
+
+}
+
+/*  */
+/* // Xm-Small devices (from mobile to tab) */
+@media (max-width: 575px) {
+
+    .Landing__4 h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .Landing__4 h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .Landing__4 h5 {
+        font-size: 15px;
+    }
+
+    .Landing__4 h1 span {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .Landing__4 a.bg {
+        padding: 10px 30px;
+        padding-top: 11px;
+    }
+
+    .Landing__4 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .Landing__4 .Title p {
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+
+    .Landing__4 .Title h2 {
+        line-height: 30px;
+    }
+
+    .Landing__4 .LogoDiv img {
+        width: 50%;
+
+    }
+
+    .Landing__4 .Leaf {
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .Landing__4 .Leaf .pricediv {
+        margin-top: 20px;
+    }
+
+    .Landing__4 .Leaf .phonediv {
+        margin-top: 20px;
+    }
+
+    .Landing__4 .Leaf .price2 {
+        margin-top: 20px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox img {
+        width: 40%;
+    }
+
+
+    .Landing__4 .Leaf .titleHeader {
+        display: block;
+        width: 100%;
+    }
+
+    .Landing__4 .Leaf .titleHeader h1 {
+        font-size: 50px;
+        margin-top: 30px;
+        color: #fff;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .Landing__4 .Leaf .text h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Landing__4 .Leaf .btnBox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Landing__4 .Leaf .text {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .Landing__4 .Leaf .phoneDiv {
+        margin-top: 30px;
+    }
+
+    .Landing__4 .Leaf .textDecoration .PriceBox {
+        width: 108px;
+    }
+
+    .Landing__4 .Leaf .textDecoration img {
+        position: absolute;
+        bottom: -20px;
+        width: 140px;
+        left: inherit;
+    }
+
+    .Landing__4 .Leaf .DiscountBox {
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox .text {
+        top: 15px;
+        right: -18px;
+    }
+
+    .Landing__4 .Leaf .DiscountBox img {
+        top: 10px;
+    }
+
+    .Landing__4 .Leaf .textDecoration .PriceBox {
+        margin-left: 20px;
+
+    }
+
+    .Landing__4 .Leaf .DiscountBox .text h2 {
+        padding-bottom: 0px;
+    }
+
+    .Landing__4 .UsefullnessItems .left img,
+    .Landing__4 .UsefullnessItems .right img {
+        width: 30%;
+    }
+
+    .Landing__4 .UsefullnessItems .left {
+        position: absolute;
+        top: inherit;
+        bottom: 0;
+        left: 0;
+    }
+
+    .Landing__4 .UsefullnessItems h3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards {
+        padding: 13px 8px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards .IconBox img {
+        width: 20px;
+    }
+
+    .Landing__4 .UsefullnessItems .ItemCards .IconBox {
+        height: 35px;
+        width: 35px;
+        padding: 6px 5px;
+        margin-bottom: 15px;
+    }
+
+    .Landing__4 .UsefullnessItems .right {
+        position: absolute;
+        right: 0px;
+        display: flex;
+        justify-content: flex-end;
+        top: inherit;
+        bottom: 0;
+    }
+
+    .Landing__4 a {
+
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .Landing__4 .UsefullnessItems {
+        padding: 60px 0;
+    }
+
+
+
+    .Landing__4 .DiscountSection .ContentBox .text h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox {
+        padding: 40px 0;
+    }
+
+    .Landing__4 .DiscountSection .ContentBox .text a {
+        font-size: 20px;
+    }
+
+    .Landing__4 .Landing__4 .WhyUs {
+        padding: 60px 0;
+    }
+
+    .Landing__4 .WhyUs .left img,
+    .Landing__4 .WhyUs .right img {
+        width: 30%;
+    }
+
+    .Landing__4 .OnlyOrderBtn {
+        padding: 30px 0;
+    }
+
+
+    .Landing__4 .OrderSection .OrderDiv {
+        padding: 20px 30px;
+    }
+
+    .Landing__4 .OrderSection .OrderDiv h1 {
+        font-size: 16px;
+    }
+
+    .Landing__4 .FooterSection .Logo img {
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .Landing__4 .FooterSection .FooterMenu {
+        margin-top: 20px;
+        justify-content: center;
+
+    }
+
+    .Landing__4 .FooterSection .FooterMenu ul li {
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .Landing__4 .FooterSection .footerMenu ul li a {
+        font-size: 14px;
+    }
+
+    .Landing__4 .FooterSection .footerMenu ul li svg {
+        font-size: 16px;
+    }
+
+    .Landing__4 .FooterSection .footerMenu .footerBox svg {
+        font-size: 20px;
+    }
+
+
+    .Landing__4 .FooterSection .imgLayer img {
+        width: 30%;
+    }
+
+    /* Ibrahim----------------- */
+
+    .Landing__4 .ImageLayer2 {
+        width: 80px;
+    }
+
+    .Landing__4 .ImageLayer {
+        width: 80px;
+    }
+
+    .Landing__4 .ItemCards {
+        padding: 13px 8px;
+        height: 113px;
+    }
+
+    .Landing__4 .FooterSection .footerMenu {
+        text-align: center;
+        display: block;
+    }
+
+    .Landing__4 .BottomFooterMenu {
+        text-align: center;
+        display: block;
+    }
+
+    .Landing__4 .DiscountBox img {
+        top: 22px;
+        /* left: 145px; */
+        width: 110px !important;
+    }
+
+
+    .Landing__4 .DiscountBox h2 {
+        padding-bottom: 0px;
+        padding-left: 27px;
+        margin-top: -15px;
+    }
+
+    .Landing__4 .DiscountBox h5 {
+        padding-bottom: 0px;
+        padding-left: 27px;
+    }
+
+
+}
+
+
+@media (max-width: 375px) {
+
+    .Landing__4 h1 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .Landing__4 h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}

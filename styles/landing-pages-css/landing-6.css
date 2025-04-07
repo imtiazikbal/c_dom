@@ -1,0 +1,1608 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.Landing__6 {
+    --header_color: #080422;
+    --bg_color1: #6001D3;
+    --bg_color2: #FCDC00;
+    --bg_color3: #FD346E;
+    --white_color: #fff;
+    overflow-x: hidden;
+}
+
+
+
+.Landing__6 {
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.Landing__6 h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--header_color);
+    font-weight: 700;
+}
+
+.Landing__6 h3 {
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--header_color);
+    font-weight: 600;
+}
+
+.Landing__6 p {
+    color: var(--text_color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+.Landing__6 .bg {
+    transition: 0.5s;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Landing__6 a.bg {
+    /* margin-top: 30px; */
+    padding: 12px 20px;
+    padding-top: 15px;
+    color: var(--white_color);
+    background-image: linear-gradient(to right, #9FDA12 0%, #7A7A7A 51%, #9FDA12 100%);
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.Landing__6 a.bg:hover {
+    transform: scale(1.05);
+}
+
+.Landing__6 a svg {
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.Landing__6 a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Landing__6 .section_gaps {
+    margin-top: 100px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__6 .Banner {
+    background: url('../../public/images/landing-6/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 394px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Landing__6 .logoBox {
+    text-align: center;
+    padding: 20px;
+}
+
+.Landing__6 .textBoxBg {
+    margin-left: 15px;
+    padding-top: 109px;
+}
+
+.Landing__6 .textBoxBg p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 85.5%;
+    color: #000000;
+}
+
+.Landing__6 .textBoxBg h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.Landing__6 .textBoxBg h1 span {
+    color: #fff;
+}
+
+.Landing__6 .bgImgIconBox {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.Landing__6 .textBoxBg .bgImgIcon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 400px;
+    margin-top: -10px;
+}
+
+.Landing__6 .textBoxBg .bgImgIcon2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 335px;
+    margin-top: 65px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART -----2
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* .Landing__6 .banner2Txt{
+
+} */
+.Landing__6 .bgImgIcon2 img {
+    position: relative;
+    animation: mymove25gfy2 7s linear infinite;
+}
+
+@keyframes mymove25gfy2 {
+    0% {
+        rotate: 0;
+    }
+
+    25% {
+        scale: .1;
+    }
+
+    50% {
+        scale: 1;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+
+
+
+.Landing__6 .DronemainBox {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.Landing__6 .bgImgIcon3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0px;
+    margin-top: -350px;
+}
+
+.Landing__6 .myDroneImg {
+    width: 100%;
+}
+
+.Landing__6 .banner2Txt p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Landing__6 .banner2Txt h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 85.5%;
+    color: #9FDA12;
+    margin-bottom: 25px;
+}
+
+.Landing__6 .BtnOrderNow2 {
+    /* width: 74px; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #9FDA12;
+    padding: 18px 32px !important;
+    background: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    outline: 2px solid #9FDA12;
+    border-radius: 10px;
+    margin-left: 15px !important;
+    transition: .4s;
+
+}
+
+
+.Landing__6 .BtnOrderNow2:hover {
+    background-image: linear-gradient(to right, #9FDA12 0%, #7A7A7A 51%, #9FDA12 100%);
+    background-size: 200% auto;
+    color: #fff;
+    padding: 20px 34px !important;
+    transform: scale(1.05);
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART--3
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__6 .bgImgIcon3Small {
+    display: none;
+}
+
+
+.Landing__6 .bannerThree {
+    margin-top: 100px;
+
+}
+
+.Landing__6 .banner3TopTxt {
+    text-align: center;
+    /* margin-bottom: 115px; */
+
+}
+
+.Landing__6 .banner3TopTxt h2 {
+    text-align: center;
+    margin-bottom: -11px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 85.5%;
+}
+
+/* .Landing__6 .banner3TopTxt img{
+
+} */
+.Landing__6 .Banner3Icon {
+
+    height: 54px;
+    width: 62px;
+    /* font-size: 80px; */
+    color: #BABABA;
+    padding: 0px;
+    /* box-shadow: -5px -5px 5px 10px red; */
+    border-radius: 0%;
+}
+
+
+.Landing__6 .IcodBorderDev {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 1px 2px rgba(128, 128, 128, 0.2);
+    overflow: hidden;
+
+}
+
+
+
+/* .Landing__6 .IcodBorderDev:hover{
+box-shadow: 3px 3px 3px 5px rgba(159, 218, 18,0.5) ;
+} */
+
+
+.Landing__6 .icon3SideImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 38px;
+    margin-right: -4px;
+
+
+}
+
+/* .Landing__6 .myIcontxtBox{
+
+} */
+.Landing__6 .myIcontxtBox h2 {
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 85.5%;
+    color: #9FDA12;
+}
+
+.Landing__6 .myIcontxtBox p {
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7A7A7A;
+    padding: 0 15px;
+}
+
+
+.Landing__6 .Columanpading {
+    padding: 80px 80px 0px 30px;
+    text-align: justify;
+    /* shakhawat change some effact---start---------------------------------------------------- */
+    position: relative;
+    overflow: hidden;
+
+}
+
+.Landing__6 .Columanpading .IcodBorderDev::after {
+    content: "";
+    position: absolute;
+
+    right: 0%;
+    width: 5%;
+    height: 120%;
+    bottom: 100%;
+    /* background: #9FDA12; */
+    transition: 1s;
+    z-index: -1;
+    /* transform: translateX(100%) ; */
+    /* transform: translate3d(10px , -120px, 10px) skew(30deg) ; */
+    transform: skewX(140deg);
+
+}
+
+.Landing__6 .Columanpading:hover .IcodBorderDev::after {
+    top: 0%;
+    width: 120%;
+    transition: 1s;
+
+    /* transform: translateX(0%) ; */
+    transform: translateX(0%);
+    background: #9FDA12;
+}
+
+/* .Landing__6 .IcodBorderDev:hover{
+box-shadow: 3;
+} */
+/* shakhawat change some effact---end---------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART----4
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__6 .banner4Sec {
+    margin-top: 100px;
+}
+
+.Landing__6 .borderDev {
+    box-sizing: border-box;
+}
+
+.Landing__6 .borderDev img {
+    width: 100%;
+}
+
+
+
+.Landing__6 .banner4Txt {
+    padding-left: 10px;
+    align-items: center;
+
+}
+
+.Landing__6 .banner4Txt h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120.5%;
+    color: #000000;
+}
+
+.Landing__6 .banner4Txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7A7A7A;
+
+}
+
+.Landing__6 .banner4Txt span {
+    color: #9FDA12;
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART--5
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__6 .Container5 {
+    padding: 0;
+}
+
+.Landing__6 .Banner5sec {
+    margin-bottom: 100px;
+}
+
+.Landing__6 .Banner5Padding {
+    margin-top: 85px;
+    padding: 60px 7% 60px 7%;
+    background-color: #9FDA12;
+}
+
+.Landing__6 .imgBorder5 {
+    outline: 2px solid #fff;
+    outline-offset: 16px;
+    border-radius: 10px;
+
+}
+
+.Landing__6 .imgBorder5 img {
+    width: 100%;
+}
+
+
+.Landing__6 .banner3TopTxt2 img {
+    margin-left: 30px;
+}
+
+.Landing__6 .Banner5Padding .Sec5h2 {
+    margin-bottom: -15px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120.5%;
+    color: #000000;
+}
+
+/* .Landing__6 .banner3TopTxt2{
+
+} */
+.Landing__6 .banner3TopTxt3 {
+    padding-bottom: 20px;
+
+}
+
+.Landing__6 .banner3TopTxt3 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120.5%;
+    color: #FFFFFF;
+}
+
+.Landing__6 .Banner5Padding .banner3TopTxt3 .h3span {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Landing__6 .banner3TopTxt3 h4 {
+    padding: 20px 0px 20px 0px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85.5%;
+    color: #FFFFFF;
+}
+
+.Landing__6 .banner3TopTxt3 h5 {
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 85.5%;
+    color: #7A7A7A;
+}
+
+.Landing__6 .banner3TopTxt3 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.Landing__6 .imgBorder5 {
+    overflow: hidden;
+}
+
+.Landing__6 .imgBorder5 img {
+    transition: 1s;
+}
+
+.Landing__6 .imgBorder5 img:hover {
+    transform: scale(1.2);
+}
+
+
+.Landing__6 .Costombtn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 16px 32px;
+    background: #9FDA12;
+    text-decoration: none;
+    margin-right: 15px;
+    outline: 2px solid #fff;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.Landing__6 .BtnOrderNow3 {
+
+    /* width: 74px; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #9FDA12;
+    padding: 18px 20px;
+    background: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    outline: 2px solid #9FDA12;
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+
+
+.Landing__6 .Costombtn:hover {
+    background-image: linear-gradient(to right, #9FDA12 0%, #7A7A7A 40%, #9FDA12 100%);
+    background-size: 200% auto;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART--6
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__6 .Banner6Img {
+    margin-top: 100px;
+}
+
+
+.section6 .Banner6Img .myImg {
+    padding: 0;
+}
+
+.Landing__6 .Banner6Img img {
+    width: 100%;
+}
+
+.Landing__6 .banner3TopTxt6 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Landing__6 .banner3TopTxt6 h2 {
+    font-size: 40px;
+    margin-bottom: -13px;
+
+}
+
+.Landing__6 .Banner6Img>div img {
+    transition: 1s;
+}
+
+.Landing__6 .Banner6Img>div {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Landing__6 .Banner6Img img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+Customer Review
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__6 .customer-review_CustomerReviewContent__WFcGv h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__6 #OrderConfirmLeft #Payment #ArrowBg {
+    background: #9FDA12;
+}
+
+.Landing__6 #OrderConfirmRight button {
+    background: #9FDA12;
+}
+
+.Landing__6 #OrderConfirmLeft #Payment #ArrowBg p {
+    color: #ffffff;
+}
+
+.Landing__6 #OrderConfirmLeft #Payment #ArrowBg::after {
+    border-bottom: solid 15px #9FDA12;
+}
+
+.Landing__6 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+    background: #9FDA12;
+}
+
+.Landing__6 #OrderConfirmLeft #Payment #ArrowBg p {
+    font-size: 18px;
+  }
+  
+  .Landing__6 #OrderConfirmLeft #Payment #ArrowBg {
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART - footer
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__6  #tinyFooter p a {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #9FDA12;
+    padding: 0 5px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+START Banner PART - footer
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Landing__6 .imgBoxFooter a {
+    text-decoration: none;
+}
+
+.Landing__6 .lastlogo img{
+    max-height: 100px;
+}
+
+
+.Landing__6 .footerSection {
+    padding-bottom: 50px;
+}
+
+.Landing__6 .banner3TopTxtF {
+    text-align: center;
+}
+
+.Landing__6 .banner3TopTxtF h2 {
+    margin-top: 100px;
+    margin-bottom: -13px;
+}
+
+.Landing__6 .lastlogo {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Landing__6 .hovereffect2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* *Icon Hover Effect 2* */
+.Landing__6 .hovereffect2 {
+    min-height: 0px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.Landing__6 .hovereffect2 ul {
+    padding-top: 50px;
+}
+
+.Landing__6 .hovereffect2 ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.Landing__6 .hovereffect2 ul li a {
+    font-size: 40px;
+    color: #9FDA12;
+    margin: 0px 10px;
+    line-height: 100px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgb(235, 235, 235);
+    border-radius: 50%;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.Landing__6 .hovereffect2 ul li:hover a {
+    border-radius: 0%;
+    background: #9FDA12;
+}
+
+
+
+
+.Landing__6 .imgBoxFooter img {
+    transition: 1s;
+}
+
+.Landing__6 .imgBoxFooter img:hover {
+    transform: scale(1.2);
+}
+
+/* Ibrahim Change Other---------------*/
+
+.Landing__6 .banner2Txt p {
+    padding: 15px 0px;
+}
+
+.Landing__6 .banner3TopTxt3 h3 {
+    margin-top: 15px;
+    font-size: 32px;
+}
+
+.Landing__6 .banner3TopTxt3 span {
+    font-size: 32px;
+}
+
+.Landing__6 .banner3TopTxt3 h4 {
+    font-size: 48px;
+}
+
+.Landing__6 .socialBox p {
+    text-align: center !important;
+    margin-top: 0px;
+}
+
+.Landing__6 .socialBox p a {
+    text-align: center !important;
+    margin-top: 0px;
+    color: #9FDA12;
+    font-size: 18px;
+}
+
+
+.Landing__6 .lastlinks {
+    text-align: center;
+    font-size: 17px;
+    color: #BABABA;
+}
+
+.Landing__6 .lastlinks a {
+    padding: 0 50px;
+    font-size: 17px;
+    color: #BABABA;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+Media Quari-----------
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 1401px) {
+    .Landing__6 .bgImgIcon1 {
+        /* width: 100px;
+height: 100px; */
+        animation: myAnim 5s linear infinite;
+        transition: 5s;
+    }
+
+    @keyframes myAnim {
+        0% {
+            top: 0px;
+        }
+
+        25% {
+            left: 25px;
+        }
+
+        50% {
+            top: 50
+        }
+
+        75% {
+            top: 25px
+        }
+
+        100% {
+            top: 0px;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .Landing__6 .bgImgIcon1 {
+        /* width: 100px;
+height: 100px; */
+        animation: myAnim 5s linear infinite;
+        transition: 5s;
+    }
+
+    @keyframes myAnim {
+        0% {
+            top: 0px;
+        }
+
+        25% {
+            left: 25px;
+        }
+
+        50% {
+            top: 50
+        }
+
+        75% {
+            top: 25px
+        }
+
+        100% {
+            top: 0px;
+        }
+    }
+
+    /* IBrahim Change */
+
+    .Landing__6 .textBoxBg h1 {
+        font-size: 48px;
+    }
+
+    .Landing__6 .banner2Txt h2 {
+        font-size: 35px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 1199.98px) {
+
+    .Landing__6 .bgImgIcon1 {
+        animation: myAnim 5s linear infinite;
+        transition: 5s;
+    }
+
+    @keyframes myAnim {
+        0% {
+            top: 0px;
+        }
+
+        25% {
+            left: 25px;
+        }
+
+        50% {
+            top: 50
+        }
+
+        75% {
+            top: 25px
+        }
+
+        100% {
+            top: 0px;
+        }
+    }
+
+    .Landing__6 .myIcontxtBox {
+        padding-left: 10px;
+    }
+
+    .Landing__6 .Columanpading {
+        padding: 80px 0px 0px 30px;
+        text-align: justify;
+    }
+
+}
+
+
+/* ------------------------------------------------------------------991-------------------------------- */
+
+@media (max-width: 991.98px) {
+
+    .Landing__6 .bgImgIcon1 {
+        animation: myAnim 5s linear infinite;
+        transition: 5s;
+    }
+
+    @keyframes myAnim {
+        0% {
+            top: 0px;
+        }
+
+        25% {
+            left: 0px;
+        }
+
+        50% {
+            top: 0px
+        }
+
+        75% {
+            top: 0px
+        }
+
+        100% {
+            top: 0px;
+        }
+    }
+
+    .Landing__6 .textBoxBg p {
+        /* font-size: 32px; */
+        font-size: 25px;
+    }
+
+    .Landing__6 .textBoxBg h1 {
+        /* font-size: 64px; */
+        font-size: 44px;
+    }
+
+    .Landing__6 .textBoxBg .Landing__6 .bgImgIcon1 {
+        /* margin-left:400px; */
+        margin-left: 320px;
+    }
+
+    .Landing__6 .textBoxBg .bgImgIcon2 {
+        /* margin-left:335px; */
+        margin-left: 255px;
+    }
+
+    .Landing__6 a.bg {
+        /* padding: 12px 20px; */
+        padding: 6px 10px;
+        padding-top: 15px;
+    }
+
+    .Landing__6 a svg {
+        /* font-size: 25px; */
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+    .Landing__6 .BtnOrderNow2 {
+        /* width: 74px; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FDA12;
+        /* padding: 18px 32px; */
+        padding: 18px 28px;
+        vertical-align: 4px;
+        background: #fff;
+        text-decoration: none;
+        margin-right: 15px;
+        outline: 2px solid #9FDA12;
+        border-radius: 10px;
+        margin-left: 15px;
+
+    }
+
+    .Landing__6 .Costombtn {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        padding: 16px 22px;
+        background: #9FDA12;
+        text-decoration: none;
+        margin-right: 15px;
+        outline: 2px solid #fff;
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+
+    .Landing__6 .BtnOrderNow3 a {
+
+        /* width: 74px; */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #9FDA12;
+        padding: 18px 22px;
+        background: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-right: 10px;
+        outline: 2px solid #9FDA12;
+        border-radius: 10px;
+        margin-left: 0px;
+
+    }
+
+
+    /* icon4---------------- */
+
+    .Landing__6 .myIcontxtBox {
+        padding-left: 20px;
+    }
+
+    .Landing__6 .Columanpading {
+        padding: 80px 0px 0px 15px;
+        text-align: justify;
+    }
+
+
+    /* Ibrahim Change */
+
+    .Landing__6 .textBoxBg h1 {
+        font-size: 38px;
+    }
+
+
+
+
+
+}
+
+/* ---------------------------------------------767---------- */
+
+@media (max-width: 767.98px) {
+
+
+
+    .Landing__6 .bgImgIcon3Small {
+        display: block;
+    }
+
+    .Landing__6 .bgImgIcon3Small img {
+        display: block;
+        width: 100%;
+    }
+
+    .Landing__6 .DronemainBox {
+        display: none;
+
+    }
+
+    .Landing__6 .myColBlank {
+        display: none;
+    }
+
+    .Landing__6 .textBoxBg {
+        text-align: center;
+        margin-left: 15px;
+        padding-top: 109px;
+    }
+
+    .Landing__6 .textBoxBg p {
+        text-align: justify;
+        text-align: center;
+        /* font-size: 32px; */
+        font-size: 25px;
+    }
+
+    .Landing__6 .textBoxBg h1 {
+        text-align: center;
+        /* font-size: 64px; */
+        font-size: 44px;
+    }
+
+    .Landing__6 .textBoxBg .bgImgIcon1 {
+        /* margin-left:400px; */
+        margin-left: 84%;
+    }
+
+    .Landing__6 .textBoxBg .bgImgIcon2 {
+        /* margin-left:335px; */
+        margin-left: 74%;
+    }
+
+    .Landing__6 .logoBox {
+        text-align: center;
+        padding: 40px;
+    }
+
+    .Landing__6 .myButtonBox {
+        text-align: center;
+    }
+
+    .Landing__6 .Banner2 .banner2Txt {
+        text-align: center;
+    }
+
+    .Landing__6 .squareboxDiv {
+        text-align: center;
+    }
+
+    /* aaaaaaaaaaaaaa----------------*/
+
+
+
+
+
+    /* icon---4------------- */
+
+    /* footer */
+
+    .Landing__6 .lastlinks a {
+        padding: 5px;
+
+    }
+
+    .Landing__6 .lastlinks a {
+        display: block;
+
+    }
+
+    .Landing__6 .imgBorder5 {
+        margin-top: 50px;
+    }
+
+    .Landing__6 .banner4Txt {
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    .Landing__6 .banner3TopTxt2 {
+        text-align: center;
+
+    }
+
+    .Landing__6 .Banner5Padding .Sec5h2 {
+        margin-bottom: -10px;
+        font-weight: 700;
+        font-size: 22px;
+
+    }
+
+    .Landing__6 .banner3TopTxt3 {
+        text-align: center;
+    }
+
+    .Landing__6 .banner3TopTxt3 h4 {
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+    }
+
+    .Landing__6 .banner3TopTxt3 h3 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .Landing__6 .Banner6Img img {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    /*  Ibrahim Change */
+    .Landing__6 .hovereffect2 ul li a {
+        font-size: 40px;
+        color: #9FDA12;
+        margin: 0px 0px;
+        line-height: 81px;
+        display: inline-block;
+        width: 85px;
+        height: 85px;
+    }
+
+    .Landing__6 .hovereffect2 ul li a img {
+        height: 40px;
+        margin-top: 10px;
+
+    }
+
+
+}
+
+
+/* ------------------------------------------------575---------------- */
+@media (max-width: 575.98px) {
+    .Landing__6 .textBoxBg .bgImgIcon1 {
+        /* margin-left:400px; */
+        margin-left: 84%;
+    }
+
+    .Landing__6 .textBoxBg .bgImgIcon1 img {
+        /* height: 98px; */
+        height: 55px;
+    }
+
+    .Landing__6 .textBoxBg .bgImgIcon2 {
+        /* margin-left:335px; */
+        margin-left: 74%;
+    }
+
+    .Landing__6 .textBoxBg .bgImgIcon2 img {
+        /* margin-left:335px; */
+        height: 50px;
+    }
+
+    /* aaaaaaaaa------------ */
+
+    .Landing__6 .bg {
+        transition: 0.5s;
+        display: block;
+        /* font-size: 20px; */
+        font-size: 16px;
+
+    }
+
+    .Landing__6 a.bg {
+        /* padding: 12px 20px; */
+        padding: 6px 10px;
+        padding-top: 15px;
+    }
+
+    .Landing__6 a svg {
+        /* font-size: 25px; */
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+    .Landing__6 .BtnOrderNow2 {
+        /* width: 74px; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FDA12;
+        /* padding: 18px 32px; */
+        padding: 15px 10px !important;
+        vertical-align: 4px;
+        background: #fff;
+        text-decoration: none;
+        margin-right: 15px;
+        outline: 2px solid #9FDA12;
+        border-radius: 10px;
+        margin-left: 15px;
+
+    }
+
+    .Landing__6 .myButtonBox {
+        text-align: center;
+    }
+
+    .Landing__6 .Banner2 .banner2Txt {
+        text-align: center;
+    }
+
+    /* aaaaaaaaaaaa -----end*/
+
+
+
+    .Landing__6 .banner3TopTxt3 h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 120.5%;
+        color: #FFFFFF;
+    }
+
+    /* .squareboxDivMain {
+padding-left:35% ;
+} */
+
+    /* icon------ */
+    .Landing__6 .myIcontxtBox {
+        padding-left: 24px;
+    }
+
+    .Landing__6 .Columanpading {
+        padding: 40px 0px 0px 15px;
+        text-align: justify;
+    }
+
+    /* sec-----5 */
+    .Landing__6 .imgBorder5 {
+        margin-top: 50px;
+    }
+
+
+    .Landing__6 .textBoxBg p {
+        font-size: 20px;
+    }
+
+    .Landing__6 .textBoxBg h1 {
+        font-size: 32px;
+    }
+
+    .Landing__6 .banner2Txt p {
+        font-size: 16px;
+        text-align: center;
+        /* text-align: justify; */
+    }
+
+    .Landing__6 .banner2Txt h2 {
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    .Landing__6 .banner3TopTxt h2 {
+        text-align: center;
+        margin-bottom: -11px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 85.5%;
+    }
+
+    .Landing__6 .bannerThree {
+        text-align: center;
+    }
+
+    .Landing__6 .bannerThree .myIcontxtBox {
+        text-align: center;
+    }
+
+    .Landing__6 .bannerThree .IcodBorderDev {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .Landing__6 .banner4Txt h2 {
+        margin: 10px;
+        font-size: 22px;
+    }
+
+    .Landing__6 .banner4Txt p {
+        font-size: 16px;
+    }
+
+    .Landing__6 .banner3TopTxt2 h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+    .Landing__6 .banner3TopTxt3 h4 {
+        padding: 20px 0px 20px 0px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 85.5%;
+        color: #FFFFFF;
+    }
+
+    .Landing__6 .banner3TopTxt3 h5 {
+        text-decoration: line-through;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 85.5%;
+        color: #7A7A7A;
+    }
+
+    .Landing__6 .banner3TopTxt3 p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+
+    }
+
+    .Landing__6 .banner3TopTxt6 h2 {
+        font-size: 22px;
+        margin-bottom: -11px;
+        line-height: 20px;
+    }
+
+    .Landing__6 .Banner6Img img {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .Landing__6 .banner3TopTxtF h2 {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: -20px;
+    }
+
+    .Landing__6 .banner4Sec {
+        margin-top: 106px;
+    }
+
+    /* -- */
+    .Landing__6 .Costombtn {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        padding: 15px 10px;
+        background: #9FDA12;
+        text-decoration: none;
+        margin-right: 0px;
+        outline: 2px solid #fff;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+
+    /* Icon small */
+    /* Ibrahim- Change----------- */
+
+    .Landing__6 .hovereffect2 ul li {
+        display: inline-block;
+        margin-right: 0px;
+        margin-bottom: 15px;
+
+    }
+
+    .Landing__6 .hovereffect2 ul li a {
+        margin: 0px 10px;
+        line-height: 35px;
+        width: 45px;
+        height: 45px;
+
+
+    }
+
+    .Landing__6 .hovereffect2 ul li a img {
+        height: 20px;
+        margin-top: 10px;
+
+    }
+
+
+
+    .Landing__6 .banner2Txt p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 26px;
+        /* text-align: justify; */
+    }
+
+    .Landing__6 .myIcontxtBox h2 {
+        font-size: 22px;
+    }
+
+    .Landing__6 .myIcontxtBox p {
+        font-size: 16px;
+    }
+
+    .Landing__6 .banner3TopTxt3 h3 {
+        font-size: 22px;
+    }
+
+    .Landing__6 .banner3TopTxt3 .h3span {
+        font-size: 22px !important;
+        font-weight: 400;
+    }
+
+    .Landing__6 .banner3TopTxt h2 {
+        font-size: 24px;
+        line-height: 85.5%;
+    }
+
+    .Landing__6 .Banner3Icon {
+        height: 38px;
+        width: 61px;
+    }
+
+    .Landing__6 .IcodBorderDev {
+        height: 80px;
+        width: 80px;
+    }
+
+    .Landing__6 .banner3TopTxtF h2 {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: -10px;
+    }
+
+    .Landing__6 h2 {
+        font-size: 22px;
+        line-height: 26px;
+
+    }
+
+    .Landing__6 .Columanpading {
+        padding: 40px 0px 0px 0px;
+        text-align: justify;
+    }
+
+    .Landing__6 .myIcontxtBox {
+        padding-left: 0;
+    }
+
+    .Landing__6 .logoBox img {
+        width: 68px;
+    }
+
+    .Landing__6 .lastlogo img {
+        width: 68px;
+    }
+
+    .Landing__6 .socialBox p {
+        text-align: center !important;
+        margin-top: 0px;
+        font-size: 14px !important;
+    }
+
+    .Landing__6 .bannerThree {
+        margin-top: 60px;
+    }
+
+    .Landing__6 .banner4Sec {
+        margin-top: 50px;
+    }
+
+    .Landing__6 .Banner5Padding {
+        margin-top: 55px;
+
+    }
+
+    .Landing__6 .Banner5sec {
+        margin-bottom: 50px;
+    }
+
+    .Landing__6 .banner3TopTxt6 {
+        margin-top: 55px;
+        text-align: center;
+    }
+
+    .Landing__6 .Banner6Img {
+        margin-top: 50px;
+    }
+
+    .Landing__6 .Banner6Img img {
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    .Landing__6 .Banner6Img img {
+        padding-left: 0px;
+        padding-bottom: 24px;
+    }
+
+    .Landing__6 .banner3TopTxtF h2 {
+        margin-top: 65px;
+    }
+
+    .Landing__6 .hovereffect2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 400.98px) {
+
+    .Landing__6 .textBoxBg h1 {
+        font-size: 24px;
+    }
+
+    .Landing__6 .textBoxBg p {
+        font-size: 16px;
+    }
+
+
+
+
+}

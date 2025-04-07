@@ -1,0 +1,526 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__31 {
+  --header-color: #17251a;
+  --main-color: #0d9c2b;
+  --main-color2: #fac51f;
+  --white-color: #fff;
+  overflow-x: hidden;
+  font-family: "Noto Serif Bengali", serif;
+}
+
+.Landing__31 h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  color: var(--header-color);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Landing__31 h1 span {
+  color: var(--main-color);
+}
+
+.Landing__31 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  color: var(--white-color);
+  background: var(--main-color2);
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.Landing__31 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.Landing__31 :where(.Order, .Price) a,
+.Landing__31 :where(.Order, .Price) button {
+  background: linear-gradient(to right, #15a2a2 0%, #72d45d 51%, #15a2a2 100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  padding: 10px 50px;
+  font-weight: 700;
+  border-radius: 40px;
+  display: inline-block;
+  width: auto;
+  margin-top: 30px;
+}
+
+.Landing__31 :where(.Order, .Price) a:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Landing__31 .Price button {
+  font-size: 35px;
+  line-height: 55px;
+  border-radius: 40px;
+}
+
+.Landing__31 .Section__Gaps {
+  margin-top: 80px;
+}
+
+.Landing__31 .d_flex {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================================================
+Start Banner
+==============================================================*/
+
+.Landing__31__Banner {
+  background: url("https://landing-page-images-1.s3.ap-south-1.amazonaws.com/landing-31/banner-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.Landing__31__Banner h5 {
+  border-radius: 30px;
+  border: 1px dashed var(--main-color2);
+  color: var(--main-color);
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.Landing__31__Banner h6 {
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 500;
+  color: var(--main-color2);
+  margin-top: 10px;
+}
+
+.Landing__31__Banner__video {
+  border-radius: 30px;
+  background: var(--main-color2);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Landing__31__Banner__video .video_VideoPlayers__KZnPY iframe {
+  border-radius: 30px;
+}
+
+/* ============================================================
+End Banner
+==============================================================*/
+
+/* ============================================================
+Start Landing__31__WhyBuy
+==============================================================*/
+.Landing__31__WhyBuy__Box {
+  padding: 60px 100px;
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  border: 10px solid var(--main-color);
+}
+
+.Landing__31__WhyBuy__Box ul {
+  margin-top: 50px !important;
+}
+
+.Landing__31__WhyBuy__Box li {
+  text-align: left;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--main-color);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Landing__31__WhyBuy__Box li:last-child {
+  margin-bottom: 0;
+}
+
+.Landing__31__WhyBuy__Box li img {
+  height: 40px;
+  width: 40px;
+}
+
+/* ============================================================
+End Landing__31__WhyBuy
+==============================================================*/
+
+/* ============================================================
+Start Landing__31__PriceWithOffer
+==============================================================*/
+
+.Landing__31__PriceWithOffer__bg {
+  border-radius: 15px;
+  background: linear-gradient(154deg, #15a2a2 0%, #72d45d 100%);
+  box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.13);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Landing__31__PriceWithOffer__bg h1 del {
+  color: #fb1d1d;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.Landing__31__PriceWithOffer__bg h3 {
+  font-size: 55px;
+  line-height: 70px;
+  color: var(--white-color);
+  padding-top: 20px;
+}
+
+.Landing__31__PriceWithOffer__bg .Order a {
+  border: 2px solid var(--header-color);
+}
+
+/* ============================================================
+End Landing__31__PriceWithOffer
+==============================================================*/
+
+/* ============================================================
+Start Landing__31__Benefit
+==============================================================*/
+.Landing__31__Benefit .Landing__31__WhyBuy__Box {
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+.Landing__31__Content {
+  margin-top: 50px;
+}
+
+.Landing__31__Content .row {
+  --bs-gutter-x: 40px;
+}
+
+.Landing__31__Benefit .Landing__31__WhyBuy__Box ul {
+  margin-top: 0 !important;
+}
+
+.Landing__31__Benefit .Landing__31__WhyBuy__Box ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+.Landing__31__Benefit__Img {
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.13);
+  background: var(--white-color);
+}
+
+.Landing__31__Benefit__Img img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+/* ============================================================
+End Landing__31__Benefit
+==============================================================*/
+
+/* ============================================================
+Start Landing__31__PriceBanner
+==============================================================*/
+
+.Landing__31__PriceBanner__Img {
+  text-align: center;
+}
+
+.Landing__31__PriceBanner__Img img {
+  width: 100%;
+}
+
+/* ============================================================
+End Landing__31__PriceBanner
+==============================================================*/
+
+/* ============================================================
+Start Landing__31__Facilities
+==============================================================*/
+.Landing__31__Facilities {
+  background: linear-gradient(145deg, #15a2a2 0%, #72d45d 100%);
+  padding: 100px 0;
+}
+
+.Landing__31__Facilities__Content {
+  margin-top: 20px;
+}
+
+.Landing__31__Facilities__Item {
+  border-radius: 15px;
+  background: var(--white-color);
+  padding: 20px;
+  box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.13);
+  margin-top: 30px;
+  min-height: 200px;
+}
+
+.Landing__31__Facilities__Item h3 {
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+/* ============================================================
+End Landing__31__Facilities
+==============================================================*/
+
+/* ============================================================
+Start Landing__31__Contact
+==============================================================*/
+.Landing__31__Contact__Box {
+  text-align: center;
+}
+
+.Landing__31__Contact__Box a {
+  margin-top: 0;
+}
+
+.Landing__31__Contact__Box h3 {
+  margin: 20px 0;
+  margin-bottom: 10px;
+  color: var(--main-color);
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.Landing__31__Contact__Box .Landing__31__Call {
+  font-size: 35px;
+  color: var(--main-color2);
+  line-height: 45px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* ============================================================
+End Landing__31__Contact
+==============================================================*/
+
+/* ============================================================
+Start rder
+==============================================================*/
+.Landing__31 .order_OrderConfirmRight__9BH89 button {
+  background: var(--main-color);
+}
+
+.Landing__31
+  .order_OrderConfirmLeft__HZHqT
+  .order_Payment__H_muv
+  .order_CustomeInput__k6j_b
+  input:checked
+  + label:after {
+  top: 10px;
+}
+
+/* ==============================================================
+Meida
+============================================================== */
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1399.99px) {
+  .Landing__31 h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .Landing__31__Banner h5 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .Landing__31 .Price button {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .Landing__31__WhyBuy__Box li {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+  }
+
+  .Landing__31 h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .Landing__31__PriceWithOffer__bg h3 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .Landing__31__Facilities__Item {
+    min-height: 130px;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1023px) {
+  .Landing__31 h1 {
+    font-size: 45px;
+    line-height: 55px;
+    width: 100%;
+  }
+
+  .Landing__31__Banner h5 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .Landing__31 :where(.Order, .Price) a,
+  .Landing__31 :where(.Order, .Price) button {
+    margin-top: 20px;
+  }
+
+  .Landing__31__WhyBuy__Box {
+    padding: 30px;
+    border-radius: 40px;
+    border: 5px solid var(--main-color);
+  }
+
+  .Landing__31__WhyBuy__Box li {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .Landing__31__WhyBuy__Box li img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .Landing__31 h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .Landing__31__Content .col-lg-6:first-child {
+    order: 2;
+  }
+
+  .Landing__31__Content .col-lg-6:last-child {
+    order: 1;
+  }
+
+  .Landing__31__Benefit .Landing__31__WhyBuy__Box ul {
+    margin-top: 30px !important;
+  }
+
+  .Landing__31__Facilities {
+    padding: 60px 0;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 667px) {
+  .Landing__31__Banner {
+    padding: 50px 0;
+  }
+
+  .Landing__31 h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .Landing__31__Banner__video {
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .Landing__31__Banner__video .video_VideoPlayers__KZnPY iframe {
+    border-radius: 15px;
+  }
+
+  .Landing__31 :where(.Order, .Price) a,
+  .Landing__31 :where(.Order, .Price) button {
+    font-size: 22px;
+    line-height: 35px;
+    padding: 8px 35px;
+  }
+
+  .Landing__31 .Section__Gaps {
+    margin-top: 50px;
+  }
+
+  .Landing__31__WhyBuy__Box {
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid var(--main-color);
+  }
+
+  .Landing__31 h2 {
+    font-size: 25px;
+    line-height: 40px;
+    padding: 12px 10px;
+  }
+
+  .Landing__31__WhyBuy__Box li {
+    font-size: 18px;
+    line-height: 30px;
+    gap: 10px;
+  }
+
+  .Landing__31__WhyBuy__Box li img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .Landing__31__WhyBuy__Box ul {
+    margin-top: 30px !important;
+  }
+
+  .Landing__31__WhyBuy__Box ul {
+    margin-top: 30px !important;
+  }
+
+  .Landing__31__Benefit .Landing__31__WhyBuy__Box ul li img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .Landing__31__PriceWithOffer__bg h1 del {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .Landing__31__PriceWithOffer__bg h3 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .Landing__31__Contact__Box .Landing__31__Call {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}

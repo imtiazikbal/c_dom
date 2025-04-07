@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.LandingTwo .container {
+    max-width: 1440px;
+    padding: 0;
+}
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+:root {
+    --two_header_color: #381F22;
+    --two_bg_color: #DE5478;
+    --two_text_color: #747474;
+    --white_color: #FFF;
+}
+
+
+.LandingTwo .container h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    color: var(--two_bg_color);
+}
+
+.LandingTwo .container h3 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.LandingTwo .container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--two_text_color);
+}
+
+.LandingTwo .container a {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.LandingTwo .OrderNow svg {
+    margin-top: -6px;
+}
+
+
+.LandingTwo .container a.bg, .LandingTwo .container button.bg{
+    background-image: linear-gradient(to right, #DE5478 0%, #DE5478  51%, #381F22  100%);
+    box-shadow: 0px 25px 46.8519px rgba(30, 20, 10, 0.1931);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 16px;
+    padding: 18px 50px;
+    padding-bottom: 10px;
+    color: var(--white_color);
+    margin-top: 30px;
+}
+
+.LandingTwo .container a.bg:hover, .LandingTwo .container button.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.LandingTwo {
+    background: #F8F8F8 !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.LandingTwo .section_gaps{
+    margin-top: 100px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Logo PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.LandingTwo .Logo{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #F8F8F8;
+}
+
+.LandingTwo .LogoOverlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.LandingTwo .Banner {
+    /* padding-top: 100px; */
+    position: relative;
+}
+
+.LandingTwo .Banner h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    background: var(--two_bg_color);
+    color: var(--white_color);
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.LandingTwo .Banner h4{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.LandingTwo .Banner h4 span{
+    color: var(--two_bg_color);
+    font-size: 30px;
+}
+
+.LandingTwo .Banner h4 del{
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: var(--two_text_color);
+}
+
+.LandingTwo .BannerImg {
+    position: relative;
+}
+
+.LandingTwo .BannerImg img{
+    width: 100%;
+}
+
+.LandingTwo .BannerImgOverlay{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Product PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.LandingTwo .Product{
+    position: relative;
+}
+
+.LandingTwo .Product .ProductOverlay{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 45%;
+}
+
+.LandingTwo .ProductItem{
+    background: var(--white_color);
+    box-shadow: 0px 20px 20px rgba(222, 222, 222, 0.05);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: all linear .3s;
+    position: relative;
+    z-index: 9;
+}
+
+.LandingTwo .ProductItem:hover{
+    transform: translateY(-5px);
+}
+
+.LandingTwo .ProductItem .text{
+    margin-top: 30px;
+}
+
+.LandingTwo .ProductItem p{
+    margin-top: 15px;
+}
+
+.LandingTwo .ProductItem img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Video PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.LandingTwo .Video{
+    position: relative;
+}
+
+.LandingTwo .VideoContent {
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.LandingTwo .VideoContent img{
+    width: 100%;
+}
+
+.LandingTwo .VideoOverlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START WhyBuy PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.LandingTwo .WhyBuy{
+    padding-bottom: 100px;
+}
+
+.LandingTwo .WhyBuy .container{
+    background: #FCEEF1;
+    border-radius: 20px;
+    padding: 80px;
+    position: relative;
+}
+
+.LandingTwo .WhyBuy .WhyBuyOverlay {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.LandingTwo .WhyBuy .WhyBuyOverlay2 {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+}
+
+.LandingTwo .WhyBuyItem{
+    background: var(--white_color);
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.LandingTwo .WhyBuyItem .text{
+    margin-top: 30px;
+}
+
+.LandingTwo .WhyBuyItem h4{
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--two_header_color);
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START WhyGood PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.LandingTwo .WhyGood{
+    /* background: url('../../public/images/landing_2/why_good_bg.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative;
+}
+
+.LandingTwo .WhyGood .WhyGoodOverlay {
+    position: absolute;
+    top: -140px;
+    right: 0;
+}
+
+.LandingTwo .WhyGood .WhyGoodOverlay2 {
+    position: absolute;
+    left: 0;
+    bottom: -220px;
+}
+
+.LandingTwo .WhyGood h2{
+    color: var(--white_color);
+}
+
+.LandingTwo .WhyGood p{
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: var(--white_color);
+    width: 80%;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START ClientContent PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.LandingTwo .ClientContent{
+    margin-top: 50px;
+}
+
+.LandingTwo .ClientImg img{
+    width: 100%;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START form_part PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.LandingTwo #form_part{
+    padding-bottom: 100px;
+}
+
+.LandingTwo #form_part .container{
+    background: var(--white_color);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.LandingTwo #form_part h2{
+    color: var(--two_bg_color);
+}
+
+.LandingTwo .form_part_content{
+    margin-top: 60px;
+}
+
+.LandingTwo .form_part_content h3{
+    color: var(--two_header_color);
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.LandingTwo .custome_input{
+    margin-top: 20px;
+}
+
+.LandingTwo .custome_input label{
+    color: var(--two_text_color);
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.LandingTwo .custome_input label span{
+    color: #E11E00;
+    margin-left: 5px;
+}
+
+.LandingTwo .custome_input input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid var(--two_text_color);
+    color: var(--two_text_color);
+}
+
+.LandingTwo .payment{
+    background: #FFFFFF;
+    box-shadow: 0px -68px 80px rgba(0, 0, 0, 0.03), 0px 35px 46.8519px rgba(0, 0, 0, 0.0227778), 0px -3px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+    border-radius: 8px;
+    width: 285px;
+    margin-top: 50px;
+}
+
+.LandingTwo .payment h4{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--two_header_color);
+    padding: 20px;
+}
+
+.LandingTwo .payment .checkbox{
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.LandingTwo .payment .checkbox input{
+    color: var(--two_header_color);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.LandingTwo .payment .checkbox label{
+    color: var(--two_header_color);
+    margin-bottom: 0;
+}
+
+.LandingTwo .arrow_bg {
+    background: var(--two_bg_color);
+    position: relative;
+    border-radius: 0 0 7px 7px;
+}
+
+.LandingTwo .arrow_bg::after {
+    position: absolute;
+    content: '';
+    top: -15px;
+    left: 20%;
+    width: 30px;
+    height: 15px;
+    border-bottom: solid 15px var(--two_bg_color);
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+}
+
+.LandingTwo .arrow_bg p{
+    color: var(--white_color);
+    padding: 10px 20px;
+}
+
+.LandingTwo .product_part{
+    border: 1px solid var(--two_text_color);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.LandingTwo .product_part ul li{
+    padding: 20px;
+    border-bottom: 1px solid var(--two_text_color);
+}
+
+.LandingTwo .product_part ul li:last-child{
+    border-bottom: 0;
+}
+
+.LandingTwo .product_part ul li p{
+    font-family: 'Manrope', sans-serif;
+    color: var(--white_color);
+}
+
+.LandingTwo .product_part ul li .left{
+    width: 70%;
+}
+
+.LandingTwo .product_part ul li .left .img{
+    margin-right: 10px;
+}
+
+.LandingTwo .product_part ul li .left .text h4{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: var(--two_text_color);
+}
+
+.LandingTwo .product_part ul li .middle {
+    text-align: center;
+    width: 6%;
+}
+
+.LandingTwo .product_part ul li .middle span{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: var(--two_text_color);
+}
+
+.LandingTwo .product_part ul li .amount{
+    width: 25%;
+    text-align: right;
+}
+
+.LandingTwo .product_part ul li .amount h3{
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--two_text_color);
+}
+
+.LandingTwo .product_part ul li h5{
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--two_text_color);
+}
+
+.LandingTwo .product_part .outside .item{
+    margin-bottom: 15px;
+}
+
+.LandingTwo .product_part .outside .item:last-child{
+    margin-bottom: 0;
+}
+
+.LandingTwo .product_part .outside .item label{
+    color: var(--two_text_color);
+    margin-left: 10px;
+    font-family: "LiAdor";
+
+}
+
+.LandingTwo .product_part .outside .item input{
+    width: 20px;
+    height: 20px;
+    font-family: "LiAdor";
+}
+
+.LandingTwo .form_part_content .dexcription {
+    margin-top: 20px;
+}
+
+.LandingTwo .form_part_content .dexcription p{
+    font-family: 'Manrope', sans-serif;
+    color: var(--two_text_color);
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.LandingTwo .form_part_content .dexcription p a{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    color: var(--two_bg_color);
+}
+
+.LandingTwo .form_part_content .dexcription button {
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.LandingTwo .form_part_content .dexcription button svg{
+    margin-right: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Footer PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.LandingTwo  #Footer{
+    background: #FFF;
+    padding: 80px 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.LandingTwo #Footer .footerLeft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.LandingTwo #Footer .footerRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.LandingTwo .FooterContent h3{
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.LandingTwo .FooterContent ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.LandingTwo .FooterContent li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.LandingTwo .FooterContent li svg{
+    color: var(--two_text_color);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.LandingTwo .FooterContent li a {
+    font-size: 16px;
+    color: var(--two_text_color);
+    font-family: 'Manrope', sans-serif;
+    line-height: 24px;
+}
+
+.LandingTwo .FooterContent .SocialIcon{
+    margin-top: 20px;
+}
+
+.LandingTwo .FooterContent .SocialIcon a {
+    margin-right: 10px;
+
+}
+
+.LandingTwo .FooterContent .SocialIcon a svg{
+    font-size: 24px;
+}
+
+.LandingTwo .FooterContent .SocialIcon a.fb svg{
+    color: #2E69DB;
+}
+
+.LandingTwo .FooterContent .SocialIcon a.youtube svg{
+    color: #FF0000;
+}
+
+.LandingTwo .FooterContent .SocialIcon a.instagram svg{
+    color: #F65D34;
+}
+
+.LandingTwo .FooterContent .SocialIcon a.twitter svg{
+    color: #33AAFF;
+}
+
+.LandingTwo .tinyFooter {
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 1px solid #DDD;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+}
+
+.LandingTwo .tinyFooter p{
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 0;
+}
+
+.LandingTwo .tinyFooter p a{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--two_bg_color);
+    padding: 0 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START ThankYou PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.LandingTwo  .ThankYou{
+    background: var(--two_bg_color);
+    padding: 100px 0;
+    position: relative;
+}
+
+.LandingTwo  .ThankYou .svg {
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    color: var(--two_text_color);
+}
+
+.LandingTwo  .ThankYou .svg svg{
+    font-size: 120px;
+    color: var(--two_bg_color);
+}
+
+.LandingTwo  .ThankYouBanner svg{
+    font-size: 80px;
+    color: var(--two_text_color);
+}
+
+.LandingTwo  .ThankYouBanner h4{
+    font-weight: 700;
+    padding: 30px 0;
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--two_text_color);
+}
+
+.LandingTwo  .ThankYouBanner p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--two_text_color);
+}
+
+.LandingTwo .OrderTitle{
+    padding: 100px;
+}
+
+.LandingTwo .OrderTitle h4{
+    font-weight: 700;
+    padding: 30px 0;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.LandingTwo .OrderTitleContent{
+    background: #fef5f5;
+    padding: 30px;
+    text-align: left;
+}
+
+.LandingTwo .OrderTitleContent ul{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.LandingTwo .OrderTitleContent ul li{
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px dashed var(--two_bg_color);
+}
+
+.LandingTwo .OrderTitleContent ul li:last-child{
+    border-right: 0;
+}
+
+.LandingTwo .OrderTitleContent ul li p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.LandingTwo .OrderTitleContent ul li h5{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 5px;
+}
+
+.LandingTwo .OrderDetail{
+    margin-top: 50px;
+}
+
+.LandingTwo .OrderDetailContent{
+    background: #fef5f5;
+    padding: 30px;
+    text-align: left;
+}
+
+.LandingTwo .OrderDetailContent h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.LandingTwo .OrderDetailContentPart h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    width: 50%;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.LandingTwo .OrderDetailContentPart h6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    width: 50%;
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+.LandingTwo .OrderDetailContentItem{
+    border-bottom: 1px dashed var(--two_bg_color);
+}
+
+.LandingTwo .OrderDetailContentItem:last-child{
+    border-bottom: 0;
+}
+
+.LandingTwo .CallUs{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.LandingTwo .CallUs h5{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.LandingTwo .CallUs a{
+    color: var(--two_bg_color);
+    transition: all linear .3s;
+}
+
+.LandingTwo .CallUs a:hover{
+    color: var(--header_color);
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,710 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__35 {
+  --bg-color: #0a1071;
+  --bg-color2: #099b90;
+  --text-color: #44454b;
+  --white-color: #fff;
+  --yellow-color: #FFC300;
+  overflow-x: hidden;
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.Landing__35 h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--white-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.Landing__35 h1 span {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--yellow-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.Landing__35 h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--bg-color);
+  text-align: center;
+}
+
+.Landing__35 h2 img {
+  height: 25px;
+  width: 25px;
+}
+
+.Landing__35 p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--header-color);
+}
+
+.Landing__35 :where(.Order, .Price) a,
+.Landing__35 :where(.Order, .Price) button {
+  background: linear-gradient(to right, #FFC300 0%, #dab335 51%, #FFC300 100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  padding: 15px 50px;
+  font-weight: 700;
+  border-radius: 50px;
+  display: inline-block;
+  width: auto;
+  margin-top: 30px;
+  border-radius: 109px;
+  border: 4px solid #A64914;
+}
+
+.Landing__35 :where(.Order, .Price) a:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Landing__35 :where(.Order, .Price) svg {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #371740;
+  transition: .1s;
+}
+
+.Landing__35 :where(.Order, .Price):hover.Order svg{
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #ffffff;
+}
+
+.Landing__35 .Price button {
+  font-size: 35px;
+  line-height: 55px;
+  border-radius: 16px 0px;
+}
+
+.Landing__35 .Section__Gaps {
+  margin-top: 80px;
+}
+
+.Landing__35 .d_flex {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================================================
+Start Landing__35__Banner
+==============================================================*/
+
+
+ .Landing__35__Banner {
+  position: relative;
+}
+
+.Landing__35__Banner__img {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+}
+
+.Landing__35__Banner__Content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+ .Landing__35__Banner__Text__Span {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white-color);
+  background-color: rgba(242, 139, 102, 0.32);
+  font-weight: 500;
+  box-shadow: 0px 8px 16px 0px rgba(27, 27, 27, 0.16);
+  padding: 15px 30px !important;
+  border-radius: 40px;
+}
+
+.Landing__35__Banner__Text img{
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.Landing__35__Banner__Text h4{
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.Landing__35__Banner__Text h4 span {
+  color: #E7D920;
+}
+
+/* ============================================================
+ Packege
+==============================================================*/
+
+.Landing__35__PackegeMain{
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px -1px 24px 0px rgba(53, 22, 63, 0.67);
+  padding: 80px;
+}
+
+.Landing__35__Packege__border{
+  border-top: 1px dotted #3A1942;
+  border-bottom: 1px dotted #3A1942;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.Landing__35__Packege {
+ margin-bottom: 60px;
+}
+.Landing__35__Packege h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #371640;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+}
+.Landing__35__Packege h2 span{
+  color: #BF5669;;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+}
+.Landing__35__Packege p{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Landing__35__Packege__Card{
+  height: 180px;
+  padding: 0px 15px;
+  border-radius: 8px;
+  background-color: #381740;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.Landing__35__Packege__Card h4{
+  color: #FFC300;
+  font-size: 24px;
+  font-weight: 600;
+}
+.Landing__35__Packege__Card p{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Landing__35 .Order_Center{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* ============================================================
+ Packege
+==============================================================*/
+.Landing__35__Binifit__main{
+  border-radius: 48px;
+  border: 4px solid #A64914;
+  background: rgba(255, 195, 0, 0.60);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10);
+  padding: 48px 132px;
+
+}
+
+.Landing__35__Binifit ul li p img{
+  margin-right: 10px;
+}
+
+.Landing__35__Binifit ul li p {
+  color: #381740;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.Landing__35__Binifit2 img{
+  text-align: center;
+  width: 100%;
+  max-height: 500px;
+}
+
+/* ============================================================
+  Offer
+==============================================================*/
+
+.Landing__35__Offer{
+  border-radius: 48px;
+  border: 4px solid #A64914;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10);
+  padding: 48px 100px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Landing__35__Offer h4{
+  color: #381840;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.Landing__35__Offer h4 span{
+  color: #FD003A;
+  font-size: 32px;
+  font-weight: 600;
+}
+.Landing__35__Offer h2{
+  color: #FDFDFD;
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 9px;
+  background: #381840;
+  padding: 15px 0px;
+  margin-top: 20px;
+}
+.Landing__35__Offer h2 span{
+  color: #F1CD58;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.Landing__35__Offer h5{
+  color: #381840;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.Landing__35__Offer h6{
+    color: #FDFDFD;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0px;
+    margin-top: 20px;
+    border-radius: 9px;
+    background: #FD003A;
+}
+
+.Landing__35__Video{
+  padding: 40px;
+  border-radius: 48px;
+  border: 4px solid #A64914;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* ============================================================
+ QESTION
+==============================================================*/
+.Landing__35__questionSec{
+  background-color: #401E46;
+  padding: 80px 0px;
+}
+
+.Landing__35__question h2{
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.Landing__35__question h2 span{
+  color: #BF5669;
+}
+
+.Landing__35__question .Landing__35__Packege__border2{
+  border-bottom: 1px dotted #FDFDFD;;
+}
+
+
+.Landing__35__question2{
+  margin-top: 80px;
+}
+
+.Landing__35__Packege2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #68416F;
+  margin-bottom: 24px;
+}
+
+.Landing__35__Packege2 h4{
+  color: #FDFDFD;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Landing__35__Packege2 svg{
+  font-size: 16px;
+  color: #401E46 ;
+}
+
+.Landing__35__Packege2:hover{
+  background-color: #BF5669;
+}
+
+
+/* ============================================================
+ Banner2
+==============================================================*/
+
+.Landing__35__Banner2__bg{
+  padding: 80px 0px;
+  border-radius: 8px;
+  background: #F2F2F2;
+  box-shadow: 0px -1px 24px 0px rgba(53, 22, 63, 0.67);
+}
+
+.Landing__35__Banner2{
+  text-align: center;
+}
+
+.Landing__35__Banner2 img{
+    width: 100%;
+    max-height: 700px;
+}
+
+.Landing__35__Banner2 h2{
+  color: #401E46;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.Landing__35__Banner2 p{
+  color: #381840;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+.Landing__35__Banner2 h4{
+  color: #401E46;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.Landing__35__Banner2 h4 span{
+  color: #FD003A;
+}
+.Landing__35__Banner2 h5{
+    color: #401E46;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 71px;
+    border: 1px solid #A64914;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 24px;
+}
+
+
+.Landing__35__Banner2 h5 span{
+  color: #FFC300;
+}
+
+/* ============================================================
+Contact
+==============================================================*/
+.Landing__35__Banner2__bg_Contact{
+  padding: 90px 8% 30px 8%;
+  border-radius: 16px;
+  background-color: #401E46;
+  text-align: center;
+}
+
+.Landing__35__Banner2__Contact h4{
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.Landing__35__Banner2__Contact h5{
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: #FD003A;
+  display: inline-block;
+  padding: 20px 50px;
+  margin-top: 15px;
+}
+
+
+.Landing__35 #OrderConfirmRight button {
+  background-color: #F2A413;
+}
+
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1399.99px) {
+  
+  .Landing__35 h1 {
+    font-size: 35px;
+    line-height: 48px;
+} 
+  .Landing__35 h1 span{
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.Landing__35__Packege h2 {
+  font-size: 35px;
+}
+.Landing__35__Packege h2 span {
+  font-size: 35px;
+}
+
+.Landing__35__Packege__Card h4 {
+  color: #FFC300;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Landing__35__Offer h2 {
+  font-size: 35px;
+}
+
+.Landing__35__Offer h2 span{
+  font-size: 35px;
+}
+.Landing__35__Offer h6 {
+  font-size: 28px;
+}
+
+.Landing__35__question h2 {
+  font-size: 35px;
+}
+.Landing__35__Binifit ul li p {
+  font-size: 16px;
+}
+
+.Landing__35__Banner2 h4 {
+  font-size: 35px;
+}
+.Landing__35__Banner2 h5 {
+  font-size: 35px;
+}
+ 
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 1023px) {
+ 
+  .Landing__35__Banner__Text img {
+    max-height: 418px;
+}
+
+
+}
+
+/* X-Large devices (large desktops, less than 1399px) */
+
+@media (max-width: 667px) {
+  
+  .Landing__35 :where(.Order, .Price) a,
+  .Landing__35 :where(.Order, .Price) button {
+    font-size: 22px;
+    line-height: 35px;
+    padding: 8px 30px;
+    margin-top: 20px;
+  }
+
+  .Landing__35 h1 {
+    font-size: 24px;
+    line-height: 35px;
+}
+  .Landing__35 h1 span{
+    font-size: 24px;
+    line-height: 35px;
+}
+.Landing__35__Banner__Text img {
+  max-height: 268px;
+}
+
+.Landing__35__Banner__Text__Span {
+  font-size: 16px;
+  padding: 10px 20px !important;
+  border-radius: 40px;
+}
+
+.Landing__35__Banner__Text h4 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.Landing__35__Banner__img {
+  width: 100%;
+  height: 743px;
+  object-fit: cover;
+}
+
+.Landing__35__PackegeMain {
+  padding: 14px;
+}
+
+.Landing__35__Packege h2  {
+  font-size: 22px;
+  line-height: 32px;
+}
+.Landing__35__Packege h2 span {
+  font-size: 22px;
+}
+
+.Landing__35__Packege h2 {
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+.Landing__35__Packege {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.Landing__35__Packege__Card {
+  text-align: center;
+}
+
+.Landing__35__Binifit__main {
+  padding: 48px 3px;
+}
+
+.Landing__35__Offer {
+  padding: 36px 6px;
+}
+
+.Landing__35__Offer h4 {
+  font-size: 22px;
+}
+.Landing__35__Offer h4 span {
+  font-size: 22px;
+}
+.Landing__35__Offer h2 {
+  font-size: 22px;
+  padding: 4px 0px;
+}
+.Landing__35__Offer h2 span{
+  font-size: 22px;
+}
+.Landing__35__Offer h5 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.Landing__35__Offer h6 {
+  font-size: 22px;
+}
+
+.Landing__35__Video {
+  padding: 14px;
+}
+
+.Landing__35__question h2 {
+  font-size: 24px;
+  line-height: 22px;
+}
+
+.Landing__35__Packege2 h4 {
+  color: #FDFDFD;
+  font-size: 16px;
+}
+
+.Landing__35__Banner2 h2 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.Landing__35__Banner2 h4 {
+  font-size: 24px;
+}
+.Landing__35__Banner2 h5 {
+  font-size: 24px;
+}
+
+.Landing__35__Banner2 {
+  text-align: center;
+  padding: 15px 9px;
+}
+
+.Landing__35 .Order_Center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Landing__35__Banner2__Contact h4 {
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+.Landing__35__Banner2__bg_Contact {
+  padding: 52px 8% 30px 8%;
+}
+
+.Landing__35__Banner2__Contact h5 {
+  font-size: 20px;
+}
+
+.Landing__35 .Section__Gaps {
+  margin-top: 50px;
+}
+
+.Landing__35__Binifit2{
+  padding: 10%;
+}
+
+.Landing__35 h2{
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.Landing__35__Binifit ul li p {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+}

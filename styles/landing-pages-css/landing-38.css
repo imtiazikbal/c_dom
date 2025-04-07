@@ -1,0 +1,516 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__38 {
+  --bg-color: #dc3814;
+  --bg-color2: #effcff;
+  --text-color: #091c20;
+  --text-color2: #2a3a8a;
+  --white-color: #fff;
+  --yellow-color: #ffc300;
+  overflow-x: hidden;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+.Landing__38 h1 {
+  margin-top: 16px;
+  margin-bottom: 40px;
+  text-align: center;
+  background: #0dbae1;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 80px;
+  color: var(--white-color);
+  padding: 24px;
+  border-radius: 56px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Landing__38 h1 span {
+  padding: 14px 24px;
+  border-radius: 10px;
+  background-color: #f2b705;
+}
+
+.Landing__38 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.Landing__38 p {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--header-color);
+}
+
+.Landing__38 :where(.Order, .Price) a,
+.Landing__38 :where(.Order, .Price) button {
+  background: linear-gradient(to right, #dc3814 0%, #dc3814 51%, #bb3112 100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--white-color);
+  padding: 15px 40px;
+  font-weight: 700;
+  display: inline-block;
+  width: auto;
+  margin-top: 30px;
+  border: 3px solid #f2441d;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 72px;
+}
+
+.Landing__38 :where(.Order, .Price) a:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Landing__38 :where(.Order, .Price) img {
+  height: 34px;
+  padding: 0px 10px;
+}
+
+.Landing__38 .Price button {
+  font-size: 35px;
+  line-height: 55px;
+  border-radius: 16px 0px;
+}
+
+.Landing__38 .Section__Gaps {
+  margin-top: 80px;
+}
+
+/* ============================================================
+Start Landing__35__Banner
+==============================================================*/
+
+.Landing__38__Banner__Content {
+  padding: 40px 0px 60px 0px;
+  background: #effcff;
+}
+
+.Landing__38__Banner__Text {
+  text-align: center;
+}
+
+.Landing__38__logo {
+  max-height: 130px;
+}
+
+.Landing__38__VidDiv {
+  padding: 0px 10%;
+}
+
+/* ============================================================
+  Price
+==============================================================*/
+.Landing__38__Banner__PriceDiv {
+  text-align: center;
+  padding: 60px 0px;
+  border-radius: 30px;
+  border: 7px dashed #0dbae1;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.Landing__38__Banner__PriceDiv p {
+  border-radius: 48px;
+  color: var(--white-color);
+  background-color: #0dbae1;
+  padding: 25px 35px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.Landing__38__Banner__PriceDiv h5 {
+  color: #091c20;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.Landing__38__Banner__Mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Landing__38__Banner__Mobile img {
+  margin-right: 10px;
+}
+
+.Landing__38__Banner__Mobile h6 {
+  color: #091c20;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+/* ============================================================
+ Card
+==============================================================*/
+.Landing__38__CardSec {
+  background-color: var(--bg-color2);
+  padding-bottom: 80px;
+  border-radius: 60px;
+  border: 3px solid #0dbae1;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.Landing__38__CardH2 h2 {
+  padding: 55px 0px;
+  border-radius: 60px 0px;
+  background-color: #0dbae1;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Landing__38__Card__text {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.Landing__38__Card__text div {
+  padding: 45px 20px;
+  border-radius: 19px;
+  border: 3px solid #dc3814;
+  color: #091c20;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Landing__38 .Order_center {
+  text-align: center;
+}
+
+/* ============================================================
+ Delivery
+==============================================================*/
+
+.Landing__38__Delivery {
+  text-align: center;
+}
+
+.Landing__38__Delivery img {
+  max-height: 340px;
+}
+.Landing__38__Delivery p {
+  color: #091c20;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.Landing__38__Delivery_flex {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.Landing__38__Delivery_flex div {
+  padding: 30px;
+  color: #dc3814;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #f2b705;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================================
+Why Use
+==============================================================*/
+
+.Landing__38__WhyUse {
+  margin-bottom: 60px;
+}
+
+.Landing__38__WhyUse__Img img {
+  max-height: 443px;
+  width: 100%;
+}
+
+.Landing__38__WhyUse__Ul {
+  border-radius: 32px;
+  background: #effcff;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Landing__38__WhyUse__Ul ul li {
+  display: flex;
+  border-bottom: 1px solid #b2d5dd;
+  padding: 20px 0px;
+}
+
+.Landing__38 .Landing__38__WhyUse__Ul_last {
+  border-bottom: none;
+}
+
+.Landing__38__WhyUse__Ul ul li img {
+  height: 24px;
+  margin-right: 10px;
+  margin-left: 33px;
+}
+
+/* ============================================================
+ Basnner2
+==============================================================*/
+.Landing__38__Banner2Sec {
+  padding: 80px 0px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("https://landing-page-images-1.s3.ap-south-1.amazonaws.com/landing-38/bg2.webp");
+  border-radius: 27px;
+}
+
+.Landing__38__Banner2 {
+  text-align: center;
+}
+
+.Landing__38__Banner2 img {
+  max-height: 936px;
+  width: 100%;
+}
+
+.Landing__38__ImgBox2 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 20px 80px;
+  border-radius: 60px 16px 16px 16px;
+  border: 5px solid #dc3814;
+  background-color: #effcff;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================================
+Box Img
+==============================================================*/
+.Landing__38__img2 img {
+  max-height: 330px;
+  width: 100%;
+}
+.Landing__38__img3 img {
+  max-height: 317px;
+  width: 100%;
+}
+
+/* ============================================================
+Quality
+==============================================================*/
+
+.Landing__38__Quality {
+  border-radius: 40px;
+  background-color: #0dbae1;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 66px 30px;
+}
+.Landing__38__Quality h4 {
+  color: #fdfdfd;
+  text-align: center;
+  font-size: 40px;
+  line-height: 70px;
+  font-weight: 400;
+}
+.Landing__38__Quality span {
+  border-radius: 10px;
+  background-color: #f2b705;
+  padding: 15px 16px;
+}
+
+.Landing__38__Quality h5 {
+  margin-top: 60px;
+  color: #fdfdfd;
+  text-align: center;
+  font-size: 40px;
+  padding: 40px;
+  line-height: 55px;
+  font-weight: 700;
+  border-radius: 16px;
+  background-color: #dc3814;
+}
+
+.Landing__38 #OrderConfirmRight button {
+  background-color: #dc3814;
+}
+
+/* ============================================================
+ Card
+==============================================================*/
+
+@media (max-width: 1399.99px) {
+  .Landing__38 h1 {
+    font-size: 35px;
+    line-height: 66px;
+  }
+
+  .Landing__38 h2 {
+    font-size: 28px;
+  }
+
+  .Landing__38__Delivery_flex div {
+    padding: 21px;
+    font-size: 18px;
+  }
+
+  .Landing__38__CardH2 h2 {
+    padding: 24px 0px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .Landing__38 :where(.Order, .Price) a,
+  .Landing__38 :where(.Order, .Price) button {
+    font-size: 22px;
+    padding: 10px 32px;
+  }
+
+  .Landing__38__logo {
+    max-height: 70px;
+  }
+
+  .Landing__38__Card__text {
+    grid-template-columns: auto;
+  }
+
+  .Landing__38__Delivery_flex {
+    display: block;
+  }
+
+  .Landing__38__Delivery_flex div {
+    margin-bottom: 15px;
+  }
+  .Landing__38__CardH2 h2 {
+    padding: 24px 5px;
+  }
+
+  .Landing__38__img2 img {
+    margin-bottom: 15px;
+  }
+
+  .Landing__38__Quality h4 {
+    font-size: 30px;
+    line-height: 56px;
+  }
+
+  .Landing__38__Quality h5 {
+    font-size: 30px;
+    padding: 40px;
+    line-height: 46px;
+  }
+
+  .Landing__38__Banner__Content {
+    background-position: -200px;
+  }
+}
+
+@media (max-width: 667px) {
+  .Landing__38 h1 {
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .Landing__38 h1 span {
+    padding: 6px 24px;
+  }
+
+  .Landing__38 :where(.Order, .Price) a,
+  .Landing__38 :where(.Order, .Price) button {
+    font-size: 18px;
+    padding: 10px 8px;
+  }
+
+  .Landing__38 h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .Landing__38__CardH2 h2 {
+    padding: 20px 0px;
+    border-radius: 16px 20px;
+  }
+  .Landing__38 :where(.Order, .Price) img {
+    height: 24px;
+  }
+
+  .Landing__38__Banner__PriceDiv {
+    text-align: center;
+    padding: 32px 6px;
+  }
+  .Landing__38__CardSec {
+    padding-bottom: 58px;
+    border-radius: 15px;
+  }
+  .Landing__38__Banner__Mobile h6 {
+    color: #091c20;
+    font-size: 22px;
+    line-height: 44px;
+  }
+
+  .Landing__38__Banner__PriceDiv {
+    border: 3px dashed #0dbae1;
+  }
+
+  .Landing__38__Banner__Mobile {
+    margin-bottom: 14px;
+  }
+
+  .Landing__38__Card__text div {
+    padding: 20px 20px;
+    font-size: 18px;
+  }
+
+  .Landing__38__Delivery img {
+    max-height: 205px;
+  }
+
+  .Landing__38__Delivery p {
+    color: #091c20;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .Landing__38__WhyUse__Ul {
+    padding-right: 10px;
+  }
+  .Landing__38 p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .Landing__38__WhyUse__Ul ul li img {
+    height: 21px;
+    margin-right: 10px;
+    margin-left: 19px;
+  }
+
+  .Landing__38__ImgBox2 {
+    padding: 20px 20px;
+  }
+  .Landing__38__Quality h4 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .Landing__38__Quality h5 {
+    font-size: 22px;
+    padding: 14px;
+    line-height: 39px;
+  }
+  .Landing__38__Quality {
+    border-radius: 15px;
+  }
+
+  .Landing__38__Quality span {
+    border-radius: 10px;
+    background-color: #f2b705;
+    padding: 8px 16px;
+  }
+
+  .Landing__38 .Section__Gaps {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,1245 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__15 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden;
+  
+  }
+
+.Landing__15 ul{
+
+    padding: 0;
+    
+  }
+  
+  
+  .Landing__15 h1{
+      font-size: 48px;
+      line-height: 70px;
+      color: #FFFFFF;
+      font-weight: 700;
+      padding-top: 31px;
+  }
+
+  .Landing__15 h2{
+      font-size: 36px;
+      line-height: 47px;
+      color: #882A32;
+      font-weight: 700;
+      text-align: center;
+  }
+  
+  .Landing__15 h3{
+      font-size: 48px;
+      line-height: 90px;
+      color:#882A32;
+      font-weight: 700;
+      padding-top: 35px;
+      padding-bottom: 40px;
+      
+  }
+
+  .Landing__15 h3 span{
+      font-size: 30px;
+      line-height: 40px;
+      color:#882A32;
+      font-weight: 600;
+      text-decoration: line-through;
+      vertical-align: 7px;
+    
+  }
+
+  .Landing__15 h6 {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;    
+  }
+  
+  
+  .Landing__15 p{
+      color:#3C1115;
+      font-size: 20px;
+      line-height: 26px;
+  }
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__15 .bg {
+      transition: 0.5s;
+      display: block;
+      font-size: 32px;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+  .Landing__15 a.bg{
+      /* margin-top: 30px; */
+      padding: 24px 74px;
+      color: #FFFFFF; 
+      background-image: linear-gradient(to right, #EE0252 0%, #FA674B 51%, #EE0252 100%);
+      background-size: 180% auto;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: rgba(165, 15, 66, 0.4) 5px 5px, rgba(165, 15, 66, 0.3) 10px 10px, rgba(165, 15, 66, 0.2) 15px 15px, rgba(165, 15, 66, 0.1) 20px 20px, rgba(165, 15, 66, 0.05) 25px 25px;
+      transition: .2s;
+    }
+  
+  .Landing__15 a.bg2{
+      /* margin-top: 30px; */
+      padding: 24px 35px;
+      color: #FFFFFF; 
+      background-image: linear-gradient(to right, #EE0252 0%, #FA674B 51%, #EE0252 100%);
+      background-size: 180% auto;
+      border-radius: 10px;
+      font-size: 24px;
+      display: inline-block;
+      box-shadow: rgba(165, 15, 66, 0.4) 5px 5px, rgba(165, 15, 66, 0.3) 10px 10px, rgba(165, 15, 66, 0.2) 15px 15px, rgba(165, 15, 66, 0.1) 20px 20px, rgba(165, 15, 66, 0.05) 25px 25px;
+  }
+
+
+
+
+  .Landing__15 a svg{
+      font-size: 32px;
+      margin-top: -5px;
+      margin-right: 10px;
+  }
+  
+  .Landing__15 a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+      box-shadow: rgba(165, 15, 66, 0) 5px 5px, rgba(165, 15, 66, 0) 10px 10px, rgba(165, 15, 66, 0) 15px 15px, rgba(165, 15, 66, 0) 20px 20px, rgba(165, 15, 66, 0) 25px 25px;
+
+  }
+   
+  .Landing__15_section_gaps{
+      margin-top: 100px;
+  }
+ 
+  .Landing__15 ul{
+
+    list-style: none;
+
+  }
+
+  /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+  .Landing__15_bg_div{
+
+        background-image: url('../../public/images/landing-15/bg.png');
+        padding: 40px 0px 60px 0px;
+        background-size: cover;
+        width: 100%;
+  }
+
+  .Landing__15_Bannar_txt1{
+
+    margin-top: 62px;
+    font-size: 30px;
+    line-height: 40px;
+    color:#fff;
+    font-weight: 600;
+    background-color: #FA674B;
+    display: inline-block;
+    padding: 12px 54px;
+    transform: skewX(-10deg);
+
+  }
+
+
+  .Landing__15_Bannar_LinkDiv{
+    padding-top: 65px;
+    
+  }
+
+  .Landing__15_Bannar_LinkDiv img{
+   width: 100%;
+    
+  }
+
+  .Landing__15_Bannar_LinkDiv h4{
+    margin-top: -80px;
+    text-align: right;
+    color:#882A32;
+    font-size: 46px;
+    line-height: 61px;
+  }
+
+  .Landing__15_Bannar_LinkDiv h5{
+    margin-top: -40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left:100px ;
+    font-weight: 300;
+  }
+
+  .Landing__15_Bannar_LinkDiv h6{
+    color: #882A32;
+    text-align: right;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    font-weight: 600;
+
+  }
+
+/* Col---2 */
+
+    .Landing__15_Bannar_Col2Div{
+        position: relative;
+    }
+
+  .Landing__15_Bannar_Col2Div_img1{
+     width: 110%;
+     text-align: center;
+     margin-left: 130px;
+     margin-top: -50px;
+
+     
+  }
+
+  .Landing__15_Bannar_Col2Div_img2{
+     position: absolute;
+     right: -128px;
+     top:100px;
+     width: 40%;
+
+  }
+
+  .Landing__15_Bannar_Shipping_txt1 h6{
+
+    background-color:#882A32;
+    padding: 53px 25% 119px 25%;
+    text-align: center;
+    color:#FFFFFF;
+    margin-bottom: 0;
+
+  }
+
+   /* ================================================================================================
+            shipping icon
+  ===================================================================================================*/
+  .Landing__15_BggImg1{
+    background-image: url('../../public/images/landing-15/img4.png') ;
+    padding-top: 28px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 50px 50px;
+    margin-top: -100px;
+  }
+
+   /* ================================================================================================
+           Modal 
+  ===================================================================================================*/
+  .Landing__15_ModelDiv{
+    position: relative;
+
+  }
+
+  .Landing__15_ModelDiv_imgAbs1{
+    position: absolute;
+    width: 120%;
+    top:0;
+    left: 0;
+  }
+
+  .Landing__15_Model_Img_Div{
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .Landing__15_ModelDiv_imgAbs2{
+        width: 80%;
+        margin-left: 15%;
+
+  }
+
+  /* Col-2 */
+
+  .Landing__15_Model_Txt_Div{
+    padding-left: 70px;
+  }
+
+  .Landing__15_Model_Txt_Div h2{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+
+  .Landing__15_Model_Txt_Div p{
+    color: #8A8A8A;
+    padding-bottom: 30px;
+  }
+
+   .Landing__15_Model_Ul_Div li p{
+     display: inline;
+     padding-left: 10px;
+     color: #3C1115;
+     font-weight: 600;
+    
+  }
+
+   .Landing__15_Model_Ul_Div li {
+    padding-bottom: 10px;
+  }
+   .Landing__15_Model_Ul_Div  {
+    padding-bottom: 30px;
+  }
+
+ 
+   /* ================================================================================================
+            Order Template One
+  ===================================================================================================*/
+
+  .Landing__15_OrderT1_ptxt {
+    padding-top: 30px;
+
+}
+
+  .Landing__15_OrderT1_ptxt p {
+    padding: 0 10%;
+    text-align: center;
+
+}
+
+/* OrderT1 */
+
+.Landing__15_OrderT1_div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 116px;
+}
+
+.Landing__15_OrderT1_divAbs{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.Landing__15_OrderT1_divAbs h5{
+   color:  #FFFFFF;
+   font-size: 24px;
+   line-height: 31px;
+   padding-bottom: 60px;
+   padding-top: 15px;
+ 
+}
+
+.Landing__15_OrderT1_divAbs h4{
+   color:  #FDFDFD;
+   font-size: 40px;
+   line-height: 60px;
+   padding-bottom: 20px;
+  
+}
+
+.Landing__15_OrderT1_divImgArr{
+    width:100%;
+    margin-top: -34px;
+}
+
+.Landing__15_OrderT1_BgImgBox{
+    position: relative;
+}
+
+.Landing__15_OrderT1_BgImgBox img{
+    position: absolute;
+    z-index: -1;
+    margin-top: -300px;
+    width: 100%;
+    /* height: 873px; */
+}
+
+   /* ================================================================================================
+             P Datails
+  ===================================================================================================*/
+  .Landing__15_Product_Details_Box{
+    text-align: center;
+  }
+
+  .Landing__15_Product_DetailsImg{
+    width: 58%;
+    margin-left: 10%;
+    margin-top: -400px;
+  }
+
+  .Landing__15_Product_ulBox1 p{
+    display: inline;
+    padding-left: 10px;
+    font-weight: 600;
+    color:#fff;
+  }
+
+  .Landing__15_Product_ulBox2 p{
+    display: inline;
+    padding-left: 10px;
+    font-weight: 600;
+    color:#fff;
+  }
+
+  .Landing__15_Product_ulBox1 {
+    padding-left: 10%;
+  }
+
+  .Landing__15_Product_ulBox1 li {
+    padding-bottom: 25px;
+  }
+
+  .Landing__15_Product_ulBox2 li {
+    padding-bottom: 25px;
+  }
+
+  .Landing__15_Details_BgImgBox{
+        position: relative;
+  }
+
+
+ .Landing__15_OrderT1_BgImgBox_bg{
+    background-image: url('../../public/images/landing-15/img16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 500px;
+    padding-bottom: 260px;
+
+  } 
+ 
+   /* ================================================================================================
+              Order Tem2
+  ===================================================================================================*/
+  .Landing__15_Order2Rel_Bg{
+    background-image: url('../../public/images/landing-15/img19.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    margin-top: 300px;
+
+  }
+
+.Landing__15_Order2Rel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.Landing__15_Order2Rel img{
+    margin-top: -200px;
+
+}
+
+.Landing__15_Order2Abs{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: -200px;
+}
+
+.Landing__15_Order2Abs h5{
+    font-size: 24px;
+    line-height: 31px;
+    color:#FFFFFF;
+    padding-top: 90px;
+}
+.Landing__15_Order2Abs h4{
+    font-size: 40px;
+    line-height: 60px;
+    color:#FDFDFD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+   /* ================================================================================================
+            Refund
+  ===================================================================================================*/
+    
+  
+  .Landing__15_Refund_div {
+        text-align: center;
+    }
+
+    .Landing__15_Refund_div p{
+        padding: 22px 70px;
+        margin-top: 24px;
+        border: 1px solid #EE0252;
+        border-radius: 10px;
+       display: inline-block;
+       font-weight: 600;
+    }
+
+   /* ================================================================================================
+          Place Order
+  ===================================================================================================*/
+.Landing__15_Footer_Bg{
+    background: #c22257;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+
+.Landing__15 #OrderConfirmFrom h2{
+   color:#fff;
+}
+
+.Landing__15 #OrderConfirmFrom h3{
+   color:#fff;
+   font-size: 30px;
+}
+
+.Landing__15 #OrderConfirmLeft #Payment h3 {
+    font-size: 30px;
+    color: #3C1115;
+    padding-top: 0px;
+    line-height: 48px;
+}
+
+.Landing__15 #OrderConfirmRight ul li {
+    color:#fff;
+}
+
+.Landing__15 #OrderConfirmRight ul h5 {
+    color:#fff;
+}
+
+
+/* Order3---- */
+
+.Landing__15_Place2Rel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Landing__15_Place2Abs{
+    position: absolute;
+    text-align: center;
+}
+
+.Landing__15_Place2Abs h4{
+    padding-top: 220px;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.Landing__15_Place2Abs h5{
+    font-size: 46px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+
+.Landing__15_Place2Rel img{
+    height: 457px;
+    margin-bottom: -120px;
+}
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Landing__15 #OrderConfirmLeft #Payment #ArrowBg {
+    background: #EE0252;
+}
+
+.Landing__15 #OrderConfirmRight__DSDPT button {
+    background: #EE0252;
+}
+
+.Landing__15 #OrderConfirmLeft #Payment #ArrowBg p {
+    color: #ffffff;
+}
+
+.Landing__15 #OrderConfirmLeft h3{
+    font-size: 36px;
+    color: #000000;
+}
+
+.Landing__15 #OrderConfirmRight h3{
+    color: #000000;
+    font-size: 36px;
+}
+
+.Landing__15 #OrderConfirmLeft #Payment #ArrowBg::after {
+    border-bottom: solid 15px #EE0252;
+}
+
+.Landing__15 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
+    background: #EE0252;
+}
+
+.Landing__15 #OrderConfirmRight ul #left p {
+    color:#FFF;
+}
+
+.Landing__15 #OrderConfirmLeft #Payment #ArrowBg p {
+    font-size: 18px;
+  }
+  
+  .Landing__15 #OrderConfirmLeft #Payment #ArrowBg {
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+
+   /* ================================================================================================
+            Footer
+  ===================================================================================================*/
+
+
+.Landing__15_Footer_ulBox2 h4{
+    color:#882A32;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Landing__15_Footer_ulBox2 p{
+    display: inline-block;
+    color:#882A32;
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 10px;
+    
+}
+
+.Landing__15 .Landing__15_Footer_ulBox2 h2{
+    text-align: left;
+   font-size: 40px;
+   padding-left: 5%;
+}
+
+.Landing__15_Footer_ulBox2 .bg{
+   margin-left: 5%;
+}
+
+
+
+.Landing__15_Footer_ulBox2 li{
+   padding-top: 20px;
+
+}
+
+.Landing__15_socialMidia {
+    padding-top: 80px;
+}
+
+.Landing__15_Footer_a{
+    color:#882A32;
+}
+
+.Landing__15_socialMidia_hr{
+    border-bottom: 1px solid #EE0252;
+    margin: 0 15%;
+}
+
+.Landing__15_sectionFooter{
+    position: relative;
+}
+
+.Landing__15_FooterUl1{
+    padding-left: 20%;
+}
+
+.Landing__15_FooterAbs1{
+    position: absolute;
+    bottom:-100px;
+    left:0;
+    height: 300px;
+
+}
+
+.Landing__15_FooterAbs2{
+    position: absolute;
+    bottom: -100px;
+    right:0;
+    height: 300px;
+}
+
+
+.Landing__15 .Landing__15_Footer_ulBox2 h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+
+
+   /* ================================================================================================
+           Media
+  ===================================================================================================*/
+
+ 
+  @media (min-width: 1441px) {
+
+
+    .Landing__15_Bannar_Col2Div_img1 {
+        width: 119%;
+        text-align: center;
+        margin-left: 91px;
+        margin-top: -70px;
+    }
+
+  }
+  
+   @media (max-width: 1440px) {
+
+    .Landing__15_bg_div{
+        padding: 40px 0px 40px 0px;
+  }
+  
+    .Landing__15 h1 {
+        font-size: 52px;
+        line-height: 73px;
+    }
+    
+    .Landing__15 h3 {
+        font-size: 40px;
+        line-height: 20px;
+    }
+
+    .Landing__15_Bannar_Col2Div_img2 {
+        right: -100px;
+        top: 100px;
+        width: 33%;
+    }
+
+
+    .Landing__15_Footer_ulBox2 h2 {
+        text-align: left;
+        font-size: 36px;
+        padding-left: 5%;
+    }
+
+  
+    .Landing__15_Bannar_Col2Div_img1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 116px;
+        margin-top: -89px;
+    }
+
+    .Landing__15 h1 {
+        font-size: 40px;
+        line-height:50px;
+    }
+
+
+    .Landing__15 a.bg {
+        padding: 18px 66px;
+        font-size: 20px;
+    }
+
+    .Landing__15_Bannar_txt1 {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin-top: 34px;
+    }
+
+    .Landing__15_Bannar_LinkDiv h5 {
+        padding-left: 76px;
+      
+    }
+
+    .Landing__15_OrderT1_BgImgBox img {
+
+        height: 873px;
+    }
+
+    .Landing__15_Product_ulBox1 p{
+        color:#fff;
+      }
+
+    .Landing__15_Product_ulBox2 p{
+        color:#fff;
+      }
+
+      .Landing__15 h3 span {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .Landing__15_Bannar_LinkDiv {
+        padding-top: 32px;
+    }
+
+    .Landing__15_Bannar_LinkDiv h4 {
+        font-size: 35px;
+    }
+
+  }
+  
+  
+  @media (max-width: 1280px) {
+
+    .Landing__15_Bannar_txt1 {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin-top: 34px;
+    }
+
+    .Landing__15 h1 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .Landing__15 h3 {
+        font-size: 34px;
+        line-height: 20px;
+    }
+
+    .Landing__15 h3 span {
+        font-size: 20px;
+    
+    }
+
+    .Landing__15 a.bg {
+        padding: 13px 29px;
+        font-size: 20px;
+    }
+
+    .Landing__15_Bannar_LinkDiv h4 {
+        margin-top: -76px;
+        font-size: 32px;
+    }
+
+    .Landing__15_Bannar_LinkDiv h5 {
+        margin-top: -32px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 26px;
+        padding-left: 60px;
+        font-weight: 300;
+    }
+  
+    .Landing__15 h6 {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+
+    .Landing__15_Bannar_Col2Div_img1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 55px;
+        margin-top: -29px;
+    }
+
+    .Landing__15_Bannar_Col2Div_img2 {
+        right: -51px;
+        top: 186px;
+        width: 28%;
+    }
+
+    .Landing__15 h2 {
+        font-size: 28px;
+        line-height: 38px;
+        color: #882A32;
+        font-weight: 700;
+        
+    }
+
+    .Landing__15 p {
+        color: #3C1115;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Landing__15_OrderT1_divAbs h5 {
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .Landing__15_OrderT1_divAbs h4 {
+        color: #FDFDFD;
+        font-size: 28px;
+        line-height: 60px;
+        padding-bottom: 20px;
+    }
+    
+    .Landing__15_Product_ulBox1 p{
+        color:#fff;
+      }
+
+    .Landing__15_Product_ulBox2 p{
+        color:#fff;
+      }
+
+
+      .Landing__15_Bannar_LinkDiv h6 {
+        color: #882A32;
+        text-align: right;
+        padding-top: 18px;
+    }
+
+  }
+  
+  @media (max-width: 991px) {
+  
+    .Landing__15_Col_reverce{
+        flex-direction: column-reverse;
+    }
+
+    .Landing__15_Bannar_Col2Div_img1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 31px;
+    }
+
+    .Landing__15_Bannar_Col2Div_img2 {
+        right: -3px;
+        top: 234px;
+        width: 28%;
+    }
+
+    .Landing__15_Bannar_LinkDiv h5 {
+        margin-top: -46px;
+        padding-left: 108px;
+    
+    }
+
+    .Landing__15_BggImg1 {
+        padding-top: 28px;
+        padding-bottom: 40px;
+        background-size: cover;
+        border-radius: 0px 0px 141px 50px;
+        margin-top: -100px;
+    }
+
+    .Landing__15_Product_DetailsImg {
+        width: 58%;
+        margin-left: 10%;
+        margin-top: -111px;
+    }
+
+    .Landing__15_OrderT1_BgImgBox_bg {
+        margin-top: 140px;
+        padding-bottom: 160px;
+    }
+
+    .Landing__15_Product_ulBox1 {
+        padding-left: 24%;
+        text-align: left;
+        
+    }
+
+    .Landing__15_Product_ulBox2 {
+        padding-left: 24%;
+        text-align: left;
+        
+    }
+
+    .Landing__15_Order2Rel img {
+        margin-top: -175px;
+        width: 100%;
+    }
+
+    .Landing__15_Footer_ulBox2 h2 {
+        text-align: left;
+        font-size: 36px;
+        padding-left: 0%;
+    }
+
+    .Landing__15_Footer_ulBox2 .bg {
+        margin-left: 0%;
+    }
+
+    .Landing__15_Place2Abs h5 {
+        font-size: 28px;
+        line-height: 61px;
+        color: #FFFFFF;
+    }
+
+    .Landing__15_Place2Abs h4 {
+        padding-top: 220px;
+        font-size: 27px;
+        line-height: 27px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+
+    .Landing__15_Footer_ulBox2 h4 {
+        padding-top: 20px;
+    }
+
+    .Landing__15_Product_ulBox1 p{
+        color:#fff;
+      }
+
+    .Landing__15_Product_ulBox2 p{
+        color:#fff;
+      }
+
+      .Landing__15_FooterUl1{
+        padding-left: 0%;
+    }
+
+    .Landing__15_FooterAbs1{
+        position: absolute;
+        bottom:-100px;
+        left:0;
+        height: 200px;
+    
+    }
+    
+    .Landing__15_FooterAbs2{
+        position: absolute;
+        bottom: -100px;
+        right:0;
+        height: 200px;
+    }
+
+    .Landing__15 .Landing__15_Footer_ulBox2 h2 {
+        text-align: left;
+    }
+    
+
+
+  }
+  
+  
+  @media (max-width: 768px) {
+  
+  
+  }
+  
+  
+  @media (max-width: 575px) {
+  
+    .Landing__15_Bannar_Div{
+        text-align: center;
+    }
+
+    .Landing__15 p {
+        text-align: center;
+    }
+
+    .Landing__15_section_gaps{
+        margin-top: 50px;
+    }
+
+    .Landing__15_Product_ulBox1 {
+        padding-left: 5%;
+        text-align: left;
+    
+    }
+
+    .Landing__15_Product_ulBox2 {
+        padding-left: 5%;
+        text-align: left;
+       
+    }
+
+    .Landing__15_Footer_ulBox2{
+        text-align: center;
+    }
+    .Landing__15_Footer_ulBox2 h2 {
+        text-align: center;
+     
+    }
+
+    .Landing__15_Bannar_Shipping_txt1 h6 {
+        background-color: #882A32;
+        padding: 53px 5% 119px 5%;
+    }
+
+    .Landing__15_Footer_ulBox2 h2 {
+
+        font-size: 24px;
+    }
+
+    .Landing__15_OrderT1_div {
+        margin-top: 80px;
+        height: 169px;
+
+    }
+
+    .Landing__15_OrderT1_divAbs h5 {
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    .Landing__15_OrderT1_divAbs h4 {
+        font-size: 24px;
+    }
+
+    .Landing__15 a.bg {
+        padding: 11px 28px;
+        font-size: 16px;
+    }
+
+    .Landing__15 a svg {
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+    .Landing__15_OrderT1_divAbs h5 {
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 31px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .Landing__15_Bannar_Col2Div_img2 {
+        right: -3px;
+        top: 123px;
+        width: 28%;
+    }
+
+    .Landing__15 h1 {
+        font-size: 28px;
+        line-height: 48px;
+    }
+
+    .Landing__15 h3 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .Landing__15 h3 span {
+        font-size: 16px;
+    }
+
+    .Landing__15_Bannar_LinkDiv h4 {
+        margin-top: -64px;
+        font-size: 24px;
+    }
+
+    .Landing__15_Bannar_LinkDiv h5 {
+        margin-top: -35px;
+        text-align: left;
+        padding-left: 42px;
+        font-size:14px;
+    }
+
+    .Landing__15 h6 {
+       text-align: center;
+    }
+
+    .Landing__15_Model_Txt_Div {
+        padding-left: 0px;
+    }
+
+    .Landing__15 h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .Landing__15_BggImg1 {
+        padding-top: 28px;
+        padding-bottom: 78px;
+        background-size: cover;
+        border-radius: 0px 0px 0px 0px;
+        margin-top: -100px;
+    }
+
+    .Landing__15_Product_DetailsImg {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: -15px;
+    }
+
+    .Landing__15_OrderT1_BgImgBox_bg {
+        margin-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .Landing__15_Model_Txt_Div {
+        padding-left: 0px;
+        text-align:center;
+    }
+
+    .Landing__15_Order2Abs h5 {
+        font-size: 16px;
+        line-height: 31px;
+        color: #FFFFFF;
+        padding-top: 38px;
+    }
+
+    .Landing__15_Order2Abs h4 {
+        font-size: 28px;
+        line-height: 16px;
+        color: #FDFDFD;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Landing__15_Refund_div p {
+        padding: 22px 12px;
+    }
+     
+    .Landing__15_Place2Rel img{
+        height: 317px;
+    }
+
+
+    .Landing__15_Place2Abs h4 {
+        padding-top: 141px;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+
+
+    .Landing__15 .order_OrderConfirmFrom__ThtXd h3 {
+        color: #fff;
+        font-size: 30px;
+        padding-top: 0;
+    }
+
+    .Landing__15_Footer_ulBox2_h4{
+        margin-top: 30px;
+    }
+    
+    .Landing__15_Product_ulBox1 p{
+        color:#fff;
+      }
+
+    .Landing__15_Product_ulBox2 p{
+        color:#fff;
+      }
+
+      .Landing__15_OrderT1_divImgArr {
+        width: 100%;
+        margin-top: -7px;
+    }
+
+
+    .Landing__15_FooterAbs1{
+        position: absolute;
+        bottom:-100px;
+        left:0;
+        height: 100px;
+    
+    }
+    
+    .Landing__15_FooterAbs2{
+        position: absolute;
+        bottom: -100px;
+        right:0;
+        height: 100px;
+    }
+
+
+    .Landing__15 .Landing__15_Footer_ulBox2 h2 {
+        text-align: center;
+    }
+
+
+      }
+

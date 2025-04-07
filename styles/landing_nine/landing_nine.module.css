@@ -1,0 +1,1039 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandingNine {
+  --header_color: #ffffff;
+  --bg_color: #fec827;
+  --bg_color2: #fec827;
+  --bg_color3: #a8de63;
+  --bg_color4: #f22512;
+  --text_color: #64607d;
+  --white_color: #fff;
+  --primary_text: #042117;
+}
+
+.LandingNine .container {
+  max-width: 100%;
+  padding: 0 250px;
+}
+
+.LandingNine {
+  font-family: "Noto Sans Bengali", sans-serif !important;
+}
+
+.LandingNine h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  margin-top: 40px;
+  color: var(--header_color);
+}
+
+.LandingNine h1 span {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #fec827;
+  text-align: center;
+}
+
+.LandingNine h2 {
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--primary_text);
+  text-align: center;
+  font-weight: 700;
+}
+
+.LandingNine h3 {
+  font-size: 24px;
+  line-height: 35px;
+  color: var(--primary_text);
+  font-weight: 600;
+  text-align: center;
+}
+
+.LandingNine .Title h2 {
+  line-height: 70px;
+}
+.LandingNine .Title p {
+  color: var(--primary_text);
+  font-size: 28px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.LandingNine h4 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 32px;
+}
+.LandingNine h4 span {
+  text-decoration: line-through;
+  color: var(--bg_color3);
+}
+
+.LandingNine h5 {
+  font-size: 24px;
+  line-height: 20px;
+  color: var(--primary_text);
+  font-weight: 600;
+}
+
+.LandingNine h6 {
+  font-size: 21px;
+  line-height: 28px;
+  color: var(--bg_color3);
+  font-weight: 700;
+}
+
+.LandingNine p {
+  color: #5b5858;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.LandingNine a {
+  transition: 0.5s;
+  display: block;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.LandingNine a.bg {
+  margin-top: 30px;
+  padding: 12px 50px;
+  padding-top: 15px;
+  color: var(--primary_text);
+  background: #fec827;
+  background-size: 200% auto;
+  border-radius: 30px;
+  display: inline-block;
+  box-shadow: 0px 67px 80px rgba(30, 20, 10, 0.38),
+    0px 43.4259px 46.8519px rgba(30, 20, 10, 0.1931),
+    0px 25.8074px 25.4815px rgba(30, 20, 10, 0.0425185),
+    0px 13.4px 13px rgba(30, 20, 10, 0.035),
+    0px 5.45926px 6.51852px rgba(30, 20, 10, 0.0274815),
+    0px 1.24074px 3.14815px rgba(30, 20, 10, 0.0168519);
+}
+
+.LandingNine .headerTitle {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 40px;
+}
+
+.LandingNine a.bg:hover {
+  transform: scale(1.02);
+}
+
+.LandingNine a svg {
+  font-size: 25px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.LandingNine .hLine {
+  margin-top: 10px;
+  height: 2px;
+  width: 300px;
+  background: var(--primary_text);
+}
+
+.LandingNine a.bg:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.LandingNine .section_gaps {
+  margin-top: 50px;
+}
+.LandingNine .LogoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.LandingNine .btnBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+
+.LandingNine .text h2 {
+  color: var(--bg_color4);
+  margin-top: 40px;
+  font-size: 50px;
+  position: relative;
+  z-index: 5;
+}
+
+.LandingNine .text h5 {
+  margin-top: 20px;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Banner {
+  background: url(../../public/images/landing_9/bg_honey.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+
+.Banner a.bg {
+  margin-right: auto;
+}
+
+.Banner .text {
+  padding-right: 70px;
+}
+
+.Banner h2 {
+  color: var(--bg_color4);
+  margin-top: 30px;
+  text-align: left;
+  font-size: 50px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Hotline PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Hotline {
+}
+
+.Hotline .hotlineBG {
+  background: url(../../public/images/landing_9/hotline_bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.Hotline h3 {
+  color: var(--bg_color4);
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.Hotline h2 {
+  margin-top: 20px;
+}
+
+.Hotline h2 span {
+  margin-right: 20px;
+  font-size: 36px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Jar Image PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.JarImage {
+}
+
+.JarImage .Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.JarImage img {
+  width: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START OrderBtn PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.OrderBtn {
+  position: relative;
+  padding: 40px 0;
+}
+
+.OrderBtn .Leftlayer {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  animation: MoveUpDown 3s linear infinite;
+}
+
+.OrderBtn .Leftlayer img,
+.OrderBtn .Rightlayer img {
+  width: 60%;
+}
+
+.OrderBtn .Rightlayer {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  display: flex;
+  justify-content: right;
+  animation: MoveUpDown 3s linear infinite;
+}
+
+.OrderBtn .Rightlayer img {
+  transform: rotateY(180deg);
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: -50px;
+  }
+  50% {
+    bottom: 0px;
+  }
+}
+
+.LandingNine .btnBox {
+  display: flex;
+  justify-content: center;
+}
+
+.OrderBtn h5 {
+  margin-top: 60px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Benefit PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Benefit {
+  background: url(../../public/images/landing_9/yellow_bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+}
+
+.Benefit .cardBox {
+  width: 100%;
+  height: 100%;
+  background-color: #fff9e8;
+  border: 2px solid #fff9e8;
+  border-radius: 15px;
+  outline: 2px solid #f9be20;
+  outline-offset: -11px;
+}
+
+.Benefit .cardBox p {
+  font-size: 15px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.Benefit .cardBox h3 {
+  font-weight: 900;
+}
+
+.Benefit .text {
+  padding: 50px 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Features PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Features {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.Features .BeeImage {
+  position: absolute;
+  top: 100px;
+  right: 10%;
+}
+.Features .BeeImage img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.Features .FeatureList {
+  margin-top: 50px;
+}
+
+.Features .FeatureList ul li {
+  margin-top: 20px;
+  display: flex;
+}
+
+.Features .FeatureList svg {
+  color: var(--bg_color2);
+  margin-right: 15px;
+  font-size: 23px;
+}
+
+.Features .FeatureList p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: left;
+  margin-top: 0;
+}
+
+.Features .FeatureImage {
+  width: 100%;
+
+  position: absolute;
+  left: -120px;
+  top: 0;
+}
+
+.Features .FeatureImage img {
+  width: 90%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START PriceSection PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.PriceSection {
+  position: relative;
+}
+
+.PriceSection .text {
+  margin: 20px auto;
+}
+
+.PriceSection .BeeImage {
+  position: absolute;
+  top: 90px;
+  left: 30%;
+  transform: rotate(-90deg);
+  animation: MoveTriangular 4s linear infinite;
+}
+
+@keyframes MoveTriangular {
+  0% {
+    top: 90px;
+    left: 30%;
+  }
+  35% {
+    top: 0px;
+    left: 15%;
+  }
+
+  100% {
+    top: 90px;
+    left: 10%;
+    transform: rotate(-180deg);
+  }
+}
+
+.PriceSection .BeeImage img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.PriceSection .BeeImage2 {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PriceSection .BeeImage2 img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START WhyBuy PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.WhyBuy {
+  background: url(../../public/images/landing_9/white_bg.png);
+  background-position: center top;
+  background-repeat: repeat;
+  background-size: contain;
+  padding: 150px 0;
+  position: relative;
+}
+
+.WhyBuy .BeeImage {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+
+.WhyBuy .BeeImage img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.WhyBuy .BeeImage2 {
+  position: absolute;
+  bottom: 10%;
+  right: 8%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.WhyBuy .BeeImage2 img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  animation: MoveUpDown 3s linear infinite;
+}
+
+.WhyBuy h5 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #5b5858;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Footer PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Footer {
+  position: relative;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+.Footer .footermenu h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #042117;
+}
+
+.Footer .footermenu ul li {
+  margin-top: 10px;
+}
+
+.Footer .footermenu .social {
+  display: flex;
+}
+.Footer .footermenu .social li {
+  margin-right: 20px;
+}
+
+.Footer .footermenu a {
+  color: #5b5858;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.Footer .footermenu a svg {
+  font-size: 20px;
+}
+
+.Footer .BeeImage {
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+}
+
+.Footer .BeeImage img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.Footer .BeeImage2 {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Footer .BeeImage2 img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  transform: rotateY(180deg);
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    END FOOTER SECTION PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ***********************************----------------------------------------------------------------------------------------
+    Mobile RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 575px) {
+  .LandingNine h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .LandingNine h1 span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingNine h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .LandingNine h2 span {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+
+  .LandingNine h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .LandingNine h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .LandingNine h5 {
+    font-size: 16px;
+  }
+
+  .LandingNine .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingNine p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingNine a.bg {
+    margin-top: 20px;
+    padding: 12px 20px;
+  }
+
+  .LandingNine a {
+    font-size: 16px;
+  }
+
+  .LandingNine a svg {
+    font-size: 20px;
+  }
+
+  .LandingNine .Logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LandingNine .Logo img {
+    width: 50%;
+  }
+
+  .LandingNine .text h2 {
+    font-size: 26px;
+    margin-top: 15px;
+  }
+
+  /* ====================== Banner=================== */
+
+  .Banner {
+    padding-bottom: 30px;
+  }
+
+  /* ====================== Hotline=================== */
+
+  .Hotline .hotlineBG {
+    background-position: center right;
+    padding: 20px 0;
+  }
+
+  .Hotline h3 {
+    margin-top: 0px;
+  }
+
+  /* ====================== JarImage =================== */
+
+  .JarImage img {
+    margin: 10px 0;
+  }
+
+  /* ====================== OrderBtn =================== */
+  .OrderBtn {
+    padding: 30px 0;
+  }
+
+  .OrderBtn .Leftlayer img,
+  .OrderBtn .Rightlayer img {
+    width: 30%;
+  }
+
+  /* ====================== Benefit =================== */
+
+  .Benefit {
+    padding: 40px 0;
+  }
+
+  /* ====================== Features =================== */
+
+  .Features {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .Features .FeatureImage {
+    position: inherit;
+    left: 0;
+  }
+
+  .Features .FeatureList p {
+    font-size: 16px;
+  }
+
+  .Features .FeatureList svg {
+    font-size: 18px;
+  }
+
+  /* ====================== PriceSection=================== */
+
+  .PriceSection .BeeImage2 img,
+  .PriceSection .BeeImage img {
+    width: 60%;
+  }
+
+  /* ====================== WhyBuy=================== */
+
+  .WhyBuy {
+    background-size: cover;
+    padding: 40px 0;
+  }
+
+  .WhyBuy .text h5 {
+    margin-top: 10px;
+  }
+
+  .WhyBuy .BeeImage2 img,
+  .WhyBuy .BeeImage img {
+    width: 60%;
+  }
+  /* ====================== Footer=================== */
+
+  .Footer .footermenu {
+    margin: 10px 0;
+  }
+
+  .Footer .footermenu a {
+    font-size: 14px;
+  }
+
+  .Footer .footermenu a svg {
+    font-size: 18px;
+  }
+
+  .Footer .footermenu h5 {
+    margin-bottom: 15px;
+  }
+
+  .Footer .footermenu ul li {
+    margin-top: 2px;
+  }
+
+  .Footer .BeeImage img,
+  .Footer .BeeImage2 img {
+    width: 60%;
+  }
+  /* ====================== Hotline=================== */
+}
+
+/* ***********************************----------------------------------------------------------------------------------------
+    Tablet RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .LandingNine h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .LandingNine h1 span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingNine h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .LandingNine h2 span {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+
+  .LandingNine h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .LandingNine h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .LandingNine h5 {
+    font-size: 16px;
+  }
+
+  .LandingNine .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingNine p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingNine a.bg {
+    margin-top: 20px;
+    padding: 12px 20px;
+  }
+
+  .LandingNine a {
+    font-size: 16px;
+  }
+
+  .LandingNine a svg {
+    font-size: 20px;
+  }
+
+  .LandingNine .Logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .LandingNine .Logo img {
+    width: 50%;
+  }
+
+  .LandingNine .text h2 {
+    font-size: 26px;
+    margin-top: 15px;
+  }
+
+  /* ====================== Banner=================== */
+
+  .Banner {
+    padding-bottom: 30px;
+  }
+
+  /* ====================== Hotline=================== */
+
+  .Hotline .hotlineBG {
+    background-position: center right;
+    padding: 20px 0;
+  }
+
+  .Hotline h3 {
+    margin-top: 0px;
+  }
+
+  /* ====================== JarImage =================== */
+
+  .JarImage img {
+    margin: 10px 0;
+  }
+
+  /* ====================== OrderBtn =================== */
+  .OrderBtn {
+    padding: 30px 0;
+  }
+
+  .OrderBtn .Leftlayer img,
+  .OrderBtn .Rightlayer img {
+    width: 30%;
+  }
+
+  /* ====================== Benefit =================== */
+
+  .Benefit {
+    padding: 40px 0;
+  }
+
+  /* ====================== Features =================== */
+
+  .Features {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .Features .FeatureImage {
+    position: inherit;
+    left: 0;
+  }
+  .Features .FeatureImage img {
+    width: 100%;
+  }
+
+  .Features .FeatureList p {
+    font-size: 16px;
+  }
+
+  .Features .FeatureList svg {
+    font-size: 18px;
+  }
+
+  /* ====================== PriceSection=================== */
+
+  .PriceSection .BeeImage2 img,
+  .PriceSection .BeeImage img {
+    width: 60%;
+  }
+
+  /* ====================== WhyBuy=================== */
+
+  .WhyBuy {
+    background-size: cover;
+    padding: 40px 0;
+  }
+
+  .WhyBuy .text h5 {
+    margin-top: 10px;
+  }
+
+  .WhyBuy .BeeImage2 img,
+  .WhyBuy .BeeImage img {
+    width: 60%;
+  }
+  /* ====================== Footer=================== */
+
+  .Footer .footermenu {
+    margin: 10px 0;
+  }
+
+  .Footer .footermenu a {
+    font-size: 14px;
+  }
+
+  .Footer .footermenu a svg {
+    font-size: 18px;
+  }
+
+  .Footer .footermenu h5 {
+    margin-bottom: 15px;
+  }
+
+  .Footer .footermenu ul li {
+    margin-top: 2px;
+  }
+
+  .Footer .BeeImage img,
+  .Footer .BeeImage2 img {
+    width: 60%;
+  }
+  /* ====================== Hotline=================== */
+}
+
+/* ***********************************----------------------------------------------------------------------------------------
+    small Laptop RESPONSIVE PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .LandingNine h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .LandingNine h1 span {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .LandingNine h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingNine h2 span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .LandingNine h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .LandingNine h4 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .LandingNine h5 {
+    font-size: 16px;
+  }
+
+  .LandingNine .text h5 {
+    margin-top: 20px;
+    line-height: 26px;
+  }
+
+  .LandingNine p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .LandingNine a.bg {
+    margin-top: 20px;
+    padding: 12px 30px;
+  }
+
+  .LandingNine a {
+    font-size: 16px;
+  }
+
+  .LandingNine a svg {
+    font-size: 10px;
+  }
+
+  .LandingNine .Logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .LandingNine .Logo img {
+    width: 50%;
+  }
+
+  .LandingNine .text h2 {
+    font-size: 26px;
+    margin-top: 15px;
+  }
+
+  .WhyBuy {
+    background-size: cover;
+    padding: 40px 0;
+  }
+
+  .Benefit .text {
+    padding: 30px 20px;
+  }
+
+  .Features .FeatureImage img {
+    width: 100%;
+  }
+  .Footer .BeeImage img,
+  .Footer .BeeImage2 img {
+    width: 70%;
+  }
+}

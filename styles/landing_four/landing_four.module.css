@@ -1,0 +1,560 @@
+
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.LandingFour {
+  --header_color: #071C1F;
+  --bg_color: #FEC827;
+  --bg_color2: #FF0D51;
+  --bg_color3: #05A503;
+  --text_color: #64607D;
+  --white_color: #fff;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 250px;
+}
+
+.LandingFour{
+    font-family: 'Noto Sans Bengali', sans-serif !important;
+}
+
+.LandingFour h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    color: var(--white_color);
+}
+
+.LandingFour h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--header_color);
+    font-weight: 700;
+}
+
+.LandingFour h3{
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--header_color);
+    font-weight: 600;
+}
+
+.LandingFour p{
+    color: var(--text_color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+         
+.LandingFour a {
+    transition: 0.5s;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.LandingFour a.bg{
+    margin-top: 30px;
+    padding: 12px 50px;
+    padding-top: 15px;
+    color: var(--white_color); 
+    background-image: linear-gradient(to right, #FEC827 0%, #e9b005  51%, #FEC827  100%);
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.LandingFour a svg{
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.LandingFour a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.LandingFour .section_gaps{
+    margin-top: 100px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Banner PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Banner{
+    background: url('../../public/images/landing_4/banner.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.Banner .text{
+    margin-top: 50px;
+}
+
+.Banner .text h3{
+    color: #FEC827;
+    margin-top: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START About PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.About{
+    position: relative;
+}
+
+.About .AboutText_left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.About .AboutText_right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.AboutLogo {
+    position: relative;
+}
+
+.AboutLogo img{
+    width: 100%;
+}
+
+.AboutOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    text-align: center;
+}
+
+.AboutOverlay h3{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.AboutOverlay h4{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 45px;
+    color: var(--bg_color3);
+    margin: 15px 0;
+}
+
+.AboutOverlay h2{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    color: var(--bg_color2);
+}
+
+.AboutText{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START WhyUs PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.WhyUs{
+    position: relative;
+}
+
+.WhyUsImg img{
+    width: 100%;
+    z-index: 1;
+}
+
+.WhyUsImg .WhyOverlay{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+}
+
+.WhyUsImg .WhyOverlay h2 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.WhyUsImg .WhyOverlay .WhyUsItem{
+    background: var(--white_color);
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.WhyUsImg .WhyOverlay .WhyUsItem img{
+    height: 50px;
+    width: auto;
+}
+
+.WhyUsImg .WhyOverlay .WhyUsItem p{
+    margin-top: 30px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START FreeDelivary PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.FreeDelivaryText ul li{
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--text_color);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.FreeDelivaryText ul li img{
+    margin-right: 10px;
+    height: 20px;
+}
+
+.FreeDelivaryText h3{
+    margin-top: 30px;
+}
+
+.FreeDelivaryImg img{
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Client PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.ClientContent img{
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START OrderNow PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.OrderNow{
+    position: relative;
+}
+
+.OrderLeft{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.OrderRight{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.OrderNowtext{
+    text-align: center;
+}
+
+.OrderNowtext a{
+    font-size: 30px;
+}
+
+.OrderNowtext a:nth-child(2){
+    color: var(--bg_color2);
+    margin: 30px 0;
+    margin-bottom: 20px;
+}
+
+.OrderNowtext h3{
+    font-size: 20px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START Footer PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Footer{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.FooterLeft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.FooterRight{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.Footer .FooterItem img{
+    height: 60px;
+}
+
+.Footer .FooterItem .SocialLink{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Footer .FooterItem .SocialLink a{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--bg_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .FooterItem .SocialLink a:hover{
+    background: var(--bg_color);
+    color: var(--header_color);
+}
+
+.Footer .FooterItem .SocialLink a svg{
+    font-size: 20px;
+    margin: 0; 
+}
+
+.Footer .FooterItem ul li{
+    margin-top: 20px;
+}
+
+.Footer .FooterItem a{
+    font-weight: 400;
+    color: var(--text_color);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+    Media
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1440px) {
+
+    .LandingFour h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .LandingFour h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .LandingFour h3{
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .LandingFour p{
+        font-size: 16px;
+    }
+    .LandingFour a {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .WhyUsImg img{
+        height: 1200px;
+    }
+    .FooterLeft img{
+        height: 100px;
+    }
+    .FooterRight img{
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .container{
+        max-width: 90%;
+        padding: 0;
+    }
+    .Footer .FooterItem img {
+        height: 40px;
+    }
+    .Footer .FooterItem .SocialLink a {
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+    }
+    .Footer .FooterItem .SocialLink a:last-child{
+        margin-right: 0;
+    }
+    .Footer .FooterItem .SocialLink a svg{
+        font-size: 16px;
+        margin: 0; 
+    }
+    .FooterRight img{
+        height: 120px;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+
+    .Banner{
+        position: relative;
+        text-align: center;
+    }
+    .Banner::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .4);
+    }
+    .BannerContent{
+        position: relative;
+        z-index: 9;
+    }
+    .AboutText_left img{
+        height: 400px;
+    }
+    .AboutText_right img{
+        height: 400px;
+    }
+    .WhyUs{
+        background: var(--bg_color);
+        position: unset;
+        margin-top: 80px;
+    }
+    .WhyUsImg img{
+        display: none;
+    }
+    .WhyUs .WhyOverlay{
+        position: unset;
+        transform: unset;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .WhyUs .WhyOverlay img{
+        display: block;
+        margin: 0 auto;
+    }
+    .WhyUs .WhyOverlay .WhyUsItem{
+        padding: 30px;
+    }
+    .FreeDelivary .first_child{
+        order: 2;
+    }
+    .FreeDelivaryImg{
+        margin-bottom: 50px;
+    }
+    .OrderLeft img{
+        height: 400px;
+    }
+    .Footer .FooterItem img {
+        height: 35px;
+    }
+    .Footer .FooterItem .SocialLink a {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .Footer .FooterItem .SocialLink a svg{
+        font-size: 14px;
+    }
+    .Footer .FooterItem ul li{
+        margin-top: 10px;
+    }
+    .Footer .FooterItem ul li a{
+        font-size: 14px;
+    }
+    .Footer .FooterItem ul li a svg{
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .FooterLeft img{
+        height: 80px;
+    }
+    .FooterRight img{
+        height: 100px;
+    }
+    .LandingFour .section_gaps{
+        margin-top: 60px;
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .Logo img{
+        height: 45px;
+    }
+    .LandingFour h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .LandingFour h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .LandingFour h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .AboutContent h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 5px 0;
+    }
+    .AboutText_left img{
+        height: 300px;
+    }
+    .AboutText_right img{
+        height: 300px;
+    }
+    .OrderLeft img{
+        height: 100px;
+    }
+    .OrderRight img{
+        height: 80px;
+    }
+    .Footer .FooterItem{
+        margin-bottom: 20px;
+    }
+
+}
